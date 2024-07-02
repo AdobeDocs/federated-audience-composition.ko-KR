@@ -2,10 +2,10 @@
 title: 새 파일
 description: 설명
 keywords: 새 파일, 파일 추가, 파일
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="워크플로 속성"
->abstract="이 화면에서 워크플로를 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 옵션 섹션을 확장하여 워크플로 내부 이름, 해당 폴더, 시간대, 감독자 그룹 등의 추가적인 설정을 구성합니다. 오류가 발생할 경우 운영자에게 경고할 수 있도록 감독자 그룹을 선택하는 것을 권장하여 드립니다."
 
 
 >[!CONTEXTUALHELP]
