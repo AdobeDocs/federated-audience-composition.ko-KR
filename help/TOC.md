@@ -2,7 +2,7 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: 4ba1a869f6519929133af566f1471a640f58f0b6
+source-git-commit: 430b856b1c5ab9c52e572c7a3a789567f3c90a04
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 44%
@@ -23,7 +23,7 @@ ht-degree: 44%
    + [대상자를 사용한 작업](customer/audiences.md)
 + 컴포지션 {#compositions}
    + [컴포지션 시작](compositions/gs-compositions.md)
-   + [구성 만들기](compositions/create-compositions.md)
+   + [구성 만들기](compositions/create-composition.md)
    + [구성 액세스 및 관리](compositions/manage-compositions.md)
    + 활동을 사용한 작업 {#activities}
       + [활동 목록](compositions/activities/about-activities.md)
