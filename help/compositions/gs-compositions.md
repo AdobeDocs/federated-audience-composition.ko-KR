@@ -2,9 +2,9 @@
 audience: end-user
 title: 컴포지션 시작
 description: 컴포지션으로 시작하는 방법 알아보기
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe 데이터 컴포지션을 사용하면 컴포지션을 만들 수 있습�
 
 목록을 세분화하고 원하는 컴포지션을 쉽게 찾으려면 목록을 검색하고 해당 상태 또는 마지막 처리 날짜별로 컴포지션을 필터링할 수 있습니다.
 
-열을 추가하거나 제거하여 목록을 사용자 지정할 수도 있습니다. 이렇게 하려면 열 구성 버튼을 클릭하고 관리합니다
+열을 추가하거나 제거하여 목록을 사용자 지정할 수도 있습니다. 이렇게 하려면 **열 구성** s 버튼을 클릭하고 원하는 출력 열을 추가하거나 제거합니다.
 
 ![](assets/compositions-columns.png)
 
