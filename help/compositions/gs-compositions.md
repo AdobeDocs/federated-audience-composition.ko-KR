@@ -2,7 +2,7 @@
 audience: end-user
 title: 컴포지션 시작
 description: 컴포지션으로 시작하는 방법 알아보기
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Adobe 데이터 컴포지션을 사용하면 컴포지션을 만들 수 있습�
 ## 컴포지션 액세스 {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="컴포지션"
 >abstract="이 화면에서 전체 컴포지션 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 컴포지션을 만들 수 있습니다."
 
