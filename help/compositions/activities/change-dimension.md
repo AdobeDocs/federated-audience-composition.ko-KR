@@ -2,10 +2,10 @@
 audience: end-user
 title: 차원 변경 활동 사용
 description: 차원 변경 활동을 사용하는 방법 알아보기
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 41%
+source-wordcount: '185'
+ht-degree: 32%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="차원 활동 변경"
->abstract="이 활동을 통해 대상자를 구축하면서 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축이 이동됩니다. 예를 들어 “계약” 차원에서 “클라이언트” 차원으로 전환할 수 있습니다."
+>abstract="이 활동을 사용하면 대상을 구축할 때 타겟팅 차원(예: 스키마)을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축이 이동됩니다. 예를 들어 “계약” 차원에서 “클라이언트” 차원으로 전환할 수 있습니다."
 
-다음 **차원 변경** 활동을 사용하면 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
-
+다음 **차원 변경** 활동을 사용하면 대상을 구축할 때 타겟팅 차원(즉, 스키마)을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 ## 차원 변경 활동 구성 {#configure}
 
@@ -31,7 +30,9 @@ ht-degree: 41%
 
 1. 추가 **차원 변경** 활동을 컴포지션에 추가합니다.
 
-1. 다음을 정의합니다. **새 대상 차원**. 차원 변경 중에는 모든 레코드가 유지됩니다.
+   ![](../assets/change-dimension.png)
+
+1. 다음을 정의합니다. **새 회중보**. 스키마 변경 중에는 모든 레코드가 유지됩니다.
 
 1. 컴포지션을 실행하여 결과를 확인합니다. 변경 차원 활동 전후의 테이블에 있는 데이터를 비교하고, 구성 테이블의 구조를 비교합니다.
 
@@ -42,3 +43,7 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
+
+
+
+<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->
