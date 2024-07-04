@@ -2,7 +2,7 @@
 audience: end-user
 title: 포크 활동 사용
 description: 포크 활동 사용 방법 알아보기
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -32,4 +32,5 @@ ht-degree: 81%
 1. 추가 **포크** 활동을 컴포지션에 추가합니다.
 1. 새 아웃바운드 전환을 추가하려면 **전환 추가**&#x200B;를 클릭합니다. 기본적으로 두 개의 전환이 정의됩니다.
 1. 각 전환에 레이블을 추가합니다.
+
 

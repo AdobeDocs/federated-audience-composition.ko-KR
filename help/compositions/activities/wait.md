@@ -2,7 +2,7 @@
 audience: end-user
 title: 대기 활동 사용
 description: 대기 활동을 사용하는 방법 알아보기
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 60%
@@ -27,4 +27,5 @@ ht-degree: 60%
 1. 인바운드 전환과 아웃바운드 전환 사이의 대기 **기간**&#x200B;을 지정합니다.
 
 1. 에서 시간 단위 선택 **마침표** 필드: 초, 분, 시간, 일.
+
 

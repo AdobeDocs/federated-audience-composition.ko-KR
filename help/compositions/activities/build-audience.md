@@ -2,12 +2,13 @@
 audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # 대상자 빌드 {#build-audience}
 
@@ -24,10 +25,7 @@ ht-degree: 37%
 * Adobe Experience Platform 대상자를 선택합니다.
 * 필터링 기준을 정의하고 결합하여 쿼리 모델러 빌더로 새 대상을 작성합니다.
 
-
-
 다음 **대상자 작성** 활동은 컴포지션의 시작 부분이나 다른 활동 뒤에 배치할 수 있습니다. 모든 활동은 다음 뒤에 배치할 수 있습니다. **대상자 작성**.
-
 
 ## 대상자 빌드 활동 구성 {#build-audience-configuration}
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: 결합 활동 사용
 description: Combine 활동을 사용하는 방법을 알아봅니다
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 70%
 
 ---
+
 
 # 결합 {#combine}
 
@@ -22,9 +23,7 @@ ht-degree: 70%
 * **교차** 기능을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 * **제외** 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
 
-
 다음 **결합** 활동은 다른 활동 뒤에 배치할 수 있지만 컴포지션의 시작에는 배치할 수 없습니다. 모든 활동은 다음 뒤에 배치할 수 있습니다. **결합**.
-
 
 ## 결합 활동 구성 {#combine-configuration}
 
