@@ -2,10 +2,10 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 37%
+source-wordcount: '117'
+ht-degree: 36%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 37%
       + [중복 제거](compositions/activities/deduplication.md)
       + [보강](compositions/activities/enrichment.md)
       + [포크](compositions/activities/fork.md)
-      + [증분 쿼리](compositions/activities/incremental-query.md)
       + [조정](compositions/activities/reconciliation.md)
       + [대상자 저장](compositions/activities/save-audience.md)
+      + [스케줄러](compositions/activities/scheduler.md)
       + [분할](compositions/activities/split.md)
       + [대기](compositions/activities/wait.md)
 + 데이터베이스 쿼리 {#query-database}
