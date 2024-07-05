@@ -2,7 +2,7 @@
 audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 26%
@@ -60,7 +60,7 @@ ht-degree: 26%
    * **기본 ID 필드**: 프로필을 식별하는 데 사용할 필드를 선택합니다. 예를 들어 이메일 주소나 전화번호 등이 있습니다.
    * **ID 네임스페이스**: 프로필을 식별하는 데 사용할 네임스페이스(예: 식별 키로 사용할 데이터 유형)를 선택합니다. 예를 들어 이메일 주소가 기본 ID 필드로 선택된 경우 ID 네임스페이스 **이메일** 을 선택해야 합니다. 고유 식별자가 전화번호인 경우 ID 네임스페이스입니다 **전화** 을 선택해야 합니다.
 
-컴포지션을 실행한 후에는 결과 대상자가 Adobe Experience Platform에 저장되고 **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
+컴포지션을 실행한 후 결과 대상자가 Adobe Experience Platform에 저장됩니다 <!-- to check-->및에서 액세스할 수 있도록 설정 **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 <!--
 
