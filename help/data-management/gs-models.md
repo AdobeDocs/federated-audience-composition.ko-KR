@@ -2,10 +2,10 @@
 audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 83%
+source-wordcount: '163'
+ht-degree: 37%
 
 ---
 
@@ -35,4 +35,26 @@ ht-degree: 83%
 
 
 ## 데이터 모델이란? {#data-model-start}
+
+데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다.
+
+자세히 알아보기 [스키마](customer/schemas.md).
+
+자세히 알아보기 [대상](customer/audiences.md).
+
+## 데이터 모델을 만드는 방법 {#data-model-create}
+
+위치 **[!UICONTROL 페더레이션된 데이터]** 섹션, **[!UICONTROL 모델]** 링크를 클릭합니다. 여기에서 다음을 찾을 수 있습니다. **[!UICONTROL 데이터 모델]** 탭.
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+다음을 클릭하여: **[!UICONTROL 데이터 모델 만들기]** 버튼을 클릭하면 데이터 모델의 이름을 지정하고 **[!UICONTROL 만들기]** 단추를 클릭합니다.
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+데이터 모델의 스키마, 대상자 및 링크를 추가할 수 있는 창에 액세스합니다.
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 
