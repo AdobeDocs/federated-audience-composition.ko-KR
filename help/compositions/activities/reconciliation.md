@@ -2,10 +2,10 @@
 audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 44%
+source-wordcount: '515'
+ht-degree: 32%
 
 ---
 
@@ -36,19 +36,14 @@ ht-degree: 44%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## 모범 사례 {#reconciliation-best-practices}
-
-동안 **데이터 보강** 활동을 사용하면 작성에서 처리할 추가 데이터를 정의할 수 있습니다(다음을 사용할 수 있음). **데이터 보강** 활동은 여러 세트에서 가져온 데이터를 결합하거나 임시 리소스에 대한 링크를 만듭니다. **조정** 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다.
-
->[!NOTE]
->조정 작업은 연결된 차원의 데이터가 이미 데이터베이스에 있음을 의미합니다.  예를 들어 어떤 제품을, 어떤 시간에, 어떤 고객이 구매했는지 등을 표시하는 구매 파일을 가져올 경우, 데이터베이스에는 이미 고객과 제품이 존재할 것입니다.
+다음 **조정** 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다. 조정 작업은 조인하려는 데이터가 이미 데이터베이스에 있음을 의미합니다. 예를 들어 어떤 제품을, 어떤 시간에, 어떤 고객이 구매했는지 등을 표시하는 구매 정보를 조정하려면 데이터베이스에는 이미 고객과 제품이 존재해야 합니다.
 
 ## 조정 활동 구성 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="타겟팅 차원"
->abstract="새로운 타겟팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 현재 타겟팅 차원이 선택됩니다."
+>title="스키마"
+>abstract="데이터에 적용할 새 스키마를 선택합니다. 타겟팅 차원이라고도 하는 스키마를 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 타겟팅 차원이 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ ht-degree: 44%
 
 다음 단계에 따라 **조정** 활동:
 
-1. 추가 **조정** 활동을 작성에 추가합니다. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. 추가 **조정** 활동을 작성에 추가합니다.
 
-1. 새로운 타겟팅 차원을 선택합니다. 차원을 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 연산자, 구독자 등)을 정의할 수 있습니다. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. 다음 항목 선택 **새 스키마**. 타겟팅 차원이라고도 하는 스키마를 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다.
 
 1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
 
-   1. 속성을 사용하여 데이터를 조정하려면 **단순 속성** 옵션을 선택합니다. 다음 **Source** 필드는 조정할 입력 전환에서 사용할 수 있는 필드를 나열합니다. 다음 **대상** 필드는 선택한 타겟팅 차원의 필드에 해당합니다. 소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 이메일 주소를 기반으로 프로필을 중복 제거하는 필드입니다.
+   1. 속성을 사용하여 데이터를 조정하려면 **단순 속성** 옵션을 클릭한 다음 **규칙 추가** 단추를 클릭합니다.
+   1. 다음 항목 선택 **Source** 및 **대상** 조정을 위한 필드. 다음 **Source** 필드. 다음 **대상** 필드는 선택한 스키마의 필드에 해당합니다.
+
+      소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 이메일 주소를 기반으로 프로필을 중복 제거하는 필드입니다.
 
       다른 조정 기준을 추가하려면 **규칙 추가** 단추를 클릭합니다. 여러 조인 조건이 지정된 경우 데이터를 함께 연결할 수 있도록 모두 를 확인해야 합니다.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 선택합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 클릭한 다음 **조건 만들기** 단추를 클릭합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다.
 
-1. 를 사용하여 조정할 데이터를 필터링할 수 있습니다. **필터 만들기** 단추를 클릭합니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. 를 사용하여 조정할 데이터를 필터링할 수 있습니다. **필터 만들기** 단추를 클릭합니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다.
 
 기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다.
 
