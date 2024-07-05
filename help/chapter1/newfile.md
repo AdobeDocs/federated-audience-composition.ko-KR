@@ -5,7 +5,7 @@ keywords: 새 파일, 파일 추가, 파일
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="활동 편집 불가"
->abstract="다음과 같은 경우 **쿼리** 또는 **데이터 보강** 활동은 콘솔에서 추가 데이터로 구성되며, 보강 데이터를 고려하여 아웃바운드 전환으로 전달하지만 편집할 수 없습니다."
+>abstract="**쿼리** 또는 **보강** 활동이 콘솔에서 추가 데이터로 구성된 경우, 보강 데이터가 고려되어 아웃바운드 전환으로 전달되지만 편집할 수는 없습니다."
 
 <!-- Create a link -->
 

@@ -14,7 +14,7 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
->title="컴포지션 속성"
+>title="구성 속성"
 >abstract="이 화면에서 컴포지션을 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 OPTIONS 섹션을 확장하여 컴포지션 내부 이름, 해당 폴더, 시간대 및 감독자 그룹과 같은 설정을 더 많이 구성합니다. 오류가 발생하는 경우 운영자에게 경고할 수 있도록 감독자 그룹을 선택할 것이 권장됩니다."
 
 ## 작곡 안에 무엇이 들어 있나요? {#gs-composition-inside}

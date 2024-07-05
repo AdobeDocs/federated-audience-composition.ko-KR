@@ -5,7 +5,7 @@ description: 대상자 작성 활동을 사용하는 방법 알아보기
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="대상자 빌드 활동"
->abstract="다음 **대상자 작성** 활동을 통해 컴포지션을 입력할 대상자를 정의할 수 있습니다."
+>abstract="**대상자 빌드** 활동을 통해 구성에 참여할 대상자를 정의할 수 있습니다."
 
-다음 **대상자 작성** 활동을 통해 컴포지션을 입력할 대상자를 정의할 수 있습니다.
+**대상자 빌드** 활동을 통해 구성에 참여할 대상자를 정의할 수 있습니다.
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 

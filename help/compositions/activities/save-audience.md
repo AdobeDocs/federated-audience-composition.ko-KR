@@ -5,7 +5,7 @@ description: 대상자 저장 활동을 사용하는 방법 알아보기
 source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 기존 대상자를 업데이트하거나 컴포지션에서 업스트림으로 계산된 모집단에서 새 대상자를 만듭니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 구성에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -26,13 +26,13 @@ ht-degree: 12%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="기본 ID 필드"
 >abstract="프로필에 사용할 기본 ID를 선택합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Experience Platform 설명서에서 자세히 알아보기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Experience Platform 설명서에서 자세히 알아보십시오."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="ID 네임스페이스"
 >abstract="프로필에 사용할 네임스페이스를 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces" text="Experience Platform 설명서에서 자세히 알아보기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces" text="Experience Platform 설명서에서 자세히 알아보십시오."
 
 다음 **대상자 저장** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 애플리케이션 대상자 목록에 추가되고, 를 통해 사용할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

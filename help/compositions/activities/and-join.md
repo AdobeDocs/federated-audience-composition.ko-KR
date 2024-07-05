@@ -5,7 +5,7 @@ description: AND-join 활동을 사용하는 방법 알아보기
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 44%
+ht-degree: 57%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="AND-결합 활동"
->abstract="다음 **And-결합** 활동을 사용하면 컴포지션의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이렇게 하면 컴포지션을 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
+>abstract="**AND-결합** 활동을 사용하면 구성의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 구성을 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
 
 다음 **AND-결합** 활동을 사용하면 컴포지션의 여러 실행 분기를 동기화할 수 있습니다.
 

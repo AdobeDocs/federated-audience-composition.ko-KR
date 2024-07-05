@@ -5,7 +5,7 @@ description: 컴포지션 만들기 방법 알아보기
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 1%
    * [활동 오케스트레이션 방법 알아보기](#action-activities)
    * [컴포지션 시작 및 모니터링 방법 알아보기](#save)
 
-## 컴포지션의 설정 구성 {#settings}
+## 구성 설정을 구성합니다. {#settings}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="컴포지션 속성"
->abstract="이 단원에서는 컴포지션을 만들 때도 액세스할 수 있는 일반 컴포지션 속성을 제공합니다."
+>title="구성 속성"
+>abstract="이 섹션에서는 구성을 생성할 때도 액세스할 수 있는 일반 구성 속성을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
->title="컴포지션 세그멘테이션"
->abstract="기본적으로 컴포지션의 마지막 실행의 작업 테이블만 유지됩니다. 이 옵션을 활성화하면 테스트 목적으로 작업 테이블을 유지할 수 있습니다. 사용해야 합니다. **전용** 개발 또는 스테이징 환경에서 프로덕션 환경에서는 확인하지 않아야 합니다."
+>title="구성 세분화"
+>abstract="기본적으로 구성의 마지막 실행에 대한 작업 테이블만 유지됩니다. 이 옵션을 활성화하여 테스트 목적으로 작업 테이블을 유지할 수 있습니다. 개발 또는 스테이징 환경&#x200B;**에서만** 사용해야 합니다. 프로덕션 환경에서는 체크해서는 안 됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="오류 관리 설정"
->abstract="이 섹션에서는 실행 중에 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나 특정 오류 수를 무시하거나 작성 실행을 중지하도록 선택할 수 있습니다."
+>abstract="이 섹션에서는 실행 중 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나, 특정 수의 오류를 무시하거나, 구성 실행을 중지하도록 선택할 수 있습니다."
 
 컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다.
 

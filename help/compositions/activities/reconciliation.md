@@ -5,7 +5,7 @@ description: 조정 활동을 사용하는 방법 알아보기
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="조정 활동"
->abstract="다음 **조정** 활동을 사용하면 데이터베이스의 데이터와 작업 테이블의 데이터 간의 연결을 정의할 수 있습니다."
+>abstract="**조정** 활동을 통해 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -68,7 +68,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="조정 속성"
->abstract="데이터 조정에 사용할 속성을 선택하고 확인합니다."
+>abstract="데이터 조정에 사용할 속성을 선택하고 확인을 선택합니다."
 
 다음 단계에 따라 **조정** 활동:
 

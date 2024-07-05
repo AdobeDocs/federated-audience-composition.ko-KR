@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="증분 쿼리"
->abstract="다음 **증분 쿼리** 활동을 사용하면 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
+>abstract="**증분 쿼리** 활동을 사용하면 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"

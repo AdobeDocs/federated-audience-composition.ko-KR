@@ -5,7 +5,7 @@ description: 데이터 보강 활동을 사용하는 방법 알아보기
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 40%
+ht-degree: 47%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="보강 활동"
->abstract="**보강** 활동을 사용하면 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 이는 일반적으로 세그먼테이션 활동 후 컴포지션에서 사용됩니다."
+>abstract="**보강** 활동을 사용하면 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 구성에서 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="보강 활동"
->abstract="보강 데이터가 컴포지션에 추가되면 이후에 추가된 활동에 사용할 수 있습니다. **데이터 보강** 활동 을 통해 비헤이비어, 환경 설정 및 선택 사항에 따라 프로필을 개별 그룹으로 분류합니다."
+>abstract="보강 데이터가 구성에 추가되면 **보강** 활동 이후에 추가된 활동에서 이를 사용하여 비헤이비어, 환경 설정 및 선택 사항을 기준으로 프로필을 별개의 그룹으로 분류할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="링크 정의"
->abstract="작업 테이블 데이터와 통합 데이터베이스 사이에 연결을 만듭니다."
+>abstract="작업 테이블 데이터와 페더레이션된 데이터베이스 간의 링크를 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
 >title="보강 조정"
->abstract="조정 매개 변수를 설정합니다."
+>abstract="조정 매개변수를 설정합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="보강 데이터"
->abstract="컴포지션을 보강하는 데 사용할 데이터를 선택합니다. 보강 데이터의 두 가지 유형, 즉 타겟팅 차원의 단일 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
+>abstract="구성을 강화하는 데 사용할 데이터를 선택합니다. 보강 데이터의 두 가지 유형, 즉 타겟팅 차원의 단일 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
 
 다음 **데이터 보강** 활동을 사용하면 페더레이션 데이터베이스의 추가 정보를 사용하여 타깃팅된 데이터를 향상시킬 수 있습니다. 이는 일반적으로 세그먼테이션 활동 후 컴포지션에서 사용됩니다.
 

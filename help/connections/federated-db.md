@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: 통합 데이터베이스 시작
+title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# 통합 데이터베이스 시작 {#federated-db}
+# 페더레이션된 데이터베이스 시작하기 {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="페더레이션된 데이터베이스"
->abstract="페더레이션 데이터베이스에 대한 기존 연결이 이 화면에 나열됩니다. 새 연결을 만들려면 **통합 데이터베이스 추가** 단추를 클릭합니다."
+>abstract="페더레이션된 데이터베이스에 대해 이전에 처리된 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **페더레이션된 데이터베이스 추가** 버튼을 클릭하십시오."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="페더레이션 데이터베이스 속성"
->abstract="새 Federated Database의 이름을 입력하고 유형을 선택합니다."
+>title="페더레이션된 데이터베이스 속성"
+>abstract="새 페더레이션된 데이터베이스의 이름을 입력하고 해당 유형을 선택합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="페더레이션 데이터베이스 세부 정보"
->abstract="새 페더레이션 데이터베이스에 연결할 설정을 입력하십시오. 사용 **연결 테스트** 단추를 클릭하여 구성을 확인합니다."
+>title="페더레이션된 데이터베이스 세부 정보"
+>abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **연결 테스트** 버튼을 사용하여 구성을 검사합니다."
 
 외부 데이터베이스에 대한 연결을 생성, 구성, 테스트 및 저장합니다.
 

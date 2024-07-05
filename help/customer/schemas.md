@@ -5,7 +5,7 @@ description: 스키마로 시작하는 방법 알아보기
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
->title="표 선택"
+>title="테이블 선택"
 >abstract="데이터 모델에 추가할 테이블을 선택합니다."
 
 >[!CONTEXTUALHELP]
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
->title="필터링할 소스 데이터베이스 선택"
->abstract="소스를 기반으로 스키마를 필터링할 수 있습니다. 하나 이상의 통합 데이터베이스를 선택하여 해당 스키마를 표시합니다."
+>title="필터링할 소스 데이터베이스를 선택합니다."
+>abstract="소스를 기준으로 스키마를 필터링할 수 있습니다. 하나 이상의 페더레이션된 데이터베이스를 선택하여 해당 스키마를 표시합니다."
 
 

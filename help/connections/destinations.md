@@ -5,7 +5,7 @@ description: AEP에서 FAC에 연결할 새 대상을 만드는 방법에 대해
 source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="대상 만들기"
->abstract="새 페더레이션 데이터베이스에 연결할 설정을 입력하십시오. 사용 **대상에 연결** 단추를 클릭하여 구성을 확인합니다."
+>abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **대상에 연결** 버튼을 사용하여 구성을 확인합니다."
 
 
