@@ -2,9 +2,9 @@
 audience: end-user
 title: 활동을 사용한 작업
 description: 활동 작업 방법 알아보기
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 16%
 ## 타겟팅 활동
 
 * [대상자 활동 작성](build-audience.md): 대상 모집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의할 수 있습니다.
-* [차원 변경](change-dimension.md): 컴포지션을 빌드할 때 타겟팅 차원을 변경합니다.
+* [차원 변경](change-dimension.md): 컴포지션을 빌드할 때 스키마(타겟팅 차원이라고도 함)를 변경합니다.
 * [결합](combine.md): 인바운드 모집단에서 세분화를 수행합니다. 합집합, 교차 또는 제외를 사용할 수 있습니다.
 * [중복 제거](deduplication.md): 인바운드 활동의 결과에서 중복을 삭제합니다.
 * [데이터 보강](enrichment.md): 컴포지션에서 처리할 추가 데이터를 정의합니다. 이 활동을 사용하여 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료하도록 활동을 구성할 수 있습니다.

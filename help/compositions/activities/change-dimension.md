@@ -2,10 +2,10 @@
 audience: end-user
 title: 차원 변경 활동 사용
 description: 차원 변경 활동을 사용하는 방법 알아보기
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 32%
+source-wordcount: '187'
+ht-degree: 18%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="차원 활동 변경"
->abstract="이 활동을 사용하면 대상을 구축할 때 타겟팅 차원(예: 스키마)을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축이 이동됩니다. 예를 들어 “계약” 차원에서 “클라이언트” 차원으로 전환할 수 있습니다."
+>abstract="이 활동을 사용하면 대상을 구축할 때 스키마(타겟팅 차원)를 변경할 수 있습니다. 데이터 템플릿과 입력 스키마에 따라 축이 이동합니다. 예를 들어 &quot;계약&quot; 스키마에서 &quot;클라이언트&quot; 스키마로 전환할 수 있습니다."
 
-다음 **차원 변경** 활동을 사용하면 대상을 구축할 때 타겟팅 차원(즉, 스키마)을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+다음 **차원 변경** 활동을 사용하면 대상을 구축할 때 스키마(타겟팅 차원)를 변경할 수 있습니다. 데이터 템플릿과 입력 스키마에 따라 축이 이동합니다.
 
 ## 차원 변경 활동 구성 {#configure}
 
@@ -32,9 +32,9 @@ ht-degree: 32%
 
    ![](../assets/change-dimension.png)
 
-1. 다음을 정의합니다. **새 회중보**. 스키마 변경 중에는 모든 레코드가 유지됩니다.
+1. 다음을 정의합니다. **새 스키마**. 스키마 변경 중에는 모든 레코드가 유지됩니다.
 
-1. 컴포지션을 실행하여 결과를 확인합니다. 변경 차원 활동 전후의 테이블에 있는 데이터를 비교하고, 구성 테이블의 구조를 비교합니다.
+1. 컴포지션을 실행하여 결과를 확인합니다. 테이블의 다음 항목 전후의 데이터 비교 **차원 변경** 활동을 만들고 컴포지션 표의 구조를 비교합니다.
 
 <!--
 ## Example {#example}

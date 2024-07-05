@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러로 작업
 description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 11%
+source-wordcount: '380'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="쿼리 모델러"
->abstract="데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의합니다."
+>abstract="데이터베이스에서 수신자 또는 기타 스키마(타겟팅 차원이라고도 함)에 대한 필터링 기준을 정의합니다."
 
 쿼리 모델러는 다양한 기준에 따라 데이터베이스를 필터링하는 프로세스를 단순화합니다. 또한 쿼리 모델러는 매우 복잡하고 긴 쿼리를 효율적으로 관리하여 향상된 유연성과 정밀도를 제공합니다. 또한 조건 내에 사전 정의된 필터를 지원하므로 포괄적인 대상 타기팅 및 세그멘테이션 전략에 고급 표현식 및 연산자를 활용하는 동시에 쿼리를 쉽게 세분화할 수 있습니다.
 

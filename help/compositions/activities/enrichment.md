@@ -2,10 +2,10 @@
 audience: end-user
 title: 데이터 보강 활동 사용
 description: 데이터 보강 활동을 사용하는 방법 알아보기
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 44%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="보강 데이터"
->abstract="구성을 강화하는 데 사용할 데이터를 선택합니다. 보강 데이터의 두 가지 유형, 즉 타겟팅 차원의 단일 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
+>abstract="구성을 강화하는 데 사용할 데이터를 선택합니다. 데이터 보강 데이터의 두 가지 유형을 선택할 수 있습니다. 타겟팅 차원이라고도 하는 스키마의 데이터 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
 
 다음 **데이터 보강** 활동을 사용하면 페더레이션 데이터베이스의 추가 정보를 사용하여 타깃팅된 데이터를 향상시킬 수 있습니다. 이는 일반적으로 세그먼테이션 활동 후 컴포지션에서 사용됩니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 여기에서 생년월일과 같은 단일 보강 속성만 추가합니다. 다음 단계를 수행하십시오.
 
 1. **속성** 필드 내부를 클릭합니다.
-1. 타겟팅 차원에서 간단한 필드(이 예시에서는 생년월일)를 선택합니다.
+1. 스키마에서 타겟팅 차원이라고도 하는 간단한 필드(이 예제에서는 생년월일)를 선택합니다.
 1. **확인**&#x200B;을 클릭합니다.
 
 <!--### Collection link {#collection-link}

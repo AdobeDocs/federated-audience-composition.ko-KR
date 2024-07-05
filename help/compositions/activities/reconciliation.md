@@ -2,10 +2,10 @@
 audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 32%
+source-wordcount: '518'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="스키마"
->abstract="데이터에 적용할 새 스키마를 선택합니다. 타겟팅 차원이라고도 하는 스키마를 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 타겟팅 차원이 선택됩니다."
+>abstract="데이터에 적용할 새 스키마를 선택합니다. 타겟팅 차원이라고도 하는 스키마를 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 스키마가 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="타겟팅 차원 선택"
->abstract="조정할 인바운드 데이터의 타겟팅 차원을 선택합니다."
+>abstract="조정할 인바운드 데이터에 대한 스키마(타겟팅 차원이라고도 함)를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
