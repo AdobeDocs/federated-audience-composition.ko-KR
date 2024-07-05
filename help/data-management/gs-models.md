@@ -2,7 +2,7 @@
 audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
-source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
+source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 37%
@@ -38,9 +38,9 @@ ht-degree: 37%
 
 데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다.
 
-자세히 알아보기 [스키마](customer/schemas.md).
+자세히 알아보기 [스키마](../customer/schemas.md).
 
-자세히 알아보기 [대상](customer/audiences.md).
+자세히 알아보기 [대상](../customer/audiences.md).
 
 ## 데이터 모델을 만드는 방법 {#data-model-create}
 
