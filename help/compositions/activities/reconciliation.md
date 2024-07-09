@@ -2,9 +2,9 @@
 audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 29%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 29%
 
       ![](../assets/reconciliation-rules.png)
 
-   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 클릭한 다음 **조건 만들기** 단추를 클릭합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다.
+   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 클릭한 다음 **조건 만들기** 단추를 클릭합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 
