@@ -26,7 +26,7 @@ ht-degree: 26%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="기본 ID 필드"
 >abstract="프로필에 사용할 기본 ID를 선택합니다."
->additional-url="https://experienceleague.adobe.com/kr/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Experience Platform 설명서에서 자세히 알아보십시오."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Experience Platform 설명서에서 자세히 알아보십시오."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
