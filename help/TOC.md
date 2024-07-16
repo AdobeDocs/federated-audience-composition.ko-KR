@@ -2,7 +2,7 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 38%
@@ -13,7 +13,7 @@ ht-degree: 38%
 # Federated Audience Composition 설명서 {#using}
 
 + [Federated Audience Composition 설명서](home.md)
-+ [시작하기](chapter1/newfile.md)
++ [시작하기](start/get-started.md)
 + 구성 단계 {#config}
    + [AEP와 Federated Audience Composition 연결](connections/destinations.md)
    + [통합 데이터베이스 구성](connections/federated-db.md)
@@ -24,12 +24,12 @@ ht-degree: 38%
    + [대상자를 사용한 작업](customer/audiences.md)
 + 컴포지션 {#compositions}
    + [컴포지션 시작](compositions/gs-compositions.md)
-   + 첫 번째 컴포지션 만들기 및 실행 {#create-composition}
+   + 첫 번째 컴포지션 {#create-composition} 만들기 및 실행
       + [구성을 만드는 핵심 원칙](compositions/gs-composition-creation.md)
       + [컴포지션 만들기 및 구성](compositions/create-composition.md)
       + [활동 조율](compositions/orchestrate-activities.md)
       + [컴포지션 시작 및 모니터링](compositions/start-monitor-composition.md)
-   + 활동을 사용한 작업 {#activities}
+   + {#activities} 활동을 사용하여 작업
       + [활동 목록](compositions/activities/about-activities.md)
       + [AND-결합](compositions/activities/and-join.md)
       + [대상자 빌드](compositions/activities/build-audience.md)
