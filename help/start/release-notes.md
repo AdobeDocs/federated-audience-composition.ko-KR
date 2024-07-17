@@ -2,9 +2,9 @@
 title: Federated Audience Composition의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Federated Audience Composition을 통해 기업은 다양한 사용 사례에서
 >
 >연합 대상 구성은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
->지금은 Adobe **Healthcare Shield** 및 **Privacy and Security Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
+>지금은 Adobe **Healthcare Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
 
 
 ## 사전 요구 사항 및 보호 기능 {#rn-guardrails}
