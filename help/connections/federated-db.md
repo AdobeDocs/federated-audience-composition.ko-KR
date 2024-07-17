@@ -2,9 +2,10 @@
 audience: end-user
 title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 10%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="페더레이션된 데이터베이스"
->abstract="페더레이션된 데이터베이스에 대해 이전에 처리된 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **페더레이션된 데이터베이스 추가** 버튼을 클릭하십시오."
+>abstract="페더레이션된 데이터베이스에 대해 이전에 처리된 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **[!UICONTROL 페더레이션된 데이터베이스 추가]** 버튼을 클릭하십시오."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="페더레이션된 데이터베이스 세부 정보"
->abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **연결 테스트** 버튼을 사용하여 구성을 검사합니다."
+>abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
 
 외부 데이터베이스에 대한 연결을 생성, 구성, 테스트 및 저장합니다.
 

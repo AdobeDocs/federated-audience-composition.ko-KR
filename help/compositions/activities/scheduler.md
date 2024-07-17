@@ -2,10 +2,10 @@
 audience: end-user
 title: 스케줄러 활동 사용
 description: 스케줄러 활동을 사용하는 방법 알아보기
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 31%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="**스케줄러** 활동을 사용하면 워크플로가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 통해 대상자 구성을 시작할 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 컴포지션의 첫 번째 활동으로만 사용할 수 있습니다."
 
 **스케줄러** 활동은 **흐름 제어** 활동입니다. 이를 통해 컴포지션이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 컴포지션의 첫 번째 활동으로만 사용할 수 있습니다.
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 **스케줄러** 활동을 구성하려면 다음 단계를 따르십시오.
 
-1. 워크플로우에 **스케줄러** 활동을 추가합니다.
+1. 작성에 **스케줄러** 활동을 추가합니다.
 
 1. **실행 빈도**&#x200B;를 구성합니다.
 

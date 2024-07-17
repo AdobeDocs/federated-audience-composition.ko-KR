@@ -2,9 +2,10 @@
 audience: end-user
 title: AND-join 활동 사용
 description: AND-join 활동을 사용하는 방법 알아보기
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 57%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="AND-결합 활동 구성"
->abstract="참여하고자 하는 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
+>abstract="참여하고자 하는 활동을 선택합니다. **[!UICONTROL 기본 세트]** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
 
 **AND-결합** 활동을 구성하려면 다음 단계를 따르십시오.
 
@@ -34,5 +35,5 @@ ht-degree: 57%
 
    ![](../assets/and-join.png)
 
-1. **옵션 병합** 섹션에서 동기화하려는 이전 활동을 모두 확인하십시오.
-1. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다. 아웃바운드 전환은 인바운드 전환 모집단 중 하나만 포함할 수 있습니다. 활동이 구성되지 않은 경우 아웃바운드 전환은 인바운드 모집단 중 하나를 임의로 선택합니다.
+1. **[!UICONTROL 옵션 병합]** 섹션에서 동기화하려는 이전 활동을 모두 확인하십시오.
+1. **[!UICONTROL 기본 세트]** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다. 아웃바운드 전환은 인바운드 전환 모집단 중 하나만 포함할 수 있습니다. 활동이 구성되지 않은 경우 아웃바운드 전환은 인바운드 모집단 중 하나를 임의로 선택합니다.

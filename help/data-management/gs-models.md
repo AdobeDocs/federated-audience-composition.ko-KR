@@ -2,10 +2,11 @@
 audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
-source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 37%
+source-wordcount: '165'
+ht-degree: 38%
 
 ---
 

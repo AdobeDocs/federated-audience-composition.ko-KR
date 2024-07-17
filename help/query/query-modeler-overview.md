@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: 쿼리 모델러로 작업
-description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 13%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 13%
 | 사용 | 예 |
 |  ---  |  ---  |
 | **대상 정의**: 컴포지션에서 타깃팅할 모집단을 지정하고 필요에 맞게 새 대상을 손쉽게 만들 수 있습니다. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **워크플로 활동 사용자 지정**: 특정 요구 사항에 맞게 **분할** 및 **조정**&#x200B;과 같은 작성 활동 내에 규칙을 적용합니다. [컴포지션 활동에 대해 자세히 알아보기](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **활동 사용자 지정**: 특정 요구 사항에 맞게 작성 활동(예: **분할** 및 **조정**) 내에 규칙을 적용합니다. [컴포지션 활동에 대해 자세히 알아보기](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## 쿼리 모델러 인터페이스 {#interface}
 
@@ -39,11 +40,11 @@ ht-degree: 13%
 
 캔버스의 오른쪽 위 모서리에 있는 도구 모음은 쿼리 구성 요소를 쉽게 조작하고 캔버스에서 탐색할 수 있는 옵션을 제공합니다.
 
-* **여러 선택 모드**: 여러 필터링 구성 요소를 선택하여 원하는 위치에 복사하여 붙여 넣으십시오.
-* **회전**: 캔버스를 세로로 전환합니다.
-* **화면에 맞춤**: 캔버스 확대/축소 수준을 화면에 맞춥니다.
-* **축소** / **확대**: 캔버스를 축소하거나 확대합니다.
-* **맵 표시**: 현재 위치를 보여 주는 캔버스의 스냅숏을 엽니다.
+* **[!UICONTROL 여러 선택 모드]**: 여러 필터링 구성 요소를 선택하여 원하는 위치에 복사하여 붙여 넣으십시오.
+* **[!UICONTROL 회전]**: 캔버스를 세로로 전환합니다.
+* **[!UICONTROL 화면에 맞춤]**: 캔버스 확대/축소 수준을 화면에 맞춥니다.
+* **[!UICONTROL 축소]** / **[!UICONTROL 확대]**: 캔버스를 축소하거나 확대합니다.
+* **[!UICONTROL 맵 표시]**: 현재 위치를 보여 주는 캔버스의 스냅숏을 엽니다.
 
 ### 규칙 속성 창 {#rule-properties}
 

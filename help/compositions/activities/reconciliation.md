@@ -2,9 +2,10 @@
 audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 39%
 
 ---

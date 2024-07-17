@@ -2,9 +2,10 @@
 audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 21%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 21%
 
 컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다.
 
-컴포지션에 대한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽에 있는 **설정** 단추를 클릭합니다.
+컴포지션에 대한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽에 있는 **[!UICONTROL 설정]** 단추를 클릭합니다.
 
 ![](assets/composition-create-settings.png)
 

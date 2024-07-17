@@ -2,10 +2,11 @@
 audience: end-user
 title: 대기 활동 사용
 description: 대기 활동을 사용하는 방법 알아보기
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 60%
+source-wordcount: '118'
+ht-degree: 61%
 
 ---
 

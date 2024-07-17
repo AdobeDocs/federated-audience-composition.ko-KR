@@ -2,9 +2,10 @@
 audience: end-user
 title: 컴포지션 시작
 description: 컴포지션으로 시작하는 방법 알아보기
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 10%
 
 ---
@@ -24,7 +25,7 @@ Adobe 데이터 컴포지션을 사용하면 컴포지션을 만들 수 있습�
 >title="구성"
 >abstract="이 화면에서 구성 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 새 구성을 만들 수 있습니다."
 
-구성은 **통합 구성** 탭의 Adobe Experience Platform **[!UICONTROL 대상]** 메뉴에서 액세스할 수 있습니다.
+구성은 **[!UICONTROL 통합 구성]** 탭의 Adobe Experience Platform **[!UICONTROL 대상]** 메뉴에서 액세스할 수 있습니다.
 
 이 화면에서 새 구성을 만들고 기존 구성에 액세스할 수 있습니다. 이름 옆에 있는 줄임표 버튼을 클릭하여 기존 컴포지션을 복제하거나 삭제할 수도 있습니다.
 
@@ -32,7 +33,7 @@ Adobe 데이터 컴포지션을 사용하면 컴포지션을 만들 수 있습�
 
 목록을 세분화하고 원하는 컴포지션을 쉽게 찾으려면 목록을 검색하고 해당 상태 또는 마지막 처리 날짜별로 컴포지션을 필터링할 수 있습니다.
 
-열을 추가하거나 제거하여 목록을 사용자 지정할 수도 있습니다. 이렇게 하려면 **열 구성** 단추를 클릭하고 원하는 출력 열을 추가하거나 제거합니다.
+열을 추가하거나 제거하여 목록을 사용자 지정할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 열 구성]** 단추를 클릭하고 원하는 출력 열을 추가하거나 제거합니다.
 
 ![](assets/compositions-columns.png)
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: 데이터 보강 활동 사용
 description: 데이터 보강 활동을 사용하는 방법 알아보기
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 52%
 
 ---

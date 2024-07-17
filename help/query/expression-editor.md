@@ -2,9 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: 쿼리 모델러에서 첫 번째 쿼리를 작성하는 방법을 알아봅니다.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2102'
 ht-degree: 52%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 52%
 
 표현식 편집기는 쿼리 모델러 **[!UICONTROL 표현식 편집]** 단추에서 사용할 수 있습니다. 이 단추는 사용자 지정 조건을 구성할 때 **[!UICONTROL 특성]** 및 **[!UICONTROL 값]** 필드에 사용할 수 있습니다.
 
-| **특성** 필드에서 액세스 | **값** 필드에서 액세스 |
+| **[!UICONTROL 특성]** 필드에서 액세스 | **[!UICONTROL 값]** 필드에서 액세스 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
