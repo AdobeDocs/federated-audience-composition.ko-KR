@@ -2,10 +2,10 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 38%
+source-wordcount: '134'
+ht-degree: 35%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 38%
 # Federated Audience Composition 설명서 {#using}
 
 + [Federated Audience Composition 설명서](home.md)
-+ [시작하기](start/get-started.md)
++ Federated Audience 구성 {#start} 시작
+   + [시작하기](start/get-started.md)
+   + [릴리스 정보](start/release-notes.md)
 + 구성 단계 {#config}
    + [AEP와 Federated Audience Composition 연결](connections/destinations.md)
    + [통합 데이터베이스 구성](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 38%
    + [표현식 편집](query/expression-editor.md)
 + 감사 추적 {#audit-trail}
    + [데이터베이스 모니터링](admin/audit-trail.md)
++ [&lt; Adobe Experience Platform 설명서로 돌아가기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
