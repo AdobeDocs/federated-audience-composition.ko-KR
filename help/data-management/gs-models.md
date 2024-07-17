@@ -38,17 +38,17 @@ ht-degree: 37%
 
 데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다.
 
-자세히 알아보기 [스키마](../customer/schemas.md).
+[스키마](../customer/schemas.md)에 대해 자세히 알아보세요.
 
-자세히 알아보기 [대상](../customer/audiences.md).
+[대상](../customer/audiences.md)에 대해 자세히 알아보세요.
 
 ## 데이터 모델을 만드는 방법 {#data-model-create}
 
-위치 **[!UICONTROL 페더레이션된 데이터]** 섹션, **[!UICONTROL 모델]** 링크를 클릭합니다. 여기에서 다음을 찾을 수 있습니다. **[!UICONTROL 데이터 모델]** 탭.
+**[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 데이터 모델]** 탭이 있습니다.
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-다음을 클릭하여: **[!UICONTROL 데이터 모델 만들기]** 버튼을 클릭하면 데이터 모델의 이름을 지정하고 **[!UICONTROL 만들기]** 단추를 클릭합니다.
+**[!UICONTROL 데이터 모델 만들기]** 단추를 클릭하면 데이터 모델의 이름을 지정하고 **[!UICONTROL 만들기]** 단추를 클릭할 수 있습니다.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

@@ -11,11 +11,11 @@ ht-degree: 1%
 
 # 연결 만들기 {#connections-fdb}
 
-Federated 데이터베이스에 대한 새 연결을 만들려면 **[!UICONTROL 페더레이션된 데이터]** 섹션 및 **[!UICONTROL 통합 데이터베이스]** 링크, 클릭 **[!UICONTROL 통합 데이터베이스 추가]** 단추를 클릭합니다.
+Federated 데이터베이스에 대한 새 연결을 만들려면 **[!UICONTROL FEDERATED DATA]** 섹션으로 이동한 다음 **[!UICONTROL Federated Databases]** 링크에서 **[!UICONTROL Federated database 추가]** 단추를 클릭하십시오.
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-연결을 위해 창에 액세스합니다 **[!UICONTROL 속성]**&#x200B;을 추가합니다.
+데이터베이스 이름과 유형을 사용하여 연결 **[!UICONTROL 속성]**&#x200B;에 대한 창에 액세스합니다.
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Federated 데이터베이스에 대한 새 연결을 만들려면 **[!UICONTROL 
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-세부 정보를 입력한 후 을(를) 클릭합니다. **[!UICONTROL 연결 테스트]** 단추 및 켜기 **[!UICONTROL 함수 배포]** 단추를 클릭합니다.
-다음을 클릭하여 연결 만들기를 완료합니다. **[!UICONTROL 저장]** 단추를 클릭합니다.
+세부 정보를 입력한 후 **[!UICONTROL 연결 테스트]** 단추와 **[!UICONTROL 함수 배포]** 단추를 클릭합니다.
+**[!UICONTROL 저장]** 단추를 클릭하여 연결 만들기를 완료합니다.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}
