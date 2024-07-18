@@ -2,10 +2,10 @@
 title: Federated Audience Composition의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ Federated Audience Composition을 통해 기업은 다양한 사용 사례에서
 
 이제 데이터 세트 및/또는 대상을 Adobe Experience Platform으로 수집하는 대신 Federated Audience Composition을 사용하여 특정 세그멘테이션 또는 활성화 사용 사례에 필요한 특정 대상 및 속성을 웨어하우스 밖으로 가져와서 데이터 웨어하우스에서 Adobe Experience Platform으로 복사된 데이터의 양을 줄이고 중요한 데이터가 웨어하우스 밖에서 지속되지 않도록 할 수 있습니다.
 
+[이 페이지](get-started.md) 및 [자주 묻는 질문](get-started.md#faq)에서 Federated Audience Composition 기능에 대해 자세히 알아보세요.
 
 >[!AVAILABILITY]
 >
@@ -27,6 +28,14 @@ Federated Audience Composition을 통해 기업은 다양한 사용 사례에서
 >
 >지금은 Adobe **Healthcare Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
 
+## Federated Audience 컴포지션에 액세스 {#rn-guardrails}
+
+Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기능에 액세스하기 위한 유일한 전제 조건은 Federated Audience Composition 추가 기능을 구입한 것입니다.
+
+>[!AVAILABILITY]
+>
+>Adobe에서 환영 이메일 알림을 받은 후 인터페이스 및 사용 가능한 기능을 업데이트하는 데 몇 시간이 더 걸릴 수 있습니다.
+>
 
 ## 사전 요구 사항 및 보호 기능 {#rn-guardrails}
 
