@@ -3,27 +3,24 @@ audience: end-user
 title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 10%
+source-wordcount: '1419'
+ht-degree: 6%
 
 ---
 
 # 페더레이션된 데이터베이스 시작하기 {#federated-db}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="페더레이션된 데이터베이스"
 >abstract="페더레이션된 데이터베이스에 대해 이전에 처리된 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **[!UICONTROL 페더레이션된 데이터베이스 추가]** 버튼을 클릭하십시오."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="페더레이션된 데이터베이스 속성"
 >abstract="새 페더레이션된 데이터베이스의 이름을 입력하고 해당 유형을 선택합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ ht-degree: 10%
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL 서버]**:
+통합 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Snowflake 액세스를 구성하려면 아래 단계를 따르십시오.
 
-* **[!UICONTROL 사용자]**: 사용자의 이름입니다.
+1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 암호]**: 사용자 계정 암호입니다.
+1. **[!UICONTROL 통합 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-* **[!UICONTROL 데이터베이스]**:
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 작업 스키마]**:
+1. 페더레이션 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-* **[!UICONTROL 개인 키]**:
-.pem 파일만 허용됩니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Snowflake을 선택합니다.
 
-* **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+   ![](assets/federated_database_2.png)
+
+1. Snowflake 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서버]**: 서버 이름을 입력하십시오.
+
+   * **[!UICONTROL 사용자]**: 사용자 이름을 입력하십시오.
+
+   * **[!UICONTROL 암호]**: 계정 암호를 입력하십시오.
+
+   * **[!UICONTROL 데이터베이스]**(선택 사항): DSN에 지정되지 않은 경우 데이터베이스 이름을 입력하십시오.
+
+   * **[!UICONTROL 작업 스키마]**(선택 사항): 작업 스키마의 이름을 입력합니다.
+
+   * **[!UICONTROL 개인 키]**: **[!UICONTROL 개인 키]** 필드를 클릭하여 로케일 폴더에서 .pem 파일을 선택합니다.
+
+   * **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+
+1. 구성을 확인하려면 **[!UICONTROL 연결 테스트]** 옵션을 선택하십시오.
+
+1. 함수를 만들려면 **[!UICONTROL 함수 배포]** 단추를 클릭하십시오.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
+
+커넥터는 다음 옵션을 지원합니다.
 
 | 옵션 | 설명 |
 |---|---|
@@ -70,15 +90,37 @@ ht-degree: 10%
 
 ## Google BigQuery {#google-big-query}
 
-* **[!UICONTROL 서비스 계정]**: **[!UICONTROL 서비스 계정]**&#x200B;의 전자 메일 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts)를 참조하세요.
+통합 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Google Big Query에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-* **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 이름입니다. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects)를 참조하세요.
+1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 데이터 집합]**: **[!UICONTROL 데이터 집합]**&#x200B;의 이름입니다. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro)를 참조하세요.
+1. **[!UICONTROL 통합 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-* **[!UICONTROL 키 파일 경로]**: 서버에 키 파일을 업로드합니다. .json 파일만 허용됩니다.
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+1. 페더레이션 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
+
+1. **[!UICONTROL Type]** 드롭다운에서 Google Big Query를 선택합니다.
+
+   ![](assets/federated_database_3.png)
+
+1. Google Big Query 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서비스 계정]**: **[!UICONTROL 서비스 계정]**&#x200B;의 전자 메일을 입력하십시오. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts)를 참조하세요.
+
+   * **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 이름을 입력하십시오. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects)를 참조하세요.
+
+   * **[!UICONTROL 데이터 집합]**: **[!UICONTROL 데이터 집합]**&#x200B;의 이름을 입력하십시오. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro)를 참조하세요.
+
+   * **[!UICONTROL 키 파일 경로]**: 서버에 키 파일을 업로드합니다. .json 파일만 허용됩니다.
+
+   * **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+
+1. 구성을 확인하려면 **[!UICONTROL 연결 테스트]** 옵션을 선택하십시오.
+
+1. 함수를 만들려면 **[!UICONTROL 함수 배포]** 단추를 클릭하십시오.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
 
 | 옵션 | 설명 |
 |:-:|:-:|
@@ -94,29 +136,77 @@ ht-degree: 10%
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-* **[!UICONTROL 서버]**: Azure synapse 서버의 URL
+통합 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. azure synapse Redshift에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-* **[!UICONTROL 계정]**: 사용자 이름
+1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 암호]**: 사용자 계정 암호
+1. **[!UICONTROL 통합 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-* **[!UICONTROL 데이터베이스]**: 데이터베이스 이름
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 옵션]**
+1. 페더레이션 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
+
+1. **[!UICONTROL Type]** 드롭다운에서 Redshift Azure synapse을 선택합니다.
+
+   ![](assets/federated_database_4.png)
+
+1. azure synapse Redshift 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서버]**: Azure synapse 서버의 URL을 입력하십시오.
+
+   * **[!UICONTROL 계정]**: 사용자 이름을 입력하십시오.
+
+   * **[!UICONTROL 암호]**: 계정 암호를 입력하십시오.
+
+   * **[!UICONTROL 데이터베이스]**(선택 사항): DSN에 지정되지 않은 경우 데이터베이스 이름을 입력하십시오.
+
+   * **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+
+1. 구성을 확인하려면 **[!UICONTROL 연결 테스트]** 옵션을 선택하십시오.
+
+1. 함수를 만들려면 **[!UICONTROL 함수 배포]** 단추를 클릭하십시오.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
+
+| 옵션 | 설명 |
+|:-:|:-:|
+| 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [SQL 문서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)(연결 문자열 n°8 예제)를 참조하십시오. |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL 서버]**: [!DNL Vertica Analytics] 서버의 URL
+통합 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. vertica analytics에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-* **[!UICONTROL 계정]**: 사용자 이름
+1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 암호]**: 사용자 계정 암호
+1. **[!UICONTROL 통합 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-* **[!UICONTROL 데이터베이스]**: 데이터베이스 이름
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 작업 스키마]**: 작업 스키마의 이름입니다.
+1. 페더레이션 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-* **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Vertica analytics을 선택합니다.
+
+   ![](assets/federated_database_5.png)
+
+1. vertica analytics 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서버]**: [!DNL Vertica Analytics] 서버의 URL을 추가합니다.
+
+   * **[!UICONTROL 계정]**: 사용자 이름을 추가합니다.
+
+   * **[!UICONTROL 암호]**: 계정 암호를 추가합니다.
+
+   * **[!UICONTROL 데이터베이스]**(선택 사항): DSN에 지정되지 않은 경우 데이터베이스 이름을 입력하십시오.
+
+   * **[!UICONTROL 작업 스키마]**(선택 사항): 작업 스키마의 이름을 입력합니다.
+
+   * **[!UICONTROL 옵션]**: 커넥터가 아래 표에 설명된 옵션을 지원합니다.
+
+1. 구성을 확인하려면 **[!UICONTROL 연결 테스트]** 옵션을 선택하십시오.
+
+1. 함수를 만들려면 **[!UICONTROL 함수 배포]** 단추를 클릭하십시오.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
 
 커넥터는 다음 옵션을 지원합니다.
 
@@ -124,16 +214,36 @@ ht-degree: 10%
 |---|---|
 | 시간대 이름 | 기본적으로 비어 있음, 즉 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL 서버]**: DNS 이름
+통합 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Amazon Redshift에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-* **[!UICONTROL 계정]**: 사용자 이름
+1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 암호]**: 사용자 계정 암호
+1. **[!UICONTROL 통합 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-* **[!UICONTROL 데이터베이스]**: DSN에 지정되지 않은 경우 데이터베이스의 이름입니다. DSN에 지정된 경우 비워 둘 수 있습니다.
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 작업 스키마]**: 작업 스키마의 이름입니다. [자세히 알아보기](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. 페더레이션 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
+1. **[!UICONTROL Type]** 드롭다운에서 Amazon Redshift를 선택합니다.
+
+   ![](assets/federated_database_6.png)
+
+1. Amazon Redshift 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서버]**: DNS 이름을 추가합니다.
+
+   * **[!UICONTROL 계정]**: 사용자 이름을 추가합니다.
+
+   * **[!UICONTROL 암호]**: 계정 암호를 추가합니다.
+
+   * **[!UICONTROL 데이터베이스]**: DSN에 지정되지 않은 경우 데이터베이스의 이름입니다. DSN에 지정된 경우 비워 둘 수 있습니다.
+
+   * **[!UICONTROL 작업 스키마]**: 작업 스키마의 이름입니다. [자세히 알아보기](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. 구성을 확인하려면 **[!UICONTROL 연결 테스트]** 옵션을 선택하십시오.
+
+1. 함수를 만들려면 **[!UICONTROL 함수 배포]** 단추를 클릭하십시오.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
