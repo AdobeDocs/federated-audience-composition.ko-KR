@@ -2,7 +2,7 @@
 title: Federated Audience Composition의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 릴리스 정보 {#rn-new}
 
-## LA(Federated Audience Composition) {#rn-la}
+## LA(Federated Audience Composition) {#fac-la}
 
 Federated Audience Composition은 추가 기능으로, 유연한 액세스 및 엔터프라이즈 데이터 웨어하우스로의 확장 지원을 제공하여 개인화 사용 사례를 향상시킵니다.
 
@@ -28,7 +28,7 @@ Federated Audience Composition을 통해 기업은 다양한 사용 사례에서
 >
 >지금은 Adobe **Healthcare Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
 
-## Federated Audience 컴포지션에 액세스 {#rn-guardrails}
+## Federated Audience 컴포지션에 액세스 {#fac-access}
 
 Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기능에 액세스하기 위한 유일한 전제 조건은 Federated Audience Composition 추가 기능을 구입한 것입니다.
 
@@ -37,7 +37,7 @@ Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기�
 >Adobe에서 환영 이메일 알림을 받은 후 인터페이스 및 사용 가능한 기능을 업데이트하는 데 몇 시간이 더 걸릴 수 있습니다.
 >
 
-## 사전 요구 사항 및 보호 기능 {#rn-guardrails}
+## 사전 요구 사항 및 보호 기능 {#fac-guardrails}
 
 * Data Warehouse에 대한 액세스를 활성화하고 Federated Audience Composition을 사용하려면 IP 주소를 허용 목록에 추가해야 합니다. IP 주소를 허용 목록에 추가하려면 Adobe 담당자에게 문의하십시오.
 
