@@ -2,9 +2,9 @@
 title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 6%
 
 ---
@@ -67,10 +67,11 @@ Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기�
 
 이 릴리스의 경우 Federated Audience Composition은 다음과 호환됩니다.
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 +++
 
