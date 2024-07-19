@@ -3,9 +3,9 @@ audience: end-user
 title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 6%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 6%
 >title="페더레이션된 데이터베이스 세부 정보"
 >abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
 
-외부 데이터베이스에 대한 연결을 생성, 구성, 테스트 및 저장합니다.
+고객은 Federated Audience Composition을 통해 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다.
 
+이 페이지에서 외부 데이터베이스에 대한 연결을 생성, 구성, 테스트 및 저장하는 방법을 알아봅니다.
 
+## 지원되는 데이터베이스 {#supported-db}
 
-지원되는 외부 데이터베이스:
+Federated Audience Composition을 사용하여 다음 데이터베이스에 연결할 수 있습니다.
 
 * Amazon Redshift
 * Azure synapse
