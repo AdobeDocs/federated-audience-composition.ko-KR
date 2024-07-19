@@ -3,7 +3,7 @@ audience: end-user
 title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 6%
@@ -31,11 +31,11 @@ ht-degree: 6%
 
 지원되는 외부 데이터베이스:
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
