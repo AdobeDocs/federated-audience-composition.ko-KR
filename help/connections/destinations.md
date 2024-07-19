@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Federated Audience Composition에 대상 보내기
 description: Adobe Experience Platform 대상을 Federated Audience Composition으로 보내는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Adobe Experience Platform 대상자를 Adobe Federated Audience Composition으�
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 경고]** 섹션에서 대상으로의 데이터 흐름 상태에 대한 알림을 받을 수 있도록 알림을 설정할 수 있습니다. 경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고 구독](../../ui/alerts.md)에 대한 안내서를 참조하십시오.
+   **[!UICONTROL 경고]** 섹션에서 대상으로의 데이터 흐름 상태에 대한 알림을 받을 수 있도록 알림을 설정할 수 있습니다. 경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고 구독](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)에 대한 안내서를 참조하십시오.
 
 1. **[!UICONTROL 거버넌스 정책 및 시행 작업]** 단계에서는 데이터 거버넌스 정책을 정의하고 대상자를 보내고 활성화할 때 사용된 데이터가 준수되는지 확인할 수 있습니다.
 
