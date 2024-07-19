@@ -2,10 +2,10 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 35%
+source-wordcount: '133'
+ht-degree: 36%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 35%
    + [시작하기](start/get-started.md)
    + [릴리스 정보](start/release-notes.md)
 + 구성 단계 {#config}
-   + [AEP와 Federated Audience Composition 연결](connections/destinations.md)
    + [통합 데이터베이스 구성](connections/federated-db.md)
    + [연결 만들기 및 관리](connections/connections.md)
    + 데이터 모델 및 스키마{#datamodel}
       + [데이터 모델 구성](data-management/gs-models.md)
       + [스키마 만들기 및 구성](customer/schemas.md)
    + [대상자를 사용한 작업](customer/audiences.md)
+   + [AEP로 대상자 가져오기](connections/destinations.md)
 + 컴포지션 {#compositions}
    + [컴포지션 시작](compositions/gs-compositions.md)
    + 첫 번째 컴포지션 {#create-composition} 만들기 및 실행

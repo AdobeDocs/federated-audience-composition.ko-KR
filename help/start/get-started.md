@@ -2,19 +2,19 @@
 title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 7%
+source-wordcount: '1320'
+ht-degree: 6%
 
 ---
 
 
 # Federated Audience 구성 시작 {#gs-fac}
 
-Adobe Experience Platform Federated Audience Composition은 Adobe Real-time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 직접 엔터프라이즈 데이터 웨어하우스를 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행하는 쉽고 강력한 솔루션을 제공합니다.
+Federated Audience Composition은 고객이 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있는 Adobe Real-time Customer Data Platform 및 Adobe Journey Optimizer 추가 기능입니다.
 
-Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사용자는 데이터 웨어하우스 및 클라우드 스토리지 플랫폼(예: Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake)에 저장된 고객 데이터에 액세스할 수 있습니다. 고객 데이터는 여러 데이터 웨어하우스에서 사용할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다.
+Adobe Experience Platform Federated Audience Composition은 Adobe Real-time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 직접 엔터프라이즈 데이터 웨어하우스를 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행하는 쉽고 강력한 솔루션을 제공합니다. Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사용자는 데이터 웨어하우스 및 클라우드 스토리지 플랫폼(예: Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake)에 저장된 고객 데이터에 액세스할 수 있습니다. 고객 데이터는 여러 데이터 웨어하우스에서 사용할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다.
 
 
 ## 사용 사례 {#rn-uc}
