@@ -3,10 +3,10 @@ audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다.
 
-[스키마](../customer/schemas.md)에 대해 자세히 알아보세요.
+[스키마](../customer/schemas.md#schema-start)에 대해 자세히 알아보세요.
 
 [대상](../customer/audiences.md)에 대해 자세히 알아보세요.
 
@@ -61,3 +61,16 @@ ht-degree: 39%
 
 ### 링크 만들기 {#data-model-links}
 
+데이터 모델의 테이블 간에 링크를 만드는 방법은 두 가지가 있습니다.
+- 표 중 하나의 **[!UICONTROL 링크 만들기]** 메뉴에서 바로 클릭합니다.
+- **[!UICONTROL 링크 만들기]** 단추를 클릭하고 2개의 테이블을 선택합니다.
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+주어진 양식을 채워 링크 를 정의합니다.
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
