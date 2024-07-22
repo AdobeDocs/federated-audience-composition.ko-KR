@@ -3,10 +3,10 @@ audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 [대상](../customer/audiences.md)에 대해 자세히 알아보세요.
 
-## 데이터 모델을 만드는 방법 {#data-model-create}
+## 데이터 모델 만들기 {#data-model-create}
 
 **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 데이터 모델]** 탭이 있습니다.
 

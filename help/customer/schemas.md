@@ -3,10 +3,10 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 스키마는 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
 스키마가 테이블을 참조합니다.
 
-## 스키마를 만드는 방법 {#schema-create}
+## 스키마 만들기 {#schema-create}
 
 **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 스키마]** 탭이 표시됩니다.
 **[!UICONTROL 스키마 만들기]** 단추를 클릭합니다.
@@ -62,14 +62,14 @@ ht-degree: 31%
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## 스키마를 편집하는 방법 {#schema-edit}
+## 스키마 편집 {#schema-edit}
 
 스키마를 편집하려면 스키마 폴더에서 스키마 이름을 누릅니다. 아래 페이지에 액세스할 수 있습니다.
 **[!UICONTROL 편집]** 단추를 클릭합니다.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## 스키마에서 데이터를 미리 보는 방법 {#schema-preview}
+## 스키마에서 데이터 미리 보기 {#schema-preview}
 
 스키마가 나타내는 테이블의 데이터를 미리 보려면 아래와 같이 **[!UICONTROL 데이터]** 탭으로 이동하십시오.
 
@@ -79,7 +79,7 @@ ht-degree: 31%
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## 스키마를 삭제하는 방법 {#schema-delete}
+## 스키마 삭제 {#schema-delete}
 
 스키마를 삭제하려면 **[!UICONTROL 자세히]** 버튼을 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
