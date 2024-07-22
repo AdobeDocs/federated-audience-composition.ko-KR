@@ -3,7 +3,7 @@ audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 [스키마](../customer/schemas.md#schema-start)에 대해 자세히 알아보세요.
 
-[대상](../customer/audiences.md)에 대해 자세히 알아보세요.
+[대상](../start/audiences.md)에 대해 자세히 알아보세요.
 
 ## 데이터 모델 만들기 {#data-model-create}
 
