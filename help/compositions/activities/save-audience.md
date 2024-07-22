@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 26%
+source-wordcount: '380'
+ht-degree: 25%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 26%
    ![](../assets/save-audience.png)
 
 1. 만들 대상자의 레이블을 지정합니다.
+
+   >[!IMPORTANT]
+   >
+   >대상 레이블은 현재 샌드박스 내에서 고유해야 합니다. 기존 대상자와 동일한 레이블이 될 수 없습니다.
 
 1. **대상 매핑 추가**&#x200B;를 클릭한 다음 원본 및 대상 대상 필드를 선택하십시오.
 
