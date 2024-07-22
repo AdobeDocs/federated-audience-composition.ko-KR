@@ -2,10 +2,10 @@
 title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 
 
 주요 단계:
 
-* **구성**
+1. **데이터 통합**: 다양한 소스의 데이터를 가져와서 통합 데이터 집합에 병합합니다. Adobe Experience Platform 앱과 Enterprise Data Warehouse, 지원되는 데이터베이스를 연결하는 방법과 구성 방법에 대해 알아보려면 [이 섹션](../connections/federated-db.md)을 참조하세요.
 
-   1. Adobe Experience Platform 및 엔터프라이즈 데이터 웨어하우스를 연결합니다.
-지원되는 데이터베이스는 Snowflake, Google Big Query, Azure synapse, Redshift입니다.
-[이 페이지](../connections/federated-db.md)에서 자세히 알아보기
-   1. 스키마를 만들어 사용자 인터페이스에서 액세스할 수 있는 데이터를 선택하십시오.
-[이 페이지](../customer/schemas.md)에서 자세히 알아보기
-   1. 데이터 모델에 대한 링크를 만듭니다.
-[이 페이지](../data-management/gs-models.md)에서 자세히 알아보기
+2. **데이터 모델링**: 데이터의 구조, 관계 및 제약 조건을 정의하는 데이터 모델 및 스키마를 디자인하고 만듭니다. [이 페이지](../customer/schemas.md)에서 스키마에 대해 자세히 알아보세요. [이 페이지](../data-management/gs-models.md)에서 데이터 모델에 대한 링크를 만드는 방법을 알아보세요.
 
-* **대상자 작성**
+3. **데이터 변환**: 데이터 조작 기술을 적용하여 데이터 요소의 형식, 구조 또는 값을 수정하여 특정 분석 또는 응용 프로그램에 호환되거나 적합하도록 만듭니다.
 
-   1. 컴포지션을 디자인 및 실행하여 대상자를 만듭니다.
-[이 페이지](../compositions/gs-compositions.md)에서 자세히 알아보기
-   1. Adobe Experience Platform Audience Portal 및 Destinations를 통해 기존 대상자를 업데이트하거나 재사용합니다.
-[이 페이지](../connections/destinations.md)에서 자세히 알아보기
+4. **데이터 사용**: 대상을 만들고, 조정하고, 빌드합니다. [이 페이지](../compositions/gs-compositions.md)에서 대상자를 구성하는 방법을 알아보세요. Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](../connections/destinations.md)에서 자세히 알아보기
+
 
 ## 자주 묻는 질문 {#faq}
 
