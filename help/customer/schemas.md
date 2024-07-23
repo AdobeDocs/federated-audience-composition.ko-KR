@@ -3,10 +3,10 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '467'
+ht-degree: 20%
 
 ---
 
@@ -42,25 +42,46 @@ ht-degree: 34%
 
 ## 스키마란? {#schema-start}
 
-스키마는 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
-스키마가 테이블을 참조합니다.
+스키마는 데이터베이스의 테이블을 나타냅니다. 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
+
+스키마를 만들면 FAC에서 테이블을 조작할 수 있습니다.
+- 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
+- 실제 용도에 따라 각 필드의 가시성을 결정합니다
+- 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
 
 ## 스키마 만들기 {#schema-create}
 
+FAC에서 스키마를 만들려면 아래 단계를 따르십시오.
 **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 스키마]** 탭이 표시됩니다.
 **[!UICONTROL 스키마 만들기]** 단추를 클릭합니다.
 
 ![](assets/schema_create.png){zoomable="yes"}
 
-드롭다운 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 테이블 추가]** 탭을 클릭합니다.
+드롭다운 목록이 있는 새 인터페이스에 액세스할 수 있습니다
+응용 프로그램에 연결된 모든 데이터베이스입니다. [데이터베이스 연결](../connections/connections.md#connections-fdb)에 대해 자세히 알아보세요.
+목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 테이블 추가]** 탭을 클릭합니다.
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-데이터베이스의 모든 테이블에 액세스할 수 있으며 스키마를 생성할 수 있습니다.
+데이터베이스의 모든 테이블 목록에 액세스할 수 있습니다.
 
-표를 추가하면 해당 필드에 액세스할 수 있고, 필요한 항목을 유지할 수 있습니다.
+스키마를 생성할 테이블을 추가하면 다음과 같이 해당 필드에 액세스할 수 있습니다.
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+각 테이블에 대해 다음 작업을 수행할 수 있습니다.
+- 주어진 스키마 레이블 이름 바꾸기
+- 설명 추가
+- 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
+- 스키마 기본 키 선택
+
+예를 들어 다음은 추가 바로 뒤에 가져온 표입니다.
+
+![](assets/schema_lumaorder.png){zoomable="yes"}
+
+스키마는 다음과 같이 정의할 수 있습니다.
+
+![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## 스키마 편집 {#schema-edit}
 
@@ -69,9 +90,18 @@ ht-degree: 34%
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
+스키마를 생성할 때와 동일한 가능성에 액세스할 수 있습니다.
+- 주어진 스키마 레이블 이름 바꾸기
+- 설명 추가
+- 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
+- 스키마 기본 키 선택
+
+![](assets/schema_edit_orders.png){zoomable="yes"}
+
 ## 스키마에서 데이터 미리 보기 {#schema-preview}
 
 스키마가 나타내는 테이블의 데이터를 미리 보려면 아래와 같이 **[!UICONTROL 데이터]** 탭으로 이동하십시오.
+**[!UICONTROL 계산]** 링크를 클릭하면 총 녹음/녹화 수를 사용할 수 있습니다.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
