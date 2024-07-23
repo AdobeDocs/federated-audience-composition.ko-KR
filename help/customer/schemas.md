@@ -3,9 +3,9 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 스키마는 데이터베이스의 테이블을 나타냅니다. 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
 
-스키마를 만들면 FAC에서 테이블을 조작할 수 있습니다.
+스키마를 만들면 FAC에서 표 표현을 조작할 수 있습니다.
+
 - 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
 - 실제 용도에 따라 각 필드의 가시성을 결정합니다
 - 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
@@ -70,6 +71,7 @@ FAC에서 스키마를 만들려면 아래 단계를 따르십시오.
 ![](assets/schema_fields.png){zoomable="yes"}
 
 각 테이블에 대해 다음 작업을 수행할 수 있습니다.
+
 - 주어진 스키마 레이블 이름 바꾸기
 - 설명 추가
 - 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
@@ -91,6 +93,7 @@ FAC에서 스키마를 만들려면 아래 단계를 따르십시오.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 스키마를 생성할 때와 동일한 가능성에 액세스할 수 있습니다.
+
 - 주어진 스키마 레이블 이름 바꾸기
 - 설명 추가
 - 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
