@@ -3,7 +3,7 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ AEP에서 직접 통합 데이터베이스를 사용하여 작업하면 통합 �
 ![](assets/connections_details.png){zoomable="yes"}
 
 데이터베이스 유형에 따라 연결을 설정하는 데 필요한 정보 아래의 링크에서 알아보십시오.
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google BigQuery](federated-db.md#google-big-query)

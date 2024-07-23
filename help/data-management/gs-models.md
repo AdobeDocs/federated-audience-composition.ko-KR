@@ -3,7 +3,7 @@ audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ ht-degree: 29%
 ### 링크 만들기 {#data-model-links}
 
 데이터 모델의 테이블 간에 링크를 만드는 방법은 두 가지가 있습니다.
+
 - 표 중 하나의 **[!UICONTROL 링크 만들기]** 메뉴에서 바로 클릭합니다.
 - **[!UICONTROL 링크 만들기]** 단추를 클릭하고 2개의 테이블을 선택합니다.
 
