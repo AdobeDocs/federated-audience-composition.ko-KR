@@ -2,10 +2,10 @@
 user-guide-title: 페더레이션된 대상자 구성
 title: Adobe Federated Audience Composition 설명서
 breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 35%
+source-wordcount: '133'
+ht-degree: 36%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 35%
 # Federated Audience Composition 설명서 {#using}
 
 + [Federated Audience Composition 설명서](home.md)
++ [릴리스 정보](start/release-notes.md)
 + Federated Audience 구성 {#start} 시작
-   + [시작하기](start/get-started.md)
-   + [릴리스 정보](start/release-notes.md)
+   + [Federated Audience Composition이란?](start/get-started.md)
    + [대상자를 사용한 작업](start/audiences.md)
 + 구성 단계 {#config}
    + [연결 만들기 및 관리](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 35%
       + [스키마 만들기 및 구성](customer/schemas.md)
       + [데이터 모델 구성](data-management/gs-models.md)
    + [외부 데이터로 Adobe Experience Platform 대상 강화](connections/destinations.md)
-+ 컴포지션 {#compositions}
++ 대상자 구성 {#compositions}
    + [컴포지션 시작](compositions/gs-compositions.md)
    + 첫 번째 컴포지션 {#create-composition} 만들기 및 실행
       + [구성을 만드는 핵심 원칙](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 35%
    + [표현식 편집](query/expression-editor.md)
 + 감사 추적 {#audit-trail}
    + [데이터베이스 모니터링](admin/audit-trail.md)
-+ [&lt; Adobe Experience Platform 설명서로 돌아가기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

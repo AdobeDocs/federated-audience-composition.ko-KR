@@ -3,7 +3,7 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## 작곡 안에 무엇이 들어 있나요? {#gs-composition-inside}
 
-페더레이션 데이터 컴포지션은 다양한 활동(분할, 강화 등)을 활용하여 대상을 만들 수 있는 시각적 캔버스를 제공합니다.
+Federated Audience Composition은 다양한 활동(분할, 강화 등)을 활용하여 대상을 만들 수 있는 시각적 캔버스를 제공합니다.
 
 작곡 도표는 일어나기로 되어있는 것을 나타낸 것이다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
 

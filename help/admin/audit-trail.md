@@ -3,10 +3,10 @@ audience: end-user
 title: 감사 추적 시작하기
 description: 감사 추적을 사용하여 데이터베이스를 모니터링하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 감사 추적 기능은 실시간으로 환경에 수행된 모든 작업 및 이벤트에 대한 세부 기록 및 시간 기록을 제공합니다
 
-**[!UICONTROL 감사 추적]** 기능은 Adobe 데이터 구성 인스턴스 내에서 발생하는 작업 및 이벤트에 대한 자세한 로그를 실시간으로 지속적으로 기록합니다. 편리한 방법을 사용하여 데이터의 시간 기록 레코드에 액세스하고, 워크플로 상태, 이를 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다.
+**[!UICONTROL 감사 추적]** 기능은 Adobe Federated Composition 인스턴스 내에서 발생하는 작업 및 이벤트에 대한 자세한 로그를 실시간으로 지속적으로 기록합니다. 편리한 방법을 사용하여 데이터의 시간 기록 레코드에 액세스하고, 워크플로 상태, 이를 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다.
 
 +++ 감사 추적 사용 가능한 엔터티에 대해 자세히 알아보기
 
-* **Source 스키마 감사 추적**&#x200B;을 통해 Adobe 데이터 구성 인스턴스 내에서 스키마에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
+* **Source 스키마 감사 추적**&#x200B;을 통해 Adobe Federated Audience Composition 인스턴스 내에서 스키마에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
   스키마에 대한 자세한 내용은 이 [페이지](../customer/schemas.md)를 참조하세요.
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../compositions/gs-compositions.md)를 참조하세요.
 
-* **외부 계정**&#x200B;을(를) 사용하면 Adobe 데이터 구성 인스턴스에서 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
+* **외부 계정**&#x200B;을(를) 사용하면 Adobe 대상 구성 인스턴스에서 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
 
   외부 계정에 대한 자세한 내용은 이 [페이지](../connections/federated-db.md)를 참조하세요.
 
