@@ -3,9 +3,9 @@ audience: end-user
 title: 외부 데이터로 Adobe Experience Platform 대상 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '553'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 >title="대상 만들기"
 >abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 대상에 연결]** 버튼을 사용하여 구성을 확인합니다."
 
-Adobe Experience Platform을 사용하면 Adobe Federated Audience Composition 대상을 사용하여 대상 포털의 대상을 외부 데이터베이스에 원활하게 통합할 수 있습니다. 이렇게 하면 기존 대상을 구성에 활용하고 외부 데이터베이스의 데이터를 사용하여 보강 또는 세분화하여 새 대상을 만들거나 기존 대상을 업데이트할 수 있습니다.
+Adobe Experience Platform을 사용하면 **Adobe 페더레이션 대상 구성** 대상을 사용하여 대상 포털의 대상을 외부 데이터베이스에 원활하게 통합할 수 있습니다. 이렇게 하면 기존 대상을 구성에 활용하고 외부 데이터베이스의 데이터를 사용하여 보강 또는 세분화하여 새 대상을 만들 수 있습니다.
 
 이렇게 하려면 Adobe Experience Platform에서 Adobe Federated Audience Composition 대상에 대한 새 연결을 설정해야 합니다. 스케줄러를 사용하여 특정 대상을 정기적으로 보내고, 포함할 특정 속성(예: 데이터 조정을 위한 ID)을 선택할 수 있습니다. 거버넌스 및 개인정보 처리방침을 대상에 적용한 경우 대상이 업데이트되면 유지되어 대상 포털로 다시 전송됩니다.
 

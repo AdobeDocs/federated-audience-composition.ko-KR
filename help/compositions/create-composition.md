@@ -3,9 +3,9 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 21%
 
 ---
@@ -47,9 +47,7 @@ ht-degree: 21%
 >title="오류 관리 설정"
 >abstract="이 섹션에서는 실행 중 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나, 특정 수의 오류를 무시하거나, 구성 실행을 중지하도록 선택할 수 있습니다."
 
-컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다.
-
-컴포지션에 대한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽에 있는 **[!UICONTROL 설정]** 단추를 클릭합니다.
+컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다. 이러한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽 섹션에 있는 **[!UICONTROL 설정]** 단추를 클릭합니다.
 
 ![](assets/composition-create-settings.png)
 

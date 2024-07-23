@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 40%
+source-wordcount: '212'
+ht-degree: 35%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 40%
 >title="대상자 빌드 활동"
 >abstract="**대상자 빌드** 활동을 통해 구성에 참여할 대상자를 정의할 수 있습니다."
 
-**대상자 빌드** 활동을 통해 구성에 참여할 대상자를 정의할 수 있습니다.
+**대상자 작성** 활동을 통해 컴포지션을 입력할 대상자를 정의할 수 있습니다. 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
-대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Adobe Experience Platform 대상자를 선택합니다.
-* 필터링 기준을 정의하고 결합하여 쿼리 모델러 빌더로 새 대상을 작성합니다.
-
-**대상자 만들기** 활동은 컴포지션의 시작 부분이나 다른 활동 뒤에 배치할 수 있습니다. 모든 활동은 **대상자 빌드** 뒤에 배치할 수 있습니다.
+* 기존 Adobe Experience Platform 대상자를 선택합니다.
+* 필터링 기준을 정의하고 결합하여 쿼리 모델러로 새 대상을 만듭니다.
 
 ## 대상자 빌드 활동 구성 {#build-audience-configuration}
 

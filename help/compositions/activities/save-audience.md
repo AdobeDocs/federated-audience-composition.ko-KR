@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 25%
+source-wordcount: '420'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 구성에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상자를 만듭니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 25%
 >abstract="프로필에 사용할 네임스페이스를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces" text="Experience Platform 설명서에서 자세히 알아보십시오."
 
-**대상 저장** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 기존 대상을 업데이트하거나 새 대상을 만들 수 있습니다. 만들어진 대상은 응용 프로그램 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다.
+**대상 저장** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상을 만들 수 있습니다. 만든 대상자는 Adobe Experience Platform 대상자 목록에 추가되고 **대상자** 메뉴를 통해 사용할 수 있습니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../../start/audiences.md)
 
 이 활동은 기본적으로 모집단 그룹을 재사용 가능한 대상으로 전환하여 동일한 컴포지션에서 계산되도록 하는 데 사용됩니다. **대상자 작성** 또는 **결합** 활동과 같은 다른 타깃팅 활동에 연결합니다.
 
@@ -53,10 +53,7 @@ ht-degree: 25%
    >
    >대상 레이블은 현재 샌드박스 내에서 고유해야 합니다. 기존 대상자와 동일한 레이블이 될 수 없습니다.
 
-1. **대상 매핑 추가**&#x200B;를 클릭한 다음 원본 및 대상 대상 필드를 선택하십시오.
-
-   * **Source 대상 필드**:
-   * **대상 필드**:
+1. 대상 매핑 섹션을 사용하여 새로 만든 대상으로 가져올 필드를 선택합니다. 이렇게 하려면 **대상 매핑 추가**&#x200B;를 클릭한 다음 원본 및 대상 대상 필드를 선택하십시오.
 
    작업을 반복하여 필요한 만큼 대상 매핑을 추가합니다.
 
@@ -65,7 +62,7 @@ ht-degree: 25%
    * **기본 ID 필드**: 프로필을 식별하는 데 사용할 필드를 선택합니다. 예를 들어 이메일 주소나 전화번호 등이 있습니다.
    * **ID 네임스페이스**: 프로필을 식별하는 데 사용할 네임스페이스(예: 식별 키로 사용할 데이터 유형)를 선택합니다. 예를 들어 전자 메일 주소를 기본 ID 필드로 선택한 경우 ID 네임스페이스 **전자 메일**&#x200B;을(를) 선택해야 합니다. 고유 식별자가 전화번호인 경우 ID 네임스페이스 **Phone**&#x200B;을(를) 선택해야 합니다.
 
-컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform <!-- to check-->에 저장되고 **대상자** 메뉴에서 액세스할 수 있습니다.
+컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 저장되고 **대상자** 메뉴에서 액세스할 수 있습니다. 생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Adobe Experience Platform에서 지원하는 모든 대상에 대해 대상을 활성화할 수 있습니다.
 
 <!--
 
