@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 35%
+source-wordcount: '246'
+ht-degree: 30%
 
 ---
 
@@ -45,8 +45,11 @@ ht-degree: 35%
 
 1. **대상 만들기**&#x200B;를 선택합니다.
 1. **스키마**(타겟팅 차원이라고도 함)를 선택합니다. 스키마를 사용하면 작업을 통해 타겟팅되는 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 스키마는 수신자에서 선택됩니다.
+
+   ![](../assets/build-audience-create.png)
+
 1. **계속을 클릭합니다**.
-1. 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
+1. 쿼리 모델러를 사용하여 쿼리를 정의한 다음 확인합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
 >[!TAB 대상자 읽기]
 
@@ -54,9 +57,16 @@ ht-degree: 35%
 
 1. **대상자 읽기**&#x200B;를 선택합니다.
 1. **계속을 클릭합니다**.
+
+   ![](../assets/build-audience-read.png)
+
 1. 대상자를 선택합니다.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>**아웃바운드 전환 생성** 옵션을 사용하면 대상 모집단이 비어 있는 경우 활동 실행 끝에 활성화될 아웃바운드 전환을 추가할 수 있습니다.
 
 <!--
 ## Examples{#build-audience-examples}
