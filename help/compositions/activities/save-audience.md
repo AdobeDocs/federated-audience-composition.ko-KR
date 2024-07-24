@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 18%
 
 ---
-
 
 # 대상자 저장 {#save-audience}
 
