@@ -3,10 +3,11 @@ audience: end-user
 title: 대기 활동 사용
 description: 대기 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '86'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 61%
 >title="대기 활동"
 >abstract="**대기** 활동을 사용하여 전환을 활동에서 다른 활동으로 지연합니다."
 
-**대기** 활동을 사용하면 실행 중인 두 활동 사이에 일정 시간이 지나도록 할 수 있습니다. 예를 들어 이메일 게재 활동 후 며칠 동안 대기하고, 후속 작업(리마인더 이메일, 대상자 만들기 등)을 수행하기 전에 대기 기간 동안 발생한 열람수 및 클릭수를 분석하려 할 때 사용할 수 있습니다.
+**대기** 활동을 사용하면 실행 중인 두 활동 사이에 일정 시간이 지나도록 할 수 있습니다.
 
 ## 구성{#wait-configuration}
 
@@ -29,4 +30,4 @@ ht-degree: 61%
 
 1. **기간** 필드에서 시간 단위(초, 분, 시간, 일)를 선택합니다.
 
-
+   ![](../assets/wait.png)

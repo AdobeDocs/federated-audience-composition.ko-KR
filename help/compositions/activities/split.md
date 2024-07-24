@@ -3,13 +3,13 @@ audience: end-user
 title: 분할 활동 사용
 description: 분할 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 76%
 
 ---
-
 
 # 분할 {#split}
 
@@ -96,9 +96,7 @@ ht-degree: 76%
 
 1. 모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다.
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL 동일한 테이블에 모든 하위 집합 생성]** 옵션을 사용하면 모든 하위 집합을 단일 출력 전환으로 그룹화할 수 있습니다.
+1. **[!UICONTROL 동일한 테이블에 모든 하위 집합 생성]** 옵션을 사용하면 모든 하위 집합을 단일 출력 전환으로 그룹화할 수 있습니다.
 
 1. **[!UICONTROL 출력 모집단의 중복 사용]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다.
 

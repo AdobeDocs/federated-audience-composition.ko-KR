@@ -3,13 +3,13 @@ audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 39%
 
 ---
-
 
 # 조정 {#reconciliation}
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-**조정** 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다. 조정 작업은 조인하려는 데이터가 이미 데이터베이스에 있음을 의미합니다. 예를 들어 어떤 제품을, 어떤 시간에, 어떤 고객이 구매했는지 등을 표시하는 구매 정보를 조정하려면 데이터베이스에는 이미 고객과 제품이 존재해야 합니다.
+식별되지 않은 데이터를 기존 리소스에 연결할 수 있습니다. 조정 작업은 조인하려는 데이터가 이미 데이터베이스에 있음을 의미합니다. 예를 들어 어떤 제품을, 어떤 시간에, 어떤 고객이 구매했는지 등을 표시하는 구매 정보를 조정하려면 데이터베이스에는 이미 고객과 제품이 존재해야 합니다.
 
 ## 조정 활동 구성 {#reconciliation-configuration}
 
