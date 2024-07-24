@@ -3,13 +3,13 @@ audience: end-user
 title: 데이터 보강 활동 사용
 description: 데이터 보강 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 48%
 
 ---
-
 
 # 보강 {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 52%
 >title="보강 데이터"
 >abstract="구성을 강화하는 데 사용할 데이터를 선택합니다. 보강 데이터의 두 가지 유형, 스키마(즉, 타겟팅 차원)의 단일 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
 
-**데이터 보강** 활동을 사용하면 대상 데이터를 통합 데이터베이스의 추가 정보로 향상시킬 수 있습니다. 이는 일반적으로 세그먼테이션 활동 후 컴포지션에서 사용됩니다.
+**데이터 보강** 활동을 사용하면 대상 데이터를 통합 데이터베이스의 추가 정보로 향상시킬 수 있습니다. 일반적으로 활동을 세분화한 후 구성에서 사용됩니다.
+
+페더레이션 데이터 구성 대상에 대한 연결을 구성한 경우 데이터 보강 활동을 사용하여 외부 데이터베이스의 특성을 사용하여 Adobe Experience Platform으로 들어오는 데이터를 보강할 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../../connections/destinations.md)
 
 보강 데이터의 출처는 다음 중 하나일 수 있습니다.
 
@@ -78,16 +80,17 @@ ht-degree: 52%
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## 예시 {#example}
+<!--
+## Examples {#example}
 
-### 단일 보강 속성 {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-여기에서 생년월일과 같은 단일 보강 속성만 추가합니다. 다음 단계를 수행하십시오.
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. **속성** 필드 내부를 클릭합니다.
-1. 스키마에서 타겟팅 차원이라고도 하는 간단한 필드(이 예제에서는 생년월일)를 선택합니다.
-1. **확인**&#x200B;을 클릭합니다.
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
