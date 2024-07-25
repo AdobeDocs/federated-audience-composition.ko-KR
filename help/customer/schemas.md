@@ -3,10 +3,11 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 스키마는 데이터베이스의 테이블을 나타냅니다. 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
 
-스키마를 만들면 FAC에서 표 표현을 조작할 수 있습니다.
+스키마를 생성하여 Experience Platform Federated Audience Composition에서 표 표현을 정의할 수 있습니다.
 
-- 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
-- 실제 용도에 따라 각 필드의 가시성을 결정합니다
-- 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
+* 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
+* 실제 용도에 따라 각 필드의 가시성을 결정합니다
+* 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
 
 ## 스키마 만들기 {#schema-create}
 
-FAC에서 스키마를 만들려면 아래 단계를 따르십시오.
-**[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 스키마]** 탭이 표시됩니다.
-**[!UICONTROL 스키마 만들기]** 단추를 클릭합니다.
+Federated Audience Composition에서 스키마를 생성하려면 아래 단계를 수행합니다.
 
-![](assets/schema_create.png){zoomable="yes"}
+1. **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 스키마]** 탭으로 이동하여 **[!UICONTROL 스키마 만들기]** 단추를 클릭합니다.
 
-드롭다운 목록이 있는 새 인터페이스에 액세스할 수 있습니다
-응용 프로그램에 연결된 모든 데이터베이스입니다. [데이터베이스 연결](../connections/connections.md#connections-fdb)에 대해 자세히 알아보세요.
-목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 테이블 추가]** 탭을 클릭합니다.
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   이 단계에서는 환경에 연결된 데이터베이스를 찾을 수 있는 드롭다운 목록이 있는 새 화면에 액세스할 수 있습니다. [이 섹션](../connections/connections.md#connections-fdb)에서 데이터베이스 연결에 대해 자세히 알아보세요.
 
-데이터베이스의 모든 테이블 목록에 액세스할 수 있습니다.
+1. 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 테이블 추가]** 탭을 클릭합니다.
 
-스키마를 생성할 테이블을 추가하면 다음과 같이 해당 필드에 액세스할 수 있습니다.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   그런 다음 데이터베이스의 모든 테이블 목록을 볼 수 있습니다.
 
-각 테이블에 대해 다음 작업을 수행할 수 있습니다.
+1. 스키마를 생성할 테이블을 추가하여 다음과 같이 해당 필드에 액세스할 수 있습니다.
 
-- 주어진 스키마 레이블 이름 바꾸기
-- 설명 추가
-- 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
-- 스키마 기본 키 선택
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-예를 들어 다음은 추가 바로 뒤에 가져온 표입니다.
+   각 테이블에 대해 다음 작업을 수행할 수 있습니다.
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * 스키마 레이블 변경
+   * 설명 추가
+   * 모든 필드의 이름을 바꾸고 가시성을 설정합니다.
+   * 스키마 기본 키 선택
 
-스키마는 다음과 같이 정의할 수 있습니다.
+   예를 들어 가져온 다음 표의 경우:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   스키마는 다음과 같이 정의할 수 있습니다.
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## 스키마 편집 {#schema-edit}
 
-스키마를 편집하려면 스키마 폴더에서 스키마 이름을 누릅니다. 아래 페이지에 액세스할 수 있습니다.
-**[!UICONTROL 편집]** 단추를 클릭합니다.
+스키마를 편집하려면:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. 스키마 폴더에서 스키마 이름을 누릅니다.
 
-스키마를 생성할 때와 동일한 가능성에 액세스할 수 있습니다.
+1. **[!UICONTROL 편집]** 단추를 클릭합니다.
 
-- 주어진 스키마 레이블 이름 바꾸기
-- 설명 추가
-- 모든 필드의 이름을 변경하고 표시 여부를 결정합니다.
-- 스키마 기본 키 선택
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스할 수 있습니다.
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## 스키마에서 데이터 미리 보기 {#schema-preview}
 
-스키마가 나타내는 테이블의 데이터를 미리 보려면 아래와 같이 **[!UICONTROL 데이터]** 탭으로 이동하십시오.
-**[!UICONTROL 계산]** 링크를 클릭하면 총 녹음/녹화 수를 사용할 수 있습니다.
+스키마가 나타내는 테이블의 데이터를 미리 보려면 아래와 같이 **[!UICONTROL 데이터]** 탭으로 이동합니다.
+
+총 녹음/녹화 수를 미리 보려면 **[!UICONTROL 계산]** 링크를 클릭하십시오.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-**[!UICONTROL 열 구성]** 단추를 클릭하여 데이터 개요를 변경할 수 있습니다.
+데이터 표시를 변경하려면 **[!UICONTROL 열 구성]** 단추를 클릭하십시오.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## 스키마 삭제 {#schema-delete}
 
-스키마를 삭제하려면 **[!UICONTROL 자세히]** 버튼을 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+스키마를 삭제하려면 **[!UICONTROL 자세히]** 버튼을 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/schema_delete.png){zoomable="yes"}

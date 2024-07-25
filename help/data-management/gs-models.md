@@ -4,15 +4,14 @@ title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 28%
 
 ---
 
 # 데이터 모델 시작 {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ ht-degree: 28%
 
 ## 데이터 모델 만들기 {#data-model-create}
 
-**[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 데이터 모델]** 탭이 있습니다.
+데이터 모델을 만들려면 다음 단계를 수행합니다.
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동하여 **[!UICONTROL 데이터 모델]** 탭으로 이동합니다.
 
-**[!UICONTROL 데이터 모델 만들기]** 단추를 클릭하면 데이터 모델의 이름을 지정하고 **[!UICONTROL 만들기]** 단추를 클릭할 수 있습니다.
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. **[!UICONTROL 데이터 모델 만들기]** 단추를 클릭하여 데이터 모델의 이름을 정의하고 **[!UICONTROL 만들기]** 단추를 클릭합니다.
 
-데이터 모델의 스키마, 대상자 및 링크를 추가할 수 있는 창에 액세스합니다.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. 그런 다음 데이터 모델의 스키마, 대상자 및 링크를 추가합니다.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### 링크 만들기 {#data-model-links}
 
-데이터 모델의 테이블 간에 링크를 만드는 방법은 두 가지가 있습니다.
+데이터 모델의 테이블 사이에 링크를 만들려면 다음 단계를 수행합니다.
 
-- 표 중 하나의 **[!UICONTROL 링크 만들기]** 메뉴에서 바로 클릭합니다.
-- **[!UICONTROL 링크 만들기]** 단추를 클릭하고 2개의 테이블을 선택합니다.
+1. 표 중 하나의 **[!UICONTROL 링크 만들기]** 메뉴를 클릭하거나 **[!UICONTROL 링크 만들기]** 단추를 클릭하고 두 개의 표를 선택합니다.
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-주어진 양식을 채워 링크 를 정의합니다.
+1. 링크를 정의하려면 주어진 양식을 입력합니다.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
+   데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## 비디오에서 데이터 모델 만들기 {#data-model-video}
+## 비디오 방법 {#data-model-video}
+
+이 비디오에서는 데이터 모델을 만드는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
