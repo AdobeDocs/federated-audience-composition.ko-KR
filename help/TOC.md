@@ -1,11 +1,11 @@
 ---
-user-guide-title: 페더레이션된 대상자 구성
-title: Adobe Federated Audience Composition 설명서
-breadcrumb-title: 페더레이션된 대상자 구성
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+user-guide-title: Experience Platform 페더레이션 대상 구성
+title: Experience Platform Federated Audience Composition 설명서
+breadcrumb-title: Experience Platform 페더레이션 대상 구성
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 37%
+source-wordcount: '141'
+ht-degree: 31%
 
 ---
 

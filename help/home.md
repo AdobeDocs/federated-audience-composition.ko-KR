@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Federated Audience Composition 설명서 홈페이지
+title: Adobe Experience Platform Federated Audience Composition 설명서 홈페이지
 description: 문서 개요입니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # Federated Audience Composition 설명서  {#fac-home}
 
 Adobe Experience Platform Federated Audience Composition 설명서를 시작합니다.
 
-Federated Audience Composition은 Adobe Real-Time CDP 및 Adobe Journey Optimizer 사용자에게 데이터 관리의 유연성과 효율성을 제공합니다. Federated Audience Composition을 사용하면 마케터에게 친숙한 UI를 사용하여 Enterprise Data Warehouse에 액세스하여 기본 Enterprise 데이터를 유지하지 않고도 대상을 구축하고 Adobe Experience Platform 워크플로우에서 데이터 세트를 활용할 수 있습니다. 따라서 경험 사용 사례를 위해 데이터 웨어하우스에 액세스할 때 데이터 이동을 줄일 수 있습니다.
+Experience Platform Federated Audience Composition은 Adobe Real-Time CDP 및 Adobe Journey Optimizer 사용자에게 데이터 관리의 유연성과 효율성을 제공합니다. Federated Audience Composition을 사용하면 마케터에게 친숙한 UI를 사용하여 Enterprise Data Warehouse에 액세스하여 기본 Enterprise 데이터를 유지하지 않고도 대상을 구축하고 Adobe Experience Platform 워크플로우에서 데이터 세트를 활용할 수 있습니다. 따라서 경험 사용 사례를 위해 데이터 웨어하우스에 액세스할 때 데이터 이동을 줄일 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ Federated Audience Composition은 Adobe Real-Time CDP 및 Adobe Journey Optimize
 ## 추가 리소스  {#additional-resources}
 
 [Real-time Customer Data Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe 대상 포털 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

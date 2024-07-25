@@ -1,18 +1,18 @@
 ---
 title: 자주 묻는 질문
-description: FAQ
+description: Adobe Experience Platform Federated Audience 구성에 대한 FAQ
 badge: label="제한된 가용성" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
 
 # 자주 묻는 질문 {#faq}
 
-다음은 Federated Audience 구성에 대한 FAQ 목록입니다. [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}의 Adobe Experience Platform 세분화 서비스에 대한 전역 FAQ도 사용할 수 있습니다.
+다음은 Adobe Experience Platform Federated Audience 구성에 대한 FAQ 목록입니다. [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}의 Adobe Experience Platform 세분화 서비스에 대한 전역 FAQ도 사용할 수 있습니다.
 
 
 +++Federated Audience Composition에 액세스하는 데 필요한 권한은 무엇입니까?

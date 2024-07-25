@@ -3,9 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 6%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 6%
 >title="페더레이션된 데이터베이스 세부 정보"
 >abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
 
-고객은 Federated Audience Composition을 통해 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다.
+Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다.
 
 이 페이지에서 외부 데이터베이스에 대한 연결을 생성, 구성, 테스트 및 저장하는 방법을 알아봅니다.
 
@@ -254,4 +255,3 @@ Federated Audience Composition을 사용하여 다음 데이터베이스에 연�
 | 옵션 | 설명 |
 |---|---|
 | 시간대 이름 | 기본적으로 비어 있음, 즉 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. |
-
