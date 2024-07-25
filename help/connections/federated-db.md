@@ -4,7 +4,7 @@ title: 페더레이션된 데이터베이스 시작하기
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 6%
@@ -111,7 +111,7 @@ Federated Audience Composition을 사용하여 다음 데이터베이스에 연�
 1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
 
 | 옵션 | 설명 |
-|:-:|:-:|
+|---|---|
 | 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [SQL 문서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)(연결 문자열 n°8 예제)를 참조하십시오. |
 
 
@@ -150,7 +150,7 @@ Federated Audience Composition을 사용하여 다음 데이터베이스에 연�
 1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭하여 통합 데이터베이스를 만듭니다.
 
 | 옵션 | 설명 |
-|:-:|:-:|
+|---|---|
 | ProxyType | ODBC 및 SDK 커넥터를 통해 BigQuery에 연결하는 데 사용되는 프록시 유형입니다. </br>HTTP(기본값), http_no_tunnel, socks4 및 socks5가 현재 지원됩니다. |
 | ProxyHost | 프록시에 연결할 수 있는 호스트 이름 또는 IP 주소입니다. |
 | ProxyPort | 프록시가 실행 중인 포트 번호(예: 8080) |
