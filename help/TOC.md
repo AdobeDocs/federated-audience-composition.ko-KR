@@ -2,15 +2,15 @@
 user-guide-title: Experience Platform 페더레이션 대상 구성
 title: Experience Platform Federated Audience Composition 설명서
 breadcrumb-title: Experience Platform 페더레이션 대상 구성
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 31%
 
 ---
 
 
-# Federated Audience Composition 설명서 {#using}
+# Experience Platform Federated Audience Composition 설명서 {#using}
 
 + [Federated Audience Composition 설명서](home.md)
 + [릴리스 정보](start/release-notes.md)
