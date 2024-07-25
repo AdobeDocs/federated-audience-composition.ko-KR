@@ -3,9 +3,9 @@ title: 자주 묻는 질문
 description: FAQ
 badge: label="제한된 가용성" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 +++Federated Audience Composition에 액세스하는 데 필요한 권한은 무엇입니까?
 
-Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기능에 액세스하기 위한 유일한 전제 조건은 Federated Audience Composition 추가 기능을 구입한 것입니다.
+Federated Audience Composition을 사용하려면 Adobe Real-time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기능에 액세스하기 위한 유일한 전제 조건은 Federated Audience Composition 추가 기능을 구입한 것입니다.
 
 +++
 
@@ -61,7 +61,7 @@ Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기�
 
 +++Federated Audience 구성에 임시 저장소가 있습니까?
 
-아니요. Federated Audience Composition은 메타데이터(스키마 설명)만 저장합니다. 전송 중인 고객 데이터가 없습니다. 대상 내보내기 흐름은 Adobe Experience Platform 대상 포털([대상](../connections/destinations.md)을 통해)에서 고객 데이터베이스로 직접 수행됩니다. 작성 및 업데이트 흐름은 데이터 웨어하우스 데이터베이스에서 Adobe Experience Platform 대상 포털로 직접 수행됩니다.
+아니요. Federated Audience Composition은 메타데이터(스키마 설명)만 저장합니다. 전송 중인 고객 데이터가 없습니다. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Federated Audience Composition은 데이터의 물리적 사본을 유지 관리
 
 * 대상 강화의 경우 시작점은 기존 Adobe Experience Platform 대상입니다. 하나는 여기에서 두 가지 시나리오를 볼 수 있습니다.
    1. Federated Data Warehouse에서 추가 대상 페이로드 속성을 가져옵니다. 이 경우 추가되는 추가 속성은 이 대상 정의의 일부로 가져옵니다. 외부에서 생성된 대상에 대한 데이터 만료는 위에서 설명한 30일과 동일합니다.
-   1. 데이터 웨어하우스에 있는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상을 세분화합니다. 예를 들어 지난 2개월 동안 웹 사이트에서 특정 제품에 관심을 보인 고객 대상이 있습니다. 이제 이 대상을 가져와서 크레딧 점수가 높은 고객만 포함하도록 Federated Audience Composition을 사용하여 추가로 세그먼트화하려고 합니다. 신용 점수는 민감한 것으로 간주되며 개별 신용 점수 데이터 포인트는 Data Warehouse에서 복사되지 않습니다.
+   1. 데이터 웨어하우스에 있는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상을 세분화합니다. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++대상 만들기 및 대상 강화 사용 사례 패턴에 대한 데이터가 지속되지 않는 경우, 임시 저장되는 방법은 무엇입니까?
