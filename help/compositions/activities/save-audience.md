@@ -4,10 +4,10 @@ title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,13 @@ ht-degree: 18%
    * **기본 ID 필드**: 프로필을 식별하는 데 사용할 필드를 선택합니다. 예를 들어 이메일 주소나 전화번호 등이 있습니다.
    * **ID 네임스페이스**: 프로필을 식별하는 데 사용할 네임스페이스(예: 식별 키로 사용할 데이터 유형)를 선택합니다. 예를 들어 전자 메일 주소를 기본 ID 필드로 선택한 경우 ID 네임스페이스 **전자 메일**&#x200B;을(를) 선택해야 합니다. 고유 식별자가 전화번호인 경우 ID 네임스페이스 **Phone**&#x200B;을(를) 선택해야 합니다.
 
-컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 저장되고 **대상자** 메뉴에서 액세스할 수 있습니다. 생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Adobe Experience Platform에서 지원하는 모든 대상에 대해 대상을 활성화할 수 있습니다.
+## Adobe Experience Platform에서 대상자에 액세스 {#access-audience}
+
+컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Adobe Experience Platform에서 지원하는 모든 대상에 대해 대상을 활성화할 수 있습니다.
+
+[자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
