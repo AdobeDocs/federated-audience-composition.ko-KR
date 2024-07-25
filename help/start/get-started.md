@@ -2,13 +2,13 @@
 title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # Federated Audience 구성 시작 {#gs-fac}
 
@@ -20,7 +20,7 @@ Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사
 
 마케팅 친화적인 UI를 통해 마케팅 캠페인에 필요한 특정 세그먼트에 적합한 사용자 목록을 데이터 웨어하우스에 쿼리하는 세그먼트 규칙을 만들거나, 활성화를 위해 웨어하우스의 기존 대상에 액세스하거나, 웨어하우스에 존재하는 추가 데이터 포인트로 Adobe Experience Platform 대상을 보강합니다.
 
-이 버전에서는 대상 세그멘테이션 및 대상 보강의 두 가지 사용 사례를 사용할 수 있습니다. 향후 릴리스에서 프로필 강화를 사용할 수 있습니다.
+이 버전에서는 대상 만들기 및 대상 강화의 두 가지 사용 사례를 사용할 수 있습니다. 향후 릴리스에서 프로필 강화를 사용할 수 있습니다.
 
 ![다이어그램](assets/fac-use-cases.png){zoomable="yes"}
 
@@ -39,6 +39,12 @@ Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 
 3. **데이터 변환**: 데이터 조작 기술을 적용하여 데이터 요소의 형식, 구조 또는 값을 수정하여 특정 분석 또는 응용 프로그램에 호환되거나 적합하도록 만듭니다.
 
 4. **데이터 사용**: 대상을 만들고, 조정하고, 빌드합니다. [이 페이지](../compositions/gs-compositions.md)에서 대상자를 구성하는 방법을 알아보세요. Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](../connections/destinations.md)에서 자세히 알아보기
+
+
+>[!NOTE]
+>
+>컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
