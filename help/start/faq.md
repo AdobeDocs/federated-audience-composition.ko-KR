@@ -2,13 +2,13 @@
 title: 자주 묻는 질문
 description: FAQ
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # 자주 묻는 질문 {#faq}
 
@@ -71,7 +71,7 @@ Federated Audience Composition은 데이터의 물리적 사본을 유지 관리
 
 예:
 
-* 대상 세그멘테이션의 경우 대상이 웨어하우스에 만들어지므로, 결과 대상 및 관련 특성을 Adobe Experience Platform 대상 포털을 통해 게시하기 전에 추가 구성 작업 및 데이터 조작에 Federated Audience Composition을 사용할 수 있습니다. 대상 정의 및 관련 속성은 Adobe Experience Platform으로 넘어갑니다.
+* 대상 만들기의 경우, 대상은 웨어하우스에서 만들어지며, 결과 대상 및 관련 속성을 Adobe Experience Platform 대상 포털을 통해 게시하기 전에 추가 구성 작업 및 데이터 조작에 Federated Audience Composition을 사용할 수 있습니다. 대상 정의 및 관련 속성은 Adobe Experience Platform으로 넘어갑니다.
 외부에서 생성된 대상에 대한 현재 데이터 만료는 30일입니다. 이 데이터 만료는 조직 내에 저장된 초과 데이터의 양을 줄입니다. 데이터 만료 기간이 지난 후에도 연결된 데이터 세트는 데이터 세트 인벤토리 내에 계속 표시되지만 대상자를 활성화할 수 없으며 프로필 카운트는 0으로 표시됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}를 참조하세요.
 
 * 대상 강화의 경우 시작점은 기존 Adobe Experience Platform 대상입니다. 하나는 여기에서 두 가지 시나리오를 볼 수 있습니다.
@@ -79,7 +79,7 @@ Federated Audience Composition은 데이터의 물리적 사본을 유지 관리
    1. 데이터 웨어하우스에 있는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상을 세분화합니다. 예를 들어 지난 2개월 동안 웹 사이트에서 특정 제품에 관심을 보인 고객 대상이 있습니다. 이제 이 대상을 가져와서 크레딧 점수가 높은 고객만 포함하도록 Federated Audience Composition을 사용하여 추가로 세그먼트화하려고 합니다. 신용 점수는 민감한 것으로 간주되며 개별 신용 점수 데이터 포인트는 Data Warehouse에서 복사되지 않습니다.
 +++
 
-+++대상 세분화 및 대상 강화 사용 사례 패턴에 대한 데이터가 지속되지 않는 경우 임시 저장되는 방법은 무엇입니까?
++++대상 만들기 및 대상 강화 사용 사례 패턴에 대한 데이터가 지속되지 않는 경우, 임시 저장되는 방법은 무엇입니까?
 
 결과 대상 데이터는 Adobe Experience Platform 또는 Federated Audience Composition에서 무기한 지속되지 않습니다. 사용 사례에서 요구하는 것보다 더 이상 유지되지 않습니다. 대상 페이로드의 일부로 가져온 대상 속성은 대상 정의의 일부로서만 유지됩니다. 지속성 기간은 모든 대상의 TTL을 기반으로 합니다. 기본값은 30일입니다.
 
