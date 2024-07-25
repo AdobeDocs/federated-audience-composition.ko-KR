@@ -3,9 +3,9 @@ title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
+source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '510'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사
 
 마케팅 친화적인 UI를 통해 마케팅 캠페인에 필요한 특정 세그먼트에 적합한 사용자 목록을 데이터 웨어하우스에 쿼리하는 세그먼트 규칙을 만들거나, 활성화를 위해 웨어하우스의 기존 대상에 액세스하거나, 웨어하우스에 존재하는 추가 데이터 포인트로 Adobe Experience Platform 대상을 보강합니다.
 
-이 버전에서는 대상 만들기 및 대상 강화의 두 가지 사용 사례를 사용할 수 있습니다. 향후 릴리스에서 프로필 강화를 사용할 수 있습니다.
+이 버전에서는 대상 만들기 및 대상 강화의 두 가지 사용 사례를 사용할 수 있습니다.
 
 ![다이어그램](assets/fac-use-cases.png){zoomable="yes"}
 
