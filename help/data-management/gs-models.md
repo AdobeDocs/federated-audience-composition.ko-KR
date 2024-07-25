@@ -3,10 +3,11 @@ audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
+source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 29%
+source-wordcount: '227'
+ht-degree: 28%
 
 ---
 
@@ -75,3 +76,7 @@ ht-degree: 29%
 데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## 비디오에서 데이터 모델 만들기 {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)
