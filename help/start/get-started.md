@@ -3,7 +3,7 @@ title: Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: d198b0cb3584d204b4c5c54a584049173add0603
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사
 
 이 버전에서는 대상 만들기 및 대상 강화의 두 가지 사용 사례를 사용할 수 있습니다.
 
-![다이어그램](assets/fac-use-cases.png){zoomable="yes"}
+![다이어그램](assets/fac-use-cases.png){zoomable="yes"}{width="85%" align="center"}
 
 ## 주요 단계 {#gs-steps}
 
 Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 데이터베이스에서 직접 Adobe Experience Platform 대상을 만들고 업데이트할 수 있습니다.
 
-![다이어그램](assets/steps-diagram.png){zoomable="yes"}
+![다이어그램](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 주요 단계:
 
