@@ -3,13 +3,13 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # 컴포지션 시작 및 모니터링 {#start-monitor}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 컴포지션에서는 전환을 통해 한 활동에서 다른 활동으로 전송된 데이터가 임시 작업 표에 저장됩니다. 각 전환에 대해 이 데이터를 표시할 수 있습니다. 이렇게 하려면 전환을 선택하여 화면 오른쪽에서 속성을 엽니다.
 
 * 작업 테이블의 스키마를 표시하려면 **[!UICONTROL 스키마 미리 보기]**&#x200B;를 클릭하십시오.
-* 선택한 전환에서 전송된 데이터를 시각화하려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 클릭하십시오.
+* 선택한 전환에서 전송된 데이터를 시각화하려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 클릭하십시오. 이 옵션은 **[!UICONTROL 두 실행 사이에 중간 모집단 결과 유지]** 옵션이 활성화된 경우에만 사용할 수 있습니다. [자세히 알아보기](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 

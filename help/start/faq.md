@@ -3,9 +3,9 @@ title: 자주 묻는 질문
 description: Adobe Experience Platform Federated Audience 구성에 대한 FAQ
 badge: label="제한된 가용성" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Federated Audience Composition은 데이터의 물리적 사본을 유지 관리
 
 +++업로드한 사용자 지정 대상자를 삭제할 수 있습니까?
 
-작업 메뉴에서 삭제를 선택하면 Audience Portal에서 직접 다운스트림 활성화에 사용되지 않는 대상을 삭제할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}를 참조하세요.
+아니요. 현재 버전에서는 사용자 지정 업로드 대상자를 삭제할 수 없습니다. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
