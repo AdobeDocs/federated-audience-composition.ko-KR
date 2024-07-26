@@ -4,9 +4,9 @@ title: 외부 데이터로 Adobe Experience Platform 대상 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform을 사용하면 **Adobe Federated Audience Composition
 
 이렇게 하려면 Adobe Experience Platform에서 Adobe Federated Audience Composition 대상에 대한 새 연결을 설정해야 합니다. 스케줄러를 사용하여 특정 대상을 정기적으로 보내고, 포함할 특정 속성(예: 데이터 조정을 위한 ID)을 선택할 수 있습니다. 거버넌스 및 개인정보 처리방침을 대상에 적용한 경우 대상이 업데이트되면 유지되어 대상 포털로 다시 전송됩니다.
 
-예를 들어, 데이터 웨어하우스에 고객 신용 점수를 저장하고 지난 2개월 내에 특정 제품에 관심이 있는 고객을 타깃팅하는 Adobe Experience Platform 대상이 있는 경우 페더레이션 대상 구성 대상을 사용하여 신용 점수를 기반으로 이 대상을 세분화할 수 있습니다. 이 프로세스를 사용하면 데이터 웨어하우스에서 민감한 신용 점수 데이터를 전송하지 않고 신용 점수가 높은 프로필만 포함하도록 대상자를 필터링할 수 있습니다.
+예를 들어 데이터 웨어하우스에 구매 정보를 저장하고 최근 2개월 이내에 특정 제품에 관심이 있는 고객을 타깃팅하는 Adobe Experience Platform 대상을 보유하고 있다고 가정해 보겠습니다. Federated Audience Composition 대상을 사용하여 다음을 수행할 수 있습니다.
+
+* 구매 정보를 기반으로 대상자를 세분화합니다. 예를 들어 150$ 이상을 구매한 고객을 타겟팅하도록 대상을 필터링할 수 있습니다.
+* 제품 이름 및 구매 수량 등 구매와 관련된 필드로 대상자를 보강합니다.
 
 Adobe Experience Platform 대상자를 Adobe Federated Audience Composition으로 전송하는 주요 단계는 다음과 같습니다.
 
