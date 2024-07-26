@@ -3,7 +3,7 @@ audience: end-user
 title: 스케줄러 활동 사용
 description: 스케줄러 활동을 사용하는 방법 알아보기
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 **스케줄러** 활동은 **흐름 제어** 활동입니다. 이를 통해 컴포지션이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 컴포지션의 첫 번째 활동으로만 사용할 수 있습니다.
 
-페더레이션 데이터 컴포지션 대상에 대한 연결을 구성한 경우 이 활동을 사용하여 Adobe Experience Platform 대상자를 정기적인 빈도로 보낼 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../../connections/destinations.md)
+Federated Audience Composition 대상에 대한 연결을 구성한 경우 이 활동을 사용하여 Adobe Experience Platform 대상자를 정기적인 빈도로 보낼 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

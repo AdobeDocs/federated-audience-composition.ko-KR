@@ -4,7 +4,7 @@ title: 데이터 보강 활동 사용
 description: 데이터 보강 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 48%
@@ -40,7 +40,7 @@ ht-degree: 48%
 
 **데이터 보강** 활동을 사용하면 대상 데이터를 통합 데이터베이스의 추가 정보로 향상시킬 수 있습니다. 일반적으로 활동을 세분화한 후 구성에서 사용됩니다.
 
-페더레이션 데이터 구성 대상에 대한 연결을 구성한 경우 데이터 보강 활동을 사용하여 외부 데이터베이스의 특성을 사용하여 Adobe Experience Platform으로 들어오는 데이터를 보강할 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../../connections/destinations.md)
+Federated Audience Composition 대상에 대한 연결을 구성한 경우 데이터 보강 활동을 사용하여 외부 데이터베이스의 속성으로 Adobe Experience Platform에 들어오는 데이터를 보강할 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../../connections/destinations.md)
 
 보강 데이터의 출처는 다음 중 하나일 수 있습니다.
 
