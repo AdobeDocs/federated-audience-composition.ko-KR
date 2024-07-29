@@ -4,10 +4,10 @@ title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Federated Audience Composition에서는 여러 데이터 모델을 만들 수 �
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
+   **카디널리티**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: 소스 테이블의 발생 항목 하나는 타겟 테이블의 여러 발생 항목을 가질 수 있지만, 타겟 테이블의 발생 항목 하나는 소스 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+
+   * N-1: 대상 테이블의 발생 항목 하나는 소스 테이블의 여러 발생 항목을 가질 수 있지만, 소스 테이블의 발생 항목 하나는 대상 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+
+   * 1-1: 소스 테이블의 발생 항목 하나는 타겟 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+
+데이터 모델에 대해 정의된 모든 링크가 다음과 같이 나열됩니다.
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## 비디오 방법 {#data-model-video}
 
