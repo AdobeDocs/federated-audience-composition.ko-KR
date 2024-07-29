@@ -3,7 +3,7 @@ title: Experience Platform Federated Audience 구성 시작
 description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 
 
 4. **데이터 사용**: 대상을 만들고, 조정하고, 빌드합니다. [이 페이지](../compositions/gs-compositions.md)에서 대상자를 구성하는 방법을 알아보세요. Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](../connections/destinations.md)에서 자세히 알아보기
 
-
 >[!NOTE]
 >
 >컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## 추가 정보 {#learn}
 
@@ -74,9 +70,6 @@ Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 
 >id="dc_workflow_settings_execution"
 >title="실행 설정"
 >abstract="이 섹션에서는 작성 기록이 유지되는 일 수와 같이 워크플로우 실행과 관련된 설정을 구성할 수 있습니다."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

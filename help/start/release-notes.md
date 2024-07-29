@@ -3,9 +3,9 @@ title: Experience Platform Federated Audience 컴포지션의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 badge: label="제한된 가용성" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ Federated Audience Composition은 웨어하우스 데이터 세트로 대상을 
 
 [이 페이지](get-started.md) 및 [자주 묻는 질문](get-started.md#faq)에서 Federated Audience Composition 기능에 대해 자세히 알아보세요.
 
-## Federated Audience 컴포지션에 액세스 {#fac-access}
+Federated Audience Composition 및 현재 보호 기능에 액세스하기 위한 사전 요구 사항에 대한 자세한 내용은 [이 페이지](access-prerequisites.md)를 참조하세요.
 
-Federated Audience Composition을 사용하려면 Adobe Real-time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다.
-
-Federated Audience Composition에 대한 특정 권한은 없습니다. 이 기능에 액세스하기 위한 유일한 전제 조건은 Federated Audience Composition 추가 기능을 구입한 것입니다.
-
->[!AVAILABILITY]
->
->Adobe에서 환영 이메일 알림을 받은 후 인터페이스 및 사용 가능한 기능을 업데이트하는 데 몇 시간이 더 걸릴 수 있습니다.
->
-
-## 사전 요구 사항 및 보호 기능 {#fac-guardrails}
-
-* Federated Audience Composition은 Privacy &amp; Security Shield와 호환되며, 의료 산업을 제외한 모든 버티컬에서 사용할 수 있습니다. 현재, 상태 데이터를 수집하려는 고객은 Federated Audience Composition에 라이선스를 부여할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Data Warehouse에 대한 액세스를 활성화하고 Federated Audience Composition을 사용하려면 IP 주소를 허용 목록에 추가해야 합니다. IP 주소를 허용 목록에 추가하려면 Adobe 담당자에게 문의하십시오.
-
-* [Adobe Real-time Customer Data Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 자격, 제품 제한 및 성능 보호가 이 추가 기능에 적용됩니다.
