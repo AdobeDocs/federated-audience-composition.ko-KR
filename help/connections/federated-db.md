@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 페더레이션된 데이터베이스 시작하기
+title: 통합 데이터베이스 시작
 description: 페더레이션 데이터베이스를 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 6%
+source-wordcount: '1560'
+ht-degree: 4%
 
 ---
 
-# 페더레이션된 데이터베이스 시작하기 {#federated-db}
+# 통합 데이터베이스 시작 {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="페더레이션된 데이터베이스"
->abstract="페더레이션된 데이터베이스에 대해 이전에 처리된 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **[!UICONTROL 페더레이션된 데이터베이스 추가]** 버튼을 클릭하십시오."
+>title="통합 데이터베이스"
+>abstract="페더레이션 데이터베이스에 대한 기존 연결이 이 화면에 나열됩니다. 새 연결을 생성하려면 **[!UICONTROL 페더레이션된 데이터베이스 추가]** 버튼을 클릭하십시오."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -214,7 +214,7 @@ Federated Audience Composition을 사용하여 다음 데이터베이스에 연�
 |---|---|
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마 |
 | warehouse | 사용할 기본 웨어하우스 이름. 사용자의 기본값보다 우선 적용됩니다. |
-| 시간대 이름 | 기본적으로 비어 있음, 즉 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)를 참조하세요. |
+| 시간대 이름 | 기본적으로 비어 있음, 즉 시스템 시간대 앱 서버가 사용됩니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)를 참조하세요. |
 | WeekStart | WEEK_START 세션 매개 변수. 기본적으로 0으로 설정됩니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)를 참조하세요. |
 | UseCachedResult | USE_CACHED_RESULTS 세션 매개 변수 기본적으로 TRUE로 설정됩니다. 이 옵션은 캐시된 Snowflake 결과를 비활성화하는 데 사용할 수 있습니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)를 참조하세요. |
 | bulkThread | Snowflake 벌크 로더에 사용할 스레드 수. 더 많은 스레드는 더 큰 벌크 로드에 대해 더 나은 성능을 의미합니다. 기본적으로 1로 설정됩니다. 컴퓨터 스레드 수에 따라 숫자를 조정할 수 있습니다. |
@@ -266,4 +266,4 @@ Federated Audience Composition을 사용하여 다음 데이터베이스에 연�
 
 | 옵션 | 설명 |
 |---|---|
-| 시간대 이름 | 기본적으로 비어 있음, 즉 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. |
+| 시간대 이름 | 기본적으로 비어 있음 - 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 옵션을 사용하여 시간대 세션 매개 변수를 강제 적용할 수 있습니다. |
