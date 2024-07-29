@@ -4,7 +4,7 @@ title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="구성 속성"
 >abstract="이 화면에서 구성을 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 옵션 섹션을 확장하여 구성 내부 이름, 해당 폴더, 시간대, 감독자 그룹 등의 추가적인 설정을 구성합니다. 오류가 발생하는 경우 운영자에게 경고할 수 있도록 감독자 그룹을 선택할 것이 권장됩니다."
 
-## 작곡 안에 무엇이 들어 있나요? {#gs-composition-inside}
+## 컴포지션 내부에 포함된 항목 {#gs-composition-inside}
 
 Experience Platform 연합 대상 컴포지션은 다양한 활동(분할, 강화 등)을 활용하여 대상을 만들 수 있는 시각적 캔버스를 제공합니다.
 

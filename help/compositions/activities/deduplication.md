@@ -3,13 +3,13 @@ audience: end-user
 title: 중복 제거 활동 사용
 description: 중복 제거 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 57%
+ht-degree: 43%
 
 ---
-
 
 # 중복 제거 {#deduplication}
 
@@ -47,13 +47,13 @@ ht-degree: 57%
 
    ![](../assets/deduplication.png)
 
-1. **[!UICONTROL 중복 제거 설정]** 섹션에서 고유한 **[!UICONTROL 유지할 중복 항목 수]**&#x200B;를 선택하십시오. 이 필드의 기본값은 1입니다. 값 0을 사용하면 모든 중복을 유지할 수 있습니다.
+1. **[!UICONTROL 중복 제거 설정]** 섹션에서 고유한 **[!UICONTROL 유지할 중복 항목 수]**&#x200B;를 선택하십시오. 이 필드의 기본값은 **1**&#x200B;입니다. 값 **0**&#x200B;을(를) 사용하면 모든 중복을 유지할 수 있습니다.
 
    예를 들어 레코드 A와 B가 레코드 Y의 중복으로 간주되고 레코드 C가 레코드 Z의 중복으로 간주되는 경우:
 
-   * 필드의 값이 1인 경우 레코드 Y와 Z만 유지됩니다.
-   * 필드의 값이 0인 경우 모든 레코드가 유지됩니다.
-   * 필드의 값이 2인 경우 레코드 C와 Z는 유지되고 A, B 및 Y의 두 레코드는 우연히 또는 이후에 선택한 중복 제거 방법에 따라 유지됩니다.
+   * 필드의 값이 **1**&#x200B;인 경우 Y 및 Z 레코드만 유지됩니다.
+   * 필드의 값이 **0**&#x200B;인 경우 모든 레코드가 유지됩니다.
+   * 필드의 값이 **2**&#x200B;인 경우 레코드 C와 Z는 유지되고 A, B 및 Y의 두 레코드는 우연히 또는 이후에 선택한 중복 제거 방법에 따라 유지됩니다.
 
 1. 사용할 **[!UICONTROL 중복 제거 방법]**&#x200B;을(를) 선택하십시오.
 

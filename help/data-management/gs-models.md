@@ -4,7 +4,7 @@ title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%

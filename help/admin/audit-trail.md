@@ -3,10 +3,11 @@ audience: end-user
 title: 감사 추적 시작하기
 description: 감사 추적을 사용하여 데이터베이스를 모니터링하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 11%
 
 1. **[!UICONTROL 페더레이션 데이터]** 메뉴에서 **[!UICONTROL 감사 추적]**&#x200B;을 선택합니다.
 
-1. 엔터티 목록과 함께 **[!UICONTROL 감사 추적]** 창이 열립니다. Adobe Campaign 웹 사용자 인터페이스는 워크플로우, 옵션, 게재 및 스키마에 대한 만들기, 편집 및 삭제 작업을 감사합니다.
+1. 엔터티 목록과 함께 **[!UICONTROL 감사 추적]** 창이 열립니다. Federated Audience Composition은 워크플로우, 옵션, 게재 및 스키마에 대한 만들기, 편집 및 삭제 작업을 감사합니다.
 
    ![](assets/audit_trail.png)
 
