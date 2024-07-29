@@ -4,10 +4,10 @@ title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## 데이터 모델이란? {#data-model-start}
 
-데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다.
+데이터 모델은 스키마, 대상 및 두 스키마 간의 링크 집합입니다. 데이터베이스 데이터로 대상자를 연합하는 데 사용됩니다.
 
 [스키마](../customer/schemas.md#schema-start)에 대해 자세히 알아보세요.
 
 [대상](../start/audiences.md)에 대해 자세히 알아보세요.
+
+예를 들어 데이터 모델의 표현(이름 포함 테이블 및 테이블 간 링크)이 아래에 표시되어 있습니다.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+Federated Audience Composition에서는 여러 데이터 모델을 만들 수 있습니다.
+
+작성은 사용 사례를 기반으로 합니다. 필요한 표를 선택하고 필요에 따라 연결합니다.
 
 ## 데이터 모델 만들기 {#data-model-create}
 
