@@ -1,20 +1,20 @@
 ---
 title: Experience Platform Federated Audience 구성 시작
-description: Adobe Federated Audience Composition이란 무엇이며 Adobe Experience Platform에서 이를 사용하는 방법을 알아봅니다.
+description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 8%
+source-wordcount: '722'
+ht-degree: 57%
 
 ---
 
-# Federated Audience 구성 시작 {#gs-fac}
+# 페더레이션된 대상자 구성 시작하기 {#gs-fac}
 
-Federated Audience Composition은 타사 데이터 웨어하우스에서 대상을 빌드하고 보강하여 Adobe Experience Platform으로 대상을 가져올 수 있는 [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}용 추가 기능입니다. Federated Audience Composition은 Adobe Real-time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 직접 Enterprise Data Warehouse를 연결하고, Data Warehouse 테이블에서 쿼리를 수행하는 쉽고 강력한 솔루션을 제공합니다.
+Federated Audience Composition은 타사 데이터 웨어하우스에서 대상을 빌드하고 보강하여 Adobe Experience Platform으로 대상을 가져올 수 있는 [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}용 추가 기능입니다. 페더레이션된 대상자 구성은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
 
-Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사용자는 데이터 웨어하우스와 Amazon Redshift, Azure synapse Analytics 등의 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있습니다. 고객 데이터는 여러 데이터 웨어하우스에서 사용할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에 나열됩니다.
+Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에 나열됩니다.
 
 ## 기능 {#rn-capabilities}
 
@@ -30,7 +30,7 @@ Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사
 
 ## 사용 사례 {#rn-uc}
 
-마케팅 친화적인 UI를 통해 마케팅 캠페인에 필요한 특정 세그먼트에 적합한 사용자 목록을 데이터 웨어하우스에 쿼리하는 세그먼트 규칙을 만들거나, 활성화를 위해 웨어하우스의 기존 대상에 액세스하거나, 웨어하우스에 존재하는 추가 데이터 포인트로 Adobe Experience Platform 대상을 보강합니다.
+마케팅 친화적인 UI를 통해 마케팅 캠페인에 필요한 특정 세그먼트에 적합한 사용자 목록을 데이터 웨어하우스에 쿼리하고, 활성화를 위해 데이터 웨어하우스의 기존 대상자에 액세스하거나, 데이터 웨어하우스에 존재하는 추가 데이터 포인트로 Adobe Experience Platform 대상자를 강화하는 세그먼트 규칙을 만듭니다.
 
 이 버전에서는 두 가지 사용 사례를 사용할 수 있습니다.
 
@@ -42,34 +42,38 @@ Adobe Federated Audience Composition을 통해 Adobe Experience Platform 앱 사
 
 ## 주요 단계 {#gs-steps}
 
-Adobe Federated Audience Composition을 사용하면 수집 프로세스 없이 데이터베이스에서 직접 Adobe Experience Platform 대상을 만들고 업데이트할 수 있습니다.
+Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 없이 데이터베이스에서 Adobe Experience Platform 대상자를 직접 생성하고 업데이트할 수 있습니다.
 
 ![다이어그램](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 주요 단계:
 
-1. **데이터 통합**: 다양한 소스의 데이터를 가져와서 통합 데이터 집합에 병합합니다. Adobe Experience Platform 앱과 Enterprise Data Warehouse, 지원되는 데이터베이스를 연결하는 방법과 구성 방법에 대해 알아보려면 [이 섹션](../connections/federated-db.md)을 참조하세요.
+1. **데이터 통합**: 다양한 소스의 데이터를 모아서 통합 데이터 세트로 병합합니다. Adobe Experience Platform 앱과 기업 데이터 웨어하우스, 지원되는 데이터베이스를 연결하는 방법 및 이를 구성하는 방법에 대해서는 [이 섹션](../connections/federated-db.md)에서 자세히 설명합니다.
 
-2. **데이터 모델링**: 데이터의 구조, 관계 및 제약 조건을 정의하는 데이터 모델 및 스키마를 디자인하고 만듭니다. [이 페이지](../customer/schemas.md)에서 스키마에 대해 자세히 알아보세요. [이 페이지](../data-management/gs-models.md)에서 데이터 모델에 대한 링크를 만드는 방법을 알아보세요.
+2. **데이터 모델링**: 데이터의 구조, 관계 및 제약 조건을 정의하는 데이터 모델과 스키마를 설계하고 만듭니다. [이 페이지](../customer/schemas.md)에서 스키마에 대해 자세히 알아보십시오. [이 페이지](../data-management/gs-models.md)에서 데이터 모델에 대한 링크를 만드는 방법을 알아보십시오.
 
-3. **데이터 변환**: 데이터 조작 기술을 적용하여 데이터 요소의 형식, 구조 또는 값을 수정하여 특정 분석 또는 응용 프로그램에 호환되거나 적합하도록 만듭니다.
+3. **데이터 변환**: 데이터 조작 기술을 적용하여 데이터 요소의 형식, 구조 또는 값을 수정하여 특정 분석이나 애플리케이션에 적합하거나 호환되도록 만듭니다.
 
-4. **데이터 사용**: 대상을 만들고, 조정하고, 빌드합니다. [이 페이지](../compositions/gs-compositions.md)에서 대상자를 구성하는 방법을 알아보세요. Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](../connections/destinations.md)에서 자세히 알아보기
+4. **데이터 사용**: 대상자를 만들기, 조정 및 구축합니다. [이 페이지](../compositions/gs-compositions.md)에서 대상자를 구성하는 방법을 알아봅니다». Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](../connections/destinations.md)에서 자세히 알아보기
 
 >[!NOTE]
 >
->컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-## 추가 정보 {#learn}
+## 자세히 알아보기 {#learn}
 
 <!-- Workflow + Workflow activities-->
 
-[이 페이지](faq.md)에서 FAQ를 참조하십시오.
+
+[이 페이지](access-prerequisites.md)에서 Federated Audience Composition, 보호 기능 및 제한 사항에 액세스하는 방법을 알아봅니다.
+
+[이 페이지](faq.md)에서 자주 묻는 질문도 참조하세요.
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="실행 설정"
->abstract="이 섹션에서는 작성 기록이 유지되는 일 수와 같이 워크플로우 실행과 관련된 설정을 구성할 수 있습니다."
+>abstract="이 섹션에서는 구성 기록이 유지되는 일 수와 같이 워크플로 실행과 관련된 설정을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
