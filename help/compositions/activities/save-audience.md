@@ -4,9 +4,9 @@ title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '457'
 ht-degree: 17%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 17%
 
 컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Adobe Experience Platform에서 지원하는 모든 대상에 대해 대상을 활성화할 수 있습니다.
+생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Journey Optimizer에서 이 대상을 타기팅하거나 Adobe Experience Platform에서 지원하는 모든 대상으로 활성화할 수 있습니다.
 
 [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 

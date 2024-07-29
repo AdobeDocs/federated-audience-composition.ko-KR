@@ -3,9 +3,10 @@ audience: end-user
 title: 컴포지션 시작
 description: 컴포지션으로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '290'
 ht-degree: 10%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 10%
 
 ## 컴포지션이란 무엇입니까? {#what}
 
-Adobe 대상 컴포지션을 사용하면 컴포지션을 만들 수 있습니다. 여기서 다양한 활동(분할, 제외...)을 시각적 캔버스로 활용하여 대상을 만들 수 있습니다. 완료되면 결과 대상이 기존 대상과 함께 Adobe Experience Platform에 저장되고 Journey Optimizer과 같은 대상에서 활용하여 고객을 타깃팅할 수 있습니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../start/audiences.md)
+Adobe 대상 컴포지션을 사용하면 컴포지션을 만들 수 있습니다. 여기서 다양한 활동(분할, 제외...)을 시각적 캔버스로 활용하여 대상을 만들 수 있습니다. 완료되면 결과 대상이 기존 대상과 함께 Adobe Experience Platform에 저장되고 Adobe Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타깃팅할 수 있습니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

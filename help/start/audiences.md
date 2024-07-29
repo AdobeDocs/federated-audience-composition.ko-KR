@@ -4,9 +4,9 @@ title: 대상자를 사용한 작업
 description: 대상자를 사용한 작업 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Experience Platform 페더레이션 대상 컴포지션을 사용하면 [컴포지션을 만들 수 있습니다](../compositions/gs-compositions.md). 여기서 다양한 활동을 활용하여 시각적 캔버스에 대상을 만들고 Adobe Experience Platform 대상 포털에 저장할 수 있습니다.
 
-그런 다음 Adobe Experience Platform에서 지원하는 대상에 이러한 대상을 활성화할 수 있습니다.
+그런 다음 Journey Optimizer에서 이러한 대상을 타기팅하거나 Adobe Experience Platform에서 지원하는 대상으로 활성화할 수 있습니다.
 
 ## 컴포지션을 사용한 대상자 만들기 {#creation}
 
