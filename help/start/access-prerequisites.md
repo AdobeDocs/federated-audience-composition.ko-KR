@@ -2,9 +2,9 @@
 title: Federated Audience 컴포지션 액세스
 description: Federated Audience Composition에 액세스하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ Federated Audience Composition 추가 기능을 구매하면 해당 시점의 �
 
 ## IP 허용 목록 {#ip}
 
-Data Warehouse에 대한 액세스를 활성화하고 Federated Audience Composition을 사용하려면 IP 주소를 허용 목록에 추가해야 합니다. IP 주소를 허용 목록에 추가하려면 Adobe 담당자에게 문의하십시오.
+Federated Audience Composition이 데이터베이스에 액세스할 수 있도록 안전하게 활성화하려면 Adobe 담당자에게 문의하여 Federated Audience Composition 서버에 액세스할 IP 주소를 얻으십시오.
+
+이러한 IP 주소를 허용 목록에 추가하여 Federated Audience Composition에 대한 액세스 권한을 부여합니다.&quot;
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
