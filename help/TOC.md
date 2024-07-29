@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 페더레이션 대상 구성
 title: Experience Platform Federated Audience Composition 설명서
 breadcrumb-title: Experience Platform 페더레이션 대상 구성
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 81%
+source-wordcount: '145'
+ht-degree: 80%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 81%
    + [쿼리 모델러로 작업](query/query-modeler-overview.md)
    + [첫 번째 쿼리 작성](query/build-query.md)
    + [표현식 편집](query/expression-editor.md)
-+ 감사 추적 {#audit-trail}
-   + [데이터베이스 모니터링](admin/audit-trail.md)
++ [감사 추적](admin/audit-trail.md)
