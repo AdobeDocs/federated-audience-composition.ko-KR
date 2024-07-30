@@ -72,4 +72,4 @@ Experience Platform Federated Audience Composition은 Adobe Real-Time CDP 및 Ad
 
 ## 추가 리소스  {#additional-resources}
 
-[Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience 포털 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [ 튜토리얼](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [튜토리얼](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

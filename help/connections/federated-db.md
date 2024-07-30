@@ -165,7 +165,7 @@ Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이
 | bqpath | 이는 대량 로드 도구(Cloud SDK)에만 적용됩니다. </br> PATH 변수를 사용하지 않거나 Google-cloud-sdk 디렉터리를 다른 위치로 이동해야 하는 경우 이 옵션을 사용하여 서버의 cloud sdk bin 디렉터리에 대한 정확한 경로를 지정할 수 있습니다. |
 | GCloudConfigName | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> Google Cloud SDK는 구성을 사용하여 BigQuery 테이블에 데이터를 로드합니다. `accfda`라는 구성은 데이터를 로드하는 데 필요한 매개변수를 저장합니다. 단, 이 옵션을 사용하면 사용자가 구성에 대해 다른 이름을 지정할 수 있습니다. |
 | GCloudDefaultConfigName | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> Google Cloud SDK 구성은 먼저 활성 태그를 새 구성으로 전송하지 않으면 삭제할 수 없습니다. 이 임시 구성은 데이터 로딩을 위한 기본 구성을 다시 만드는 데 필요합니다. 임시 구성의 기본 이름은 `default`이며 필요한 경우 변경할 수 있습니다. |
-| GCloudRecreateConfig | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> `false`로 설정하면 대량 로딩 메커니즘은 Google Cloud SDK 구성을 다시 만들거나 삭제하거나 수정하지 않습니다. 대신, 머신의 기존 구성을 사용하여 데이터 로딩을 진행합니다. 이 기능은 다른 작업이 Google Cloud SDK 구성에 따라 달라질 때 유용합니다. </br> 사용자가 적절한 구성 없이 이 엔진 옵션을 활성화하면 대량 로딩 메커니즘에서 다음과 같은 경고 메시지를 표시합니다. `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. 추가 오류를 방지하기 위해 기본 ODBC 배열 삽입 대량 로딩 메커니즘을 다시 사용합니다. |
+| GCloudRecreateConfig | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> `false`로 설정하면 대량 로딩 메커니즘은 Google Cloud SDK 구성을 다시 만들거나 삭제하거나 수정하지 않습니다. 대신에 컴퓨터의 기존 구성을 사용하여 데이터 로딩을 진행합니다. 이 기능은 다른 작업이 Google Cloud SDK 구성에 따라 달라질 때 유용합니다. </br> 사용자가 적절한 구성 없이 이 엔진 옵션을 활성화하면 대량 로딩 메커니즘에서 다음과 같은 경고 메시지를 표시합니다. `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. 추가 오류를 방지하기 위해 기본 ODBC 배열 삽입 대량 로딩 메커니즘을 다시 사용합니다. |
 
 
 ## Snowflake {#snowflake}
