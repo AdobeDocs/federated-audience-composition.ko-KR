@@ -4,15 +4,14 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # 스키마 시작하기 {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="필터링할 소스 데이터베이스를 선택합니다."
 >abstract="소스를 기준으로 스키마를 필터링할 수 있습니다. 하나 이상의 페더레이션된 데이터베이스를 선택하여 해당 스키마를 표시합니다."
 
-
 ## 스키마 개요 {#schema-start}
 
 스키마는 데이터베이스의 테이블을 나타냅니다. 데이터가 데이터베이스 테이블에 연결되는 방식을 정의하는 애플리케이션 내의 객체입니다.
@@ -50,6 +48,10 @@ ht-degree: 23%
 * 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
 * 실제 용도에 따라 각 필드의 가시성을 결정합니다
 * 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
+
+>[!IMPORTANT]
+>
+>각 샌드박스에 대해 개별 페더레이션 데이터베이스 스키마를 사용하는 것이 좋습니다.
 
 ## 스키마 만들기 {#schema-create}
 
