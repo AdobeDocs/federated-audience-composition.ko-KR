@@ -2,7 +2,7 @@
 title: Federated Audience Composition 사전 요구 사항 및 보호 기능
 description: Federated Audience Composition의 사전 요구 사항, 권한 및 가드레일에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -27,7 +27,7 @@ Federated Audience Composition 추가 기능을 구매하면 해당 시점의 �
 
 Federated Audience Composition이 데이터베이스에 액세스할 수 있도록 안전하게 활성화하려면 Adobe 담당자에게 문의하여 Federated Audience Composition 서버에 액세스할 IP 주소를 얻으십시오.
 
-이러한 IP 주소를 허용 목록에 추가하여 Federated Audience Composition에 대한 액세스 권한을 부여합니다.&quot;
+이러한 IP 주소를 허용 목록에 추가하여 Federated Audience Composition에 대한 액세스 권한을 부여합니다.
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
