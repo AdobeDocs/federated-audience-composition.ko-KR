@@ -3,7 +3,7 @@ title: Adobe Experience Platform Federated Audience Composition 설명서 홈페
 description: Federated Audience Composition 추가 기능 설명서
 badge: label="제한된 가용성" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 85%
@@ -69,7 +69,6 @@ Experience Platform Federated Audience Composition은 Adobe Real-Time CDP 및 Ad
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
-
 
 ## 추가 리소스  {#additional-resources}
 
