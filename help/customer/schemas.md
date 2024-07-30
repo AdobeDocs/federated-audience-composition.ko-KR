@@ -4,10 +4,10 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 22%
+source-wordcount: '438'
+ht-degree: 23%
 
 ---
 
@@ -48,10 +48,6 @@ ht-degree: 22%
 * 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
 * 실제 용도에 따라 각 필드의 가시성을 결정합니다
 * 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
-
->[!IMPORTANT]
->
->각 샌드박스에 대해 개별 페더레이션 데이터베이스 스키마를 사용하는 것이 좋습니다.
 
 ## 스키마 만들기 {#schema-create}
 
