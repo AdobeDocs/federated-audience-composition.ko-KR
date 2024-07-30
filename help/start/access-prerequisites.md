@@ -2,10 +2,10 @@
 title: Federated Audience Composition 사전 요구 사항 및 보호 기능
 description: Federated Audience Composition의 사전 요구 사항, 권한 및 가드레일에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
+source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 13%
+source-wordcount: '274'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Federated Audience Composition이 데이터베이스에 액세스할 수 있도�
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
-* Healthcare Shield 및 Privacy and Security Shield에서는 현재 Federated Audience Composition을 사용할 수 없습니다.
+* 페더레이션 대상 구성은 현재 [상태 데이터 수집](https://experienceleague.adobe.com/ko/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} 고객과 Adobe Journey Optimizer Privacy and Security Shield 고객은 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
