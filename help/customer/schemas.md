@@ -4,10 +4,10 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '451'
+ht-degree: 22%
 
 ---
 
@@ -48,6 +48,11 @@ ht-degree: 23%
 * 사용자에게 이해하기 쉬운 이름과 설명을 제공하십시오
 * 실제 용도에 따라 각 필드의 가시성을 결정합니다
 * 필요한 경우 [데이터 모델](../data-management/gs-models.md#data-model-start)에서 기본 키를 선택하여 스키마 간에 스키마를 연결합니다
+
+>[!CAUTION]
+>
+>동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용해야 합니다.
+>
 
 ## 스키마 만들기 {#schema-create}
 
