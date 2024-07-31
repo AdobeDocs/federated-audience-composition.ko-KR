@@ -7,7 +7,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상자를 만듭니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 구성에서 업스트림으로 계산한 모집단에서 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
