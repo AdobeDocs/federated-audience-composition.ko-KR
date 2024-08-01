@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 30%
 
 ---
-
 
 # 대상자 빌드 {#build-audience}
 

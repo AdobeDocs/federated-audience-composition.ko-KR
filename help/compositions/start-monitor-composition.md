@@ -7,11 +7,11 @@ exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 컴포지션 시작 및 모니터링 {#start-monitor}
+# 구성 시작 및 모니터링 {#start-monitor}
 
 컴포지션을 만들고 캔버스에서 수행할 작업을 디자인한 후에는 해당 컴포지션을 시작하고 실행 방법을 모니터링할 수 있습니다.
 

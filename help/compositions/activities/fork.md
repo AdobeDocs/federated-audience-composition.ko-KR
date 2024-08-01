@@ -3,13 +3,13 @@ audience: end-user
 title: 포크 활동 사용
 description: 포크 활동 사용 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 81%
 
 ---
-
 
 # 포크 {#fork}
 

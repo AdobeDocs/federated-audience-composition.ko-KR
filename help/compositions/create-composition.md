@@ -3,15 +3,15 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-
-# 컴포지션 만들기 및 구성 {#create}
+# 구성 만들기 {#create}
 
 컴포지션을 만드는 첫 번째 단계는 해당 레이블을 정의하고 필요한 경우 추가 설정을 구성하는 것입니다.
 
