@@ -1,12 +1,12 @@
 ---
-title: Adobe Experience Platform Federated Audience Composition 설명서 홈페이지
-description: Federated Audience Composition 추가 기능 설명서
+title: Adobe Experience Platform 페더레이션된 대상자 구성 설명서 홈 페이지
+description: 페더레이션된 대상자 구성 추가 기능 설명서
 badge: label="제한된 가용성" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Adobe Experience Platform 페더레이션된 대상자 구성 설명서에 오신 것을 환영합니다.
 
-Experience Platform Federated Audience Composition은 Adobe Real-Time CDP 및 Adobe Journey Optimizer 사용자에게 데이터 관리의 유연성과 효율성을 제공합니다. 페더레이션된 대상자 구성을 사용하면 마케팅 담당자 친화적인 UI를 사용하여 기업 데이터 웨어하우스에 액세스하여 기본 기업 데이터를 지속하지 않고 Adobe Experience Platform 워크플로의 데이터 세트를 활용하고 대상자를 구축할 수 있습니다. 이를 통해 경험 사용 사례를 위해 데이터 웨어하우스에 액세스할 때 데이터 이동을 줄일 수 있습니다.
+Experience Platform 페더레이션된 대상자 구성은 Adobe Real-Time CDP 및 Adobe Journey Optimizer 사용자에게 데이터 관리 유연성과 효율성을 제공합니다. 페더레이션된 대상자 구성을 사용하면 마케팅 담당자 친화적인 UI를 사용하여 기업 데이터 웨어하우스에 액세스하여 기본 기업 데이터를 지속하지 않고 Adobe Experience Platform 워크플로의 데이터 세트를 활용하고 대상자를 빌드할 수 있습니다. 이를 통해 경험 사용 사례를 위해 데이터 웨어하우스에 액세스할 때 데이터 이동을 줄일 수 있습니다.
 
 >[!BEGINTABS]
 

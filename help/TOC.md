@@ -1,27 +1,27 @@
 ---
-user-guide-title: Experience Platform 페더레이션 대상 구성
-title: Experience Platform Federated Audience Composition 설명서
-breadcrumb-title: Experience Platform 페더레이션 대상 구성
+user-guide-title: Experience Platform 페더레이션된 대상자 구성
+title: Experience Platform 페더레이션된 대상자 구성 설명서
+breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform Federated Audience Composition 설명서 {#using}
+# Experience Platform 페더레이션된 대상자 구성 설명서 {#using}
 
-+ [Experience Platform Federated Audience Composition 설명서](home.md)
++ [Experience Platform 페더레이션된 대상자 구성 설명서](home.md)
 + [릴리스 정보](start/release-notes.md)
 + 페더레이션된 대상자 구성 시작하기 {#start}
    + [페더레이션된 대상자 구성이란?](start/get-started.md)
-   + [전제 조건 및 가드레일](start/access-prerequisites.md)
+   + [사전 요구 사항 및 가드레일](start/access-prerequisites.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [자주 묻는 질문](start/faq.md)
 + 구성 단계 {#config}
    + [연결 만들기 및 관리](connections/connections.md)
-   + [페더레이션 데이터베이스 구성](connections/federated-db.md)
+   + [페더레이션된 데이터베이스 구성](connections/federated-db.md)
    + 데이터 모델 및 스키마{#datamodel}
       + [스키마 만들기 및 구성](customer/schemas.md)
       + [데이터 모델 구성](data-management/gs-models.md)

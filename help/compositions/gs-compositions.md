@@ -5,9 +5,9 @@ description: 구성을 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## 구성이란? {#what}
 
-Adobe 대상자 구성을 사용하면 다양한 활동(분할, 제외…)을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 구성을 만들 수 있습니다. 완료되면 결과 대상이 기존 대상과 함께 Adobe Experience Platform에 저장되고 Adobe Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타깃팅할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../start/audiences.md)
+Adobe 대상자 구성을 사용하면 다양한 활동(분할, 제외…)을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 구성을 만들 수 있습니다. 완료되면 결과 대상자는 기존 대상자와 함께 Adobe Experience Platform에 저장되며, 이를 Adobe Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타겟팅할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

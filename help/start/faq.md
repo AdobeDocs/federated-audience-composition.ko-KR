@@ -1,25 +1,25 @@
 ---
 title: 자주 묻는 질문
-description: Adobe Experience Platform Federated Audience 구성에 대한 FAQ
+description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 badge: label="제한된 가용성" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # 자주 묻는 질문 {#faq}
 
-다음은 Adobe Experience Platform Federated Audience 구성에 대한 FAQ 목록입니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}에서는 Adobe Experience Platform Segmentation Service에 대한 글로벌 FAQ도 제공됩니다.
+다음은 Adobe Experience Platform 페더레이션된 대상자 구성과 관련하여 자주 묻는 질문 목록입니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}에서는 Adobe Experience Platform Segmentation Service에 대한 글로벌 FAQ도 제공됩니다.
 
 
 +++페더레이션된 대상자 구성에 액세스하려면 어떤 권한이 필요합니까?
 
-Federated Audience Composition을 사용하려면 Adobe Real-time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. 또한 Federated Audience Composition 추가 기능을 구매해야 합니다.
+페더레이션된 대상자 구성을 위해서는 Adobe Real-Time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. 또한 페더레이션된 대상자 구성 추가 기능을 구매해야 합니다.
 
-Federated Audience Composition을 사용하려면 각 샌드박스에 대해 만들어진 특정 프로필에 각 사용자를 추가해야 합니다. 자세한 내용은 [Access Federated Audience Composition](access-prerequisites.md) 페이지를 참조하세요.
+페더레이션된 대상자 구성을 사용하려면 각 사용자를 각 샌드박스에 대해 생성된 특정 프로필에 추가해야 합니다. 자세한 내용은 [페더레이션된 대상자 구성 액세스](access-prerequisites.md) 페이지를 참조하십시오.
 
 +++
 
@@ -63,7 +63,7 @@ Federated Audience Composition을 사용하려면 각 샌드박스에 대해 만
 
 +++페더레이션된 대상자 구성에 임시 스토리지가 있습니까?
 
-아니요. 페더레이션된 대상자 구성은 메타데이터(스키마 설명)만 저장합니다. 전송 중인 고객 데이터가 없습니다. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+아니요. 페더레이션된 대상자 구성은 메타데이터(스키마 설명)만 저장합니다. 고객 데이터는 전송되지 않습니다. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -73,15 +73,15 @@ Federated Audience Composition을 사용하려면 각 샌드박스에 대해 만
 
 예:
 
-* 대상 만들기의 경우, 대상은 웨어하우스에서 만들어지며, 결과 대상 및 관련 속성을 Adobe Experience Platform 대상 포털을 통해 게시하기 전에 추가 구성 작업 및 데이터 조작에 Federated Audience Composition을 사용할 수 있습니다. 대상자 정의 및 관련 속성은 Adobe Experience Platform으로 전달됩니다.
+* 대상자 생성의 경우 대상자가 데이터 웨어하우스에 생성되며, Adobe Experience Platform 대상자 포털을 통해 결과 대상자 및 관련 속성을 게시하기 전에 추가 구성 작업 및 데이터 조작에 페더레이션된 대상자 구성을 사용할 수 있습니다. 대상자 정의 및 관련 속성은 Adobe Experience Platform으로 전달됩니다.
 외부에서 생성된 대상자에 대한 현재 데이터 만료 기간은 30일입니다. 이러한 데이터 만료로 인해 조직 내에 저장되는 초과 데이터의 양이 줄어듭니다. 데이터 만료 기간이 지난 후에도 관련 데이터 세트는 데이터 세트 인벤토리 내에 계속 표시되지만 대상자를 활성화할 수 없으며 프로필 수가 0으로 표시됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}를 참조하십시오.
 
 * 대상자 강화의 경우 시작점은 기존의 Adobe Experience Platform 대상자입니다. 여기서는 두 가지 시나리오를 볼 수 있습니다.
    1. 페더레이션된 데이터 웨어하우스에서 추가 대상자 페이로드 속성을 가져옵니다. 이 경우 추가되는 추가 속성은 이 대상자 정의의 일부로 제공됩니다. 외부에서 생성된 대상자에 대한 데이터 만료는 위에서 설명한 것과 동일하며 30일입니다.
-   1. 데이터 웨어하우스에 있는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상을 세분화합니다. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+   1. 데이터 웨어하우스에 존재하는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상자를 구체화합니다. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
-+++대상 만들기 및 대상 강화 사용 사례 패턴에 대한 데이터가 지속되지 않는 경우, 임시 저장되는 방법은 무엇입니까?
++++대상자 생성 및 대상자 강화 사용 사례 패턴에 대한 데이터가 유지되지 않는 경우 어떻게 일시적으로 저장됩니까?
 
 결과 대상자 데이터는 Adobe Experience Platform 또는 페더레이션된 대상자 구성에서 무기한 유지되지 않습니다. 사용 사례에 필요한 것보다 더 오래 보관되지 않습니다. 대상자 페이로드의 일부로 가져온 대상자 속성은 대상자 정의의 일부로만 유지됩니다. 지속 기간은 모든 대상자에 대한 TTL을 기반으로 하며 기본값은 30일입니다.
 
@@ -89,7 +89,7 @@ Federated Audience Composition을 사용하려면 각 샌드박스에 대해 만
 
 +++사용자 정의 업로드 대상자를 삭제할 수 있습니까?
 
-아니요. 현재 버전에서는 사용자 지정 업로드 대상자를 삭제할 수 없습니다. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+아니요, 현재 버전에서는 사용자 정의 업로드된 대상자를 삭제할 수 없습니다. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
