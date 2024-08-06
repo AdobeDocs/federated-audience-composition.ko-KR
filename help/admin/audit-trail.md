@@ -7,7 +7,7 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="감사 추적"
->abstract="감사 추적 기능은 Adobe Experience Platform Federated Audience Composition 환경에 실시간으로 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다."
+>abstract="감사 추적 기능은 Adobe Experience Platform 페더레이션된 대상자 구성 환경에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
 
 감사 추적 기능은 실시간으로 환경에 수행된 모든 작업 및 이벤트에 대한 세부 기록 및 시간 기록을 제공합니다
 
