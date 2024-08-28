@@ -4,10 +4,10 @@ title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="조정 속성"
->abstract="데이터 조정에 사용할 속성을 선택하고 확인을 선택합니다."
+>abstract="데이터를 조정하고 확인하는 데 사용할 속성을 선택합니다."
 
 **조정** 활동을 구성하려면 다음 단계를 따르십시오.
 

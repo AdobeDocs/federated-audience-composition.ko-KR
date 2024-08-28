@@ -4,7 +4,7 @@ title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -63,6 +63,6 @@ ht-degree: 22%
 
    * **[!UICONTROL 프로세스 일시 중단]**: 컴포지션이 자동으로 일시 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 다시 시작]** 단추를 사용하여 작성을 다시 시작하십시오.
    * **[!UICONTROL 무시]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL 실패]**(으)로 변경되지만 컴포지션은 **[!UICONTROL 시작됨]** 상태를 유지합니다.
-   * **[!UICONTROL 프로세스를 중단했습니다]**: 컴포지션이 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 작성을 다시 시작하십시오.
+   * **[!UICONTROL 프로세스 중단]**: 컴포지션이 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 작성을 다시 시작하십시오.
 
 * **[!UICONTROL 연속 오류]**: 프로세스를 중지하기 전에 무시할 수 있는 오류 수를 지정합니다. 이 수에 도달하면 컴포지션 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 이 필드의 값이 0이면 오류 수에 관계없이 작성을 중지하지 않습니다.
