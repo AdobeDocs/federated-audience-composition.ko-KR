@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="페더레이션된 데이터베이스 속성"
->abstract="새 페더레이션된 데이터베이스의 이름을 입력하고 해당 유형을 선택합니다."
+>abstract="새 페더레이션된 데이터베이스의 이름을 입력하고 유형을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"

@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
->title="중복 항목을 식별할 수 있는 필드"
->abstract="**[!UICONTROL 중복 항목을 식별할 수 있는 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 동일한 값을 통해 중복 항목을 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서를 사용하면 먼저 처리할 항목을 지정할 수 있습니다."
+>title="중복 요소를 식별할 수 있는 필드"
+>abstract="**[!UICONTROL 중복 요소를 식별할 수 있는 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 동일한 값을 통해 중복 요소를 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서를 사용하면 먼저 처리할 항목을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="중복 제거 활동"
->abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다. 주로 타겟팅 활동 이후에 사용되며 타겟팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
+>abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다. 주로 타기팅 활동 이후에 사용되며 타기팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
->title="보조 항목 생성"
->abstract="중복으로 제외되었던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다"
+>title="여집합 생성"
+>abstract="중복으로 제외했던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여집합 생성]** 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -43,7 +43,7 @@ ht-degree: 43%
 
 1. 활동에 여러 개의 인바운드 전환이 있는 경우 **[!UICONTROL 기본 집합]** 드롭다운 목록에서 중복 제거를 수행하는 데 사용할 전환을 선택하십시오
 
-1. **[!UICONTROL 중복 항목을 식별할 수 있는 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 동일한 값을 통해 중복 항목을 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서를 사용하면 먼저 처리할 항목을 지정할 수 있습니다.
+1. **[!UICONTROL 중복 요소를 식별할 수 있는 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 동일한 값을 통해 중복 요소를 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서를 사용하면 먼저 처리할 항목을 지정할 수 있습니다.
 
    ![](../assets/deduplication.png)
 

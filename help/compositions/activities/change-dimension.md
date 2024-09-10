@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
->title="보조 항목 생성"
->abstract="중복으로 제외되었던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다"
+>title="여집합 생성"
+>abstract="중복으로 제외했던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여집합 생성]** 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
