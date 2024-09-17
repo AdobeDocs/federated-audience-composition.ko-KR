@@ -4,10 +4,10 @@ title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
    * **[!UICONTROL 서비스 계정]**: **[!UICONTROL 서비스 계정]**&#x200B;의 이메일을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}를 참조하십시오.
 
-   * **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 이름을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오.
+   * **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 ID를 입력하십시오. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오.
 
    * **[!UICONTROL 데이터 세트]**: **[!UICONTROL 데이터 세트]**&#x200B;의 이름을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오.
 
