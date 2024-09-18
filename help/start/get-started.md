@@ -3,7 +3,7 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 97%
@@ -38,7 +38,7 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 
 1. 대상자 강화: 기업 데이터 웨어하우스에서 페더레이션된 구성 대상자 데이터를 활용하여 Adobe Experience Platform의 기존 대상자를 강화합니다. 이 데이터는 Adobe Experience Platform 고객 프로필에 유지되지 않습니다.
 
-![다이어그램](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![다이어그램](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 주요 단계 {#gs-steps}
 
