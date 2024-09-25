@@ -4,10 +4,10 @@ title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 페더레이션된 대상자 구성을 사용하면 다음 데이터베이스에 연결할 수 있습니다. 각 데이터베이스의 구성은 아래와 같습니다.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭해 페더레이션된 데이터베이스를 만듭니다.
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Azure Synapse Redshift에 대한 액세스를 구성합니다.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. azure synapse 분석에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -94,11 +94,11 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL 유형]** 드롭다운에서 Azure Synapse Redshift를 선택합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Azure synapse 분석을 선택합니다.
 
    ![](assets/federated_database_4.png)
 
-1. Azure Synapse Redshift 인증 설정을 구성합니다.
+1. azure synapse Analytics 인증 설정을 구성합니다.
 
    * **[!UICONTROL 서버]**: Azure Synapse 서버의 URL을 입력합니다.
 
