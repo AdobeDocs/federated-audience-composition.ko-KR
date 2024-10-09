@@ -4,9 +4,9 @@ description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe 
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 
 이 버전에서는 두 가지 사용 사례를 사용할 수 있습니다.
 
-1. 대상 만들기: 기본 데이터를 복사하지 않고 엔터프라이즈 데이터 세트에서 새 대상을 작성하고 사전 빌드된 대상으로 해당 대상을 활성화합니다.
+1. 대상자 생성: 기본 데이터를 복사하지 않고도 기업 데이터 세트에서 새로운 대상자를 빌드하고 미리 빌드된 대상을 통해 해당 대상자를 활성화합니다.
 
 1. 대상자 강화: 기업 데이터 웨어하우스에서 페더레이션된 구성 대상자 데이터를 활용하여 Adobe Experience Platform의 기존 대상자를 강화합니다. 이 데이터는 Adobe Experience Platform 고객 프로필에 유지되지 않습니다.
 

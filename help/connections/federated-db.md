@@ -5,9 +5,9 @@ description: 페더레이션된 데이터베이스를 구성하는 방법 알아
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. azure synapse 분석에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Azure Synapse Analytics에 대한 액세스를 구성합니다.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -94,11 +94,11 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL 유형]** 드롭다운에서 Azure synapse 분석을 선택합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Azure Synapse Analytics를 선택합니다.
 
    ![](assets/federated_database_4.png)
 
-1. azure synapse Analytics 인증 설정을 구성합니다.
+1. Azure Synapse Analytics 인증 설정을 구성합니다.
 
    * **[!UICONTROL 서버]**: Azure Synapse 서버의 URL을 입력합니다.
 
@@ -141,7 +141,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
    * **[!UICONTROL 서비스 계정]**: **[!UICONTROL 서비스 계정]**&#x200B;의 이메일을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}를 참조하십시오.
 
-   * **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 ID를 입력하십시오. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오.
+   * **[!UICONTROL 프로젝트]**: **[!UICONTROL 프로젝트]**&#x200B;의 ID를 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오.
 
    * **[!UICONTROL 데이터 세트]**: **[!UICONTROL 데이터 세트]**&#x200B;의 이름을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오.
 
