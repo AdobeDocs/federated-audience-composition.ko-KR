@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="중복 제거 활동"
->abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다. 주로 타기팅 활동 이후에 사용되며 타기팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
+>abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다. 주로 타겟팅 활동 이후에 사용되며 타겟팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
@@ -31,7 +31,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="중복 제거 설정"
->abstract="수신 데이터에서 중복 항목을 삭제하려면 아래 필드에서 중복 제거 방법을 정의하십시오. 기본적으로 하나의 레코드만 유지됩니다. 또한 표현식이나 속성을 기반으로 중복 제거 모드를 선택해야 합니다. 기본적으로 중복되지 않는 레코드는 무작위로 선택됩니다."
+>abstract="수신 데이터에서 중복 항목을 삭제하려면 아래 필드에서 중복 제거 방법을 정의합니다. 기본적으로 하나의 레코드만 유지됩니다. 또한 표현식이나 속성을 기반으로 중복 제거 모드를 선택해야 합니다. 기본적으로 중복되지 않는 레코드는 무작위로 선택됩니다."
 
 **중복 제거** 활동을 사용하면 인바운드 활동의 결과에서 중복 항목(예: 받는 사람 목록의 중복된 프로필)을 삭제할 수 있습니다. **중복 제거** 활동은 일반적으로 타겟팅 활동 다음부터 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 

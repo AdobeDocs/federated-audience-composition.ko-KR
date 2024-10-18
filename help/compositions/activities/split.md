@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 75%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
->abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글하십시오."
+>abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_emptytransition"
