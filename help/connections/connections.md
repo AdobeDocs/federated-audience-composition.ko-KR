@@ -4,16 +4,16 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
 # 연결 만들기 {#connections-fdb}
 
-Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다.
+Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
 
 페더레이션 데이터베이스 및 Adobe Experience Platform을 사용하여 작업하려면 먼저 연결을 설정해야 합니다. 이 연결은 이 페이지에 설명된 대로 Adobe Experience Platform 사용자 인터페이스에서 사용할 수 있는 전용 사용자 인터페이스에서 설정됩니다.
 
@@ -47,6 +47,6 @@ Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   아래와 같이 Federated Database 연결에 대한 개요를 사용할 수 있습니다.
+   아래와 같이 Federated 데이터베이스 연결에 대한 개요를 사용할 수 있습니다.
 
    ![](assets/connections_overview.png){zoomable="yes"}

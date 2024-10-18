@@ -4,10 +4,10 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="필터링할 소스 데이터베이스를 선택합니다."
->abstract="소스를 기준으로 스키마를 필터링할 수 있습니다. 하나 이상의 페더레이션된 데이터베이스를 선택하여 해당 스키마를 표시합니다."
+>abstract="소스를 기준으로 스키마를 필터링할 수 있습니다. 하나 이상의 통합 데이터베이스를 선택하여 해당 스키마를 표시합니다."
 
 ## 스키마 개요 {#schema-start}
 
