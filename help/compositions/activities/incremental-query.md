@@ -4,29 +4,16 @@ title: 증분 쿼리 활동 사용
 description: 증분 쿼리 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 21%
+source-wordcount: '546'
+ht-degree: 13%
 
 ---
 
 # 증분 쿼리 {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="증분 쿼리"
->abstract="**증분 쿼리** 활동을 사용하면 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="증분 쿼리 기록"
->abstract="증분 쿼리 기록"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="증분 쿼리 처리된 데이터"
->abstract="증분 쿼리 처리된 데이터"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 **증분 쿼리** 활동을 통해 일정에 따라 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다.
 

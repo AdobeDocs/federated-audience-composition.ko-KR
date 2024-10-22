@@ -3,10 +3,10 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >id="dc_federated_database_create_link"
 >title="링크 만들기"
 >abstract="링크 설정을 정의합니다."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="증분 쿼리"
+>abstract="**증분 쿼리** 활동을 사용하면 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="증분 쿼리 기록"
+>abstract="증분 쿼리 기록"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="증분 쿼리 처리된 데이터"
+>abstract="증분 쿼리 처리된 데이터"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="증분 쿼리 모드"
+>abstract="증분 쿼리를 사용하면 각 새 실행에 대한 이전 실행 결과를 제외하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="증분 쿼리 모드"
+>abstract="증분 쿼리를 사용하면 날짜 필드가 증분 쿼리 활동의 마지막 실행 날짜보다 늦거나 같은 결과만 고려하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="타겟팅 차원 선택"
+>abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 대상은 수신자 빌트인 테이블에서 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
