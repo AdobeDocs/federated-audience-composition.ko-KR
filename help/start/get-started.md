@@ -3,10 +3,10 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >id="dc_orchestration_build_audience_dimension"
 >title="타겟팅 차원 선택"
 >abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 대상은 수신자 빌트인 테이블에서 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="프로필 저장"
+>abstract="프로필 저장"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="프로필 저장 AEP 스키마 선택"
+>abstract="프로필 저장 AEP 스키마 선택"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="프로필 AEP 스키마 목록 저장"
+>abstract="프로필 AEP 스키마 목록 저장"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="프로필 AEP 스키마 속성 저장"
+>abstract="프로필 AEP 스키마 속성 저장"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="프로필 저장 기본 식별 필드 선택"
+>abstract="프로필 저장 기본 식별 필드 선택"
