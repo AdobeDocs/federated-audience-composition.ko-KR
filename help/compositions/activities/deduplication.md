@@ -21,7 +21,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="중복 제거 활동"
->abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다. 주로 타겟팅 활동 이후에 사용되며 타겟팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
+>abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다. 주로 타기팅 활동 이후에 사용되며 타기팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"

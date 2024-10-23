@@ -44,7 +44,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="스키마"
->abstract="데이터에 적용할 새 스키마를 선택하십시오. 스키마(즉, 타겟팅 차원)을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 스키마가 선택되어 있습니다."
+>abstract="데이터에 적용할 새 스키마를 선택하십시오. 스키마(즉, 타기팅 차원)을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 스키마가 선택되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,8 +53,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
->title="타겟팅 차원 선택"
->abstract="스키마(즉, 타겟팅 차원)를 선택하고 조정할 인바운드 데이터의 타겟팅 차원을 선택합니다."
+>title="타기팅 차원 선택"
+>abstract="스키마(즉, 타기팅 차원)를 선택하고 조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"

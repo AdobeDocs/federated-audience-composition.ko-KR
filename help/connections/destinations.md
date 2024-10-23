@@ -7,7 +7,7 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="대상 만들기"
->abstract="새 Federated 데이터베이스에 연결할 설정을 입력합니다. **[!UICONTROL 대상에 연결]** 버튼을 사용하여 구성을 확인합니다."
+>abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 대상에 연결]** 버튼을 사용하여 구성을 확인합니다."
 
 Adobe Experience Platform을 사용하면 **Adobe Federated Audience Composition 대상**&#x200B;을 사용하여 Audience Portal의 대상을 외부 데이터베이스와 매끄럽게 통합할 수 있습니다. 이 통합을 통해 기존 대상을 구성에 활용하고 외부 데이터베이스의 데이터를 사용하여 보강 또는 세분화하여 새 대상을 만들 수 있습니다.
 

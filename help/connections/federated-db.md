@@ -7,7 +7,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="페더레이션 데이터베이스 속성"
->abstract="새 Federated 데이터베이스의 이름을 입력하고 해당 유형을 선택합니다."
+>title="페더레이션된 데이터베이스 속성"
+>abstract="새 페더레이션된 데이터베이스의 이름을 입력하고 유형을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="페더레이션 데이터베이스 세부 정보"
->abstract="새 Federated 데이터베이스에 연결할 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
+>title="페더레이션된 데이터베이스 세부 정보"
+>abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
 
 Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
 

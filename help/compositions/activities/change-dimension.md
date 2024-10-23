@@ -6,8 +6,8 @@ badge: label="제한된 가용성" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 42%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="차원 활동 변경"
->abstract="이 활동을 통해 대상자를 빌드하면서 스키마(즉, 타겟팅 차원)을 변경할 수 있습니다. 데이터 템플릿과 입력 스키마에 따라 축이 이동됩니다. 예를 들어 “계약” 스키마에서 “클라이언트” 스키마로 전환할 수 있습니다."
+>abstract="이 활동을 통해 대상자를 빌드하면서 스키마(즉, 타기팅 차원)을 변경할 수 있습니다. 데이터 템플릿과 입력 스키마에 따라 축이 이동됩니다. 예를 들어 “계약” 스키마에서 “클라이언트” 스키마로 전환할 수 있습니다."
 
 **차원 변경** 활동을 사용하면 대상을 구축할 때 스키마를 변경할 수 있습니다. 타겟팅 차원이라고도 합니다. 데이터 템플릿과 입력 스키마에 따라 축이 이동합니다.
 
