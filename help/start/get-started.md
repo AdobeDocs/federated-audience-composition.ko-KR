@@ -6,7 +6,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -108,17 +108,17 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
 >title="증분 쿼리 모드"
->abstract="증분 쿼리를 사용하면 각 새 실행에 대한 이전 실행 결과를 제외하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
+>abstract="증분 쿼리를 사용하면 새로운 실행마다 이전 실행의 결과를 제외함으로써 동일한 쿼리를 여러 번 실행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="증분 쿼리 모드"
->abstract="증분 쿼리를 사용하면 날짜 필드가 증분 쿼리 활동의 마지막 실행 날짜보다 늦거나 같은 결과만 고려하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
+>abstract="증분 쿼리를 사용하면 마지막 실행 날짜와 같거나 그 이후인 날짜 필드의 결과만 고려하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
->title="타겟팅 차원 선택"
->abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 대상은 수신자 빌트인 테이블에서 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
+>title="타기팅 차원 선택"
+>abstract="타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 대상은 수신자 빌트인 테이블에서 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
 
 
 <!-- save profile IDs-->
@@ -130,8 +130,8 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="프로필 저장 AEP 스키마 선택"
->abstract="프로필 저장 AEP 스키마 선택"
+>title="프로필 선택 AEP 스키마 저장"
+>abstract="프로필 선택 AEP 스키마 저장"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
@@ -145,5 +145,5 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="프로필 저장 기본 식별 필드 선택"
->abstract="프로필 저장 기본 식별 필드 선택"
+>title="프로필 선택 기본 식별 필드 저장"
+>abstract="프로필 선택 기본 식별 필드 저장"
