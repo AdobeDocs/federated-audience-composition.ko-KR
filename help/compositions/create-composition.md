@@ -4,10 +4,10 @@ title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 22%
+source-wordcount: '501'
+ht-degree: 21%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 22%
 
    ![](assets/composition-create.png)
 
-1. **[!UICONTROL 속성]** 섹션에서 컴포지션에 대한 레이블을 지정하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 속성]** 섹션에서 컴포지션에 대한 레이블을 지정하고 데이터 모델을 선택합니다. 이 데이터 모델과 연결된 스키마만 컴포지션의 활동에서 사용할 수 있습니다.
 
-1. 컴포지션 캔버스가 표시됩니다. 이제 실행하기 전에 필요에 맞게 활동을 추가하여 컴포지션을 구성할 수 있습니다.
+   ![](assets/composition-select-schema.png)
+
+1. Click **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이제 실행하기 전에 필요에 맞게 활동을 추가하여 컴포지션을 구성할 수 있습니다.
 
    * [활동 오케스트레이션 방법 알아보기](#action-activities)
    * [컴포지션을 시작하고 모니터링하는 방법 알아보기](#save)

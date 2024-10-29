@@ -4,10 +4,10 @@ title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 100%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [데이터 블록](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(예제 연결 문자열 n°8)를 참조하십시오. |
 
-
 ## Google Big Query {#google-big-query}
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Google Big Query에 대한 액세스를 구성합니다.
@@ -167,8 +167,12 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 | GCloudDefaultConfigName | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> Google Cloud SDK 구성은 먼저 활성 태그를 새 구성으로 전송하지 않으면 삭제할 수 없습니다. 이 임시 구성은 데이터 로딩을 위한 기본 구성을 다시 만드는 데 필요합니다. 임시 구성의 기본 이름은 `default`이며 필요한 경우 변경할 수 있습니다. |
 | GCloudRecreateConfig | 이는 릴리스 7.3.4부터 적용되며 대량 로드 도구(Cloud SDK)에만 적용됩니다.</br> `false`로 설정하면 대량 로딩 메커니즘은 Google Cloud SDK 구성을 다시 만들거나 삭제하거나 수정하지 않습니다. 대신에 컴퓨터의 기존 구성을 사용하여 데이터 로딩을 진행합니다. 이 기능은 다른 작업이 Google Cloud SDK 구성에 따라 달라질 때 유용합니다. </br> 사용자가 적절한 구성 없이 이 엔진 옵션을 활성화하면 대량 로딩 메커니즘에서 다음과 같은 경고 메시지를 표시합니다. `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. 추가 오류를 방지하기 위해 기본 ODBC 배열 삽입 대량 로딩 메커니즘을 다시 사용합니다. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>비공개 링크를 통해 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 Amazon Web Services(AWS)에서 호스팅되어야 하며, Federated Audience Composition 환경과 동일한 영역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스 설정에 대한 지원은 Adobe 담당자에게 문의하십시오.
+>
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Snowflake에 대한 액세스를 구성합니다.
 
@@ -225,7 +229,6 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 | chunkSize | 대량 로더 청크의 파일 크기를 결정합니다. 기본값은 128MB로 설정됩니다. BulkThreads와 함께 사용할 경우 보다 최적의 성능에 맞춰 수정할 수 있습니다. 동시에 활성화된 스레드가 많을수록 성능이 향상됩니다. <br>자세한 내용은 [Snowflake 설명서](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}를 참조하십시오. |
 | StageName | 사전 프로비저닝된 내부 단계의 이름. 새 임시 단계를 생성하는 대신 대량 로드에 사용됩니다. |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Vertica Analytics에 대한 액세스를 구성합니다.
@@ -273,3 +276,94 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 | 옵션 | 설명 |
 |---|---|
 | TimeZoneName | 기본적으로 비어 있으며, 이는 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. |
+
+## 데이터 블록 {#databricks}
+
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 데이터 블록에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+
+1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
+
+1. **[!UICONTROL 페더레이션된 데이터베이스 추가]**&#x200B;를 클릭합니다.
+
+   ![](assets/federated_database_1.png)
+
+1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
+
+1. **[!UICONTROL Type]** 드롭다운에서 데이터 블록을 선택합니다.
+
+   ![](assets/databricks-config.png)
+
+1. 데이터 블록 인증 설정을 구성합니다.
+
+   * **[!UICONTROL 서버]**: Databricks 서버의 이름을 추가합니다.
+
+   * **[!UICONTROL HTTP 경로]**: 클러스터 또는 웨어하우스에 경로를 추가합니다. [자세히 알아보기](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL 암호]**: 계정 액세스 토큰을 추가합니다. [자세히 알아보기](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL 카탈로그]**: Databricks 카탈로그에 대한 필드를 추가합니다.
+
+   * **[!UICONTROL 작업 스키마]**: 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다.
+
+     >[!NOTE]
+     >
+     >이 스키마에 연결하는 데 필요한 권한이 있는 한, 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
+     >
+     >여러 샌드박스를 동일한 데이터베이스에 연결하는 경우 **개별 작업 스키마**&#x200B;를 사용해야 합니다.
+
+   * **[!UICONTROL 옵션]**: 커넥터는 아래 테이블에 설명된 옵션을 지원합니다.
+
+1. **[!UICONTROL 연결 테스트]** 옵션을 선택하여 구성을 확인합니다.
+
+1. **[!UICONTROL 함수 배포]** 버튼을 클릭하여 함수를 만듭니다.
+
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭해 페더레이션된 데이터베이스를 만듭니다.
+
+커넥터는 다음 옵션을 지원합니다.
+
+| 옵션 | 설명 |
+|---|---|
+| TimeZoneName | 기본적으로 비어 있으며, 이는 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->

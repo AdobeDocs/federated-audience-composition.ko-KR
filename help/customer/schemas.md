@@ -4,10 +4,10 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 22%
+source-wordcount: '515'
+ht-degree: 19%
 
 ---
 
@@ -91,9 +91,9 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
 
 ## 스키마 편집 {#schema-edit}
 
-스키마를 편집하려면:
+스키마를 편집하려면 다음 단계를 따르십시오.
 
-1. 스키마 폴더에서 스키마 이름을 누릅니다.
+1. 목록에서 스키마 이름을 클릭합니다.
 
 1. **[!UICONTROL 편집]** 단추를 클릭합니다.
 
@@ -102,6 +102,7 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
    [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스할 수 있습니다.
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## 스키마에서 데이터 미리 보기 {#schema-preview}
 
@@ -114,6 +115,16 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
 데이터 표시를 변경하려면 **[!UICONTROL 열 구성]** 단추를 클릭하십시오.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## 스키마 새로 고침 {#schema-refresh}
+
+통합 데이터베이스의 테이블은 업데이트, 추가 또는 제거할 수 있습니다. 이러한 경우 최신 변경 사항에 맞게 Adobe Experience Platform에서 스키마를 새로 고쳐야 합니다. 이렇게 하려면 업데이트할 스키마 이름 옆에 있는 세 점을 클릭하고 **스키마 새로 고침**&#x200B;을 선택하십시오.
+
+스키마 정의를 편집할 때 업데이트할 수도 있습니다.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## 스키마 삭제 {#schema-delete}
 
