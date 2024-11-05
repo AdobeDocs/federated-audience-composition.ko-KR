@@ -4,33 +4,33 @@ description: 최신 업데이트 및 릴리스 정보
 badge: label="제한된 가용성" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 이 릴리스 정보에서 통합됩니다. [!DNL Federated Audience Composition]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
+[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2024년 10월 릴리스 {#fac-24-10}
 
 ### 호환성 {#fac-24-10-compat}
 
-이번 새로운 릴리스를 통해 Federated Audience Composition은 이제 아래 나열된 시스템과 호환됩니다.
+이제 이 새 릴리스를 통해 페더레이션된 대상자 구성이 아래 나열된 시스템과 호환됩니다.
 
-* **데이터 블록 지원**
+* **Databricks 지원**
 
-  이제 Federated Audience Composition을 통해 데이터베이스 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+  이제 페더레이션된 대상자 구성을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
 
-* **AWS PrivateLink를 통해 Snowflake에 대한 보안 액세스 지원**
+* **AWS PrivateLink를 통한 Snowflake에 대한 보안 액세스 지원**
 
-  이제 개인 링크를 통한 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스를 지원합니다. Snowflake 계정은 Amazon Web Services(AWS)에서 호스팅되어야 하며, Federated Audience Composition 환경과 동일한 영역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스 설정에 대한 지원은 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
-* **Amazon Redshift 서버를 사용하지 않는 지원**
+* **Amazon Redshift Serverless 지원**
 
-  이 새로운 릴리스에서는 Federated Audience Composition이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
+  이 새 릴리스를 통해, 페더레이션된 대상자 구성은 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
 
 ### 개선 사항 {#fac-24-10-improvements}
 
@@ -38,13 +38,13 @@ ht-degree: 53%
 
 * **기존 스키마 새로 고침**
 
-  이제 통합 데이터베이스에서 열을 만들거나 수정하거나 삭제할 때 해당 스키마에서 **[!UICONTROL 스키마 새로 고침]** 단추를 클릭하여 변경 내용을 감지하고 적용할 수 있습니다. [자세히 알아보기](../customer/schemas.md#schema-refresh)
+  이제 페더레이션된 데이터베이스에서 열을 만들거나, 수정하거나, 삭제하면 해당 스키마에서 **[!UICONTROL 스키마 새로 고침]** 버튼을 클릭하여 변경 사항을 감지하고 적용할 수 있습니다. [자세히 알아보기](../customer/schemas.md#schema-refresh)
 
-* **데이터 모델을 새 컴포지션과 연결**
+* **새 구성에 데이터 모델 연결**
 
-  이제 컴포지션을 만들 때 연결할 데이터 모델을 선택할 수 있습니다. 이 새 옵션을 사용하면 연결된 데이터 모델의 테이블만 사용할 수 있으므로 활동을 보다 쉽게 구성할 수 있습니다. [자세히 알아보기](../compositions/create-composition.md)
+  이제 구성을 만들 때 연결할 데이터 모델을 선택할 수 있습니다. 이 새 옵션을 사용하면 연결된 데이터 모델의 테이블만 사용할 수 있으므로 활동을 구성하기가 더 쉬워집니다. [자세히 알아보기](../compositions/create-composition.md)
 
-## 2024년 7월 릴리스 - LA(Federated Audience Composition) {#fac-la}
+## 2024년 7월 릴리스 - 페더레이션된 대상자 구성 (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >

@@ -5,9 +5,9 @@ description: 페더레이션된 데이터베이스를 구성하는 방법 알아
 badge: label="제한된 가용성" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [데이터 블록](#databricks)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -73,7 +73,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
      >[!NOTE]
      >
-     >이 스키마에 연결하는 데 필요한 권한이 있는 한, 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
+     >이 스키마에 연결하는 데 필요한 권한이 있는 한 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
      >
      >여러 샌드박스를 동일한 데이터베이스에 연결하는 경우 **개별 작업 스키마**&#x200B;를 사용해야 합니다.
 
@@ -159,7 +159,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | ProxyType | ODBC 및 SDK 커넥터를 통해 BigQuery에 연결하는 데 사용되는 프록시 유형. </br>현재 HTTP(기본), http_no_tunnel, socks4 및 socks5가 지원됩니다. |
 | ProxyHost | 프록시에 접근할 수 있는 호스트 이름 또는 IP 주소. |
-| ProxyPort | 프록시가 실행 중인 포트 번호(예: 8080) |
+| ProxyPort | 프록시가 실행 중인 포트 번호 (예: 8080) |
 | ProxyUid | 인증된 프록시에 사용되는 사용자 이름 |
 | ProxyPwd | ProxyUid 비밀번호 |
 | bqpath | 이는 대량 로드 도구(Cloud SDK)에만 적용됩니다. </br> PATH 변수를 사용하지 않거나 Google-cloud-sdk 디렉터리를 다른 위치로 이동해야 하는 경우 이 옵션을 사용하여 서버의 cloud sdk bin 디렉터리에 대한 정확한 경로를 지정할 수 있습니다. |
@@ -171,7 +171,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 >[!NOTE]
 >
->비공개 링크를 통해 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 Amazon Web Services(AWS)에서 호스팅되어야 하며, Federated Audience Composition 환경과 동일한 영역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스 설정에 대한 지원은 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 >
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Snowflake에 대한 액세스를 구성합니다.
@@ -202,7 +202,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
      >[!NOTE]
      >
-     >이 스키마에 연결하는 데 필요한 권한이 있는 한, 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
+     >이 스키마에 연결하는 데 필요한 권한이 있는 한 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
      >
      >여러 샌드박스를 동일한 데이터베이스에 연결하는 경우 **개별 작업 스키마**&#x200B;를 사용해야 합니다.
 
@@ -259,7 +259,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
      >[!NOTE]
      >
-     >이 스키마에 연결하는 데 필요한 권한이 있는 한, 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
+     >이 스키마에 연결하는 데 필요한 권한이 있는 한 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
      >
      >여러 샌드박스를 동일한 데이터베이스에 연결하는 경우 **개별 작업 스키마**&#x200B;를 사용해야 합니다.
 
@@ -277,9 +277,9 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | TimeZoneName | 기본적으로 비어 있으며, 이는 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. |
 
-## 데이터 블록 {#databricks}
+## Databricks {#databricks}
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 데이터 블록에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Databricks에 대한 액세스를 구성합니다.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -289,15 +289,15 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL Type]** 드롭다운에서 데이터 블록을 선택합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Databricks를 선택합니다.
 
    ![](assets/databricks-config.png)
 
-1. 데이터 블록 인증 설정을 구성합니다.
+1. Databricks 인증 설정을 구성합니다.
 
    * **[!UICONTROL 서버]**: Databricks 서버의 이름을 추가합니다.
 
-   * **[!UICONTROL HTTP 경로]**: 클러스터 또는 웨어하우스에 경로를 추가합니다. [자세히 알아보기](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL HTTP 경로]**: 클러스터나 Warehouse에 경로를 추가합니다. [자세히 알아보기](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
    * **[!UICONTROL 암호]**: 계정 액세스 토큰을 추가합니다. [자세히 알아보기](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
@@ -307,7 +307,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
      >[!NOTE]
      >
-     >이 스키마에 연결하는 데 필요한 권한이 있는 한, 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
+     >이 스키마에 연결하는 데 필요한 권한이 있는 한 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다.
      >
      >여러 샌드박스를 동일한 데이터베이스에 연결하는 경우 **개별 작업 스키마**&#x200B;를 사용해야 합니다.
 
