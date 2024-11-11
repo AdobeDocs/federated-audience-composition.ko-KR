@@ -4,16 +4,16 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 badge: label="제한된 가용성" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 16%
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
 # 연결 만들기 {#connections-fdb}
 
-Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
+Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 지원되는 데이터 웨어하우스는 [이 섹션](../start/access-prerequisites.md#supported-systems)에 나열되어 있습니다.
 
 페더레이션 데이터베이스 및 Adobe Experience Platform을 사용하여 작업하려면 먼저 연결을 설정해야 합니다. 이 연결은 이 페이지에 설명된 대로 Adobe Experience Platform 사용자 인터페이스에서 사용할 수 있는 전용 사용자 인터페이스에서 설정됩니다.
 
@@ -37,10 +37,10 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [데이터 블록](federated-db.md#databricks)
 
 1. 세부 정보를 입력한 후 **[!UICONTROL 연결 테스트]** 단추와 **[!UICONTROL 함수 배포]** 단추를 클릭합니다.
 
