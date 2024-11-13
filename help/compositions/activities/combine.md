@@ -2,11 +2,10 @@
 audience: end-user
 title: 결합 활동 사용
 description: Combine 활동을 사용하는 방법을 알아봅니다
-badge: label="제한된 가용성" type="Informative"
 exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 71%
 
 ---

@@ -2,12 +2,11 @@
 audience: end-user
 title: 외부 데이터로 Adobe Experience Platform 대상자 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
-badge: label="제한된 가용성" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 7%
+source-wordcount: '571'
+ht-degree: 6%
 
 ---
 

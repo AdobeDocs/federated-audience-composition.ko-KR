@@ -2,12 +2,11 @@
 audience: end-user
 title: 쿼리 모델러로 작업
 description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다
-badge: label="제한된 가용성" type="Informative"
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 14%
+source-wordcount: '346'
+ht-degree: 13%
 
 ---
 

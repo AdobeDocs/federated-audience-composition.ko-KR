@@ -2,11 +2,10 @@
 audience: end-user
 title: 구성 시작하기
 description: 구성을 시작하는 방법 알아보기
-badge: label="제한된 가용성" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

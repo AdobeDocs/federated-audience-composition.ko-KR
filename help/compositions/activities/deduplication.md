@@ -2,12 +2,11 @@
 audience: end-user
 title: 중복 제거 활동 사용
 description: 중복 제거 활동을 사용하는 방법 알아보기
-badge: label="제한된 가용성" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 43%
+source-wordcount: '563'
+ht-degree: 42%
 
 ---
 

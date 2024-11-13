@@ -2,12 +2,11 @@
 audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
-badge: label="제한된 가용성" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 59%
+source-wordcount: '231'
+ht-degree: 58%
 
 ---
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
-badge: label="제한된 가용성" type="Informative"
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 30%
+source-wordcount: '244'
+ht-degree: 29%
 
 ---
 

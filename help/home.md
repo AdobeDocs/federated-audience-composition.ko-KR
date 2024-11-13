@@ -1,12 +1,11 @@
 ---
 title: Adobe Experience Platform 페더레이션된 대상자 구성 설명서 홈 페이지
 description: 페더레이션된 대상자 구성 추가 기능 설명서
-badge: label="제한된 가용성" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +31,7 @@ Experience Platform 페더레이션된 대상자 구성은 Adobe Real-Time CDP �
 
 >[!TAB 대상자 구성]
 
-활동(분할, 강화, 쿼리 등)을 추가하여 구성을 하고 대상자를 만듭니다.
+활동을 추가 및 구성하여(분할, 데이터 보강, 쿼리 등) 구성을 만들고 대상자를 만듭니다.
 
 [![이미지](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -54,7 +53,7 @@ Experience Platform 페더레이션된 대상자 구성은 Adobe Real-Time CDP �
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>대상자 작성</strong><br/>작업(Split, Enrichment, Query 등)을 추가하여 구성을 하고 첫 번째 페더레이션된 대상자를 만듭니다.
+    <div><strong>대상을 작성</strong><br/>활동을 추가 및 구성(분할, 데이터 보강, 쿼리 등)하여 구성을 작성하고 첫 번째 통합 대상을 만듭니다.
     </div>
     </td>
     <td>
