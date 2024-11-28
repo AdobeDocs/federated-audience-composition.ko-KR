@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 92%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
@@ -13,11 +13,21 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
+## 2024년 11월 릴리스 {#fac-24-11}
+
+### 개선 사항 {#fac-24-11-improvements}
+
+이 릴리스는 아래의 개선 사항과 함께 제공됩니다.
+
+* **IP 주소 허용 목록**
+
+  이제 Adobe Experience Platform 사용자 인터페이스에서 연결된 데이터베이스를 추가할 때 연결된 대상 구성 인스턴스와 연결된 IP 주소를 바로 볼 수 있습니다. 이를 통해 이러한 IP를 쉽게 복사하고 권한을 부여하여 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/connections.md)
+
 ## 2024년 10월 릴리스 {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->이전에 LA(조직 세트)에서 사용할 수 있었던 Adobe Experience Platform Federated Audience Composition을 이제 모든 사용자(GA)가 사용할 수 있습니다. 이 추가 기능은 제공 서비스를 기반으로 활성화되며 관련 권한과만 표시됩니다. [자세히 알아보기](access-prerequisites.md)
+>이전에는 조직 집합에만 사용할 수 있었던(LA) Adobe Experience Platform 페더레이션된 대상자 구성을 이제 모든 사용자가 사용할 수 있습니다(GA). 이 추가 기능은 귀하가 제공하는 서비스를 기반으로 활성화되며, 관련 권한이 있는 경우에만 볼 수 있습니다. [자세히 알아보기](access-prerequisites.md)
 >
 
 ### 호환성 {#fac-24-10-compat}

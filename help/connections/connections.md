@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -40,6 +40,16 @@ Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+
+1. 지원되는 각 데이터베이스에 대해 **[!UICONTROL 서버 IP]** 단추를 선택하십시오. Federated Audience Composition 인스턴스와 연결된 모든 IP 목록이 표시됩니다.
+
+   ![](assets/connections_server_IPs.png){zoomable="yes"}
+
+   목록에서 IP를 클릭하여 시스템에 복사하고 이 IP가 데이터베이스에 연결되도록 승인합니다.
+
+>[!NOTE]
+>
+>주어진 데이터베이스에 대해 Federated Audience Composition을 사용하려면 해당 데이터베이스와 연관된 모든 IP 주소를 허용 목록 해야 합니다.
 
 1. 세부 정보를 입력한 후 **[!UICONTROL 연결 테스트]** 단추와 **[!UICONTROL 함수 배포]** 단추를 클릭합니다.
 
