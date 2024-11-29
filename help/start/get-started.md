@@ -3,7 +3,7 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
 ht-degree: 100%
 
@@ -64,9 +64,9 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 <!-- Workflow + Workflow activities-->
 
 
-[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성, 가드레일 및 제한 사항에 액세스하는 방법에 대해 알아봅니다.
+[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성, 가드레일 및 제한 사항에 액세스하는 방법에 대해 알아보십시오.
 
-[이 페이지](faq.md)에서 자주 묻는 질문(FAQ)을 참조하십시오.
+또한 [이 페이지](faq.md)에서 자주 묻는 질문을 살펴보십시오.
 
 
 >[!CONTEXTUALHELP]

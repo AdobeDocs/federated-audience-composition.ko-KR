@@ -3,9 +3,9 @@ title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 �
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 ## 지원되는 시스템 {#supported-systems}
 
-Federated Audience Composition은 다음 클라우드 웨어하우스를 지원합니다.
+페더레이션된 대상자 구성은 다음의 클라우드 웨어하우스를 지원합니다.
 
 * Amazon Redshift
 * Azure Synapse
@@ -28,7 +28,7 @@ Federated Audience Composition은 다음 클라우드 웨어하우스를 지원�
 * Snowflake
 * Vertica Analytics
 
-[이 페이지](../connections/connections.md)에서 이러한 시스템과의 연결을 만드는 방법을 알아보세요.
+[이 페이지](../connections/connections.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
 
 ## 권한 {#permissions}
 
