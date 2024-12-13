@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 86%
 
 ---
 
@@ -30,6 +30,12 @@ ht-degree: 100%
 
 [이 페이지](../connections/connections.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
 
+<!--
+## Sandboxes
+
+When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
+-->
+
 ## 권한 {#permissions}
 
 페더레이션된 대상자 구성 추가 기능을 구매하면 해당 시점의 각 활성 샌드박스에 대한 제품 프로필이 생성됩니다. 이 제품 프로필은 Admin Console의 **Adobe Experience Platform** 제품 카드에서 생성되며 다음 명명 규칙을 따릅니다. `ACP_FAC - <<SandboxName>> - admin.` 특정 샌드박스의 페더레이션된 대상자 구성에 액세스하려면 해당 샌드박스에 대해 생성된 제품 프로필에 사용자를 추가해야 합니다.
@@ -38,7 +44,7 @@ ht-degree: 100%
 
 ## IP 허용 목록에 추가 {#ip}
 
-페더레이션된 대상자 구성이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 Adobe 담당자에게 문의하여 액세스할 페더레이션된 대상자 구성 서버의 IP 주소를 받으십시오.
+페더레이션 대상 컴포지션이 데이터베이스에 액세스할 수 있도록 하려면 해당 데이터베이스에 액세스할 페더레이션 대상 컴포지션 서버의 IP 주소를 인증해야 합니다. 이러한 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/connections.md)
 
 IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성에 대한 액세스 권한을 부여하십시오.
 
@@ -50,3 +56,4 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * 이 추가 기능에는 [Adobe Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 권한 부여, 제품 제한 및 성능 가드레일이 적용됩니다.
+
