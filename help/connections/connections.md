@@ -3,7 +3,7 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -47,9 +47,9 @@ Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이
 
    목록에서 IP를 클릭하여 시스템에 복사하고 이 IP가 데이터베이스에 연결되도록 승인합니다.
 
->[!NOTE]
->
->주어진 데이터베이스에 대해 Federated Audience Composition을 사용하려면 해당 데이터베이스와 연관된 모든 IP 주소를 허용 목록 해야 합니다.
+   >[!NOTE]
+   >
+   >주어진 데이터베이스에 대해 Federated Audience Composition을 사용하려면 해당 데이터베이스와 연관된 모든 IP 주소를 허용 목록 해야 합니다.
 
 1. 세부 정보를 입력한 후 **[!UICONTROL 연결 테스트]** 단추와 **[!UICONTROL 함수 배포]** 단추를 클릭합니다.
 
