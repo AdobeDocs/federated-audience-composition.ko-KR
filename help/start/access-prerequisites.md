@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
+source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 82%
+source-wordcount: '335'
+ht-degree: 77%
 
 ---
 
@@ -30,11 +30,9 @@ ht-degree: 82%
 
 [이 페이지](../connections/connections.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
 
-<!--
-## Sandboxes
+## 샌드박스
 
-When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
--->
+Federated Audience Composition 추가 기능을 구매하면 두 개의 샌드박스를 이용할 수 있습니다. 추가적인 샌드박스 프로비저닝 요청이 있으면 Adobe 담당자에게 문의하십시오.
 
 ## 권한 {#permissions}
 
@@ -50,10 +48,9 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
-* 페더레이션 대상 구성은 현재 [상태 데이터 수집](https://experienceleague.adobe.com/ko/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers--> 고객이 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* 페더레이션 대상 구성은 현재 [상태 데이터 수집](https://experienceleague.adobe.com/ko/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} 고객이 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * 이 추가 기능에는 [Adobe Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 권한 부여, 제품 제한 및 성능 가드레일이 적용됩니다.
-
