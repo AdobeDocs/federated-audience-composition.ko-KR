@@ -2,9 +2,9 @@
 title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: ht
-source-wordcount: '1004'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -88,17 +88,18 @@ ht-degree: 100%
 아니요, 구성 중에는 ID 서비스가 활용되지 않습니다. 구성에 사용된 다양한 소스 간의 데이터는 CRM ID, 사용자 계정 번호 등과 같은 사용자 정의 로직(기본 모델에 표시)을 통해 참여됩니다. 데이터 웨어하우스에서 선택할 대상자의 식별자로 사용되는 ID를 선택해야 합니다. 페더레이션된 대상자 구성의 결과 대상자에서 결과 데이터 세트의 ID에 대한 ID 네임스페이스를 식별해야 합니다.
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++외부에서 생성된 대상자를 페더레이션된 대상자 구성으로 가져온 경우 고객 동의 환경 설정은 어떻게 적용됩니까?
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-고객 데이터는 여러 채널에서 수집되므로 ID 스티칭 및 병합 정책을 통해 이들 데이터를 단일 실시간 고객 프로필로 통합할 수 있습니다. 고객의 동의 환경 설정에 대한 정보는 프로필 수준에서 저장되고 평가됩니다.
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-다운스트림 Real-Time CDP 및 Journey Optimizer 대상은 활성화 전 동의 환경 설정에 대해 각 프로필을 확인합니다. 각 프로필의 동의 정보는 특정 대상에 대한 동의 요구 사항과 비교됩니다. 프로필이 요구 사항을 충족하지 못하는 경우 해당 프로필은 대상으로 전송되지 않습니다.
-
-외부 대상자가 페더레이션된 대상자 구성으로 수집되면 이메일이나 ECID와 같은 기본 ID를 사용하여 기존 프로필과 함께 조정됩니다. 이에 따라 기존의 동의 정책은 활성화되어 있는 동안 계속 유지됩니다.
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->페이로드 변수는 프로필이 아니라 데이터 레이크에 저장되므로 외부에서 생성된 대상자에 동의 정보를 포함하면 안 됩니다. 대신 프로필 데이터를 가져오는 다른 Adobe Experience Platform 수집 채널을 사용하십시오.
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
