@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 100%
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 * [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
+
+>[!AVAILABILITY]
+>
+>Amazon Redshift 및 Amazon Redshift Serverless만 지원됩니다.
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Amazon Redshift에 대한 액세스를 구성합니다.
 
