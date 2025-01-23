@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '931'
-ht-degree: 100%
+source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 100%
 페더레이션된 대상자 구성은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 위한 추가 기능으로, 서드파티 데이터 웨어하우스에서 대상자를 빌드 및 강화하고, 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 구성은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
 
 Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에 나열됩니다.
+
+>[!INFO]
+>
+>이 [단계별 안내서](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)를 따라 Federated Audience Composition을 사용하여 대상자를 만드는 방법을 알아보십시오.
 
 ## 기능 {#rn-capabilities}
 
