@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 100%
 
 ## 권한 {#permissions}
 
-페더레이션된 대상자 구성 추가 기능을 구매하면 해당 시점의 각 활성 샌드박스에 대한 제품 프로필이 생성됩니다. 이 제품 프로필은 Admin Console의 **Adobe Experience Platform** 제품 카드에서 생성되며 다음 명명 규칙을 따릅니다. `ACP_FAC - <<SandboxName>> - admin.` 특정 샌드박스의 페더레이션된 대상자 구성에 액세스하려면 해당 샌드박스에 대해 생성된 제품 프로필에 사용자를 추가해야 합니다.
-
-예를 들어 “fac-test”라는 새 샌드박스가 활성화되면 해당 제품 프로필 “ACP_FAC - fac-test - admin”이 생성됩니다. 이 샌드박스를 사용하여 페더레이션된 대상자 구성에 액세스하려면 사용자를 이 제품 프로필에 추가해야 합니다.
+Federated Audience Composition에 액세스하려면 사용자는 구매 시 생성된 샌드박스 특정 제품 프로필에 추가되고 **[!UICONTROL Federated Data 관리]** 권한이 할당되어야 합니다. [자세히 알아보기](feature-access.md)
 
 ## IP 허용 목록에 추가 {#ip}
 
