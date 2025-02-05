@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 94%
+source-wordcount: '590'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 94%
 
 ## 2025년 2월 업데이트 {#fac-25-01}
 
-2월 릴리스부터 **페더레이션 데이터 관리** 권한이 부여된 사용자만 [!DNL Federated Audience Composition]에 액세스할 수 있습니다.
-이 권한을 할당하는 방법에 대해 알아보려면 [자세한 설명서](feature-access.md)를 참조하세요.
+2월 릴리스부터 [!DNL Federated Audience Composition]은(는) **페더레이션 데이터 관리** 권한이 부여된 사용자에게 **페더레이션 데이터 관리** 및 **페더레이션 구성** 인터페이스에 대한 액세스를 적용합니다.
 
+[!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 문의하여 해당 역할에 이 권한을 추가하는 것이 좋습니다.
+
+이 권한을 할당하는 방법에 대해 알아보려면 [자세한 설명서](feature-access.md)를 참조하세요.
 
 ## 2024년 11월 릴리스 {#fac-24-11}
 
