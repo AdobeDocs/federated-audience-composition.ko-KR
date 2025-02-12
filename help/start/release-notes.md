@@ -2,25 +2,16 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 81ac7595196aeff30f1d09d66779ca4392f7bb19
+source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 88%
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
-
-
-## 2025년 2월 업데이트 {#fac-25-01}
-
-3월 릴리스부터 [!DNL Federated Audience Composition]은(는) **페더레이션 데이터 관리** 권한이 부여된 사용자에게 **페더레이션 데이터 관리** 및 **페더레이션 구성** 인터페이스에 대한 액세스를 적용합니다.
-
-[!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 문의하여 해당 역할에 이 권한을 추가하는 것이 좋습니다.
-
-이 권한을 할당하는 방법에 대해 알아보려면 [자세한 설명서](feature-access.md)를 참조하세요.
 
 ## 2024년 11월 릴리스 {#fac-24-11}
 

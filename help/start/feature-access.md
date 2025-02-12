@@ -2,7 +2,9 @@
 title: Federated Audience 컴포지션 액세스
 description: Federated Audience Composition에 필요한 권한에 대해 알아보기
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
+hide: true
+hidefromtoc: true
+source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
