@@ -1,7 +1,8 @@
 ---
 title: Federated Audience 컴포지션 액세스
 description: Federated Audience Composition에 필요한 권한에 대해 알아보기
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ ht-degree: 36%
 
 >[!AVAILABILITY]
 >
->권한은 2월 릴리스의 일부로 사용할 수 있습니다.
+>권한은 3월 릴리스의 일부로 사용할 수 있습니다.
 
 **페더레이션 대상 구성**&#x200B;에 액세스하려면 먼저 **페더레이션 데이터 관리** 권한이 적절한 역할에 할당되었는지 확인해야 합니다. 그런 다음 **Federated Audience Composition**&#x200B;에 액세스해야 하는 사용자에게 이러한 역할을 할당해야 합니다.
 
@@ -53,5 +54,3 @@ ht-degree: 36%
 1. 사용자의 이름 또는 이메일 주소를 입력하거나 사용 가능한 목록에서 선택합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
 그러면 사용자는 인스턴스에 액세스하기 위한 지침이 포함된 이메일을 받게 됩니다. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
-
-
