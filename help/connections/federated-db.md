@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 ## Microsoft 패브릭 {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric은 현재 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Microsoft Fabric에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
