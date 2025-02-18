@@ -3,9 +3,9 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -57,19 +57,21 @@ ht-degree: 19%
 
 Federated Audience Composition에서 스키마를 생성하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL FEDERATED DATA]** 섹션에서 **[!UICONTROL 모델]** 링크로 이동합니다. **[!UICONTROL 스키마]** 탭으로 이동하여 **[!UICONTROL 스키마 만들기]** 단추를 클릭합니다.
+1. **[!UICONTROL 페더레이션 데이터]** 섹션에서 **[!UICONTROL 모델]** 메뉴에 액세스합니다. **[!UICONTROL 스키마]** 탭으로 이동하여 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    이 단계에서는 환경에 연결된 데이터베이스를 찾을 수 있는 드롭다운 목록이 있는 새 화면에 액세스할 수 있습니다. [이 섹션](../connections/connections.md#connections-fdb)에서 데이터베이스 연결에 대해 자세히 알아보세요.
 
-1. 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 테이블 추가]** 탭을 클릭합니다.
+1. 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    그런 다음 데이터베이스의 모든 테이블 목록을 볼 수 있습니다.
 
-1. 스키마를 생성할 테이블을 추가하여 다음과 같이 해당 필드에 액세스할 수 있습니다.
+1. 스키마를 생성할 테이블을 선택합니다.
+
+1. 선택한 각 테이블은 선택한 열을 사용하여 스키마를 생성합니다. 필요에 따라 스키마와 해당 열을 구성합니다.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
 
    * 스키마 레이블 변경
    * 설명 추가
-   * 모든 필드의 이름을 바꾸고 가시성을 설정합니다.
+   * 모든 필드 레이블의 이름을 바꾸고 가시성을 설정합니다.
    * 스키마 기본 키 선택
 
-   예를 들어 가져온 다음 표의 경우:
+   스키마를 다음과 같이 정의할 수 있습니다.
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   스키마는 다음과 같이 정의할 수 있습니다.
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. 구성을 완료한 후 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 ## 스키마 편집 {#schema-edit}
 
 스키마를 편집하려면 다음 단계를 따르십시오.
 
-1. 목록에서 스키마 이름을 클릭합니다.
+1. 이전에 만든 스키마에 액세스합니다.
 
 1. **[!UICONTROL 편집]** 단추를 클릭합니다.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스할 수 있습니다.
+1. **[!UICONTROL 스키마 편집]** 창에서 [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스하고 구성할 수 있습니다.
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## 스키마에서 데이터 미리 보기 {#schema-preview}
 
@@ -114,7 +113,6 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
 데이터 표시를 변경하려면 **[!UICONTROL 열 구성]** 단추를 클릭하십시오.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## 스키마 새로 고침 {#schema-refresh}
 

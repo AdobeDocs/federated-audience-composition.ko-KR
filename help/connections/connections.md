@@ -3,16 +3,16 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
 
 # 연결 만들기 {#connections-fdb}
 
-Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 지원되는 데이터 웨어하우스는 [이 섹션](../start/access-prerequisites.md#supported-systems)에 나열되어 있습니다.
+Experience Platform Federated Audience Composition을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 지원되는 데이터 웨어하우스는 [이 섹션](../start/access-prerequisites.md#supported-systems)에 나열되어 있습니다.
 
 페더레이션 데이터베이스 및 Adobe Experience Platform을 사용하여 작업하려면 먼저 연결을 설정해야 합니다. 이 연결은 이 페이지에 설명된 대로 Adobe Experience Platform 사용자 인터페이스에서 사용할 수 있는 전용 사용자 인터페이스에서 설정됩니다.
 
@@ -40,6 +40,7 @@ Experience Platform 연합 대상 구성을 통해 고객은 서드파티 데이
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Microsoft 패브릭](federated-db.md#microsoft-fabric)
 
 1. 지원되는 각 데이터베이스에 대해 **[!UICONTROL 서버 IP]** 단추를 선택하십시오. Federated Audience Composition 인스턴스와 연결된 모든 IP 목록이 표시됩니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '2081'
+ht-degree: 95%
 
 ---
 
@@ -41,12 +41,13 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft 패브릭](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Amazon Redshift 및 Amazon Redshift Serverless만 지원됩니다.
+>Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Amazon Redshift에 대한 액세스를 구성합니다.
 
@@ -328,45 +329,45 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | TimeZoneName | 기본적으로 비어 있으며, 이는 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft 패브릭 {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric은 현재 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Microsoft Fabric에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
-1. Click **[!UICONTROL Add federated database]**.
+1. **[!UICONTROL 페더레이션된 데이터베이스 추가]**&#x200B;를 클릭합니다.
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. **[!UICONTROL Type]** 드롭다운에서 Microsoft Fabric을 선택합니다.
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. Microsoft Fabric 인증 설정을 구성합니다.
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL 서버]**: Microsoft 패브릭 서버의 URL을 입력하십시오.
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL 응용 프로그램 ID]**: Microsoft Fabric 응용 프로그램 ID를 입력하십시오.
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL 클라이언트 암호]**: 클라이언트 암호를 입력하십시오.
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL 옵션]**: 커넥터는 아래 테이블에 설명된 옵션을 지원합니다.
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. 인증할 서버 IP를 선택하려면 **[!UICONTROL 서버 IP]**&#x200B;를 클릭하십시오.
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. **[!UICONTROL 연결 테스트]** 옵션을 선택하여 구성을 확인합니다.
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. **[!UICONTROL 함수 배포]** 버튼을 클릭하여 함수를 만듭니다.
 
-| Option   |  Description |
+1. 구성이 완료되면 **[!UICONTROL 추가]**&#x200B;를 클릭해 페더레이션된 데이터베이스를 만듭니다.
+
+| 옵션 | 설명 |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(예제 연결 문자열 n°8)를 참조하십시오. |
+

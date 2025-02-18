@@ -2,16 +2,46 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 82%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
+
+## 2025년 2월 릴리스 {#fac-25-2}
+
+이 릴리스는 아래 나열된 변경 사항과 함께 제공됩니다.
+
+* **Microsoft 패브릭 지원**
+
+  이제 Federated Audience Composition을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
+
+* **Amazon Redshift 스펙트럼 지원**
+
+  이제 Amazon Redshift Spectrum이 Amazon Redshift 데이터베이스 연결에 대해 지원됩니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+
+* **향상된 스키마 만들기 경험**
+
+  스키마를 만드는 프로세스가 보다 직관적이고 쉽게 탐색할 수 있도록 업데이트된 사용자 인터페이스를 통해 개선되었습니다. 이러한 개선 사항을 통해 데이터 제공자는 데이터 모델을 보다 유연하고 효율적으로 개발할 수 있습니다. [자세히 알아보기](../customer/schemas.md)
+
+* 데이터 저장소에 대한 **대상 데이터 보강 지원**
+
+  이제 대상 읽기 흐름에서 데이터 블록을 사용하여 데이터 블록 데이터베이스에 대한 작업을 활성화하고 새 대상으로 설정할 수 있습니다. [자세히 알아보기](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## 2024년 11월 릴리스 {#fac-24-11}
 
