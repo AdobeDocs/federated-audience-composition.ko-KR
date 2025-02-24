@@ -3,9 +3,9 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 
 >[!INFO]
 >
->이 [단계별 안내서](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)를 따라 Federated Audience Composition을 사용하여 대상자를 만드는 방법을 알아보십시오.
+>이 [단계별 안내서](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)를 따라 페더레이션된 대상자 구성을 사용하여 대상자를 만드는 방법에 대해 알아보십시오.
 
 ## 기능 {#rn-capabilities}
 
@@ -121,7 +121,7 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="타기팅 차원 선택"
->abstract="타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 대상은 수신자 빌트인 테이블에서 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
+>abstract="타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 기본 제공 수신자 테이블에서 타깃이 선택됩니다. 푸시 알림의 경우 기본 타기팅 차원은 구독자 애플리케이션입니다."
 
 
 <!-- save profile IDs-->

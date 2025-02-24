@@ -3,9 +3,9 @@ title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 +++대상자를 삭제할 수 있습니까?
 
-아니요. 현재 버전에서는 Federated Audience Composition 대상을 삭제할 수 없습니다.
+아니요. 현재 버전에서는 페더레이션된 대상자 구성 대상자를 삭제할 수 없습니다.
 
 +++
 

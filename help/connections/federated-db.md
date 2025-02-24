@@ -4,9 +4,9 @@ title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
-* [Microsoft 패브릭](#microsoft-fabric)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -329,10 +329,10 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | TimeZoneName | 기본적으로 비어 있으며, 이는 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. |
 
-## Microsoft 패브릭 {#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Microsoft Fabric에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Microsoft Fabric에 대한 액세스를 구성합니다.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -342,21 +342,21 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL Type]** 드롭다운에서 Microsoft Fabric을 선택합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Microsoft Fabric을 선택합니다.
 
    ![](assets/microsoft-config.png)
 
 1. Microsoft Fabric 인증 설정을 구성합니다.
 
-   * **[!UICONTROL 서버]**: Microsoft 패브릭 서버의 URL을 입력하십시오.
+   * **[!UICONTROL 서버]**: Microsoft Fabric 서버의 URL을 입력합니다.
 
-   * **[!UICONTROL 응용 프로그램 ID]**: Microsoft Fabric 응용 프로그램 ID를 입력하십시오.
+   * **[!UICONTROL 애플리케이션 ID]**: Microsoft Fabric 애플리케이션 ID를 입력합니다.
 
-   * **[!UICONTROL 클라이언트 암호]**: 클라이언트 암호를 입력하십시오.
+   * **[!UICONTROL 클라이언트 암호]**: 클라이언트 암호를 입력합니다.
 
    * **[!UICONTROL 옵션]**: 커넥터는 아래 테이블에 설명된 옵션을 지원합니다.
 
-1. 인증할 서버 IP를 선택하려면 **[!UICONTROL 서버 IP]**&#x200B;를 클릭하십시오.
+1. **[!UICONTROL 서버 IP]**&#x200B;를 클릭하여 권한을 부여하려는 서버 IP를 선택합니다.
 
 1. **[!UICONTROL 연결 테스트]** 옵션을 선택하여 구성을 확인합니다.
 

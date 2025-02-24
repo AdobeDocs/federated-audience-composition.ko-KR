@@ -3,9 +3,9 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
-## 2025년 2월 릴리스 {#fac-25-2}
+## 25년 2월 릴리스 {#fac-25-2}
 
-이 릴리스는 아래 나열된 변경 사항과 함께 제공됩니다.
+이 릴리스는 아래 목록에 있는 변경 사항과 함께 제공됩니다.
 
-* **Microsoft 패브릭 지원**
+* **Microsoft Fabric 지원**
 
-  이제 Federated Audience Composition을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
+  이제 페더레이션된 대상자 구성을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
 
-* **Amazon Redshift 스펙트럼 지원**
+* **Amazon Redshift Spectrum 지원**
 
-  이제 Amazon Redshift Spectrum이 Amazon Redshift 데이터베이스 연결에 대해 지원됩니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
 
-* **향상된 스키마 만들기 경험**
+* **향상된 스키마 생성 경험**
 
-  스키마를 만드는 프로세스가 보다 직관적이고 쉽게 탐색할 수 있도록 업데이트된 사용자 인터페이스를 통해 개선되었습니다. 이러한 개선 사항을 통해 데이터 제공자는 데이터 모델을 보다 유연하고 효율적으로 개발할 수 있습니다. [자세히 알아보기](../customer/schemas.md)
+  스키마 생성 프로세스가 더욱 직관적이고 손쉽게 탐색할 수 있도록 업데이트된 사용자 인터페이스를 통해 개선되었습니다. 이러한 개선 사항은 데이터 실무자가 더욱 원활하고 효율적으로 데이터 모델을 개발할 수 있도록 합니다. [자세히 알아보기](../customer/schemas.md)
 
-* 데이터 저장소에 대한 **대상 데이터 보강 지원**
+* **Databricks에 대한 대상자 강화 지원**
 
-  이제 대상 읽기 흐름에서 데이터 블록을 사용하여 데이터 블록 데이터베이스에 대한 작업을 활성화하고 새 대상으로 설정할 수 있습니다. [자세히 알아보기](../connections/destinations.md)
+  이제 대상자 읽기 플로우에서 Databricks를 사용할 수 있으며, Databricks 데이터베이스의 활성화를 지원하고 새로운 대상으로 설정할 수 있습니다. [자세히 알아보기](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

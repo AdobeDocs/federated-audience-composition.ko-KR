@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 페더레이션된 대상자 구성
 title: Experience Platform 페더레이션된 대상자 구성 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + 페더레이션된 대상자 구성 시작하기 {#start}
    + [페더레이션된 대상자 구성이란?](start/get-started.md)
    + [사전 요구 사항 및 가드레일](start/access-prerequisites.md)
-   + [Federated Audience 컴포지션 액세스](start/feature-access.md)
+   + [페더레이션된 대상자 구성 액세스](start/feature-access.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [자주 묻는 질문](start/faq.md)
 + 구성 단계 {#config}
@@ -25,7 +25,7 @@ ht-degree: 94%
    + [페더레이션된 데이터베이스 구성](connections/federated-db.md)
    + 데이터 모델 및 스키마{#datamodel}
       + [스키마 만들기 및 구성](customer/schemas.md)
-      + [데이터 모델 구성(Beta)](data-management/gs-models-beta.md)
+      + [데이터 모델 구성 (Beta)](data-management/gs-models-beta.md)
       + [데이터 모델 구성](data-management/gs-models.md)
    + [외부 데이터로 Adobe Experience Platform 대상자 강화](connections/destinations.md)
 + 대상자 구성 {#compositions}
