@@ -2,10 +2,10 @@
 title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++페더레이션된 대상자 구성에 액세스하려면 어떤 권한이 필요합니까?
 
-페더레이션된 대상자 구성을 위해서는 Adobe Real-Time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. 또한 페더레이션된 대상자 구성 추가 기능을 구매해야 합니다.
+페더레이션된 대상자 구성을 위해서는 Adobe Real-Time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. Federated Audience Composition도 구매해야 합니다.
 
 페더레이션된 대상자 구성을 사용하려면 각 사용자를 각 샌드박스에 대해 생성된 특정 프로필에 추가해야 합니다. 자세한 내용은 [페더레이션된 대상자 구성 액세스](access-prerequisites.md) 페이지를 참조하십시오.
 
