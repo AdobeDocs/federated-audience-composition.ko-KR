@@ -3,10 +3,10 @@ audience: end-user
 title: 외부 데이터로 Adobe Experience Platform 대상자 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,7 @@ Adobe Experience Platform 대상을 Adobe Federated Audience Composition으로 �
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. 연결할 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
