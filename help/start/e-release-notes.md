@@ -3,10 +3,10 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
-이번 릴리스는 아래의 개선 사항과 함께 제공됩니다.
+### 개선 사항 {#fac-25-3-improvements}
+
+이 릴리스는 아래의 개선 사항과 함께 제공됩니다.
 
 * **Federated Audience Composition 권한**
 
@@ -34,7 +36,7 @@ ht-degree: 69%
 
   이제 Federated Audience Composition은 최대 20GB의 파일 크기를 처리하면서 큰 대상의 내보내기를 지원합니다.
 
-### 호환성 {#fac-25.3-compat}
+### 호환성 {#fac-25-3-compat}
 
 * **Databricks 연결**
 
