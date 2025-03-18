@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 구성
 title: Experience Platform 페더레이션된 대상자 구성 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: ht
-source-wordcount: '154'
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 100%
 # Experience Platform 페더레이션된 대상자 구성 설명서 {#using}
 
 + [Experience Platform 페더레이션된 대상자 구성 설명서](home.md)
-+ [릴리스 정보](start/release-notes.md)
++ [릴리스 노트](start/release-notes.md)
++ [릴리스 정보](start/e-release-notes.md)
 + 페더레이션된 대상자 구성 시작하기 {#start}
    + [페더레이션된 대상자 구성이란?](start/get-started.md)
    + [사전 요구 사항 및 가드레일](start/access-prerequisites.md)
