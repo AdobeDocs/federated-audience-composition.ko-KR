@@ -3,10 +3,10 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 65%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 68%
 * **대상자 내보내기**
 
   이제 Federated Audience Composition은 최대 20GB의 파일 크기를 처리하면서 큰 대상의 내보내기를 지원합니다.
+
+* **AI 어시스턴트**
+
+  AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻을 수 있도록 설계된 사용자 인터페이스 기능입니다. Federated Audience Composition을 포함하여 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.
 
 ### 호환성 {#fac-25-3-compat}
 
