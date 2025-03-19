@@ -3,10 +3,11 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 65%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ ht-degree: 65%
 
   이 권한을 할당하는 방법에 대해 알아보려면 [자세한 설명서](feature-access.md)를 참조하세요.
 
-* **데이터 모델 캔버스 보기**
+<!--
+* **Data model Canvas view**
 
-  데이터 모델 섹션에 대한 캔버스 보기는 기존 테이블 보기와 함께 캔버스 레이아웃에서 데이터 모델 및 해당 링크의 시각화를 활성화하여 경험을 향상시킵니다. [자세히 알아보기](../data-management/gs-models.md)
-
-* **대상자 내보내기**
-
-  이제 Federated Audience Composition은 최대 20GB의 파일 크기를 처리하면서 큰 대상의 내보내기를 지원합니다.
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI 어시스턴트**
 
@@ -45,7 +44,7 @@ ht-degree: 65%
 * **Databricks 연결**
 
   이번 새로운 릴리스를 통해 Federated Audience Composition은 이제 Databricks 데이터베이스 연결에 대한 비공개 링크 연결을 지원합니다.
-또한 Amazon Web Services(AWS) 및 Azure에서 호스팅되는 Databricks 데이터베이스에 대한 보안 연결을 활성화합니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+또한 Amazon Web Services(AWS) 및 Microsoft Azure에서 호스팅되는 Databricks 데이터베이스에 대한 보안 연결을 활성화합니다. [자세히 알아보기](../connections/federated-db.md#databricks)
 
 * **B2B CDP 고객 지원**
 
@@ -53,7 +52,7 @@ ht-degree: 65%
 
 * **Snowflake 보안 연결**
 
-  이 새로운 릴리스에서는 Federated Audience Composition이 Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 보안 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이번 새로운 릴리스에서는 Federated Audience Composition이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 보안 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
 ## 25년 2월 릴리스 {#fac-25-2}
 
@@ -129,5 +128,3 @@ Federated Audience Composition은 웨어하우스 데이터 세트로 대상을 
 [이 페이지](get-started.md)와 [자주 묻는 질문(FAQ)](faq.md)에서 페더레이션된 대상자 구성에 대해 자세히 알아보십시오.
 
 [이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성에 액세스하기 위한 사전 요구 사항 및 현재 가드레일에 대한 자세한 내용을 알아보십시오.
-
-
