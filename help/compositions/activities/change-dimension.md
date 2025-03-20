@@ -15,7 +15,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="여집합 생성"
->abstract="중복으로 제외했던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여집합 생성]** 옵션을 토글합니다."
+>abstract="중복으로 제외된 나머지 집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여집합 생성]** 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

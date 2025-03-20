@@ -15,7 +15,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="보강 활동"
->abstract="**보강** 활동을 사용하면 데이터베이스의 추가 정보로 타기팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 구성에서 사용됩니다."
+>abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 세분화 활동 이후에 워크플로에서 사용됩니다. 일반적으로 활동을 세분화한 후 구성에서 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
