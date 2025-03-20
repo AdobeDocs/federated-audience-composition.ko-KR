@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >abstract="프로필 저장"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="프로필 선택 AEP 스키마 저장"
->abstract="프로필 선택 AEP 스키마 저장"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="프로필 AEP 스키마 목록 저장"
 >abstract="프로필 AEP 스키마 목록 저장"
@@ -147,6 +142,16 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >abstract="프로필 AEP 스키마 속성 저장"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="프로필 선택 기본 식별 필드 저장"
->abstract="프로필 선택 기본 식별 필드 저장"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="기본 식별 필드 선택"
+>abstract="프로필에 사용할 기본 식별 필드입니다."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP 데이터 세트"
+>abstract="프로필에 사용할 AEP 데이터 세트를 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="프로필 선택 AEP 스키마 저장"
+>abstract="프로필에 사용할 AEP 스키마를 선택합니다."
