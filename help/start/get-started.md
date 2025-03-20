@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >[!NOTE]
 >
 >구성을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## 거버넌스, 개인 정보 보호 및 보안 {#governance-privacy-security}
+
+### 개인 정보 보호 요청 {#gov-privacy-requests}
+
+컴포지션을 만들면 결과 대상자가 Adobe Experience Platform에 저장됩니다.
+
+그런 다음 고객 데이터 요청을 관리하는 데 도움이 되는 [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko){target="_blank"} 및 [RESTful API](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}를 제공하는 Adobe Experience Platform **Privacy Service**&#x200B;을(를) 통해 이러한 대상에 해당하는 프로필 데이터에 대한 개인 정보 보호 요청을 수행할 수 있습니다.
+
+>[!NOTE]
+>
+>Privacy Service에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
+
+Adobe Federated Audience Composition에서 고객 데이터에 액세스하고 삭제하는 개별 요청을 만들고 관리할 수 있습니다. **액세스 요청** 및 **삭제 요청**&#x200B;을 제출하는 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 설명되어 있습니다.
+
+### 감사 추적 {#gov-audit-trail}
+
+감사 추적 기능은 실시간으로 환경에 수행된 모든 작업 및 이벤트에 대한 세부 기록 및 시간 기록을 제공합니다. [자세히 알아보기](../admin/audit-trail.md)
 
 ## 자세히 알아보기 {#learn}
 

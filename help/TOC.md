@@ -2,7 +2,7 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 구성
 title: Experience Platform 페더레이션된 대상자 구성 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
@@ -55,3 +55,4 @@ ht-degree: 100%
    + [첫 번째 쿼리 작성](query/build-query.md)
    + [표현식 편집](query/expression-editor.md)
 + [감사 추적](admin/audit-trail.md)
+

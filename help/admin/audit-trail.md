@@ -3,10 +3,10 @@ audience: end-user
 title: 감사 추적
 description: 작업 및 이벤트가 기록되고 감사 추적에서 액세스할 수 있는 방법을 알아봅니다
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -16,8 +16,6 @@ ht-degree: 11%
 >id="dc_audit_trail"
 >title="감사 추적"
 >abstract="감사 추적 기능은 Adobe Experience Platform 페더레이션된 대상자 구성 환경에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
-
-감사 추적 기능은 실시간으로 환경에 수행된 모든 작업 및 이벤트에 대한 세부 기록 및 시간 기록을 제공합니다
 
 **[!UICONTROL 감사 추적]** 기능은 Adobe Federated Composition 인스턴스 내에서 발생하는 작업 및 이벤트에 대한 자세한 로그를 실시간으로 지속적으로 기록합니다. 편리한 방법을 사용하여 데이터의 시간 기록 레코드에 액세스하고, 워크플로 상태, 이를 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다.
 

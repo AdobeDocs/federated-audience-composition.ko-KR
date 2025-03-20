@@ -2,10 +2,10 @@
 title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ ht-degree: 98%
 아니요, 구성 중에는 ID 서비스가 활용되지 않습니다. 구성에 사용된 다양한 소스 간의 데이터는 CRM ID, 사용자 계정 번호 등과 같은 사용자 정의 로직(기본 모델에 표시)을 통해 참여됩니다. 데이터 웨어하우스에서 선택할 대상자의 식별자로 사용되는 ID를 선택해야 합니다. 페더레이션된 대상자 구성의 결과 대상자에서 결과 데이터 세트의 ID에 대한 ID 네임스페이스를 식별해야 합니다.
 
 +++
+
++++Federated Audience Composition으로 개인 정보 요청을 만들고 관리하는 방법
+
+Adobe Federated Audience Composition에서 고객 데이터에 액세스하고 삭제하는 개별 요청을 다음 두 가지 방법으로 제출할 수 있습니다.
+
+* Adobe Experience Platform **Privacy Service UI**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko){target="_blank"}
+* Adobe Experience Platform **Privacy Service API**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+**액세스 요청** 및 **삭제 요청**&#x200B;을 만들고 관리하는 모든 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 설명되어 있습니다.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
