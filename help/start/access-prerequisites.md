@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 88%
+source-wordcount: '311'
+ht-degree: 73%
 
 ---
 
@@ -27,12 +27,25 @@ ht-degree: 88%
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 [이 페이지](../connections/connections.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
 
 ## 샌드박스
 
 Federated Audience Composition을 구매하면 두 개의 샌드박스를 이용할 수 있습니다. 추가 샌드박스 프로비저닝 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
+
+활성 페더레이션 대상 컴포지션 샌드박스 목록을 보려면 아래 단계를 따르십시오.
+
+1. Federated Audience Composition에서 **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
+
+1. 샌드박스 속성에 액세스하려면 **[!UICONTROL 총 데이터 이그레스 볼륨]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 클릭하십시오.
+
+   ![](assets/sandbox_1.png)
+
+1. 샌드박스에 대한 정보가 속성 팝오버에 표시됩니다.
+
+   ![](assets/sandbox_2.png)
 
 ## 권한 {#permissions}
 
@@ -52,3 +65,7 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * [Adobe Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 자격, 제품 제한 및 성능 보호는 Federated Audience Composition에 적용됩니다.
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+

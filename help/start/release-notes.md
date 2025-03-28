@@ -2,16 +2,56 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
+
+## 2025년 3월 릴리스 {#fac-25-3}
+
+### 개선 사항 {#fac-25-3-improvements}
+
+이 릴리스는 아래의 개선 사항과 함께 제공됩니다.
+
+* **Federated Audience Composition 권한**
+
+  3월 릴리스부터 [!DNL Federated Audience Composition]은(는) **페더레이션 데이터 관리** 권한이 부여된 사용자에게 **페더레이션 데이터 관리** 및 **페더레이션 구성** 인터페이스에 대한 액세스를 적용합니다.
+
+  [!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 문의하여 해당 역할에 이 권한을 추가하는 것이 좋습니다.
+
+  이 권한을 할당하는 방법에 대해 알아보려면 [자세한 설명서](feature-access.md)를 참조하세요.
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### 호환성 {#fac-25-3-compat}
+
+* **Databricks 연결**
+
+  이번 새로운 릴리스를 통해 Federated Audience Composition은 이제 Databricks 데이터베이스 연결에 대한 비공개 링크 연결을 지원합니다.
+여기에는 개인 링크를 통해 Amazon Web Services(AWS)에서 호스팅되는 Databricks 데이터베이스에 대한 보안 연결 및 VPN을 통해 Microsoft Azure에서 호스팅되는 Databricks 데이터베이스가 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+
+* **B2B CDP 고객 지원**
+
+  Federated Audience Composition은 이제 B2B(Business-to-Business) 고객 데이터 플랫폼(CDP) 고객이 사용자 기반 대상 사용 사례를 위해 사용할 수 있습니다.
+
+* **Snowflake 보안 연결**
+
+  이번 새로운 릴리스에서는 Federated Audience Composition이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 보안 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
 ## 25년 2월 릴리스 {#fac-25-2}
 
@@ -32,16 +72,6 @@ ht-degree: 93%
 * **Databricks에 대한 대상자 강화 지원**
 
   이제 대상자 읽기 플로우에서 Databricks를 사용할 수 있으며, Databricks 데이터베이스의 활성화를 지원하고 새로운 대상으로 설정할 수 있습니다. [자세히 알아보기](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## 2024년 11월 릴리스 {#fac-24-11}
 
@@ -92,9 +122,8 @@ ht-degree: 93%
 
 Federated Audience Composition은 기업이 엔터프라이즈 데이터 웨어하우스에 유연하게 액세스할 수 있도록 지원하여 중요한 엔터프라이즈 데이터 세트를 사용하고 브랜드에서 시작한 즉각적인 경험을 통해 대상자를 구성할 수 있도록 합니다. 이 새로운 접근 방식을 사용하면 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상자 데이터를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 하나의 시스템에 강화할 수 있습니다.
 
-페더레이션된 대상자 구성은 웨어하우스 데이터 세트를 사용하여 대상자를 구성할 수 있는 유연성이 필요한 기업의 증가하는 시장 요구를 충족할 수 있습니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다. 
+Federated Audience Composition은 웨어하우스 데이터 세트로 대상을 구성할 수 있는 유연성이 필요한 기업의 증가하는 시장 요구를 해결합니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다.
 
 [이 페이지](get-started.md)와 [자주 묻는 질문(FAQ)](faq.md)에서 페더레이션된 대상자 구성에 대해 자세히 알아보십시오.
 
 [이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성에 액세스하기 위한 사전 요구 사항 및 현재 가드레일에 대한 자세한 내용을 알아보십시오.
-

@@ -3,10 +3,10 @@ audience: end-user
 title: 외부 데이터로 Adobe Experience Platform 대상자 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ Adobe Experience Platform 대상을 Adobe Federated Audience Composition으로 �
 
    ![](assets/destination-activate.png)
 
-1. 보내려는 대상을 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
+1. 전송하려는 원하는 대상을 선택합니다.
 
-1. 선택한 대상에 대한 파일 이름 및 내보내기 일정을 구성합니다.
+1. 내보내기 일정을 편집하려면 ![](assets/do-not-localize/Smock_Edit_18_N.svg) 아이콘을 선택하십시오.
 
    ![](assets/destination-schedule.png)
+
+1. 내보내기 파일 옵션을 정의합니다. 대상자를 더 빨리 활성화하려면 **[!UICONTROL 세그먼트 평가 후]** 옵션을 선택하여 일별 플랫폼 일괄 처리 세분화 작업이 완료된 후 즉시 활성화 작업을 트리거합니다.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

@@ -2,11 +2,9 @@
 title: 페더레이션된 대상자 구성 액세스
 description: 페더레이션된 대상자 구성에 필요한 권한 알아보기
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Adobe Experience Platform Federated Audience Composition을 구매하면 해당 
 예를 들어 “fac-test”라는 새 샌드박스가 활성화되면 해당 제품 프로필 “ACP_FAC - fac-test - admin”이 생성됩니다. 이 샌드박스를 사용하여 페더레이션된 대상자 구성에 액세스하려면 사용자를 이 제품 프로필에 추가해야 합니다.
 
 ## 페더레이션된 대상자 구성에 대한 액세스 관리
-
->[!AVAILABILITY]
->
->사용 권한은 3월 릴리스의 일부로 제공됩니다.
 
 **페더레이션된 대상자 구성**&#x200B;에 액세스하려면 해당 역할에 **페더레이션된 데이터 관리** 권한이 할당되어 있는지 확인해야 합니다. 또한 이러한 역할은 **페더레이션된 대상자 구성**&#x200B;에 액세스해야 하는 사용자에게 할당되어야 합니다.
 

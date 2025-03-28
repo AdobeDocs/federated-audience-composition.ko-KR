@@ -2,10 +2,10 @@
 title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 81%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 * 데이터 이동 및 중복 최소화: 기본 데이터를 복사하지 않고도 기업 데이터 웨어하우스에 있는 데이터 세트에서 대상자를 만들어 실행 가능한 마케팅 프로필과 잠재 대상자를 관리합니다.
 
 * 경험 기반 워크플로를 위한 단일 시스템 활용: Adobe Experience Platform에서 수집되고 페더레이션된 대상자를 선별하고 모든 채널에 걸쳐 아웃바운드 경험을 조정합니다.
+
+* 이제 B2C 및 B2B CDP 고객은 Federated Audience Composition을 활용하여 지원되는 엔터프라이즈 데이터 웨어하우스의 데이터를 통합하여 사용자 기반 대상을 구축할 수 있습니다. 또한 엔터프라이즈 데이터 웨어하우스에서 사용할 수 있는 관련 속성을 통합하여 기존 AEP 사용자 기반 대상을 보강하고 대상 프로필을 향상시켜 보다 개인화되고 타겟팅된 참여를 제공할 수 있습니다.
 
 ## 사용 사례 {#rn-uc}
 
