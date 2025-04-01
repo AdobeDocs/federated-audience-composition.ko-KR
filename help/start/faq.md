@@ -3,9 +3,9 @@ title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 +++페더레이션된 대상자 구성에 액세스하려면 어떤 권한이 필요합니까?
 
-페더레이션된 대상자 구성을 위해서는 Adobe Real-Time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. Federated Audience Composition도 구매해야 합니다.
+페더레이션된 대상자 구성을 위해서는 Adobe Real-Time Customer Data Platform 및 Adobe Journey Optimizer Prime 또는 Ultimate 패키지가 필요합니다. 또한 페더레이션된 대상자 구성을 구매해야 합니다.
 
 페더레이션된 대상자 구성을 사용하려면 각 사용자를 각 샌드박스에 대해 생성된 특정 프로필에 추가해야 합니다. 자세한 내용은 [페더레이션된 대상자 구성 액세스](access-prerequisites.md) 페이지를 참조하십시오.
 
@@ -89,11 +89,11 @@ ht-degree: 91%
 
 +++
 
-+++Federated Audience Composition으로 개인 정보 요청을 만들고 관리하는 방법
++++페더레이션된 대상자 구성으로 개인 정보 요청을 만들고 관리하는 방법?
 
-Adobe Federated Audience Composition에서 고객 데이터에 액세스하고 삭제하는 개별 요청을 다음 두 가지 방법으로 제출할 수 있습니다.
+Adobe 페더레이션된 대상자 구성에서는 고객 데이터에 액세스하고 삭제하기 위해 두 가지 방법으로 개별 요청을 제출할 수 있습니다.
 
-* Adobe Experience Platform **Privacy Service UI**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko){target="_blank"}
+* Adobe Experience Platform **Privacy Service UI**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR){target="_blank"}
 * Adobe Experience Platform **Privacy Service API**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 **액세스 요청** 및 **삭제 요청**&#x200B;을 만들고 관리하는 모든 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 설명되어 있습니다.
