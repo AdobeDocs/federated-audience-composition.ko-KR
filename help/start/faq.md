@@ -2,16 +2,16 @@
 title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 구성에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 자주 묻는 질문 {#faq}
 
-다음은 Adobe Experience Platform 페더레이션된 대상자 구성과 관련하여 자주 묻는 질문 목록입니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}에서는 Adobe Experience Platform Segmentation Service에 대한 글로벌 FAQ도 제공됩니다.
+다음은 Adobe Experience Platform 페더레이션된 대상자 구성과 관련하여 자주 묻는 질문 목록입니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}의 Adobe Experience Platform 세분화 서비스에 대한 전역 FAQ도 사용할 수 있습니다.
 
 
 +++페더레이션된 대상자 구성에 액세스하려면 어떤 권한이 필요합니까?
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 +++어떤 클라우드 데이터 웨어하우스가 지원됩니까?
 
-페더레이션된 대상자 구성이 지원되는 시스템의 목록은 [이 페이지](../start/access-prerequisites.md#supported-systems)에서 확인할 수 있습니다.
+Federated Audience Composition이 지원되는 시스템 목록은 [이 페이지](../start/access-prerequisites.md#supported-systems)에서 사용할 수 있습니다.
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 예:
 
 * 대상자 생성의 경우 대상자가 데이터 웨어하우스에 생성되며, Adobe Experience Platform 대상자 포털을 통해 결과 대상자 및 관련 속성을 게시하기 전에 추가 구성 작업 및 데이터 조작에 페더레이션된 대상자 구성을 사용할 수 있습니다. 대상자 정의 및 관련 속성은 Adobe Experience Platform으로 전달됩니다.
-외부에서 생성된 대상자에 대한 현재 데이터 만료 기간은 30일입니다. 이러한 데이터 만료로 인해 조직 내에 저장되는 초과 데이터의 양이 줄어듭니다. 데이터 만료 기간이 지난 후에도 관련 데이터 세트는 데이터 세트 인벤토리 내에 계속 표시되지만 대상자를 활성화할 수 없으며 프로필 수가 0으로 표시됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}를 참조하십시오.
+외부에서 생성된 대상자에 대한 현재 데이터 만료 기간은 30일입니다. 이러한 데이터 만료로 인해 조직 내에 저장되는 초과 데이터의 양이 줄어듭니다. 데이터 만료 기간이 지난 후에도 관련 데이터 세트는 데이터 세트 인벤토리 내에 계속 표시되지만 대상자를 활성화할 수 없으며 프로필 수가 0으로 표시됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}를 참조하세요.
 
 * 대상자 강화의 경우 시작점은 기존의 Adobe Experience Platform 대상자입니다. 여기서는 두 가지 시나리오를 볼 수 있습니다.
    1. 페더레이션된 데이터 웨어하우스에서 추가 대상자 페이로드 속성을 가져옵니다. 이 경우 추가되는 추가 속성은 이 대상자 정의의 일부로 제공됩니다. 외부에서 생성된 대상자에 대한 데이터 만료는 위에서 설명한 것과 동일하며 30일입니다.

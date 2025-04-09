@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
 
-[이 페이지](connections.md)에서 외부 데이터베이스에 대한 연결을 만들기, 구성, 테스트 및 저장하는 방법에 대해 알아봅니다. 아래에서 지원되는 데이터베이스 목록과 각 데이터베이스에 대해 구성할 수 있는 세부 설정을 확인할 수 있습니다.
+[이 페이지](connections.md)에서 외부 데이터베이스에 대한 연결을 만들고, 구성하고, 테스트하고, 저장하는 방법에 대해 알아봅니다. 아래에서 지원되는 데이터베이스 목록과 각 데이터베이스에 대해 구성할 수 있는 세부 설정을 확인할 수 있습니다.
 
 ## 지원되는 데이터베이스 {#supported-db}
 
@@ -123,7 +123,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 | 옵션 | 설명 |
 |---|---|
-| 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(예제 연결 문자열 n°8)를 참조하십시오. |
+| 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(연결 문자열 n°8 예제)를 참조하십시오. |
 
 ## Google Big Query {#google-big-query}
 
@@ -226,11 +226,11 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | workschema | 작업 테이블에 사용할 데이터베이스 스키마 |
 | warehouse | 사용할 기본 데이터 웨어하우스의 이름. 사용자의 기본값을 재정의합니다. |
-| TimeZoneName | 기본적으로 비어 있으며, 이는 시스템 시간대 앱 서버가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}를 참조하십시오. |
-| WeekStart | WEEK_START 세션 매개변수. 기본값은 0으로 설정됩니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}를 참조하십시오. |
-| UseCachedResult | USE_CACHED_RESULTS 세션 매개변수. 기본값은 TRUE로 설정됩니다. 이 옵션을 사용하면 Snowflake 캐시 결과를 비활성화할 수 있습니다. <br>자세한 정보는 [이 페이지](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}를 참조하십시오. |
+| TimeZoneName | 기본적으로 비어 있으며, 이는 시스템 시간대 앱 서버가 사용됨을 의미합니다. 이 옵션은 TIMEZONE 세션 매개변수를 강제 적용하는 데 사용될 수 있습니다. <br>자세한 내용은 [이 페이지](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}를 참조하세요. |
+| WeekStart | WEEK_START 세션 매개변수. 기본값은 0으로 설정됩니다. <br>자세한 내용은 [이 페이지](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}를 참조하세요. |
+| UseCachedResult | USE_CACHED_RESULTS 세션 매개변수. 기본값은 TRUE로 설정됩니다. 이 옵션을 사용하면 Snowflake 캐시 결과를 비활성화할 수 있습니다. <br>자세한 내용은 [이 페이지](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}를 참조하세요. |
 | bulkThreads | Snowflake 대량 로더에 사용할 스레드 수, 스레드가 많을수록 대량 로딩의 성능이 향상됩니다. 기본값은 1로 설정됩니다. 머신 스레드 수에 따라 수가 조정될 수 있습니다. |
-| chunkSize | 대량 로더 청크의 파일 크기를 결정합니다. 기본값은 128MB로 설정됩니다. BulkThreads와 함께 사용할 경우 보다 최적의 성능에 맞춰 수정할 수 있습니다. 동시에 활성화된 스레드가 많을수록 성능이 향상됩니다. <br>자세한 내용은 [Snowflake 설명서](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}를 참조하십시오. |
+| chunkSize | 대량 로더 청크의 파일 크기를 결정합니다. 기본값은 128MB로 설정됩니다. BulkThreads와 함께 사용할 경우 보다 최적의 성능에 맞춰 수정할 수 있습니다. 동시에 활성화된 스레드가 많을수록 성능이 향상됩니다. <br>자세한 내용은 [Snowflake 설명서](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}를 참조하세요. |
 | StageName | 사전 프로비저닝된 내부 단계의 이름. 새 임시 단계를 생성하는 대신 대량 로드에 사용됩니다. |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 | 옵션 | 설명 |
 |---|---|
-| 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(예제 연결 문자열 n°8)를 참조하십시오. |
+| 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(연결 문자열 n°8 예제)를 참조하십시오. |
 

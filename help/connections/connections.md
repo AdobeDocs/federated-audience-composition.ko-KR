@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ Experience Platform Federated Audience Composition을 통해 고객은 서드파
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Microsoft 패브릭](federated-db.md#microsoft-fabric)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. 지원되는 각 데이터베이스에 대해 **[!UICONTROL 서버 IP]** 단추를 선택하십시오. Federated Audience Composition 인스턴스와 연결된 모든 IP 목록이 표시됩니다.
 
