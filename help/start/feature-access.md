@@ -3,7 +3,7 @@ title: 페더레이션된 대상자 구성 액세스
 description: 페더레이션된 대상자 구성에 필요한 권한 알아보기
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
 ht-degree: 100%
 
