@@ -6,7 +6,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 >[!NOTE]
 >
->비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 Amazon Web Services(AWS) 또는 Azure에서 호스팅되어야 하며 Federated Audience Composition 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 >
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Snowflake에 대한 액세스를 구성합니다.
@@ -285,7 +285,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 >[!NOTE]
 >
->비공개 링크를 통해 외부 Databricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 개인 링크를 통해 Amazon Web Services(AWS)에서 호스팅되는 Databricks 데이터베이스에 대한 보안 연결 및 VPN을 통해 Microsoft Azure에서 호스팅되는 Databricks 데이터베이스가 포함됩니다. 보안 액세스 설정에 대한 지원은 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통한 외부 Databricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Databricks에 대한 액세스를 구성합니다.
 

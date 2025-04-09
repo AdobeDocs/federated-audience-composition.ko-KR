@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 70%
+ht-degree: 86%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 70%
 
 페더레이션된 대상자 구성을 구매하면 샌드박스 두 개를 사용할 수 있습니다. 추가 샌드박스 프로비저닝 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
 
-활성 페더레이션 대상 컴포지션 샌드박스 목록을 보려면 아래 단계를 따르십시오.
+활성 페더레이션된 대상자 구성 샌드박스 목록을 조회하려면 다음 단계를 따르십시오.
 
-1. Federated Audience Composition에서 **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
+1. 페더레이션된 대상자 구성에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
 
-1. 샌드박스 속성에 액세스하려면 **[!UICONTROL 총 데이터 이그레스 볼륨]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 클릭하십시오.
+1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 클릭하여 샌드박스 속성에 액세스합니다.
 
    ![](assets/sandbox_1.png)
 
-1. 샌드박스에 대한 정보가 속성 팝오버에 표시됩니다.
+1. 속성 팝오버에 샌드박스에 대한 정보가 표시됩니다.
 
    ![](assets/sandbox_2.png)
 

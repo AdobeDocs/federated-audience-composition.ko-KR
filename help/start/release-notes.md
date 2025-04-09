@@ -5,13 +5,13 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
+[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)에서 이러한 변경 사항에 대해 자세히 알아보세요.
 
 ## 25년 3월 릴리스 {#fac-25-3}
 
@@ -43,7 +43,7 @@ ht-degree: 87%
 * **Databricks 연결**
 
   이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
-여기에는 개인 링크를 통해 Amazon Web Services(AWS)에서 호스팅되는 Databricks 데이터베이스에 대한 보안 연결 및 VPN을 통해 Microsoft Azure에서 호스팅되는 Databricks 데이터베이스가 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
 
 * **B2B CDP 고객 지원**
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 
 * **Amazon Redshift Serverless 지원**
 
-  이 새로운 릴리스에서는 Federated Audience Composition이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
+  이 새로운 릴리스에서는 Federated Audience Composition이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/)를 지원합니다.
 
 ### 개선 사항 {#fac-24-10-improvements}
 
@@ -120,7 +120,7 @@ ht-degree: 87%
 
 ## 2024년 7월 릴리스 - 페더레이션된 대상자 구성 (LA) {#fac-la}
 
-페더레이션된 대상자 구성은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 구성하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 통해 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상 데이터를 페더레이션하여 하나의 시스템에서 Adobe Experience Platform 대상을 보강할 수 있습니다.
+페더레이션된 대상자 구성은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 구성하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 통해 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home) 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home) 사용자는 기존 데이터 웨어하우스에서 직접 대상 데이터를 페더레이션하여 하나의 시스템에서 Adobe Experience Platform 대상을 보강할 수 있습니다.
 
 페더레이션된 대상자 구성은 웨어하우스 데이터 세트를 사용하여 대상자를 구성할 수 있는 유연성이 필요한 기업의 증가하는 시장 요구를 충족할 수 있습니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다.
 

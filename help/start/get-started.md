@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
 # 페더레이션된 대상자 구성 시작하기 {#gs-fac}
 
-페더레이션 대상 구성은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 환경에서 사용할 수 있습니다. 이를 통해 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 구성은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
+페더레이션 대상 구성은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home) 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home) 환경에서 사용할 수 있습니다. 이를 통해 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 구성은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
 
 Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에 나열됩니다.
 
@@ -31,7 +31,7 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 
 * 경험 기반 워크플로를 위한 단일 시스템 활용: Adobe Experience Platform에서 수집되고 페더레이션된 대상자를 선별하고 모든 채널에 걸쳐 아웃바운드 경험을 조정합니다.
 
-* 이제 B2C 및 B2B CDP 고객은 Federated Audience Composition을 활용하여 지원되는 엔터프라이즈 데이터 웨어하우스의 데이터를 통합하여 사용자 기반 대상을 구축할 수 있습니다. 또한 엔터프라이즈 데이터 웨어하우스에서 사용할 수 있는 관련 속성을 통합하여 기존 AEP 사용자 기반 대상을 보강하고 대상 프로필을 향상시켜 보다 개인화되고 타겟팅된 참여를 제공할 수 있습니다.
+* 이제 B2C 및 B2B CDP 고객은 지원되는 기업 데이터 웨어하우스의 데이터를 통합하여 페더레이션된 대상자 구성을 통해 사용자 기반 대상자를 빌드할 수 있습니다. 또한 기업 데이터 웨어하우스에서 사용 가능한 관련 속성을 통합하여 기존 AEP 사용자 기반 대상자를 강화하고, 보다 개인화되고 타기팅된 참여를 위해 대상자 프로필을 개선할 수 있습니다.
 
 ## 사용 사례 {#rn-uc}
 
@@ -43,7 +43,7 @@ Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사�
 
 1. 대상자 강화: 기업 데이터 웨어하우스에서 페더레이션된 구성 대상자 데이터를 활용하여 Adobe Experience Platform의 기존 대상자를 강화합니다. 이 데이터는 Adobe Experience Platform 고객 프로필에 유지되지 않습니다.
 
-![다이어그램](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![다이어그램](assets/fac-use-cases.png)
 
 ## 주요 단계 {#gs-steps}
 
@@ -63,7 +63,7 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 
 >[!NOTE]
 >
->구성을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>구성을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal)
 
 ## 거버넌스, 개인 정보 및 보안 {#governance-privacy-security}
 
@@ -71,13 +71,13 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 
 컴포지션을 만들면 최종 대상자가 Adobe Experience Platform에 저장됩니다.
 
-그런 다음 고객 데이터 요청을 관리하는 데 도움이 되는 [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR){target="_blank"} 및 [RESTful API](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}를 제공하는 Adobe Experience Platform **Privacy Service**&#x200B;을(를) 통해 이러한 대상에 해당하는 프로필 데이터에 대한 개인 정보 보호 요청을 수행할 수 있습니다.
+그런 다음 고객 데이터 요청을 관리하는 데 도움이 되는 [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR) 및 [RESTful API](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview)를 제공하는 Adobe Experience Platform **Privacy Service**&#x200B;을(를) 통해 이러한 대상에 해당하는 프로필 데이터에 대한 개인 정보 보호 요청을 수행할 수 있습니다.
 
 >[!NOTE]
 >
->Privacy Service에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
+>Privacy Service에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR)를 참조하세요.
 
-Adobe 페더레이션된 대상자 구성에서 고객 데이터에 액세스하고 삭제하기 위한 개별 요청을 만들고 관리할 수 있습니다. **액세스 요청** 및 **삭제 요청**&#x200B;을 제출하는 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 설명되어 있습니다.
+Adobe 페더레이션된 대상자 구성에서 고객 데이터에 액세스하고 삭제하기 위한 개별 요청을 만들고 관리할 수 있습니다. **액세스 요청** 및 **삭제 요청**&#x200B;을 제출하는 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy)에 자세히 설명되어 있습니다.
 
 ### 감사 추적 {#gov-audit-trail}
 
