@@ -4,16 +4,44 @@ description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 90%
+source-wordcount: '969'
+ht-degree: 77%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
+
+## 2025년 4월 릴리스 {#fac-25-4}
+
+### 개선 사항 {#fac-25-4-improvements}
+
+이번 릴리스는 아래의 개선 사항과 함께 제공됩니다.
+
+* **데이터 모델 캔버스 보기**
+
+  데이터 모델 섹션에 대한 캔버스 보기는 기존 테이블 보기와 함께 캔버스 레이아웃에서 데이터 모델 및 해당 링크의 시각화를 활성화하여 경험을 향상시킵니다. [자세히 알아보기](../data-management/gs-models.md)
+
+* **AI 어시스턴트**
+
+  AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻을 수 있도록 설계된 사용자 인터페이스 기능입니다. Federated Audience Composition을 포함하여 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다. [자세히 알아보기](../start/audiences.md)
+
+* **데이터 모델 이름**
+
+  대상 메뉴에서 이제 **통합 구성** 탭에 ID 대신 데이터 모델 이름이 표시되므로 명확성과 전반적인 유용성이 향상되었습니다.
+
+* **대상자**
+
+  이제 사용자가 연결된 대상이 없는 데이터 모델을 선택할 때 대상 메뉴에 선택한 데이터 모델의 이름 또는 레이블이 표시됩니다.
+
+### 호환성 {#fac-25-4-compat}
+
+* **Snowflake 보안 연결**
+
+  이번 새로운 릴리스에서는 Federated Audience Composition이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 보안 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
 
 ## 25년 3월 릴리스 {#fac-25-3}
 
@@ -34,11 +62,11 @@ ht-degree: 90%
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### 호환성 {#fac-25-3-compat}
 
