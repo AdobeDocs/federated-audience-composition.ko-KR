@@ -5,15 +5,15 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
+[!DNL Federated Audience Composition]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 
@@ -23,27 +23,27 @@ ht-degree: 77%
 
 * **데이터 모델 캔버스 보기**
 
-  데이터 모델 섹션에 대한 캔버스 보기는 기존 테이블 보기와 함께 캔버스 레이아웃에서 데이터 모델 및 해당 링크의 시각화를 활성화하여 경험을 향상시킵니다. [자세히 알아보기](../data-management/gs-models.md)
+  데이터 모델에 대한 캔버스 보기 섹션이 기존의 표 형식으로 보기와 함께 캔버스 레이아웃에서 데이터 모델과 해당 링크를 시각화할 수 있도록 함으로써 사용자 경험이 개선되었습니다. [자세히 알아보기](../data-management/gs-models.md)
 
 * **AI 어시스턴트**
 
-  AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻을 수 있도록 설계된 사용자 인터페이스 기능입니다. Federated Audience Composition을 포함하여 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다. [자세히 알아보기](../start/audiences.md)
+  AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 특정 환경에 대한 운영 인사이트를 얻는 데 사용할 수 있도록 설계된 사용자 인터페이스 기능입니다. 페더레이션된 대상자 구성을 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다. [자세히 알아보기](../start/audiences.md)
 
 * **데이터 모델 이름**
 
-  대상 메뉴에서 이제 **통합 구성** 탭에 ID 대신 데이터 모델 이름이 표시되므로 명확성과 전반적인 유용성이 향상되었습니다.
+  이제 대상자 메뉴에서 **페더레이션된 구성** 탭에 ID 대신 데이터 모델 이름이 표시되어 명확성과 더불어 전반적인 사용성이 향상되었습니다.
 
 * **대상자**
 
-  이제 사용자가 연결된 대상이 없는 데이터 모델을 선택할 때 대상 메뉴에 선택한 데이터 모델의 이름 또는 레이블이 표시됩니다.
+  이제 사용자가 연관된 대상자가 없는 데이터 모델을 선택하는 경우에도 선택한 데이터 모델의 이름 또는 레이블이 대상자 메뉴에 표시됩니다.
 
 ### 호환성 {#fac-25-4-compat}
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 Federated Audience Composition이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 보안 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
 
-## 25년 3월 릴리스 {#fac-25-3}
+## 2025년 3월 릴리스 {#fac-25-3}
 
 ### 개선 사항 {#fac-25-3-improvements}
 
@@ -83,7 +83,7 @@ ht-degree: 77%
 
   이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
-## 25년 2월 릴리스 {#fac-25-2}
+## 2025년 2월 릴리스 {#fac-25-2}
 
 이 릴리스는 아래 목록에 있는 변경 사항과 함께 제공됩니다.
 
@@ -134,7 +134,7 @@ ht-degree: 77%
 
 * **Amazon Redshift Serverless 지원**
 
-  이 새로운 릴리스에서는 Federated Audience Composition이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 구성이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
 
 ### 개선 사항 {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ ht-degree: 77%
 
 ## 2024년 7월 릴리스 - 페더레이션된 대상자 구성 (LA) {#fac-la}
 
-페더레이션된 대상자 구성은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 구성하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 통해 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상 데이터를 페더레이션하여 하나의 시스템에서 Adobe Experience Platform 대상을 보강할 수 있습니다.
+페더레이션된 대상자 구성은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 구성하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 사용하면 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상자 데이터를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 하나의 시스템에서 강화할 수 있습니다.
 
 페더레이션된 대상자 구성은 웨어하우스 데이터 세트를 사용하여 대상자를 구성할 수 있는 유연성이 필요한 기업의 증가하는 시장 요구를 충족할 수 있습니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다.
 
-[이 페이지](get-started.md) 및 [자주 묻는 질문](faq.md)에서 Federated Audience Composition 기능에 대해 자세히 알아보세요.
+[이 페이지](get-started.md)와 [자주 묻는 질문](faq.md)에서 페더레이션된 대상자 구성에 대해 자세히 알아보십시오.
 
 [이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성에 액세스하기 위한 사전 요구 사항 및 현재 가드레일에 대한 자세한 내용을 알아보십시오.
