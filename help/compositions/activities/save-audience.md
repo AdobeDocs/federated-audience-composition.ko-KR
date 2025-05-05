@@ -38,11 +38,11 @@ ht-degree: 28%
 
 이 활동은 기본적으로 모집단 그룹을 재사용 가능한 대상으로 전환하여 동일한 컴포지션에서 계산되도록 하는 데 사용됩니다. **대상자 작성** 또는 **결합** 활동과 같은 다른 타깃팅 활동에 연결합니다.
 
-**[!UICONTROL 대상자 저장]** 활동은 새 대상자 스키마와 데이터 집합을 생성합니다. 대상자가 만들어지면 책임자와 조정하여 적절한 데이터 거버넌스 레이블을 할당하십시오. [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/user-guide)
+**[!UICONTROL 대상자 저장]** 활동은 새 대상자 스키마와 데이터 집합을 생성합니다. 대상자가 만들어지면 책임자와 조정하여 적절한 데이터 거버넌스 레이블을 할당하십시오. [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->**대상자 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>**대상자 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## 대상자 저장 활동 구성 {#save-audience-configuration}
 
