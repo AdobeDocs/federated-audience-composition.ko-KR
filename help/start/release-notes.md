@@ -89,7 +89,7 @@ ht-degree: 83%
 * **대상자 활동 저장**
 
   **대상자 저장** 활동에 메모가 추가되어 사용자가 데이터 관리자와 협력하여 대상자를 만들고 보강하는 동안 만든 새 스키마 및 데이터 세트에 거버넌스 레이블을 적용하도록 상기합니다.
-  [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 호환성 {#fac-25-4-compat}
 
