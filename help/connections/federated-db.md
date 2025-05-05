@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '2133'
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 >title="페더레이션된 데이터베이스 세부 정보"
 >abstract="새 페더레이션된 데이터베이스에 연결하기 위한 설정을 입력합니다. **[!UICONTROL 연결 테스트]** 버튼을 사용하여 구성을 검사합니다."
 
-Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
+Experience Platform 페더레이션된 대상자 컴포지션을 통해 고객은 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다.
 
 [이 페이지](connections.md)에서 외부 데이터베이스에 대한 연결 만들기, 구성, 테스트 및 저장하는 방법에 대해 알아보십시오. 아래에서 지원되는 데이터베이스 목록과 각 데이터베이스에 대해 구성할 수 있는 세부 설정을 확인할 수 있습니다.
 
 ## 지원되는 데이터베이스 {#supported-db}
 
-페더레이션된 대상자 구성을 사용하면 다음 데이터베이스에 연결할 수 있습니다. 각 데이터베이스의 구성은 아래와 같습니다.
+페더레이션된 대상자 컴포지션을 사용하면 다음 데이터베이스에 연결할 수 있습니다. 각 데이터베이스의 구성은 아래와 같습니다.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
@@ -45,9 +45,11 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 ## Amazon Redshift {#amazon-redshift}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
+>* Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
+>
+>* 비공개 링크를 통해 외부 Amazon Redshift 데이터베이스에 대한 보안 액세스가 지원됩니다.
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Amazon Redshift에 대한 액세스를 구성합니다.
 
@@ -175,7 +177,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 >[!NOTE]
 >
->비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 >
 
 페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Snowflake에 대한 액세스를 구성합니다.

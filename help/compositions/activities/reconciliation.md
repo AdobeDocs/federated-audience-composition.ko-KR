@@ -3,9 +3,9 @@ audience: end-user
 title: 조정 활동 사용
 description: 조정 활동을 사용하는 방법 알아보기
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 39%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 39%
 1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
 
    1. 특성을 사용하여 데이터를 조정하려면 **단순 특성** 옵션을 선택한 다음 **규칙 추가** 단추를 클릭하십시오.
-   1. 조정할 **Source** 및 **대상** 필드를 선택하십시오. **Source** 필드. **대상** 필드는 선택한 스키마의 필드에 해당합니다.
+   1. 조정할 **Source** 및 **대상** 필드를 선택하십시오. **대상** 필드는 선택한 스키마의 필드에 해당합니다.
 
       소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 필드를 선택하여 이메일 주소를 기반으로 프로필을 중복 제거합니다.
 

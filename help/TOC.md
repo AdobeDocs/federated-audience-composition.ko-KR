@@ -1,25 +1,26 @@
 ---
-user-guide-title: Experience Platform 페더레이션된 대상자 구성
-title: Experience Platform 페더레이션된 대상자 구성 설명서
-breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
+title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
+breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 84%
+source-wordcount: '161'
+ht-degree: 83%
 
 ---
 
 
-# Experience Platform 페더레이션된 대상자 구성 설명서 {#using}
+# Experience Platform 페더레이션된 대상자 컴포지션 설명서 {#using}
 
-+ [Experience Platform 페더레이션된 대상자 구성 설명서](home.md)
++ [Experience Platform 페더레이션된 대상자 컴포지션 설명서](home.md)
 + [릴리스 노트](start/release-notes.md)
 + [릴리스 노트](start/e-release-notes.md)
 + Federated Audience 구성 시작 {#start}
-   + [페더레이션된 대상자 구성이란?](start/get-started.md)
+   + [페더레이션된 대상자 컴포지션이란?](start/get-started.md)
    + [사전 요구 사항 및 가드레일](start/access-prerequisites.md)
-   + [페더레이션된 대상자 구성 액세스](start/feature-access.md)
+   + [페더레이션된 대상자 컴포지션 액세스](start/feature-access.md)
    + [대상자를 사용한 작업](start/audiences.md)
+   + [AI 어시스턴트 작업](start/ai-assistant.md)
    + [자주 묻는 질문](start/faq.md)
 + 구성 단계 {#config}
    + [연결 만들기 및 관리](connections/connections.md)
@@ -27,16 +28,15 @@ ht-degree: 84%
    + [FDA 권한 지표](connections/fda-rights.md)
    + 데이터 모델 및 스키마{#datamodel}
       + [스키마 만들기 및 구성](customer/schemas.md)
-      + [데이터 모델 구성 (Beta)](data-management/gs-models-beta.md)
       + [데이터 모델 구성](data-management/gs-models.md)
    + [외부 데이터로 Adobe Experience Platform 대상자 강화](connections/destinations.md)
 + 대상자 구성 {#compositions}
-   + [구성 시작하기](compositions/gs-compositions.md)
+   + [컴포지션 시작하기](compositions/gs-compositions.md)
    + 첫 번째 컴포지션 만들기 및 실행 {#create-composition}
-      + [구성을 만드는 핵심 원칙](compositions/gs-composition-creation.md)
-      + [구성 만들기](compositions/create-composition.md)
+      + [컴포지션을 만드는 핵심 원칙](compositions/gs-composition-creation.md)
+      + [컴포지션 만들기](compositions/create-composition.md)
       + [활동 조율](compositions/orchestrate-activities.md)
-      + [구성 시작 및 모니터링](compositions/start-monitor-composition.md)
+      + [컴포지션 시작 및 모니터링](compositions/start-monitor-composition.md)
    + 활동을 사용한 작업 {#activities}
       + [활동 목록](compositions/activities/about-activities.md)
       + [AND-결합](compositions/activities/and-join.md)
@@ -48,6 +48,7 @@ ht-degree: 84%
       + [포크](compositions/activities/fork.md)
       + [조정](compositions/activities/reconciliation.md)
       + [대상자 저장](compositions/activities/save-audience.md)
+      + [프로필 저장](compositions/activities/save-profiles.md)
       + [스케줄러](compositions/activities/scheduler.md)
       + [분할](compositions/activities/split.md)
       + [대기](compositions/activities/wait.md)

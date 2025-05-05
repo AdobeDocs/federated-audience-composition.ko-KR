@@ -3,7 +3,7 @@ audience: end-user
 title: 활동을 사용한 작업
 description: 활동 작업 방법 알아보기
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 16%
@@ -31,7 +31,7 @@ ht-degree: 16%
 ## 흐름 제어 활동
 
 * [AND-join](and-join.md): 컴포지션의 여러 실행 분기를 동기화합니다.
-* **끝** : 컴포지션의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다.
+* **끝**: 컴포지션의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다.
 * [포크](fork.md): 동시에 여러 활동을 시작하는 아웃바운드 전환을 만듭니다.
 * [스케줄러](scheduler.md): 작성을 시작하는 시간을 예약합니다.
 * [대기](wait.md): 컴포지션 일부의 실행을 잠시 일시 중지합니다.

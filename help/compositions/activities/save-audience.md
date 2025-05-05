@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 31%
+source-wordcount: '508'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 구성에서 업스트림으로 계산한 모집단에서 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -37,6 +37,8 @@ ht-degree: 31%
 **대상 저장** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상을 만들 수 있습니다. 만든 대상자는 Adobe Experience Platform 대상자 목록에 추가되고 **대상자** 메뉴를 통해 사용할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../../start/audiences.md)
 
 이 활동은 기본적으로 모집단 그룹을 재사용 가능한 대상으로 전환하여 동일한 컴포지션에서 계산되도록 하는 데 사용됩니다. **대상자 작성** 또는 **결합** 활동과 같은 다른 타깃팅 활동에 연결합니다.
+
+**[!UICONTROL 대상자 저장]** 활동은 새 대상자 스키마와 데이터 집합을 생성합니다. 대상자가 만들어지면 책임자와 조정하여 적절한 데이터 거버넌스 레이블을 할당하십시오. [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
@@ -67,7 +69,7 @@ ht-degree: 31%
 
 ## Access Adobe Experience Platform에서 대상자에 액세스 {#access-audience}
 
-구성을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+컴포지션을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 생성된 대상에는 대상자 매핑 섹션에서 선택한 모든 필드가 포함됩니다. Journey Optimizer에서 이 대상을 타기팅하거나 Adobe Experience Platform에서 지원하는 모든 대상으로 활성화할 수 있습니다.
 
