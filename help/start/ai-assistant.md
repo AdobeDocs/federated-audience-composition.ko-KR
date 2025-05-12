@@ -1,34 +1,35 @@
 ---
 title: AI 어시스턴트로 작업하기
 description: AI 어시스턴트 활용 방법에 대해 알아보기
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # AI 어시스턴트로 작업하기 {#ai-assistant}
 
-AI Assistant는 Adobe 개념을 탐색하고 이해하는 데 도움이 되도록 설계된 사용자 인터페이스 기능입니다. Federated Audience Composition을 포함하여 Adobe Experience Cloud의 여러 제품에 있는 제품 지식 사용 사례에 사용할 수 있습니다.
+AI 어시스턴트는 Adobe 개념을 탐색하고 이해하는 데 도움이 되도록 설계된 사용자 인터페이스 기능입니다. 페더레이션된 대상자 구성을 비롯한 Adobe Experience Cloud 전반에 걸친 다양한 제품에서 제품 지식 사용 사례에 사용할 수 있습니다.
 
 >[!CAUTION]
 >
 >AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 동의해야 합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}에서 계약에 대해 자세히 알아보십시오.
 
-Federated Audience Composition에서 제품 지식에 액세스하여 프로세스의 다양한 부분과 관련된 Adobe 개념에 대해 배울 수 있습니다. AI Assistant는 두 가지 유형의 제품 지식을 지원합니다. **공개 검색**(Experience League 설명서를 기반으로 제품 개념 살펴보기) 및 **타깃팅된 학습 및 문제 해결**(특정 기능 관련 질문).
+페더레이션된 대상자 구성에서 프로세스의 다양한 부분과 관련된 Adobe 개념을 알아보기 위한 제품 지식에 액세스할 수 있습니다. AI 어시스턴트는 다음 두 가지 유형의 제품 지식을 지원합니다. **공개 검색**(Experience League 문서를 기반으로 제품 개념 탐색) 및 **타기팅된 학습 및 문제 해결**(특정 기능에 대한 질문).
 
 이러한 질문의 예는 다음과 같습니다.
 
-* Federated Audience 구성이란 무엇입니까?
-* Snowflake Federated Database 계정을 구성하려면 어떻게 해야 합니까?
-* Federated 컴포지션을 만들려면 어떻게 해야 합니까?
+* 페더레이션된 대상자 구성이란 무엇입니까?
+* Snowflake 페더레이션된 데이터베이스 계정을 구성하는 방법은 무엇입니까?
+* 페더레이션된 대상자 구성을 만드는 방법은 무엇입니까?
 
 질문을 하려면 다음 단계를 따르십시오.
 
-1. 상단 표시줄의 아이콘을 클릭하여 AI Assistant에 액세스합니다.
+1. 상단 표시줄에 있는 아이콘을 클릭하여 AI 어시스턴트에 액세스합니다.
 
-   AI Assistant가 화면의 오른쪽 섹션에 표시됩니다. ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_FullScreen_18_N.svg "확장")을 클릭하여 AI 도우미 창을 확장할 수 있습니다.
+   AI 어시스턴트는 화면의 오른쪽 섹션에 표시됩니다. ![자세히 살펴보기 이미지 대체 텍스트](assets/do-not-localize/Smock_FullScreen_18_N.svg "펼치기")를 클릭하여 AI 어시스턴트 창을 펼칠 수 있습니다.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
