@@ -3,7 +3,7 @@ title: Experience Platform 페더레이션된 대상자 구성 시작하기
 description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -143,5 +143,5 @@ Adobe 페더레이션된 대상자 구성에서 고객 데이터에 액세스하
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="타기팅 차원 선택"
->abstract="타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 기본 제공 수신자 테이블에서 타깃이 선택됩니다. 푸시 알림의 경우 기본 타기팅 차원은 구독자 애플리케이션입니다."
+>abstract="타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우 기본 제공 수신자 테이블에서 타깃이 선택됩니다. 푸시 알림의 경우 기본 타기팅 차원은 구독자 애플리케이션입니다."
 

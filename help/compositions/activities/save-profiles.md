@@ -2,10 +2,11 @@
 audience: end-user
 title: 프로필 저장 활동 사용
 description: 프로필 저장 활동을 사용하는 방법 알아보기
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="프로필 저장"
->abstract="프로필 저장 활동을 사용하면 외부 웨어하우스의 데이터를 페더레이션하여 Experience Platform 프로필을 보강할 수 있으므로 추가 속성으로 고객 프로필을 향상시킬 수 있습니다. "
+>abstract="프로필 저장 활동을 통해 외부 웨어하우스의 데이터를 통합하여 Adobe Experience Platform 프로필을 강화하고, 추가 속성을 통해 고객 프로필을 개선할 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="AEP 스키마 선택"
->abstract="프로필에 대한 Experience Platform 스키마를 선택합니다."
+>abstract="프로필에 대해 Experience Platform 스키마를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="기본 ID 필드 선택"
->abstract="데이터베이스에서 타겟팅된 프로필을 식별하는 데 사용할 기본 ID를 선택합니다."
+>title="기본 식별 필드 선택"
+>abstract="데이터베이스에서 대상 프로필을 식별하는 데 사용할 기본 ID를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="AEP 스키마 선택"
->abstract="프로필에 대한 Experience Platform 스키마를 선택합니다."
+>abstract="프로필에 대해 Experience Platform 스키마를 선택합니다."
 
 **프로필 저장** 활동을 사용하면 외부 웨어하우스에서 페더레이션된 데이터로 Adobe Experience Platform 프로필을 보강할 수 있습니다.
 
