@@ -2,20 +2,25 @@
 audience: end-user
 title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
+
 
 # 데이터 모델 시작 {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->캔버스 보기가 있는 데이터 모델은 현재 사용자를 선택하는 베타로 사용할 수 있습니다.
+>데이터 모델에 액세스하려면 다음 권한 중 하나가 필요합니다.
+>
+>-**페더레이션 데이터 모델 관리**
+>-**페더레이션 데이터 모델 보기**
+>
+>필요한 권한에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/start/feature-access.md)를 참조하십시오.
 
 ## 데이터 모델이란? {#data-model-start}
 
@@ -45,7 +50,9 @@ Federated Audience Composition에서는 캔버스 보기에서 직접 데이터 
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. 대상 그룹을 정의하려면 **[!UICONTROL 대상 추가]**&#x200B;를 클릭하십시오.
+1. 또한 데이터 모델에 대상을 추가할 수 있습니다. 대상 그룹을 정의하려면 **[!UICONTROL 대상 추가]**&#x200B;를 선택하십시오.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. 데이터 모델에서 테이블 간의 연결을 설정하여 정확한 데이터 관계를 보장합니다. [자세히 알아보기](#data-model-links)
 

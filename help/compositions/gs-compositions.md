@@ -3,14 +3,23 @@ audience: end-user
 title: 컴포지션 시작하기
 description: 컴포지션을 시작하는 방법 알아보기
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
-# 컴포지션 시작하기 {#compositions}
+# 구성 시작하기 {#compositions}
+
+>[!AVAILABILITY]
+>
+>컴포지션에 액세스하려면 다음 권한 중 하나가 필요합니다.
+>
+>-**페더레이션 구성 관리**
+>-**통합 구성 보기**
+>
+>필요한 권한에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/start/feature-access.md)를 참조하십시오.
 
 ## 컴포지션이란? {#what}
 
