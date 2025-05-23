@@ -25,7 +25,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="기본 식별 필드 선택"
->abstract="데이터베이스에서 대상 프로필을 식별하는 데 사용할 기본 ID를 선택합니다."
+>abstract="데이터베이스에서 타기팅된 프로필을 식별하는 데 사용할 기본 ID를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
