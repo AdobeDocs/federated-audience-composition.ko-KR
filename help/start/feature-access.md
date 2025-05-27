@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 컴포지션 액세스
 description: 페더레이션된 대상자 컴포지션에 필요한 권한 알아보기
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ Adobe Experience Platform 페더레이션된 대상자 컴포지션을 구매하
 
 1. 사용자의 이름 또는 이메일 주소를 입력하거나, 사용 가능한 목록에서 선택합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-또는 사용자에게 필요한 권한에 따라 기존 역할 중 하나를 할당할 수 있습니다. 사용자에게 기존 역할을 할당하는 방법에 대한 자세한 내용은 [제품 프로필에 대한 사용자 관리 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users)를 참조하십시오.
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| 역할 이름 | 권한 |
+| Role name | Permissions |
 | --------- | ----------- |
-| FAC 데이터 관리자 | <ul><li>페더레이션 구성 관리</li><li>통합 데이터베이스 보기</li><li>페더레이션 스키마 보기</li><li>페더레이션 스키마 데이터 보기</li><li>페더레이션 데이터 모델 보기</li></ul> |
-| FAC 구성 관리자 | <ul><li>페더레이션 구성 관리</li></ul> |
-| FAC 관리자 | <ul><li>페더레이션 데이터 관리</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 그런 다음 사용자는 인스턴스에 액세스하기 위한 지침이 포함된 이메일을 받게 됩니다. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
