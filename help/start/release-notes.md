@@ -3,15 +3,15 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2025년 5월 릴리스 {#fac-25-5}
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>이제 캔버스 보기가 포함된 데이터 모델을 모든 고객이 사용할 수 있습니다!</p>
+<p>이제 캔버스 보기가 포함된 데이터 모델을 모든 고객이 이용할 수 있습니다.</p>
 <p>데이터 모델에 대한 캔버스 보기 섹션이 기존의 표 형식으로 보기와 함께 캔버스 레이아웃에서 데이터 모델과 해당 링크를 시각화할 수 있도록 함으로써 사용자 경험이 개선되었습니다. </p>
 <p>캔버스 보기에 대한 자세한 내용은 <a href="../data-management/gs-models.md">데이터 모델 개요</a>를 참조하십시오.</p>
 </br>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### 개선 사항 {#fac-25-5-improvements}
 
-이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
 
 * **역할 기반 액세스 제어**
 
-  5월 릴리스부터 [!DNL Federated Audience Composition]은(는) 액세스 제어에 대한 새로운 세분화된 권한을 지원합니다. 사용자는 [!DNL Federated Audience Composition]에 보다 정확하게 액세스하기 위해 이러한 권한을 사용자 역할에 할당할 수 있습니다.
+  5월 릴리스부터 [!DNL Federated Audience Composition]이 액세스 제어를 위한 새로운 세부적인 권한을 지원합니다. 사용자는 이들 권한을 사용자 역할에 할당하여 [!DNL Federated Audience Composition]에 대해 더욱 정밀한 액세스 권한을 얻을 수 있습니다.
 
-  새 사용 권한에 대한 자세한 내용은 [Federated Audience Composition 액세스 안내서](feature-access.md)를 참조하십시오.
+  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 컴포지션 액세스 안내서](feature-access.md)를 참조하십시오.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 

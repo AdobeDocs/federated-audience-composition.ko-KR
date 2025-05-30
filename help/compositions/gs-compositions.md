@@ -4,26 +4,26 @@ title: 컴포지션 시작하기
 description: 컴포지션을 시작하는 방법 알아보기
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# 구성 시작하기 {#compositions}
+# 컴포지션 시작하기 {#compositions}
 
 >[!AVAILABILITY]
 >
 >컴포지션에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션 구성 관리**
->-**통합 구성 보기**
+>-**페더레이션된 컴포지션 관리**
+>>-**페더레이션된 컴포지션 보기**
 >
->필요한 권한에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/start/feature-access.md)를 참조하십시오.
+>필요한 권한에 대한 자세한 내용은 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/start/feature-access.md)를 참조하십시오.
 
 ## 컴포지션이란? {#what}
 
-Adobe 대상자 컴포지션을 사용하면 다양한 활동(분할, 제외…)을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 컴포지션을 만들 수 있습니다. 완료되면 결과 대상자는 기존 대상자와 함께 Adobe Experience Platform에 저장되며, 이를 Adobe Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타겟팅할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../start/audiences.md)
+Adobe 대상자 컴포지션을 사용하면 다양한 활동(분할, 제외…)을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 컴포지션을 만들 수 있습니다. 완료되면 결과 대상자는 기존 대상자와 함께 Adobe Experience Platform에 저장되며, 이를 Adobe Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타기팅할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
