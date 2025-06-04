@@ -21,23 +21,23 @@ Federated Audience Composition은 Adobe Experience Platform 및 Adobe Journey Op
 
 또는 작성 캔버스에서 프로필 저장 활동을 사용하여 프로필 강화를 만든 후 결과 보강은 Experience Platform에 프로필 활성화 스키마 및 프로필 활성화 데이터 세트로 저장됩니다. 이 데이터 보강 데이터는 ID 필드 및 ID 네임스페이스로 표시됩니다. 따라서 Privacy Service을 사용하여 이러한 프로필에 액세스하고 정리할 수 있습니다.
 
-Privacy Service에 대한 자세한 내용은 [Privacy Service 개요](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}를 참조하십시오.
+Privacy Service에 대한 자세한 내용은 [Privacy Service 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/home){target="_blank"}를 참조하십시오.
 
 ### 개인 정보 요청 {#privacy-requests}
 
 Privacy Service에서는 Federated Audience Composition에서 고객 데이터에 액세스하고 삭제하기 위한 개별 개인 정보 보호 요청을 만들고 관리할 수 있습니다. Privacy Service은 고객 데이터 요청을 관리하는 데 도움이 되는 [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR){target="_blank"}와 [RESTful API](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}를 모두 제공합니다.
 
-개인 정보 보호 요청 만들기 및 관리에 대한 자세한 내용은 Privacy Service UI 가이드의 [개인 정보 보호 작업](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}을 참조하세요.
+개인 정보 보호 요청 만들기 및 관리에 대한 자세한 내용은 Privacy Service UI 가이드의 [개인 정보 보호 작업](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/ui/user-guide){target="_blank"}을 참조하세요.
 
 ## 동의 정책 시행 {#consent}
 
 Experience Platform을 통해 Federated Audience Composition은 동의 적용을 자동화할 수 있는 도구를 제공하므로, 고객에게 제공된 동의에 따라 대상을 활성화할 수 있습니다.
 
-예를 들어, 컴포지션 캔버스에서 활동 저장 블록을 사용하여 대상을 만들면 결과 대상은 Experience Platform의 데이터 레이크에 외부 대상으로 저장됩니다. Experience Platform은 활성화 중에 동의 유효성 검사를 자동으로 지원합니다. 자세한 내용은 [세그먼테이션 서비스 FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}를 참조하십시오.
+예를 들어, 컴포지션 캔버스에서 활동 저장 블록을 사용하여 대상을 만들면 결과 대상은 Experience Platform의 데이터 레이크에 외부 대상으로 저장됩니다. Experience Platform은 활성화 중에 동의 유효성 검사를 자동으로 지원합니다. 자세한 내용은 [세그먼테이션 서비스 FAQ](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq#consent){target="_blank"}를 참조하십시오.
 
-또는 작성 캔버스에서 프로필 저장 활동을 사용하여 프로필 강화를 만든 후 결과 보강은 Experience Platform에 프로필 활성화 스키마 및 프로필 활성화 데이터 세트로 저장됩니다. 기존 프로필의 경우 활성화 중에 사용 가능한 동의 속성이 자동으로 적용됩니다. 새 프로필의 경우 프로필 수집 중에 제공된 동의 속성은 활성화 중에 자동으로 적용됩니다. 프로필에 동의를 적용하는 방법에 대한 자세한 내용은 [동의 및 환경 설정 필드 그룹 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}를 참조하십시오.
+또는 작성 캔버스에서 프로필 저장 활동을 사용하여 프로필 강화를 만든 후 결과 보강은 Experience Platform에 프로필 활성화 스키마 및 프로필 활성화 데이터 세트로 저장됩니다. 기존 프로필의 경우 활성화 중에 사용 가능한 동의 속성이 자동으로 적용됩니다. 새 프로필의 경우 프로필 수집 중에 제공된 동의 속성은 활성화 중에 자동으로 적용됩니다. 프로필에 동의를 적용하는 방법에 대한 자세한 내용은 [동의 및 환경 설정 필드 그룹 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}를 참조하십시오.
 
-동의 적용에 대한 자세한 내용은 [정책 관리 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}를 참조하십시오.
+동의 적용에 대한 자세한 내용은 [정책 관리 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}를 참조하십시오.
 
 ## 데이터 라이프사이클 {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Federated Audience Composition은 데이터 웨어하우스의 고객 데이터�
 
 또는 작성 캔버스에서 프로필 저장 활동을 사용하여 프로필 강화를 만든 후 결과 보강은 Experience Platform에 프로필 활성화 스키마 및 프로필 활성화 데이터 세트로 저장됩니다. 따라서 데이터 라이프사이클에서 프로필에 액세스하고 정리할 수 있습니다.
 
-데이터 수명 주기 사용에 대한 자세한 내용은 [데이터 수명 주기 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}를 참조하십시오.
+데이터 수명 주기 사용에 대한 자세한 내용은 [데이터 수명 주기 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/home){target="_blank"}를 참조하십시오.
 
 ## 데이터 사용 레이블 {#data-usage-labels}
 
 데이터 사용 레이블을 사용하면 해당 데이터에 적용되는 거버넌스 정책을 기반으로 데이터 세트와 필드를 분류할 수 있습니다. 컴포지션을 사용하여 대상자를 만든 후 결과 스키마에 적절한 데이터 레이블을 적용하여 필요한 사용 제한 사항을 준수하도록 할 수 있습니다.
 
-데이터 레이블 사용에 대한 자세한 내용은 [데이터 사용 레이블 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}를 참조하십시오.
+데이터 레이블 사용에 대한 자세한 내용은 [데이터 사용 레이블 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview){target="_blank"}를 참조하십시오.
 
 ## 암호화 {#encryption}
 
@@ -63,13 +63,13 @@ Federated Audience Composition은 데이터 웨어하우스의 고객 데이터�
 
 전송 중인 데이터는 Federated Audience Composition에서 한 구성 요소에서 다른 구성 요소로 이동할 때 고객 데이터를 참조합니다. 데이터는 HTTPS에서 TLS 1.3을 사용하여 Federated Audience Composition 구성 요소 전체에서 암호화됩니다.
 
-Adobe에서 데이터 암호화를 처리하는 방법에 대한 자세한 내용은 Experience Platform의 [데이터 암호화](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}에 대한 안내서를 참조하십시오.
+Adobe에서 데이터 암호화를 처리하는 방법에 대한 자세한 내용은 Experience Platform의 [데이터 암호화](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}에 대한 안내서를 참조하십시오.
 
 ### 고객 관리 키 {#customer-managed-keys}
 
 고객 관리 키를 사용하면 자체 암호화 키를 사용하여 데이터를 암호화할 수 있으므로 데이터를 제어할 수 있습니다. Federated Audience Composition은 고객 데이터를 **저장하지**&#x200B;하므로, 고객 관리 키는 Experience Platform의 데이터 레이크에 저장되므로 결과 대상 및 풍부에서 바로 사용할 수 있습니다.
 
-고객 관리 키에 대한 자세한 내용은 [고객 관리 키 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}를 참조하십시오.
+고객 관리 키에 대한 자세한 내용은 [고객 관리 키 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}를 참조하십시오.
 
 ## 감사 로그 {#audit-log}
 
