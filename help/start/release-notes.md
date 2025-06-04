@@ -3,7 +3,7 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2025년 5월 릴리스 {#fac-25-5}
 

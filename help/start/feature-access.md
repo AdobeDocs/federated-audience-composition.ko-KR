@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Platform 페더레이션된 대상자 컴포지션을 구매하
 
 ## 페더레이션된 대상자 컴포지션에 대한 액세스 관리
 
-**Federated Audience Composition**&#x200B;에 액세스하려면 먼저 Federated Audience Composition의 다양한 측면에 액세스하는 데 필요한 권한을 할당해야 합니다. 그런 다음 **Federated Audience Composition**&#x200B;에 액세스해야 하는 사용자에게 이러한 역할을 할당해야 합니다.
+**페더레이션된 대상자 컴포지션**&#x200B;에 액세스하려면 먼저 페더레이션된 대상자 컴포지션의 다양한 측면에 액세스하는 데 필요한 권한을 할당해야 합니다. 또한 이러한 역할은 **페더레이션된 대상자 컴포지션**&#x200B;에 액세스해야 하는 사용자에게 할당되어야 합니다.
 
 관리자만 이러한 권한을 할당할 수 있습니다.
 
@@ -29,41 +29,41 @@ Adobe Experience Platform 페더레이션된 대상자 컴포지션을 구매하
 
    ![](assets/access_fda_1.png)
 
-1. **[!UICONTROL 편집]**&#x200B;을(를) 선택하여 역할의 권한을 수정합니다.
+1. 역할의 권한을 수정하려면 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
    ![](assets/access_fda_2.png)
 
-1. 사용자에 필요한 권한을 추가합니다. Federated Audience Composition에 액세스하기 위해 다음 권한을 추가할 수 있습니다.
+1. 사용자에게 필요한 권한을 추가합니다. 페더레이션된 대상자 컴포지션에 대한 액세스에 대해 다음과 같은 권한을 추가할 수 있습니다.
 
    | 사용 권한 | 설명 |
    | ---------- | ----------- |
-   | 페더레이션 데이터 관리 | 이 권한을 사용하여 Federated Audience Composition의 모든 측면을 관리합니다. 이 권한에는 페더레이션 데이터베이스 관리, 페더레이션 스키마 관리, 페더레이션 데이터 모델 관리 및 페더레이션 구성 관리 등이 포함됩니다. |
-   | 통합 데이터베이스 관리 | 이 권한을 사용하여 페더레이션 데이터베이스에 대한 연결을 추가, 보기, 업데이트 및 삭제할 수 있습니다. |
-   | 통합 데이터베이스 보기 | 이 권한을 사용하여 페더레이션 데이터베이스에 대한 연결을 확인하십시오. |
-   | 페더레이션 스키마 관리 | 이 권한을 사용하여 스키마를 생성, 보기, 업데이트, 삭제 및 새로 고칠 수 있습니다. |
-   | 페더레이션 스키마 데이터 보기 | 이 권한을 사용하여 스키마 섹션 내에서 데이터 탭을 봅니다. |
-   | 페더레이션 스키마 보기 | 이 권한을 사용하여 스키마 테이블을 봅니다. |
-   | 페더레이션 데이터 모델 관리 | 이 권한을 사용하여 데이터 모델을 생성, 보기, 업데이트 및 삭제합니다. |
-   | 페더레이션 데이터 모델 보기 | 이 권한을 사용하여 데이터 모델을 볼 수 있습니다. |
-   | 페더레이션 감사 추적 보기 | 이 권한을 사용하여 Federated Audience Composition에 대한 감사 추적을 봅니다. |
-   | 페더레이션 구성 관리 | 이 권한을 사용하여 통합 컴포지션을 만들고, 보고, 업데이트하고, 삭제합니다. |
-   | 페더레이션 구성 보기 | 페더레이션 컴포지션을 보려면 이 권한을 사용하십시오. |
+   | 페더레이션된 데이터 관리 | 이 권한을 사용하여 페더레이션된 대상자 컴포지션의 모든 측면을 관리합니다. 이 권한에는 페더레이션된 데이터베이스 관리, 페더레이션된 스키마 관리, 페더레이션된 데이터 모델 관리 및 페더레이션된 컴포지션 관리가 포함됩니다. |
+   | 페더레이션된 데이터베이스 관리 | 이 권한을 사용하여 페더레이션 데이터베이스에 대한 연결을 추가하고, 조회하고, 업데이트하고, 삭제할 수 있습니다. |
+   | 페더레이션된 데이터베이스 보기 | 이 권한을 사용하여 페더레이션된 데이터베이스에 대한 연결을 조회할 수 있습니다. |
+   | 페더레이션된 스키마 관리 | 이 권한을 사용하여 스키마를 만들고, 조회하고, 업데이트하고, 삭제하고, 새로 고침합니다. |
+   | 페더레이션된 스키마 데이터 보기 | 이 권한을 사용하여 스키마 섹션 내의 데이터 탭을 볼 수 있습니다. |
+   | 페더레이션된 스키마 보기 | 이 권한을 사용하여 스키마 테이블을 볼 수 있습니다. |
+   | 페더레이션된 데이터 모델 관리 | 이 권한을 사용하여 데이터 모델을 만들고, 조회하고, 업데이트하고, 삭제합니다. |
+   | 페더레이션된 데이터 모델 보기 | 이 권한을 사용하여 데이터 모델을 조회합니다. |
+   | 페더레이션 감사 추적 보기 | 이 권한을 사용하여 페더레이션된 대상자 컴포지션에 대한 감사 추적을 조회합니다. |
+   | 페더레이션된 컴포지션 관리 | 이 권한을 사용하여 페더레이션된 컴포지션을 만들고, 조회하고, 업데이트하고, 삭제합니다. |
+   | 페더레이션된 컴포지션 보기 | 이 권한을 사용하여 페더레이션된 컴포지션을 조회합니다. |
 
    ![](assets/permissions.png)
 
-1. 필요한 변경을 마쳤으면 **[!UICONTROL 저장]**&#x200B;을 선택하세요.
+1. 필요한 변경 내용을 적용한 후 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 이미 이 역할에 할당된 사용자는 권한이 자동으로 업데이트되며, 페더레이션된 대상자 컴포지션에 액세스할 수 있게 됩니다.
 
 새 사용자에게 이 역할을 할당하려면 다음 작업을 수행하십시오.
 
-1. 역할 대시보드 내의 **[!UICONTROL 사용자]** 탭으로 이동한 다음 **[!UICONTROL 사용자 추가]**&#x200B;를 선택합니다.
+1. 역할 대시보드 내에서 **[!UICONTROL 사용자]** 탭으로 이동하고 **[!UICONTROL 사용자 추가]**&#x200B;를 선택합니다.
 
    ![](assets/access_fda_4.png)
 
 1. 사용자의 이름 또는 이메일 주소를 입력하거나, 사용 가능한 목록에서 선택합니다. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
