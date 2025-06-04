@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,9 +127,9 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 |---|---|
 | 인증 | 커넥터가 지원하는 인증 유형. 현재 지원되는 값: ActiveDirectoryMSI. 자세한 내용은 [Microsoft SQL 설명서](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}(예제 연결 문자열 n°8)를 참조하십시오. |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Google Big Query에 대한 액세스를 구성합니다.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Google BigQuery에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -139,11 +139,11 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL 유형]** 드롭다운에서 Google Big Query를 선택합니다.
+1. **[!UICONTROL Type]** 드롭다운에서 Google BigQuery를 선택합니다.
 
    ![](assets/federated_database_3.png)
 
-1. Google Big Query 인증 설정을 구성합니다.
+1. Google BigQuery 인증 설정을 구성합니다.
 
    * **[!UICONTROL 서비스 계정]**: **[!UICONTROL 서비스 계정]**&#x200B;의 이메일을 입력합니다. 이에 대한 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}를 참조하십시오.
 
