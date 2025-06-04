@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 구성
 title: Experience Platform 페더레이션된 대상자 구성 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [페더레이션된 대상자 구성 액세스](start/feature-access.md)
    + [대상자 작업](start/audiences.md)
    + [AI 어시스턴트 작업](start/ai-assistant.md)
+   + [개인 정보 보호 및 보안](start/privacy-security.md)
    + [자주 묻는 질문](start/faq.md)
 + 구성 단계 {#config}
    + [연결 만들기 및 관리](connections/connections.md)
