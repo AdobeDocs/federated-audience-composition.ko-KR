@@ -4,9 +4,9 @@ description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 89%
 
 이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
 
-* 의료 서비스 고객을 위한 **일반 가용성**
+* **Adobe Healthcare Shield 고객을 위한 일반 가용성**
 
-  Federated Audience Composition은 6월 말까지 대상 생성, 강화 및 프로필 강화 사용 사례에 대해 Healthcare 고객이 사용할 수 있습니다.
+  연합 대상 구성은 Adobe Healthcare Shield 고객이 6월 말까지 대상 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있습니다.
 
 * **개체 수준 액세스 제어**
 
