@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 페더레이션된 대상자 구성
 title: Experience Platform 페더레이션된 대상자 구성 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
 source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [페더레이션된 대상자 구성 액세스](start/feature-access.md)
    + [대상자 작업](start/audiences.md)
    + [AI 어시스턴트 작업](start/ai-assistant.md)
-   + [개인 정보 보호 및 보안](start/privacy-security.md)
+   + [개인정보보호 및 보안](start/privacy-security.md)
    + [자주 묻는 질문](start/faq.md)
 + 구성 단계 {#config}
    + [연결 만들기 및 관리](connections/connections.md)
@@ -32,8 +32,8 @@ ht-degree: 98%
       + [데이터 모델 구성](data-management/gs-models.md)
    + [외부 데이터로 Adobe Experience Platform 대상자 강화](connections/destinations.md)
 + 대상자 구성 {#compositions}
-   + [구성 시작하기](compositions/gs-compositions.md)
-   + 첫 구성 만들기 및 실행하기 {#create-composition}
+   + [컴포지션 시작하기](compositions/gs-compositions.md)
+   + 첫 컴포지션 만들기 및 실행하기 {#create-composition}
       + [컴포지션을 만드는 핵심 원칙](compositions/gs-composition-creation.md)
       + [컴포지션 만들기](compositions/create-composition.md)
       + [활동 조율](compositions/orchestrate-activities.md)

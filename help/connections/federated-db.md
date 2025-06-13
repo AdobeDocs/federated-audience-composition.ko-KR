@@ -4,9 +4,9 @@ title: 페더레이션된 데이터베이스 구성
 description: 페더레이션된 데이터베이스를 구성하는 방법 알아보기
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 ## Google BigQuery {#google-bigquery}
 
-페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. Google BigQuery에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+페더레이션된 데이터베이스를 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 단계에 따라 Google BigQuery에 대한 액세스를 구성합니다.
 
 1. **[!UICONTROL 페더레이션된 데이터]** 메뉴에서 **[!UICONTROL 페더레이션된 데이터베이스]**&#x200B;를 선택합니다.
 
@@ -139,7 +139,7 @@ Experience Platform 페더레이션된 대상자 구성을 통해 고객은 서�
 
 1. 페더레이션된 데이터베이스에 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL Type]** 드롭다운에서 Google BigQuery를 선택합니다.
+1. **[!UICONTROL 유형]** 드롭다운에서 Google BigQuery를 선택합니다.
 
    ![](assets/federated_database_3.png)
 

@@ -3,15 +3,15 @@ title: Experience Platform 페더레이션된 대상자 구성의 새로운 기�
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
 ## 2025년 5월 릴리스 {#fac-25-5}
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
   5월 릴리스부터 [!DNL Federated Audience Composition]이 액세스 제어를 위한 새로운 세부적인 권한을 지원합니다. 사용자는 이들 권한을 사용자 역할에 할당하여 [!DNL Federated Audience Composition]에 대해 더욱 정밀한 액세스 권한을 얻을 수 있습니다.
 
-  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 컴포지션 액세스 안내서](feature-access.md)를 참조하십시오.
+  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 구성 액세스 안내서](feature-access.md)를 참조하십시오.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 
@@ -131,7 +131,7 @@ ht-degree: 98%
 
 * **Google BigQuery**
 
-  이 새로운 릴리스에서는 Federated Audience Composition이 Google BigQuery 데이터베이스에 대한 보안 VPN 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#google-bigquery)
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 구성이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#google-bigquery)
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
