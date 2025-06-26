@@ -73,7 +73,7 @@ Federated Audience Composition을 사용하면 컴포지션을 만들 수 있습
 | 민감 레이블 | 중요 레이블(&quot;S&quot; 레이블)은 사용자 및/또는 조직이 중요하다고 간주하는 항목을 분류하는 데 사용됩니다. |
 | 파트너 에코시스템 레이블 | 파트너 에코시스템 레이블은 조직 외부의 소스에서 데이터를 분류하는 데 사용됩니다. |
 
-액세스 및 데이터 거버넌스 레이블에 대한 자세한 내용은 [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)을 참조하십시오.
+액세스 및 데이터 거버넌스 레이블에 대한 자세한 내용은 [데이터 사용 레이블 용어집](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/reference)을 참조하십시오.
 
 ## 다음 단계
 
