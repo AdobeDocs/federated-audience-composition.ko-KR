@@ -2,16 +2,46 @@
 title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 95%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
+
+## 2025년 6월 릴리스 {#fac-25-6}
+
+### 개선 사항 {#fac-25-06-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **Adobe Healthcare Shield 고객을 위한 일반 사용**
+
+  페더레이션된 대상자 컴포지션은 6월 말까지 Adobe Healthcare Shield 고객이 대상자 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있게 됩니다.
+
+  Federated Audience Composition의 개인 정보 및 보안에 대한 자세한 내용은 [데이터 거버넌스, 개인 정보 및 보안 안내서](/help/governance-privacy-security/home.md)에서 확인할 수 있습니다.
+
+* **오브젝트 수준 액세스 제어**
+
+  이제 페더레이션된 대상자 컴포지션이 지정된 컴포지션에 액세스 레이블을 적용하기 위한 오브젝트 수준의 액세스 제어를 지원합니다.
+
+  개체 수준 액세스 레이블을 사용하는 방법에 대한 자세한 내용은 [구성 가이드](/help/compositions/gs-compositions.md)를 참조하세요.
+
+* **기본 역할**
+
+  이제 기본 역할 중 하나를 사용하여 페더레이션된 대상자 컴포지션 액세스에 대한 사용자 권한을 관리할 수 있습니다.
+
+  기본 역할에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
+
+* **프로필 보강 사용 사례의 증분 업데이트**
+
+  이제 프로필 저장 활동이 증분 업데이트를 지원합니다. 증분 업데이트를 사용하면 외부 데이터 웨어하우스의 데이터로 프로필을 풍부하게 만드는 동시에 증분 데이터를 쿼리하고 업데이트할 수 있습니다.
+
+  프로필 저장 활동 사용에 대한 자세한 내용은 [프로필 저장 활동 안내서](/help/compositions/activities/save-profiles.md)에서 확인할 수 있습니다.
 
 ## 2025년 5월 릴리스 {#fac-25-5}
 
@@ -43,7 +73,7 @@ ht-degree: 100%
 
   5월 릴리스부터 [!DNL Federated Audience Composition]이 액세스 제어를 위한 새로운 세부적인 권한을 지원합니다. 사용자는 이들 권한을 사용자 역할에 할당하여 [!DNL Federated Audience Composition]에 대해 더욱 정밀한 액세스 권한을 얻을 수 있습니다.
 
-  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 구성 액세스 안내서](feature-access.md)를 참조하십시오.
+  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 구성 액세스 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 
@@ -145,7 +175,7 @@ ht-degree: 100%
 
   사용자가 [!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 연락하여 이 권한을 역할에 추가하는 것이 좋습니다.
 
-  이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](feature-access.md)를 참조하십시오.
+  이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 <!--
 * **Data model Canvas view**

@@ -3,10 +3,10 @@ audience: end-user
 title: 프로필 저장 활동 사용
 description: 프로필 저장 활동을 사용하는 방법 알아보기
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 55%
+source-wordcount: '563'
+ht-degree: 37%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 55%
 >title="기본 ID 필드 기준"
 >abstract="각 프로필이나 레코드에 대한 고유 식별자. 이렇게 하면 모든 레코드를 명확하게 인식하고 일치시킬 수 있어 데이터 중복을 방지할 수 있습니다."
 
-**프로필 저장** 활동을 사용하면 외부 웨어하우스에서 페더레이션된 데이터로 Adobe Experience Platform 프로필을 보강할 수 있습니다.
+**[!UICONTROL 프로필 저장]** 활동을 사용하면 외부 웨어하우스에서 페더레이션된 데이터로 Adobe Experience Platform 프로필을 보강할 수 있습니다.
 
 이 활동은 일반적으로 데이터를 플랫폼으로 물리적으로 이동하거나 복제하지 않고 추가 속성 및 통찰력을 가져와 고객 프로필을 개선하는 데 사용됩니다.
 
-## 프로필 저장 활동 구성 {#save-profile-configuration}
+## [!UICONTROL 프로필 저장] 활동 구성 {#save-profile-configuration}
 
-**프로필 저장** 활동을 구성하려면 다음 단계를 따르십시오.
+>[!IMPORTANT]
+>
+>**프로필 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. 프로필을 활성화하기 위해 데이터 세트를 활성화하는 방법에 대해 알아보려면 [데이터 세트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}를 읽어 보십시오.
+>
+>또한 선택한 데이터 세트에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 프로필의 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
-1. 컴포지션에 **프로필 저장** 활동을 추가합니다.
+**[!UICONTROL 프로필 저장]** 활동을 구성하려면 다음 단계를 따르십시오.
 
-   ![](../assets/save-profile.png)
+1. **[!UICONTROL 프로필 저장]** 활동을 컴포지션에 추가합니다.
+
+   ![활동 내에서 프로필 저장 단추가 강조 표시됩니다.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. 만들 프로필의 레이블을 지정합니다.
 
@@ -82,14 +88,31 @@ ht-degree: 55%
 
 1. 사용할 Adobe Experience Platform 스키마를 선택합니다.
 
-   ![](../assets/save-profile-2.png)
+   ![사용 가능한 스키마가 표시됩니다.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. 데이터베이스에서 프로필을 식별하는 데 사용할 기본 ID 필드를 선택합니다.
+1. 데이터 강화를 저장할 데이터 세트를 선택합니다.
 
-1. 추가 데이터 특성을 조정하려면 **특성 추가**&#x200B;를 클릭하세요.
+   ![데이터 집합 드롭다운이 강조 표시됩니다.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   그런 다음 매핑할 각 특성에 대해 **Source** 필드(외부 데이터)와 **대상** 필드(스키마 필드)를 지정합니다.
+1. 데이터 세트를 선택하면 데이터베이스에서 프로필을 식별하는 데 사용될 기본 ID 필드를 볼 수 있습니다.
 
-   ![](../assets/save-profile-3.png)
+1. 기본 및 필수 ID 필드를 추가하려면 **[!UICONTROL 필드 추가]**&#x200B;를 선택하십시오.
 
-1. 구성이 완료되면 **시작**&#x200B;을 클릭하세요.
+   ![필드 추가 단추가 강조 표시됩니다.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   매핑할 각 특성에 대해 **Source** 필드(외부 데이터)와 **대상** 필드(스키마 필드)를 지정할 수 있습니다.
+
+   ![Source 및 대상 필드가 강조 표시되어 필드 간 매핑을 만들 위치를 표시합니다](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. 데이터 보강 업데이트 모드를 지정할 수도 있습니다.
+
+   ![업데이트 모드 유형이 표시됩니다.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | 업데이트 모드 | 설명 |
+   | ----------- | ----------- |
+   | 전체 업데이트 | 전체 프로필 세트가 보강되도록 업데이트됩니다. |
+   | 증분 업데이트 | 마지막 데이터 보강 실행 이후 수정된 프로필만 데이터 보강에 대해 업데이트됩니다. |
+
+   [!UICONTROL 증분 업데이트]를 선택하는 경우 전송할 데이터를 확인하려면 마지막으로 수정한 날짜도 선택해야 합니다.
+
+1. 구성이 완료되면 **시작**&#x200B;을 선택합니다.

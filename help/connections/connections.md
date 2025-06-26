@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 8%
+source-wordcount: '321'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 8%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>>-**페더레이션 데이터베이스 보기**
 >
->필요한 권한에 대한 자세한 내용은 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/start/feature-access.md)를 참조하십시오.
+>필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 Experience Platform Federated Audience Composition을 통해 고객은 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 지원되는 데이터 웨어하우스는 [이 섹션](../start/access-prerequisites.md#supported-systems)에 나열되어 있습니다.
 

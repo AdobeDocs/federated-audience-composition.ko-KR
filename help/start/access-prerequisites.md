@@ -2,9 +2,9 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 권한 {#permissions}
 
-페더레이션된 대상자 구성에 액세스하려면 구매 시 생성된 샌드박스별 제품 프로필에 사용자를 추가하고 **[!UICONTROL 페더레이션된 데이터 관리]** 권한을 할당해야 합니다. [자세히 알아보기](feature-access.md)
+페더레이션된 대상자 구성에 액세스하려면 구매 시 생성된 샌드박스별 제품 프로필에 사용자를 추가하고 **[!UICONTROL 페더레이션된 데이터 관리]** 권한을 할당해야 합니다. [자세히 알아보기](/help/governance-privacy-security/access-control.md)
 
 ## IP 허용 목록에 추가 {#ip}
 
@@ -59,13 +59,6 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
-* 현재 [건강 데이터를 수집](https://experienceleague.adobe.com/ko/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}하는 고객은 페더레이션된 대상자 구성을 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
-
-<!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/ko/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
-
 * 페더레이션된 대상자 구성에는 [Adobe Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 권한 부여, 제품 제한 및 성능 가드레일이 적용됩니다.
 
 * 이제 페더레이션된 대상자 구성이 파일 크기가 1GB를 초과하는 대규모 대상자에 대한 내보내기를 지원합니다. 최적의 성능을 위해 권장되는 파일 크기는 최대 20GB입니다.
-
-

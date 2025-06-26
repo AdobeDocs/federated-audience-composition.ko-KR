@@ -4,10 +4,10 @@ description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 89%
 
 ## 2025년 6월 릴리스 {#fac-25-6}
 
-이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
 
-* **Adobe Healthcare Shield 고객을 위한 일반 가용성**
+* **Adobe Healthcare Shield 고객을 위한 일반 사용**
 
-  연합 대상 구성은 Adobe Healthcare Shield 고객이 6월 말까지 대상 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있습니다.
+  페더레이션된 대상자 컴포지션은 6월 말까지 Adobe Healthcare Shield 고객이 대상자 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있게 됩니다.
 
-* **개체 수준 액세스 제어**
+* **오브젝트 수준 액세스 제어**
 
-  이제 Federated Audience Composition은 지정된 컴포지션에 액세스 레이블을 적용하기 위한 개체 수준 액세스 제어를 지원합니다.
+  이제 페더레이션된 대상자 컴포지션이 지정된 컴포지션에 액세스 레이블을 적용하기 위한 오브젝트 수준의 액세스 제어를 지원합니다.
 
 * **기본 역할**
 
-  이제 기본 역할 중 하나를 사용하여 Federated Audience Composition 액세스에 대한 사용자 권한을 관리할 수 있습니다.
+  이제 기본 역할 중 하나를 사용하여 페더레이션된 대상자 컴포지션 액세스에 대한 사용자 권한을 관리할 수 있습니다.
 
 * **프로필 보강 사용 사례의 증분 업데이트**
 
-  이제 프로필 저장 활동에서 증분 업데이트를 지원합니다. 증분 업데이트를 사용하면 증분 데이터를 쿼리하고 업데이트하는 동시에 외부 데이터 웨어하우스의 데이터로 프로필을 보강할 수 있습니다.
+  이제 프로필 저장 활동이 증분 업데이트를 지원합니다. 증분 업데이트를 사용하면 외부 데이터 웨어하우스의 데이터로 프로필을 풍부하게 만드는 동시에 증분 데이터를 쿼리하고 업데이트할 수 있습니다.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 
@@ -75,7 +75,7 @@ ht-degree: 89%
 
   사용자가 [!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 연락하여 이 권한을 역할에 추가하는 것이 좋습니다.
 
-  이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](feature-access.md)를 참조하십시오.
+  이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 <!--
 * **Data model Canvas view**

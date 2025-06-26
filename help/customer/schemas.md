@@ -3,9 +3,9 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 18%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 18%
 >스키마에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 스키마 관리**
->-**연결된 스키마 보기**
+>>-**연결된 스키마 보기**
 >
->필요한 권한에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/start/feature-access.md)를 참조하십시오.
+>필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 18%
 >id="dc_schema_create_schema_name"
 >title="스키마 이름"
 >abstract="스키마 이름을 입력합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

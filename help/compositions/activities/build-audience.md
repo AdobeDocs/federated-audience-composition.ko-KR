@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 작성 활동 사용
 description: 대상자 작성 활동을 사용하는 방법 알아보기
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2c706e8c7d7d282f8ef2f00875608f06e35ffdf8
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 29%
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 1. **대상자 빌드** 활동을 추가합니다.
 1. 레이블을 정의합니다.
-1. 대상을 만들거나 기존 대상을 선택하려는 경우 지정합니다.
+1. 대상을 만들지 또는 기존 대상을 선택할지를 지정합니다.
 1. 아래 탭에 자세히 나와 있는 단계에 따라 대상자를 구성합니다.
 
 >[!BEGINTABS]
