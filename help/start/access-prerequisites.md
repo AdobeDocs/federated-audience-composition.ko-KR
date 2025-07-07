@@ -3,7 +3,7 @@ title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 �
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 

@@ -1,27 +1,27 @@
 ---
-user-guide-title: Experience Platform 페더레이션된 대상자 구성
-title: Experience Platform 페더레이션된 대상자 구성 설명서
-breadcrumb-title: Experience Platform 페더레이션된 대상자 구성
+user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
+title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
+breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
 source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform 페더레이션된 대상자 구성 설명서 {#using}
+# Experience Platform 페더레이션된 대상자 컴포지션 설명서 {#using}
 
-+ [Experience Platform 페더레이션된 대상자 구성 설명서](home.md)
++ [Experience Platform 페더레이션된 대상자 컴포지션 설명서](home.md)
 + [릴리스 정보](start/release-notes.md)
 + [릴리스 정보](start/e-release-notes.md)
-+ 페더레이션된 대상자 구성 시작하기 {#start}
-   + [페더레이션된 대상자 구성이란 무엇입니까?](start/get-started.md)
++ 페더레이션된 대상자 컴포지션 시작하기 {#start}
+   + [페더레이션된 대상자 컴포지션 개요](start/get-started.md)
    + [사전 요구 사항 및 가드레일](start/access-prerequisites.md)
    + [대상자 작업](start/audiences.md)
    + [AI 어시스턴트 작업](start/ai-assistant.md)
    + [자주 묻는 질문](start/faq.md)
-+ 거버넌스, 개인 정보 보호, 보안 {#governance-privacy-security}
++ 거버넌스, 개인 정보, 보안 {#governance-privacy-security}
    + [개요](./governance-privacy-security/home.md)
    + [액세스 제어](governance-privacy-security/access-control.md)
 + 구성 단계 {#config}

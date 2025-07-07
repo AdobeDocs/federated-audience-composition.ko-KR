@@ -1,17 +1,17 @@
 ---
-title: Experience Platform 페더레이션된 대상자 구성의 새로운 기능
+title: Experience Platform 페더레이션된 대상자 컴포지션의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2025년 6월 릴리스 {#fac-25-6}
 
@@ -23,19 +23,19 @@ ht-degree: 95%
 
   페더레이션된 대상자 컴포지션은 6월 말까지 Adobe Healthcare Shield 고객이 대상자 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있게 됩니다.
 
-  Federated Audience Composition의 개인 정보 및 보안에 대한 자세한 내용은 [데이터 거버넌스, 개인 정보 및 보안 안내서](/help/governance-privacy-security/home.md)에서 확인할 수 있습니다.
+  페더레이션된 대상자 컴포지션의 개인정보 보호 및 보안에 대한 자세한 내용은 [데이터 거버넌스, 개인정보 보호 및 보안 안내서](/help/governance-privacy-security/home.md)에서 확인할 수 있습니다.
 
 * **오브젝트 수준 액세스 제어**
 
   이제 페더레이션된 대상자 컴포지션이 지정된 컴포지션에 액세스 레이블을 적용하기 위한 오브젝트 수준의 액세스 제어를 지원합니다.
 
-  개체 수준 액세스 레이블을 사용하는 방법에 대한 자세한 내용은 [구성 가이드](/help/compositions/gs-compositions.md)를 참조하세요.
+  오브젝트 수준 액세스 레이블을 사용하는 방법에 대한 자세한 내용은 [컴포지션 안내서](/help/compositions/gs-compositions.md)에서 확인할 수 있습니다.
 
 * **기본 역할**
 
   이제 기본 역할 중 하나를 사용하여 페더레이션된 대상자 컴포지션 액세스에 대한 사용자 권한을 관리할 수 있습니다.
 
-  기본 역할에 대한 자세한 내용은 [Access Federated Audience Composition 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
+  기본 역할에 대한 자세한 내용은 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/governance-privacy-security/access-control.md)에서 확인할 수 있습니다.
 
 * **프로필 보강 사용 사례의 증분 업데이트**
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
   5월 릴리스부터 [!DNL Federated Audience Composition]이 액세스 제어를 위한 새로운 세부적인 권한을 지원합니다. 사용자는 이들 권한을 사용자 역할에 할당하여 [!DNL Federated Audience Composition]에 대해 더욱 정밀한 액세스 권한을 얻을 수 있습니다.
 
-  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 구성 액세스 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
+  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 ## 2025년 4월 릴리스 {#fac-25-4}
 
@@ -106,7 +106,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 특정 환경에 대한 운영 인사이트를 얻는 데 사용할 수 있도록 설계된 사용자 인터페이스 기능입니다. 페더레이션된 대상자 구성을 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
+<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 특정 환경에 대한 운영 인사이트를 얻는 데 사용할 수 있도록 설계된 사용자 인터페이스 기능입니다. 페더레이션된 대상자 컴포지션을 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../start/ai-assistant.md">세부 설명서</a>를 참조하십시오.</p>
 </br>
 </td>
@@ -123,7 +123,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p> 이제 페더레이션된 대상자 구성이 프로필 보강 사용 사례를 지원하여 외부 데이터 웨어하우스의 데이터로 기존 Experience Platform 프로필을 개선할 수 있도록 해 줍니다.
+<p> 이제 페더레이션된 대상자 컴포지션이 프로필 보강 사용 사례를 지원하여 외부 데이터 웨어하우스의 데이터로 기존 Experience Platform 프로필을 개선할 수 있도록 해 줍니다.
 </p>
 <p>자세한 내용은 <a href="../compositions/activities/save-profiles.md">세부 설명서</a>를 참조하십시오.</p>
 </br>
@@ -146,7 +146,7 @@ ht-degree: 95%
 
 * **대규모 대상자 내보내기**
 
-  이제 페더레이션된 대상자 구성이 파일 크기가 1GB를 초과하는 대규모 대상자에 대한 내보내기를 지원합니다.
+  이제 페더레이션된 대상자 컴포지션이 파일 크기가 1GB를 초과하는 대규모 대상자에 대한 내보내기를 지원합니다.
 
 * **대상자 저장 활동**
 
@@ -157,11 +157,11 @@ ht-degree: 95%
 
 * **Amazon Redshift 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 Amazon Redshift 데이터베이스에 대한 안전한 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Amazon Redshift 데이터베이스에 대한 안전한 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  이번 새로운 릴리스를 통해 페더레이션된 대상자 구성이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#google-bigquery)
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 컴포지션이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#google-bigquery)
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
@@ -169,7 +169,7 @@ ht-degree: 95%
 
 이번 릴리스는 아래의 개선 사항과 함께 제공됩니다.
 
-* **페더레이션된 대상자 구성 권한**
+* **페더레이션된 대상자 컴포지션 권한**
 
   3월 출시부터 [!DNL Federated Audience Composition]은 **페더레이션된 데이터 관리** 권한을 부여받은 사용자에게 **페더레이션된 데이터 관리** 및 **페더레이션된 컴포지션** 인터페이스에 대한 액세스 권한을 적용하기 시작합니다.
 
@@ -192,16 +192,16 @@ ht-degree: 95%
 
 * **Databricks 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
 여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
 
 * **B2B CDP 고객 지원**
 
-  페더레이션된 대상자 구성은 이제 기업 간(B2B) 고객 데이터 플랫폼(CDP) 고객을 대상으로 사람 대상자 사용 사례를 제공합니다.
+  페더레이션된 대상자 컴포지션이 이제 기업 간(B2B) 고객 데이터 플랫폼(CDP) 고객을 대상으로 사람 대상자 사용 사례를 제공합니다.
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 구성이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
 ## 2025년 2월 릴리스 {#fac-25-2}
 
@@ -209,7 +209,7 @@ ht-degree: 95%
 
 * **Microsoft Fabric 지원**
 
-  이제 페더레이션된 대상자 구성을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
+  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
 
 * **Amazon Redshift Spectrum 지원**
 
@@ -231,30 +231,30 @@ ht-degree: 95%
 
 * **IP 주소 허용 목록**
 
-  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 구성 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/connections.md)
+  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 컴포지션 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/connections.md)
 
 ## 2024년 10월 릴리스 {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->이전에는 조직 집합에만 사용할 수 있었던(LA) Adobe Experience Platform 페더레이션된 대상자 구성을 이제 모든 사용자가 사용할 수 있습니다(GA). 이 기능은 귀하가 제공하는 서비스를 기반으로 활성화되며, 관련 권한이 있는 경우에만 볼 수 있습니다. [자세히 알아보기](access-prerequisites.md)
+>이전에는 조직 집합에만 사용할 수 있었던(LA) Adobe Experience Platform 페더레이션된 대상자 컴포지션을 이제 모든 사용자가 사용할 수 있습니다(GA). 이 기능은 귀하가 제공하는 서비스를 기반으로 활성화되며, 관련 권한이 있는 경우에만 볼 수 있습니다. [자세히 알아보기](access-prerequisites.md)
 >
 
 ### 호환성 {#fac-24-10-compat}
 
-이제 이 새 릴리스를 통해 페더레이션된 대상자 구성이 아래 나열된 시스템과 호환됩니다.
+이제 이 새 릴리스를 통해 페더레이션된 대상자 컴포지션이 아래 나열된 시스템과 호환됩니다.
 
 * **Databricks 지원**
 
-  이제 페더레이션된 대상자 구성을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+  이제 페더레이션된 대상자 컴포지션을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
 
 * **AWS PrivateLink를 통한 Snowflake에 대한 보안 액세스 지원**
 
-  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
 
 * **Amazon Redshift Serverless 지원**
 
-  이번 새로운 릴리스를 통해 페더레이션된 대상자 구성이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 컴포지션이 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}를 지원합니다.
 
 ### 개선 사항 {#fac-24-10-improvements}
 
@@ -268,12 +268,12 @@ ht-degree: 95%
 
   이제 컴포지션을 만들 때 연결할 데이터 모델을 선택할 수 있습니다. 이 새 옵션을 사용하면 연결된 데이터 모델의 테이블만 사용할 수 있으므로 활동을 구성하기가 더 쉬워집니다. [자세히 알아보기](../compositions/create-composition.md)
 
-## 2024년 7월 릴리스 - 페더레이션된 대상자 구성 (LA) {#fac-la}
+## 2024년 7월 릴리스 - 페더레이션된 대상자 컴포지션 (LA) {#fac-la}
 
-페더레이션된 대상자 구성은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 조합하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 사용하면 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상자 데이터를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 하나의 시스템에서 강화할 수 있습니다.
+페더레이션된 대상자 컴포지션은 기업이 중요한 기업 데이터 세트를 사용하여 대상자를 조합하고 브랜드가 주도하는 즉각적 경험을 강화할 수 있도록 기업 데이터 웨어하우스에 대한 유연하고 확장된 액세스를 제공합니다. 이 새로운 접근 방식을 사용하면 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및/또는 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 사용자는 기존 데이터 웨어하우스에서 직접 대상자 데이터를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 하나의 시스템에서 강화할 수 있습니다.
 
-페더레이션된 대상자 구성은 웨어하우스 데이터 세트를 사용하여 유연하게 대상자를 조합할 필요가 있는 기업의 증가하는 시장 수요에 대응합니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다.
+페더레이션된 대상자 컴포지션은 웨어하우스 데이터 세트를 사용하여 유연하게 대상자를 조합할 필요가 있는 기업의 증가하는 시장 수요에 대응합니다. 이를 통해 기업은 데이터 이동을 줄이는 동시에 중요한 대상자 데이터를 마케팅 팀에 제공하여 사용 사례 요구 사항을 충족하고 맞춤화된 경험을 제공할 수 있습니다.
 
-[이 페이지](get-started.md)와 [자주 묻는 질문](faq.md)에서 페더레이션된 대상자 구성에 대해 자세히 알아보십시오.
+[이 페이지](get-started.md)와 [자주 묻는 질문](faq.md)에서 페더레이션된 대상자 컴포지션에 대해 자세히 알아보십시오.
 
-[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성에 액세스하기 위한 사전 요구 사항 및 현재 가드레일에 대한 자세한 내용을 알아보십시오.
+[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 컴포지션에 액세스하기 위한 사전 요구 사항 및 현재 가드레일에 대한 자세한 내용을 알아보십시오.
