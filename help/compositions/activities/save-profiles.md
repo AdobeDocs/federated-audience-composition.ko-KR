@@ -70,9 +70,9 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->**프로필 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. 프로필을 활성화하기 위해 데이터 세트를 활성화하는 방법에 대해 알아보려면 [데이터 세트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}를 읽어 보십시오.
+>**프로필 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. 프로필을 활성화하기 위해 데이터 세트를 활성화하는 방법에 대해 알아보려면 [데이터 세트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}를 읽어 보십시오.
 >
->또한 선택한 데이터 세트에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 프로필의 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>또한 선택한 데이터 세트에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 프로필의 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 프로필 저장]** 활동을 구성하려면 다음 단계를 따르십시오.
 
