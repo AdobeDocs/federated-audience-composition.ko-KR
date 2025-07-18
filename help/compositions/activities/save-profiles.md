@@ -60,7 +60,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
 >title="기본 ID 필드 기준"
->abstract="각 프로필이나 레코드에 대한 고유 식별자. 이렇게 하면 모든 레코드를 명확하게 인식하고 일치시킬 수 있어 데이터 중복을 방지할 수 있습니다."
+>abstract="각 프로필이나 레코드에 대한 고유 식별자입니다. 이를 통해 모든 레코드를 명확히 인식하고 일치시켜 데이터 중복을 방지합니다."
 
 **[!UICONTROL 프로필 저장]** 활동을 사용하면 외부 웨어하우스에서 페더레이션된 데이터로 Adobe Experience Platform 프로필을 보강할 수 있습니다.
 
@@ -70,9 +70,9 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->**프로필 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. 프로필을 활성화하기 위해 데이터 세트를 활성화하는 방법에 대해 알아보려면 [데이터 세트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}를 읽어 보십시오.
+>**프로필 저장** 활동에는 프로필이 활성화된 스키마와 데이터 세트가 필요합니다. 프로필을 활성화하기 위해 데이터 세트를 활성화하는 방법에 대해 알아보려면 [데이터 세트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}를 읽어 보십시오.
 >
->또한 선택한 데이터 세트에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 프로필의 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>또한 선택한 데이터 세트에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 프로필의 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 프로필 저장]** 활동을 구성하려면 다음 단계를 따르십시오.
 
