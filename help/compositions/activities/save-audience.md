@@ -38,7 +38,7 @@ ht-degree: 18%
 >
 >대상자 저장 활동을 사용하려면 대상자가 **타임스탬프 정렬** 병합 정책을 사용해야 합니다. 대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 계속 진행하려면 Adobe 고객 지원 센터에 문의하십시오.
 >
->병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
+>병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
 **[!UICONTROL 대상 저장]** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상을 만들 수 있습니다. 만든 대상자는 Adobe Experience Platform 대상자 목록에 추가되고 **대상자** 메뉴를 통해 사용할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../../start/audiences.md)
 
