@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 100%
 페더레이션된 대상자 구성이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 액세스할 페더레이션된 대상자 구성 서버의 IP 주소에 대한 권한이 있어야 합니다. 이들 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/connections.md)
 
 IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성에 대한 액세스 권한을 부여하십시오.
+
+## 병합 정책 {#merge-policies}
+
+Federated Audience Composition을 사용하여 대상자를 생성하려면 **반드시****타임스탬프 정렬** 병합 정책을 사용해야 합니다. 대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 계속 진행하려면 Adobe 고객 지원 센터에 문의하십시오.
+
+병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 

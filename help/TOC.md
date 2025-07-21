@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
 title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+workflow-type: tm+mt
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [활동 목록](compositions/activities/about-activities.md)
       + [AND-결합](compositions/activities/and-join.md)
       + [대상자 빌드](compositions/activities/build-audience.md)
+      + [데이터 소스 변경](compositions/activities/change-data-source.md)
       + [차원 변경](compositions/activities/change-dimension.md)
       + [결합](compositions/activities/combine.md)
       + [중복 제거](compositions/activities/deduplication.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 19%
+source-wordcount: '578'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 19%
 >title="ID 네임스페이스"
 >abstract="프로필에 사용할 네임스페이스를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces" text="Experience Platform 설명서에서 자세히 알아보십시오."
+
+>[!IMPORTANT]
+>
+>대상자 저장 활동을 사용하려면 대상자가 **타임스탬프 정렬** 병합 정책을 사용해야 합니다. 대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 계속 진행하려면 Adobe 고객 지원 센터에 문의하십시오.
+>
+>병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
 **[!UICONTROL 대상 저장]** 활동을 사용하면 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상을 만들 수 있습니다. 만든 대상자는 Adobe Experience Platform 대상자 목록에 추가되고 **대상자** 메뉴를 통해 사용할 수 있습니다. [대상자를 사용한 작업 방법 알아보기](../../start/audiences.md)
 

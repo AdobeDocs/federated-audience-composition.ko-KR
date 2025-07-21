@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 활동을 사용한 작업
+title: 활동을 사용하여 작업
 description: 활동 작업 방법 알아보기
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '289'
+ht-degree: 17%
 
 ---
 
-# 활동을 사용한 작업 {#activities}
+# 활동을 사용하여 작업 {#activities}
 
 페더레이션 대상 컴포지션에서는 두 가지 유형의 활동을 사용하여 컴포지션을 만들 수 있습니다.
 
@@ -20,6 +20,7 @@ ht-degree: 16%
 ## 타겟팅 활동
 
 * [대상 활동 작성](build-audience.md): 대상 모집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의할 수 있습니다.
+* [데이터 원본 변경](./change-data-source.md): 컴포지션에서 사용하는 데이터 원본을 변경합니다.
 * [차원 변경](change-dimension.md): 작성을 작성하는 동안 스키마를 변경합니다(타겟팅 차원이라고도 함).
 * [결합](combine.md): 인바운드 모집단에서 세분화를 수행합니다. 합집합, 교차 또는 제외를 사용할 수 있습니다.
 * [중복 제거](deduplication.md): 인바운드 활동의 결과에서 중복 항목을 삭제합니다.
