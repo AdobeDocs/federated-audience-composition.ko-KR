@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 구성을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 구성에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 86%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -59,9 +59,9 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 
 ## 병합 정책 {#merge-policies}
 
-Federated Audience Composition을 사용하여 대상자를 생성하려면 **반드시**&#x200B;**타임스탬프 정렬** 병합 정책을 사용해야 합니다. 대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 계속 진행하려면 Adobe 고객 지원 센터에 문의하십시오.
+대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
 
-병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
+병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
