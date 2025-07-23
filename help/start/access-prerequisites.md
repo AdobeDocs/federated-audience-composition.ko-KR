@@ -61,7 +61,7 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 구성�
 
 대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
 
-병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
+병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
 ## 가드레일 및 제한 사항 {#fac-guardrails}
 
