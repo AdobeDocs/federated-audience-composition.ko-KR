@@ -1,58 +1,58 @@
 ---
-title: Experience Platform 페더레이션된 대상자 구성 시작하기
-description: Adobe 페더레이션된 대상자 구성이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
+title: Experience Platform 페더레이션된 대상자 컴포지션 시작하기
+description: Adobe 페더레이션된 대상자 컴포지션이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# 페더레이션된 대상자 구성 시작하기 {#gs-fac}
+# 페더레이션된 대상자 컴포지션 시작하기 {#gs-fac}
 
-페더레이션된 대상자 구성은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 환경에서 사용할 수 있습니다. 이를 통해 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 구성은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
+페더레이션된 대상자 컴포지션은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 환경에서 사용할 수 있습니다. 이를 통해 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 컴포지션은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
 
-Adobe 페더레이션된 대상자 구성은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에서 확인할 수 있습니다.
+Adobe 페더레이션된 대상자 컴포지션은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에서 확인할 수 있습니다.
 
 >[!INFO]
 >
->이 [단계별 안내서](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)를 따라 페더레이션된 대상자 구성을 사용하여 대상자를 만드는 방법에 대해 알아보십시오.
+>이 [단계별 안내서](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)를 따라 페더레이션된 대상자 컴포지션을 사용하여 대상자를 만드는 방법에 대해 알아보십시오.
 
 ## 기능 {#rn-capabilities}
 
-페더레이션된 대상자 구성은 대상자 큐레이션 및 활성화에 대한 포괄적인 접근 방식을 통해 Real-Time CDP 및 Journey Optimizer의 가치를 확장합니다.
+페더레이션된 대상자 컴포지션은 대상자 큐레이션 및 활성화에 대한 포괄적인 접근 방식을 통해 Real-Time CDP 및 Journey Optimizer의 가치를 확장합니다.
 
 * 중요한 웨어하우스 기반 데이터 세트에 대한 액세스를 확장하여 가치가 높은 대상자 생성: 기존 데이터 웨어하우스를 주요 레코드 시스템으로 활용하는 동시에 최고 수준의 애플리케이션을 활용하여 탁월한 고객 경험을 제공합니다.
 
-* 참여 사용 사례를 강화하기 위한 포괄적인 지원: Real-Time CDP 또는 Journey Optimizer와 결합된 페더레이션된 대상자 구성은 페더레이션된 대상자를 통해 브랜드가 주도하는 맞춤화된 경험을 지원하고, 실시간 이벤트에 따라 트리거되는 즉각적 경험을 개인 속성과 결합하여 여러 팀에 걸쳐 사용 사례 요구 사항을 충족합니다.
+* 참여 사용 사례를 강화하기 위한 포괄적인 지원: Real-Time CDP 또는 Journey Optimizer와 결합된 페더레이션된 대상자 컴포지션은 페더레이션된 대상자를 통해 브랜드가 주도하는 맞춤화된 경험을 지원하고, 실시간 이벤트에 따라 트리거되는 즉각적 경험을 개인 속성과 결합하여 여러 팀에 걸쳐 사용 사례 요구 사항을 충족합니다.
 
 * 데이터 이동 및 중복 최소화: 기본 데이터를 복사하지 않고도 기업 데이터 웨어하우스에 있는 데이터 세트에서 대상자를 만들어 실행 가능한 마케팅 프로필과 잠재 대상자를 관리합니다.
 
 * 경험 기반 워크플로를 위한 단일 시스템 활용: Adobe Experience Platform에서 수집되고 페더레이션된 대상자를 선별하고 모든 채널에 걸쳐 아웃바운드 경험을 조정합니다.
 
-* 이제 B2C 및 B2B CDP 고객은 지원되는 기업 데이터 웨어하우스의 데이터를 통합하여 페더레이션된 대상자 구성을 통해 사용자 기반 대상자를 빌드할 수 있습니다. 또한 기업 데이터 웨어하우스에서 사용 가능한 관련 속성을 통합하여 기존 AEP 사용자 기반 대상자를 강화하고, 보다 개인화되고 타기팅된 참여를 위해 대상자 프로필을 개선할 수 있습니다.
+* 이제 B2C 및 B2B CDP 고객은 지원되는 기업 데이터 웨어하우스의 데이터를 통합하여 페더레이션된 대상자 컴포지션을 통해 사용자 기반 대상자를 빌드할 수 있습니다. 또한 기업 데이터 웨어하우스에서 사용 가능한 관련 속성을 통합하여 기존 AEP 사용자 기반 대상자를 강화하고, 보다 개인화되고 타기팅된 참여를 위해 대상자 프로필을 개선할 수 있습니다.
 
 ## 사용 사례 {#use-cases}
 
-Federated Audience Composition은 대상 만들기, 대상 강화 및 고객 프로필 강화와 같은 **3** 범주의 사용 사례를 지원합니다.
+페더레이션된 대상자 컴포지션은 대상자 생성, 대상자 보강, 고객 프로필 보강의 **세 가지** 사용 사례를 지원합니다.
 
-* 대상 만들기: 데이터 웨어하우스에서 대상을 만들고 마케터에게 친숙한 드래그 앤 드롭 사용자 인터페이스를 통해 Real-Time CDP 또는 Journey Optimizer에서 사용할 수 있도록 해당 대상을 Experience Platform에 연합할 수 있습니다. 따라서 중요한 기본 데이터를 복사하거나 기존 데이터를 복제하지 않고도 데이터 웨어하우스를 쿼리할 수 있습니다.
-   * **예:** Experience Platform에 해당 트랜잭션을 복사하지 않고 웨어하우스의 트랜잭션 내역 데이터를 사용하여 가치가 높은 과거 구매자 대상을 만듭니다.
+* 대상자 생성: 데이터 웨어하우스에서 대상자를 생성하고, 마케터 친화적인 드래그 앤 드롭 사용자 인터페이스를 통해 해당 이들 대상자를 Experience Platform에 통합하여 Real-Time CDP 또는 Journey Optimizer에서 사용할 수 있습니다. 결과적으로, 민감한 기본 데이터를 복사하거나 기존 데이터를 복제하지 않고도 데이터 웨어하우스를 쿼리할 수 있습니다.
+   * **예:** 웨어하우스의 과거 트랜잭션 데이터를 사용하여 높은 가치의 과거 구매자로 구성된 대상자를 생성하지만 해당 트랜잭션을 Experience Platform에 복사하지 않습니다.
 
-* 대상 강화: 기본 데이터를 Experience Platform에 복사하지 않고 데이터 웨어하우스의 추가 데이터 세트를 사용하고 이 정보로 대상을 오버레이하여 Experience Platform의 기존 대상에 더 자세한 정보를 추가할 수 있습니다. 대상의 다양성을 통해 풍부한 대상을 통해 향상된 개인화를 제공할 수 있습니다.
-   * **예:** 가치가 높은 이전 구매자의 페더레이션 대상 구성 대상을 사용하여 장바구니 포기 사용자의 Experience Platform 대상을 강화하여 타깃팅된 오퍼를 제공합니다.
+* 대상자 보강: 데이터 웨어하우스에서 추가 데이터 세트를 사용하고 이 정보를 대상자에게 오버레이하여 Experience Platform의 기존 대상자에게 더 많은 세부 정보를 추가할 수 있으며, 이 모든 작업이 Experience Platform에 기본 데이터를 복사하지 않고도 가능합니다. 대상자 보강을 통해 강화된 대상자에게 더 나은 개인화 경험을 제공할 수 있습니다.
+   * **예:** 장바구니를 포기한 사용자로 구성된 Experience Platform 대상자를 높은 가치의 과거 구매자로 구성된 페더레이션된 대상자 컴포지션 대상자로 보강하여 타기팅된 오퍼를 제공합니다.
 
-* 프로필 보강: 데이터 웨어하우스에서 개별 고객 속성을 선택하여 Experience Platform 프로필을 개선할 수 있습니다. 이러한 프로필에 연결된 데이터를 추가하면 인바운드 고객 신호에 의해 트리거되는 즉시 경험을 향상시킬 수 있습니다.
-   * **예:** 페더레이션 대상의 정보를 사용하여 Experience Platform 프로필을 보강합니다. 이제 고부가가치의 이전 구매자 연합 대상에 속하는 사이트 방문자를 온사이트 동작에 의해 트리거되는 타겟팅된 오퍼로 마케팅할 수 있습니다.
+* 프로필 보강: 데이터 웨어하우스에서 개별 고객 속성을 선택하여 Experience Platform 프로필을 강화할 수 있습니다. 이들 프로필에 페더레이션된 데이터를 추가하면 유입되는 고객 신호에 따라 트리거되는 즉각적인 경험을 더욱 효과적으로 제공할 수 있습니다.
+   * **예:** 페더레이션된 대상자로부터의 정보로 Experience Platform 프로필을 보강합니다. 이제 높은 가치의 과거 구매자 페더레이션된 대상자에 속하는 사이트 방문자에게 사이트 내에서의 행동에 따라 트리거되는 타기팅된 오퍼를 통해 마케팅할 수 있습니다.
 
 ![다이어그램](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Federated Audience Composition 사용 사례에 대한 자세한 내용은 [Federated Audience Composition 백서](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)를 참조하십시오.
+페더레이션된 대상자 컴포지션 사용 사례에 대한 자세한 내용은 [페더레이션된 대상자 컴포지션 백서](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)를 참조하십시오.
 
 ## 주요 단계 {#gs-steps}
 
-Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 없이 데이터베이스에서 Adobe Experience Platform 대상자를 직접 생성하고 업데이트할 수 있습니다.
+Adobe 페더레이션된 대상자 컴포지션을 사용하면 수집 프로세스 없이 데이터베이스에서 Adobe Experience Platform 대상자를 직접 생성하고 업데이트할 수 있습니다.
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
@@ -68,7 +68,7 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 
 >[!NOTE]
 >
->컴포지션을 실행한 후 결과 대상자는 Adobe Experience Platform에 외부 대상자로 저장되고 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>컴포지션을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다. 이 기능은 **대상자** 메뉴에서 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 거버넌스, 개인 정보 및 보안 {#governance-privacy-security}
 
@@ -82,7 +82,7 @@ Adobe 페더레이션된 대상자 구성을 사용하면 수집 프로세스 �
 >
 >Privacy Service에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
-Adobe 페더레이션된 대상자 구성에서 고객 데이터에 액세스하고 삭제하기 위한 개별 요청을 만들고 관리할 수 있습니다. **액세스 요청**&#x200B;을 제출하고 **삭제 요청**&#x200B;을 하는 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 나와 있습니다.
+Adobe 페더레이션된 대상자 컴포지션에서 고객 데이터에 액세스하고 삭제하기 위한 개별 요청을 만들고 관리할 수 있습니다. **액세스 요청**&#x200B;을 제출하고 **삭제 요청**&#x200B;을 하는 단계는 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy){target="_blank"}에 자세히 나와 있습니다.
 
 ### 감사 추적 {#gov-audit-trail}
 
@@ -93,7 +93,7 @@ Adobe 페더레이션된 대상자 구성에서 고객 데이터에 액세스하
 <!-- Workflow + Workflow activities-->
 
 
-[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 구성, 가드레일 및 제한 사항에 액세스하는 방법에 대해 알아보십시오.
+[이 페이지](access-prerequisites.md)에서 페더레이션된 대상자 컴포지션, 가드레일 및 제한 사항에 액세스하는 방법에 대해 알아보십시오.
 
 또한 [이 페이지](faq.md)에서 자주 묻는 질문을 살펴보십시오.
 

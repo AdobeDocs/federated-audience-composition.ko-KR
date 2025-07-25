@@ -3,9 +3,9 @@ title: Adobe Experience Platform 페더레이션된 대상자 컴포지션 설�
 description: 페더레이션된 대상자 컴포지션 설명서
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -53,17 +53,17 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>대상 작성</strong><br/>활동을 추가 및 구성하여(예: 분할, 데이터 보강 또는 쿼리) 구성을 만들고 첫 번째 페더레이션 대상을 만듭니다.
+    <div><strong>대상자 구성</strong><br/>활동(예: 분할, 보강 또는 쿼리)을 추가하고 구성하여 컴포지션을 빌드하고 첫 번째 페더레이션된 대상자를 만듭니다.
     </div>
     </td>
     <td>
     <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
-    <div><strong>사용 사례</strong><br/>Federated Audience Composition을 사용하여 대상을 만들고 보강하고 프로필 데이터를 보강합니다.
+    <div><strong>사용 사례</strong><br/>페더레이션된 대상자 컴포지션을 사용하여 대상자를 만들고 보강하며 프로필 데이터도 강화합니다.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>FAQ</strong><br/>Federated Audience 구성에 대한 FAQ.</div>
+    <div><strong>FAQ</strong><br/>페더레이션된 대상자 컴포지션에 대해 자주 묻는 질문입니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -77,4 +77,4 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
 
 ## 추가 리소스  {#additional-resources}
 
-[Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [자습서](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [튜토리얼](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
