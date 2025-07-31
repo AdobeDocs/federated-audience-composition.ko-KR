@@ -3,7 +3,7 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -227,4 +227,3 @@ Vertica Analytics의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 | 연결 테스트 | 구성 세부 사항을 확인할 수 있습니다. |
 
 이제 **[!UICONTROL 함수 배포]**&#x200B;를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 선택하여 페더레이션 데이터베이스와 Experience Platform 간의 연결을 완료할 수 있습니다.
-

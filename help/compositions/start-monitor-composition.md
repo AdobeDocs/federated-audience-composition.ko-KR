@@ -3,7 +3,7 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 8%
@@ -95,3 +95,4 @@ ht-degree: 8%
 * 실행 중인 컴포지션을 **[!UICONTROL 중지]**&#x200B;하고 **[!UICONTROL 완료됨]** 상태로 전환합니다. 진행 중인 작업은 가능한 경우 중단됩니다. 중지된 동일한 위치에서 컴포지션을 다시 시작할 수 없습니다.
 
 * **[!UICONTROL 다시 시작]**: 컴포지션을 중지했다가 다시 시작합니다. 대부분의 경우, 중지하는 데 일정 시간이 소요되고 중지하는 데 유효한 경우에만 **[!UICONTROL 시작]** 단추를 사용할 수 있으므로 더 빠르게 다시 시작할 수 있습니다.
+
