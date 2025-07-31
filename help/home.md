@@ -2,8 +2,8 @@
 title: Adobe Experience Platform 페더레이션된 대상자 컴포지션 설명서 홈 페이지
 description: 페더레이션된 대상자 컴포지션 설명서
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
 
 외부 데이터베이스에 대한 연결을 만들기, 구성, 테스트 및 저장합니다.
 
-[![이미지](assets/learn-more-button.svg)](connections/federated-db.md)
+[![이미지](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB 대상자 구성]
 

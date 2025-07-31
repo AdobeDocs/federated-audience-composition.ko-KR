@@ -3,8 +3,8 @@ audience: end-user
 title: 컴포지션 시작하기
 description: 컴포지션을 시작하는 방법 알아보기
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ ht-degree: 100%
 
 [시작 및 모니터 컴포지션 안내서](./start-monitor-composition.md)에서 구성을 시작하거나 중지하는 방법을 알아볼 수 있습니다.
 
-![사용 가능한 컴포지션이 표시됩니다.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![사용 가능한 컴포지션이 표시됩니다.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 목록을 세분화하고 원하는 컴포지션을 찾으려면 목록을 검색하고 상태나 마지막 처리 날짜를 기준으로 컴포지션을 필터링할 수 있습니다.
 
 열을 추가하거나 제거하여 목록을 사용자 정의할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 열 구성]** 버튼을 선택하고 원하는 출력 열을 추가하거나 제거합니다.
 
-![컴포지션 검색 페이지에 추가할 수 있는 사용 가능한 열 목록이 표시됩니다.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![컴포지션 검색 페이지에 추가할 수 있는 사용 가능한 열 목록이 표시됩니다.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 액세스 레이블 적용 {#access-labels}
 
 특정 컴포지션에 액세스 레이블을 적용하려면 해당 컴포지션을 선택한 다음 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하십시오.
 
-![“액세스 관리” 버튼이 컴포지션 캔버스 내에서 강조 표시됩니다.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![“액세스 관리” 버튼이 컴포지션 캔버스 내에서 강조 표시됩니다.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL 액세스 관리]** 팝오버가 나타납니다. 이 페이지에서 해당 액세스 및 데이터 거버넌스 레이블을 컴포지션에 적용할 수 있습니다.
 
-![액세스 관리 팝오버가 표시됩니다. 여기에는 컴포지션에 적용할 수 있는 모든 레이블 목록이 표시됩니다.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![액세스 관리 팝오버가 표시됩니다. 여기에는 컴포지션에 적용할 수 있는 모든 레이블 목록이 표시됩니다.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 레이블 유형 | 설명 |
 | ---------- | ----------- |

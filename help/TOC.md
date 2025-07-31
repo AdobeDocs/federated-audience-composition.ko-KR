@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
 title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 100%
    + [개요](./governance-privacy-security/home.md)
    + [액세스 제어](governance-privacy-security/access-control.md)
 + 구성 단계 {#config}
-   + [연결 만들기 및 관리](connections/connections.md)
-   + [페더레이션된 데이터베이스 구성](connections/federated-db.md)
+   + [연결 개요](connections/home.md)
    + [FDA 권한 매트릭스](connections/fda-rights.md)
    + 데이터 모델 및 스키마{#datamodel}
       + [스키마 만들기 및 구성](customer/schemas.md)

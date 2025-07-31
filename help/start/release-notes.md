@@ -2,16 +2,63 @@
 title: Experience Platform 페더레이션된 대상자 컴포지션의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
+
+## 2025년 7월 릴리스 {#fac-25-7}
+
+### 새로운 기능 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>새 커넥터 - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Oracle 커넥터를 Federated Audience Composition에 사용할 수 있습니다.</p>
+<p>대상 만들기 및 대상 강화 사용 사례에 Oracle 커넥터를 사용할 수 있습니다.</p>
+<p>Oracle 연결에 대한 자세한 내용은 <a href="../connections/home.md#create">연결 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>구성 경고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 경고에 가입하여 컴포지션의 성공 및 실패 실행에 대해 알아볼 수 있습니다</p>
+<p>컴포지션 실행에 대한 알림을 구독하는 방법에 대한 자세한 내용은 <a href="../compositions/start-monitor-composition.md#alerts">시작 및 컴포지션 가이드 모니터링</a>을 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-07-improvements}
+
+이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **추가된 서버 문자 길이**
+
+  이제 통합 데이터베이스를 구성할 때 이전 80자가 아닌 최대 255자를 사용할 수 있습니다.
 
 ## 2025년 6월 릴리스 {#fac-25-6}
 
@@ -157,11 +204,11 @@ ht-degree: 100%
 
 * **Amazon Redshift 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Amazon Redshift 데이터베이스에 대한 안전한 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Amazon Redshift 데이터베이스에 대한 안전한 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  이번 새로운 릴리스를 통해 페더레이션된 대상자 컴포지션이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#google-bigquery)
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 컴포지션이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/home.md#google-bigquery)
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
@@ -177,23 +224,12 @@ ht-degree: 100%
 
   이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### 호환성 {#fac-25-3-compat}
 
 * **Databricks 연결**
 
   이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
-여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/home.md#databricks)
 
 * **B2B CDP 고객 지원**
 
@@ -201,7 +237,7 @@ ht-degree: 100%
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#snowflake)
 
 ## 2025년 2월 릴리스 {#fac-25-2}
 
@@ -209,11 +245,11 @@ ht-degree: 100%
 
 * **Microsoft Fabric 지원**
 
-  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
+  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/home.md)
 
 * **Amazon Redshift Spectrum 지원**
 
-  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
 
 * **향상된 스키마 생성 경험**
 
@@ -231,7 +267,7 @@ ht-degree: 100%
 
 * **IP 주소 허용 목록**
 
-  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 컴포지션 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/connections.md)
+  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 컴포지션 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/home.md)
 
 ## 2024년 10월 릴리스 {#fac-24-10}
 
@@ -246,11 +282,11 @@ ht-degree: 100%
 
 * **Databricks 지원**
 
-  이제 페더레이션된 대상자 컴포지션을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+  이제 페더레이션된 대상자 컴포지션을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/home.md#databricks)
 
 * **AWS PrivateLink를 통한 Snowflake에 대한 보안 액세스 지원**
 
-  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 지원**
 

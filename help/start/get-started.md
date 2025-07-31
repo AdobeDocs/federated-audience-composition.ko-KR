@@ -2,8 +2,8 @@
 title: Experience Platform 페더레이션된 대상자 컴포지션 시작하기
 description: Adobe 페더레이션된 대상자 컴포지션이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 페더레이션된 대상자 컴포지션은 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/home){target="_blank"} 및 [Adobe Journey Optimizer](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 환경에서 사용할 수 있습니다. 이를 통해 서드파티 데이터 웨어하우스에서 대상자를 빌드하고 강화한 후 대상자를 Adobe Experience Platform으로 가져올 수 있습니다. 페더레이션된 대상자 컴포지션은 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 내에서 기업 데이터 웨어하우스를 직접 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행할 수 있는 쉽고 강력한 솔루션을 제공합니다.
 
-Adobe 페더레이션된 대상자 컴포지션은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/federated-db.md#supported-db)에서 확인할 수 있습니다.
+Adobe 페더레이션된 대상자 컴포지션은 Adobe Experience Platform 앱 사용자가 Amazon Redshift, Azure Synapse Analytics 등과 같은 데이터 웨어하우스 및 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있도록 지원합니다. 고객 데이터는 여러 데이터 웨어하우스에 저장할 수 있으며, 이제 복제 없이 즉시 액세스할 수 있습니다. 지원되는 플랫폼은 [이 페이지](../connections/home.md#supported-db)에서 확인할 수 있습니다.
 
 >[!INFO]
 >
@@ -58,7 +58,7 @@ Adobe 페더레이션된 대상자 컴포지션을 사용하면 수집 프로세
 
 주요 단계:
 
-1. **데이터 통합**: 다양한 소스의 데이터를 모아서 통합 데이터 세트로 병합합니다. Adobe Experience Platform 앱과 기업 데이터 웨어하우스, 지원되는 데이터베이스를 연결하는 방법 및 이를 구성하는 방법에 대해서는 [이 섹션](../connections/federated-db.md)에서 자세히 설명합니다.
+1. **데이터 통합**: 다양한 소스의 데이터를 모아서 통합 데이터 세트로 병합합니다. Adobe Experience Platform 앱과 기업 데이터 웨어하우스, 지원되는 데이터베이스를 연결하는 방법 및 이를 구성하는 방법에 대해서는 [이 섹션](../connections/home.md)에서 자세히 설명합니다.
 
 1. **데이터 모델링**: 데이터의 구조, 관계 및 제약 조건을 정의하는 데이터 모델과 스키마를 설계하고 만듭니다. [이 페이지에서](../customer/schemas.md) 스키마에 대해 자세히 알아보십시오. [이 페이지](../data-management/gs-models.md)에서 데이터 모델에 대한 링크를 만드는 방법을 알아보십시오.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 감사 추적
 description: 작업 및 이벤트가 기록되고 감사 추적에서 액세스할 수 있는 방법을 알아봅니다
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 11%
 
 * **외부 계정**&#x200B;을(를) 사용하면 Adobe 대상 구성 인스턴스에서 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
 
-  외부 계정에 대한 자세한 내용은 이 [페이지](../connections/federated-db.md)를 참조하세요.
+  외부 계정에 대한 자세한 내용은 이 [페이지](../connections/home.md)를 참조하세요.
 
 +++
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 >스키마에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 스키마 관리**
->&#x200B;>-**연결된 스키마 보기**
+>>-**연결된 스키마 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -69,7 +69,7 @@ Federated Audience Composition에서 스키마를 생성하려면 아래 단계�
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   이 단계에서는 환경에 연결된 데이터베이스를 찾을 수 있는 드롭다운 목록이 있는 새 화면에 액세스할 수 있습니다. [이 섹션](../connections/connections.md#connections-fdb)에서 데이터베이스 연결에 대해 자세히 알아보세요.
+   이 단계에서는 환경에 연결된 데이터베이스를 찾을 수 있는 드롭다운 목록이 있는 새 화면에 액세스할 수 있습니다. [이 섹션](../connections/home.md#connections-fdb)에서 데이터베이스 연결에 대해 자세히 알아보세요.
 
 1. 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 

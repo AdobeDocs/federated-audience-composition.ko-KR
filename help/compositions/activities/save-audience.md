@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 활동 사용
 description: 대상자 저장 활동을 사용하는 방법 알아보기
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
+>샌드박스가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
 >
 >병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 

@@ -3,14 +3,14 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
-# 구성 시작 및 모니터링 {#start-monitor}
+# 컴포지션 시작 및 모니터링 {#start-monitor}
 
 컴포지션을 만들고 캔버스에서 수행할 작업을 디자인한 후에는 해당 컴포지션을 시작하고 실행 방법을 모니터링할 수 있습니다.
 
@@ -38,9 +38,9 @@ ht-degree: 1%
 | 시각적 표시기 | 설명 |
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 활동이 현재 실행 중입니다. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에 오류가 발생했습니다. 문제를 해결하려면 구성 로그에서 자세한 정보를 엽니다. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 정상적으로 실행되었습니다. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 이 주의에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 문제를 해결하려면 구성 로그에서 자세한 정보를 엽니다. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 성공적으로 실행되었습니다. |
 
 ## 로그 및 작업 모니터링 {#logs-tasks}
 
@@ -61,6 +61,22 @@ ht-degree: 1%
 ![](assets/logs-tasks.png)
 
 모든 탭에서 표시된 열과 해당 순서를 선택하고 필터를 적용한 다음 검색 필드를 사용하여 원하는 정보를 빠르게 찾을 수 있습니다.
+
+## 경고 구독 {#alerts}
+
+또한 통합 작성 실행이 성공하거나 실패한 경우 알림을 받으려면 알림을 구독할 수 있습니다.
+
+알림을 구독하려면 ![알림 아이콘](/help/assets/icons/bell.png)을 선택한 다음 ![설정 아이콘](/help/assets/icons/settings.png)을 선택하세요.
+
+![알림과 설정 아이콘이 모두 강조 표시됩니다.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+알림 설정 페이지가 표시됩니다. 이 페이지에서 **[!UICONTROL Experience Platform]**&#x200B;을(를) 선택하고 원하는 알림 채널을 선택하십시오. UI에서 알림을 보려면 **[!UICONTROL 인앱]**&#x200B;을 선택하세요.
+
+![Experience Platform 섹션 내에서 인앱 확인란이 선택됩니다.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+**[!UICONTROL 인앱]**&#x200B;을 선택하면 이제 작성 실행 성공 및 실패에 대한 알림을 받게 됩니다.
+
+![구성 성공 및 실패를 보여 주는 경고가 표시됩니다.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## 컴포지션 실행 명령 {#execution-commands}
 

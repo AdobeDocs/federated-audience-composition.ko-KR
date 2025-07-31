@@ -4,7 +4,7 @@ description: 최신 업데이트 및 릴리스 정보
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 * **Databricks 연결**
 
   이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
-여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/home.md#databricks)
 
 * **B2B CDP 고객 지원**
 
@@ -113,7 +113,7 @@ ht-degree: 95%
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#snowflake)
 
 ## 2025년 2월 릴리스 {#fac-25-2}
 
@@ -121,11 +121,11 @@ ht-degree: 95%
 
 * **Microsoft Fabric 지원**
 
-  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md)
+  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/home.md)
 
 * **Amazon Redshift Spectrum 지원**
 
-  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
 
 * **향상된 스키마 생성 경험**
 
@@ -143,7 +143,7 @@ ht-degree: 95%
 
 * **IP 주소 허용 목록**
 
-  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 컴포지션 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/connections.md)
+  이제 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 페더레이션된 대상자 컴포지션 인스턴스와 연관된 IP 주소를 직접 조회할 수 있습니다. 이를 통해 이들 IP를 손쉽게 복사 및 승인하고 데이터베이스에 연결하여 보안과 유연성을 향상시킬 수 있습니다. [자세히 알아보기](../connections/home.md)
 
 ## 2024년 10월 릴리스 {#fac-24-10}
 
@@ -158,11 +158,11 @@ ht-degree: 95%
 
 * **Databricks 지원**
 
-  이제 페더레이션된 대상자 컴포지션을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/federated-db.md#databricks)
+  이제 페더레이션된 대상자 컴포지션을 통해 Databricks 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/home.md#databricks)
 
 * **AWS PrivateLink를 통한 Snowflake에 대한 보안 액세스 지원**
 
-  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/federated-db.md#snowflake)
+  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 지원**
 

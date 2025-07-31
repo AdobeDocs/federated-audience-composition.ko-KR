@@ -2,7 +2,7 @@
 title: 페더레이션된 대상자 컴포지션을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 컴포지션에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ ht-degree: 93%
 * Vertica Analytics
 * Microsoft Fabric
 
-[이 페이지](../connections/connections.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
+[이 페이지](../connections/home.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
 
 ## 샌드박스
 
@@ -53,13 +53,13 @@ ht-degree: 93%
 
 ## IP 허용 목록에 추가 {#ip}
 
-페더레이션된 대상자 컴포지션이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 액세스할 페더레이션된 대상자 컴포지션 서버의 IP 주소에 대한 권한이 있어야 합니다. 이들 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/connections.md)
+페더레이션된 대상자 컴포지션이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 액세스할 페더레이션된 대상자 컴포지션 서버의 IP 주소에 대한 권한이 있어야 합니다. 이들 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/home.md)
 
 IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 컴포지션에 대한 액세스 권한을 부여하십시오.
 
 ## 병합 정책 {#merge-policies}
 
-대상자가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
+샌드박스가 **데이터 세트 우선 순위** 병합 정책을 사용하는 경우 Adobe 고객 지원 센터에 문의하여 `Halos UPS` 데이터 세트를 병합 정책에 추가하십시오.
 
 병합 정책에 대한 자세한 내용은 [병합 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview)를 참조하십시오.
 
