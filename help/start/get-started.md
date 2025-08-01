@@ -3,7 +3,7 @@ title: Experience Platform 페더레이션된 대상자 컴포지션 시작하�
 description: Adobe 페더레이션된 대상자 컴포지션이 무엇인지와 Adobe Experience Platform에서 사용하는 방법에 대해 알아봅니다.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
 ht-degree: 100%
 
