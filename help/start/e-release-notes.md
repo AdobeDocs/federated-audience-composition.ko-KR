@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## 2025년 7월 릴리스 {#fac-25-7}
 
-이 릴리스에는 다음과 같은 변경 및 개선 사항이 포함되어 있습니다.
+이번 릴리스는 다음과 같은 변경 및 개선 사항과 함께 제공됩니다.
 
 * **Oracle 커넥터 가용성**
 
-  이제 Oracle 커넥터를 Federated Audience Composition에 사용할 수 있습니다.
+  이제 Oracle 커넥터를 페더레이션된 대상자 컴포지션과 함께 사용할 수 있습니다.
 
-* **구성 상태 알림**
+* **컴포지션 상태 알림**
 
-  경고에 가입하여 작성 실행의 성공 및 실패에 대한 알림을 받을 수 있습니다.
+  알림을 구독하면 컴포지션 실행의 성공 및 실패에 대한 알림을 받을 수 있습니다.
 
 ## 2025년 6월 릴리스 {#fac-25-6}
 

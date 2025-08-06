@@ -3,15 +3,15 @@ title: Experience Platform 페더레이션된 대상자 컴포지션의 새로�
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2025년 7월 릴리스 {#fac-25-7}
 
@@ -20,14 +20,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>새 커넥터 - Oracle</strong><br/></th>
+<th><strong>신규 커넥터 - Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Oracle 커넥터를 Federated Audience Composition에 사용할 수 있습니다.</p>
-<p>대상 만들기 및 대상 강화 사용 사례에 Oracle 커넥터를 사용할 수 있습니다.</p>
+<p>이제 Oracle 커넥터를 페더레이션된 대상자 컴포지션과 함께 사용할 수 있습니다.</p>
+<p>Oracle 커넥터를 통해 대상자 생성 및 대상자 보강 사용 사례에 활용할 수 있습니다.</p>
 <p>Oracle 연결에 대한 자세한 내용은 <a href="../connections/home.md#create">연결 개요</a>를 참조하십시오.</p>
 </br>
 </td>
@@ -38,14 +38,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>구성 경고</strong><br/></th>
+<th><strong>컴포지션 알림</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 경고에 가입하여 컴포지션의 성공 및 실패 실행에 대해 알아볼 수 있습니다</p>
-<p>컴포지션 실행에 대한 알림을 구독하는 방법에 대한 자세한 내용은 <a href="../compositions/start-monitor-composition.md#alerts">시작 및 컴포지션 가이드 모니터링</a>을 참조하십시오.</p>
+<p>이제 컴포지션의 성공 및 실패 실행에 대해 알아보기 위한 알림을 구독할 수 있습니다.</p>
+<p>컴포지션 실행 알림 구독에 대한 자세한 내용은 <a href="../compositions/start-monitor-composition.md#alerts">컴포지션 시작 및 모니터링 안내서</a>를 참조하십시오.</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### 개선 사항 {#fac-25-07-improvements}
 
-이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
 
-* **추가된 서버 문자 길이**
+* **증가된 서버 문자 길이**
 
-  이제 통합 데이터베이스를 구성할 때 이전 80자가 아닌 최대 255자를 사용할 수 있습니다.
+  페더레이션된 데이터베이스를 구성할 때 이제 이전의 80자가 아닌 최대 255자까지 사용할 수 있습니다.
 
 ## 2025년 6월 릴리스 {#fac-25-6}
 
