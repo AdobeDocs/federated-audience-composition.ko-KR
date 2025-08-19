@@ -3,10 +3,10 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 >스키마에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 스키마 관리**
->&#x200B;>-**연결된 스키마 보기**
+>>-**연결된 스키마 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -59,80 +59,70 @@ ht-degree: 20%
 >[!CAUTION]
 >
 >동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용해야 합니다.
->
 
 ## 스키마 만들기 {#schema-create}
 
-Federated Audience Composition에서 스키마를 생성하려면 아래 단계를 수행합니다.
+Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Federated Data]** 섹션에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 스키마]** 탭에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 페더레이션 데이터]** 섹션에서 **[!UICONTROL 모델]** 메뉴에 액세스합니다. **[!UICONTROL 스키마]** 탭으로 이동하여 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭합니다.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+**[!UICONTROL 페더레이션된 데이터베이스 선택]** 팝오버가 나타납니다. 이 팝오버에서는 [소스 데이터베이스](/help/connections/home.md)를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택할 수 있습니다.
 
-   이 단계에서는 환경에 연결된 데이터베이스를 찾을 수 있는 드롭다운 목록이 있는 새 화면에 액세스할 수 있습니다. [이 섹션](../connections/home.md#connections-fdb)에서 데이터베이스 연결에 대해 자세히 알아보세요.
 
-1. 목록에서 원본 데이터베이스를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+**테이블 선택** 팝오버가 나타납니다. 이 팝오버에서는 스키마를 만드는 데 사용할 테이블을 선택할 수 있습니다.
 
-   그런 다음 데이터베이스의 모든 테이블 목록을 볼 수 있습니다.
+![테이블 선택 팝오버가 표시됩니다.](assets/select-table.png){zoomable="yes"}
 
-1. 스키마를 생성할 테이블을 선택합니다.
+선택한 각 테이블은 선택한 열을 사용하여 스키마를 생성합니다. 각 테이블에 대해 스키마 레이블을 변경하고, 설명을 추가하고, 필드 레이블 이름을 변경하고, 필드 레이블 가시성을 설정하고, 스키마 기본 키를 선택할 수 있습니다.
 
-1. 선택한 각 테이블은 선택한 열을 사용하여 스키마를 생성합니다. 필요에 따라 스키마와 해당 열을 구성합니다.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL 합성 키 사용]**&#x200B;을 사용하도록 설정했지만 사용할 키를 하나만 선택하면 키가 표준 스키마 기본 키로 처리됩니다.
 
-   각 테이블에 대해 다음 작업을 수행할 수 있습니다.
+또한 여러 스키마 열로 구성된 키를 만들 수도 있습니다. **[!UICONTROL 복합 키 사용]**&#x200B;을 켜고 사용할 키를 복합 키로 표시합니다.
 
-   * 스키마 레이블 변경
-   * 설명 추가
-   * 모든 필드 레이블의 이름을 바꾸고 가시성을 설정합니다.
-   * 스키마 기본 키 선택
+![](assets/composite-key.png)
 
-   스키마를 다음과 같이 정의할 수 있습니다.
-
-   ![](assets/schema_example.png)
-
-1. 구성을 완료한 후 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+구성을 완료한 후 **[!UICONTROL 완료]**&#x200B;를 선택하여 스키마 만들기를 완료합니다.
 
 ## 스키마 편집 {#schema-edit}
 
-스키마를 편집하려면 다음 단계를 따르십시오.
+스키마를 편집하려면 **스키마** 페이지에서 이전에 만든 스키마를 선택하십시오.
 
-1. 이전에 만든 스키마에 액세스합니다.
+[스키마 세부 정보] 페이지가 나타납니다. 스키마를 편집하려면 ![연필 아이콘](/help/assets/icons/edit.png)을 선택하세요.
 
-1. **[!UICONTROL 편집]** 단추를 클릭합니다.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+**[!UICONTROL 스키마 편집]** 창에서 [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스하고 구성할 수 있습니다.
 
-1. **[!UICONTROL 스키마 편집]** 창에서 [스키마를 만들 때](#schema-create)와 동일한 옵션에 액세스하고 구성할 수 있습니다.
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## 스키마에서 데이터 미리 보기 {#schema-preview}
 
 스키마가 나타내는 테이블의 데이터를 미리 보려면 아래와 같이 **[!UICONTROL 데이터]** 탭으로 이동합니다.
 
-총 녹음/녹화 수를 미리 보려면 **[!UICONTROL 계산]** 링크를 클릭하십시오.
+총 녹음/녹화 수를 미리 보려면 **[!UICONTROL 계산]** 링크를 선택하십시오.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-데이터 표시를 변경하려면 **[!UICONTROL 열 구성]** 단추를 클릭하십시오.
+데이터 표시를 변경하려면 **[!UICONTROL 열 구성]** 단추를 선택하십시오.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## 스키마 새로 고침 {#schema-refresh}
 
-통합 데이터베이스의 테이블은 업데이트, 추가 또는 제거할 수 있습니다. 이러한 경우 최신 변경 사항에 맞게 Adobe Experience Platform에서 스키마를 새로 고쳐야 합니다. 이렇게 하려면 업데이트할 스키마 이름 옆에 있는 세 점을 클릭하고 **스키마 새로 고침**&#x200B;을 선택하십시오.
+통합 데이터베이스의 테이블은 업데이트, 추가 또는 제거할 수 있습니다. 이러한 경우 최신 변경 사항에 맞게 Adobe Experience Platform에서 스키마를 새로 고쳐야 합니다. 이렇게 하려면 스키마 이름 옆에 있는 ![세 점 아이콘](/help/assets/icons/more.png)을 선택한 다음 **[!UICONTROL 스키마 새로 고침]**&#x200B;을 선택하십시오.
 
 스키마 정의를 편집할 때 업데이트할 수도 있습니다.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## 스키마 삭제 {#schema-delete}
 
-스키마를 삭제하려면 **[!UICONTROL 자세히]** 버튼을 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+스키마를 삭제하려면 ![점 세 개 아이콘](/help/assets/icons/more.png)을 선택한 후 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/schema_delete.png){zoomable="yes"}

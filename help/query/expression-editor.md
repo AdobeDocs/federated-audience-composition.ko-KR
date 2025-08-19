@@ -3,22 +3,22 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: 쿼리 모델러에서 첫 번째 쿼리를 작성하는 방법을 알아봅니다.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 53%
+source-wordcount: '2075'
+ht-degree: 78%
 
 ---
 
 # 표현식 편집 {#expression}
 
-표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
+표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 형성해야 합니다. 이 모드에서는 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
-## 표현식 편집기 작업 {#edit}
+## 표현식 편집기를 사용하여 작업 {#edit}
 
 표현식 편집기는 쿼리 모델러 **[!UICONTROL 표현식 편집]** 단추에서 사용할 수 있습니다. 이 단추는 사용자 지정 조건을 구성할 때 **[!UICONTROL 특성]** 및 **[!UICONTROL 값]** 필드에 사용할 수 있습니다.
 
-| **[!UICONTROL 특성]** 필드에서 액세스 | **[!UICONTROL 값]** 필드에서 액세스 |
+| **[!UICONTROL 속성]** 필드에서 액세스 | **[!UICONTROL 값]** 필드에서 액세스 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
@@ -26,9 +26,9 @@ ht-degree: 53%
 
 * 식이 정의된 **입력 필드(1)**&#x200B;입니다.
 * 표현식에서 사용할 수 있고 쿼리의 스키마(타겟팅 차원이라고도 함)에 해당하는 사용 가능한 **필드(2)** 목록입니다.
-* 범주별로 정렬된 **도우미 함수(3)**.
+* 범주별로 정렬된 **도우미 함수(3)**&#x200B;입니다.
 
-입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 식에 커서를 놓고 + 단추를 클릭합니다.
+입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 표현식에 커서를 놓고 + 버튼을 클릭합니다.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ ht-degree: 53%
 
 ## 도우미 함수
 
-쿼리 편집 도구를 사용하면 고급 함수를 사용하여 원하는 결과와 조작된 데이터 유형에 따라 복잡한 필터링을 수행할 수 있습니다. 다음 기능을 사용할 수 있습니다.
+쿼리 편집 도구를 사용하면 고급 함수를 사용하여 원하는 결과와 조작된 데이터 유형에 따라 복잡한 필터링을 수행할 수 있습니다. 다음 함수를 사용할 수 있습니다.
 
 ### 집계
 
@@ -101,7 +101,7 @@ ht-degree: 53%
  </tbody> 
 </table>
 
-### 날짜
+### Date
 
 날짜 함수는 날짜 또는 시간 값을 조작하는 데 사용됩니다.
 
@@ -382,7 +382,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> 경도 및 위도로 정의된 두 지점 사이의 거리를 도 단위로 반환합니다.<br /> </td> 
+   <td> 경도와 위도로 정의된 두 지점 사이의 거리를 도 단위로 반환합니다.<br /> </td> 
    <td> Distance(&lt;경도 A&gt;, &lt;위도 A&gt;, &lt;경도 B&gt;, &lt;위도 B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -411,7 +411,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 숫자보다 크거나 같은 최대 정수 반환<br /> </td> 
+   <td> 숫자보다 크거나 같은 가장 큰 정수를 반환합니다.<br /> </td> 
    <td> Floor(&lt;숫자&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -426,7 +426,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> n1에서 n2<br />까지 정수 분기의 나머지 반환 </td> 
+   <td> n1을 n2로 나눈 정수의 나머지를 반환합니다.<br /> </td> 
    <td> Mod(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -474,7 +474,7 @@ ht-degree: 53%
 
 ### 기타
 
-이 표에는 사용 가능한 나머지 함수가 포함되어 있습니다.
+이 테이블에는 사용 가능한 나머지 함수가 포함되어 있습니다.
 
 <table> 
  <tbody> 
@@ -485,12 +485,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> <br /> 인수에 제공된 암호화 문자열 </td> 
+   <td> 인수에 제공된 문자열 암호화<br /> </td> 
    <td> AESEncrypt(&lt;값&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2.<br />을 반환합니다. </td> 
+   <td> 조건이 참이면 값 1을 반환합니다. 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
    <td> Case(When(&lt;조건&gt;, &lt;값 1&gt;), Else(&lt;값 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -505,7 +505,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 값 1 = 값 2이면 값 3 반환 가 반환하지 않으면 값 4.<br /> </td> 
+   <td> 값 1 = 값 2이면 값 3을 반환합니다. 그렇지 않으면 값 4를 반환합니다.<br /> </td> 
    <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -530,7 +530,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 표현식이 true인 경우 값 1 반환 그렇지 않으면 값 2<br />을 반환합니다. </td> 
+   <td> 표현식이 참이면 값 1을 반환합니다. 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
    <td> Iif(&lt;조건&gt;, &lt;값 1&gt;, &lt;값 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -540,12 +540,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3<br /> 반환 </td> 
+   <td> 문자열이 비어 있으면 값 2를 반환하고, 그렇지 않으면 값 3을 반환합니다.<br /> </td> 
    <td> IsEmptyString(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> 고유 ID<br />을(를) 반환합니다. </td> 
+   <td> 고유 ID를 반환합니다.<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -570,7 +570,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 표현식이 true인 경우 값 1 반환 그렇지 않으면 값 2(case 함수의 매개 변수로만 사용할 수 있음)를 반환합니다.<br /> </td> 
+   <td> 표현식이 참이면 값 1을 반환합니다. 그렇지 않으면 값 2를 반환합니다(case 함수의 매개변수로만 사용할 수 있음).<br /> </td> 
    <td> When(&lt;조건&gt;, &lt;값 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -614,7 +614,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> 문자열 <br />의 크기(바이트)를 반환합니다. </td> 
+   <td> 문자열의 크기를 바이트로 반환합니다.<br /> </td> 
    <td> dataLength(&lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -624,7 +624,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 처음 두 매개 변수가 동일한 경우 세 번째 매개 변수를 반환합니다. 그렇지 않으면 마지막 매개 변수 <br />을(를) 반환합니다. </td> 
+   <td> 처음 두 매개변수가 동일한 경우 세 번째 매개변수를 반환합니다. 그렇지 않으면 마지막 매개변수를 반환합니다.<br /> </td> 
    <td> IfEquals(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -634,12 +634,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
+   <td> 매개변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
    <td> JuxtWords(&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다<br /> </td> 
+   <td> 매개변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
    <td> JuxtWords3(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -653,9 +653,9 @@ ht-degree: 53%
    <td> Length(&lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>줄</strong><br /> </td> 
-   <td> 문자열 <br />에서 n행 추출 </td> 
-   <td> Line(&lt;문자열&gt;,&lt;숫자&gt;)<br /></td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> 문자열에서 n번째 줄을 추출합니다.<br /> </td> 
+   <td> Line(&lt;문자열&gt;, &lt;숫자&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -665,7 +665,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 왼쪽에서 완성된 문자열 반환<br /> </td> 
-   <td> LPad (&lt;문자열&gt;, &lt;숫자&gt;, &lt;문자&gt;)<br /></td> 
+   <td> LPad(&lt;문자열&gt;, &lt;숫자&gt;, &lt;문자&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -683,14 +683,14 @@ ht-degree: 53%
    <td> MemoContains(&lt;메모&gt;, &lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>노드 값</strong><br /> </td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
    <td> XPath 및 필드 데이터에서 XML 필드의 값을 추출합니다.<br /> </td> 
-   <td> NodeValue (&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> NodeValue(&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> 지정한 문자열 값의 모든 항목을 다른 문자열 값으로 바꿉니다.<br /> </td> 
-   <td> Replace(&lt;문자열&gt;,&lt;문자열&gt;,&lt;문자열&gt;)<br /></td> 
+   <td> 지정된 문자열 값(문자열 2)의 모든 발생 항목을 문자열(문자열 1) 내의 다른 문자열 값(문자열 3)으로 바꿉니다.<br /> </td> 
+   <td> Replace(&lt;문자열1&gt;,&lt;문자열2&gt;,&lt;문자열3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -709,12 +709,12 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 문자열의 SHA256 키에 대한 16진수 표현입니다.<br /> </td> 
+   <td> 문자열의 SHA256 키의 16진수 표현입니다.<br /> </td> 
    <td> Sha256Digest(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 문자열의 SHA512 키에 대한 16진수 표현입니다.<br /> </td> 
+   <td> 문자열의 SHA512 키의 16진수 표현입니다.<br /> </td> 
    <td> Sha512Digest(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -724,7 +724,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 문자열의 문자 n1, 길이 n2<br />에서 시작하는 하위 문자열 추출 </td> 
+   <td> 문자열의 문자 n1부터 시작하여 길이가 n2인 하위 문자열을 추출합니다.<br /> </td> 
    <td> Substring(&lt;문자열&gt;, &lt;오프셋&gt;, &lt;길이&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -750,7 +750,7 @@ ht-degree: 53%
  </tbody> 
 </table>
 
-### 창
+### Window
 
 <table> 
  <tbody> 
@@ -761,7 +761,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> 첫 번째 매개 변수로 입력한 SQL 함수 호출 실행, 두 번째 매개 변수로 입력한 파티션 또는 정렬 기준 필드<br /> </td> 
+   <td> 두 번째 매개변수로 입력된 필드에 대해 파티션 또는 정렬 기준에 대해 첫 번째 매개변수로 입력된 SQL 함수 호출을 실행합니다.<br /> </td> 
    <td> _Over_(&lt;값&gt;, &lt;값&gt;)<br /> </td>  
   </tr> 
   <tr> 

@@ -2,16 +2,78 @@
 title: Experience Platform 페더레이션된 대상자 컴포지션의 새로운 기능
 description: 최신 업데이트 및 릴리스 정보
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1542'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
 # 릴리스 정보 {#rn-new}
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
+
+## 2025년 8월 릴리스 {#fac-25-8}
+
+### 새로운 기능 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>스키마 검색에서 복합 키 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 열을 함께 결합하여 스키마에 대한 복합 키를 만들 수 있습니다.</p>
+<p>스키마에 대한 자세한 내용은 <a href="../customer/schemas.md#create">스키마 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>모델용 링크에 여러 조인 추가</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 모델의 단일 링크에 여러 조인을 함께 추가할 수 있습니다.</p>
+<p>모델에 대한 자세한 내용은 <a href="../data-management/gs-models.md#create">모델 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-8-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **추가된 `StringAgg` 함수**
+
+  이제 다음과 같은 경우 Amazon Redshift 스펙트럼 데이터베이스에 대해 `StringAgg` 함수를 사용할 수 있습니다. 표현식 편집기 사용.
+
+* **`Replace`함수**
+
+  설명서에서 `Replace` 함수의 설명 및 구문을 명확히 설명했습니다.
+
+### 호환성 {#fac-25-8-compatibility}
+
+* **Azure Synapse 데이터베이스**
+
+  이제 PrivateLink 또는 VPN을 사용하여 Azure Synapse 데이터베이스에 안전하게 연결할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+
+* **Oracle 데이터베이스**
+
+  이제 Oracle 데이터베이스에 안전하게 연결할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+
+Federated Audience Composition에서 지원되는 데이터베이스에 대한 자세한 내용은 [연결 개요](../connections/home.md)를 참조하십시오.
 
 ## 2025년 7월 릴리스 {#fac-25-7}
 

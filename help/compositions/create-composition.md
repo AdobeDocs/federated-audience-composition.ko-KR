@@ -3,33 +3,35 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 21%
+source-wordcount: '515'
+ht-degree: 20%
 
 ---
 
-# 컴포지션 만들기 {#create}
+# 컴포지션 만들기 및 구성 {#create}
 
 컴포지션을 만드는 첫 번째 단계는 해당 레이블을 정의하고 필요한 경우 추가 설정을 구성하는 것입니다.
 
 ## 컴포지션 만들기 {#create-the-composition}
 
-1. **[!UICONTROL 대상자]** 메뉴에 액세스하고 **[!UICONTROL 통합 구성]** 탭을 선택합니다.
+컴포지션을 만들려면 **[!UICONTROL 고객]** 섹션 내에서 **[!UICONTROL 대상]**&#x200B;을 선택한 다음 **[!UICONTROL 통합 컴포지션]** 탭을 선택합니다.
 
-1. **[!UICONTROL 컴포지션 만들기]** 단추를 클릭합니다.
+이미지
 
-   ![](assets/composition-create.png)
+통합 구성 찾아보기 페이지가 나타납니다. 컴포지션 만들기 프로세스를 계속하려면 **[!UICONTROL 컴포지션 만들기]**&#x200B;를 선택하십시오.
 
-1. **[!UICONTROL 속성]** 섹션에서 컴포지션에 대한 레이블을 지정하고 데이터 모델을 선택합니다. 이 데이터 모델과 연결된 스키마만 컴포지션의 활동에서 사용할 수 있습니다.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+**[!UICONTROL 속성]** 섹션에서 컴포지션에 대한 레이블을 지정하고 데이터 모델을 선택합니다. 이 데이터 모델과 연결된 스키마만 컴포지션의 활동에서 사용할 수 있습니다.
 
-1. Click **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이제 실행하기 전에 필요에 맞게 활동을 추가하여 컴포지션을 구성할 수 있습니다.
+![](assets/composition-select-schema.png)
 
-   * [활동 오케스트레이션 방법 알아보기](orchestrate-activities.md)
-   * [컴포지션을 시작하고 모니터링하는 방법 알아보기](start-monitor-composition.md)
+Select **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이제 실행하기 전에 필요에 맞게 활동을 추가하여 컴포지션을 구성할 수 있습니다.
+
+* [활동 오케스트레이션 방법 알아보기](orchestrate-activities.md)
+* [컴포지션을 시작하고 모니터링하는 방법 알아보기](start-monitor-composition.md)
 
 ## 컴포지션 설정을 구성합니다. {#settings}
 
@@ -48,7 +50,9 @@ ht-degree: 21%
 >title="오류 관리 설정"
 >abstract="이 섹션에서는 실행 중 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나, 특정 수의 오류를 무시하거나, 컴포지션 실행을 중지하도록 선택할 수 있습니다."
 
-컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다. 이러한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽 섹션에 있는 **[!UICONTROL 설정]** 단추를 클릭합니다.
+컴포지션에 액세스할 때 고급 설정에 액세스하여 오류 발생 시 컴포지션의 동작 방식 등을 정의할 수 있습니다.
+
+이러한 추가 옵션에 액세스하려면 컴포지션 만들기 화면의 위쪽 섹션에서 **[!UICONTROL 설정]**&#x200B;을 선택합니다.
 
 ![](assets/composition-create-settings.png)
 
