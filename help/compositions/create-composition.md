@@ -3,10 +3,10 @@ audience: end-user
 title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '524'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 컴포지션을 만들려면 **[!UICONTROL 고객]** 섹션 내에서 **[!UICONTROL 대상]**&#x200B;을 선택한 다음 **[!UICONTROL 통합 컴포지션]** 탭을 선택합니다.
 
-이미지
+![Federated 컴포지션 섹션에 액세스하는 경로가 강조 표시되어 있습니다.](assets/create/access-compositions.png)
 
 통합 구성 찾아보기 페이지가 나타납니다. 컴포지션 만들기 프로세스를 계속하려면 **[!UICONTROL 컴포지션 만들기]**&#x200B;를 선택하십시오.
 

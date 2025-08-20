@@ -3,9 +3,9 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -71,6 +71,10 @@ Amazon Redshift를 선택한 후 다음 세부 사항을 추가할 수 있습니
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. 이 기능에 대한 자세한 내용은 [Amazon 스키마 설명서](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}를 참조하세요.<br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스의 모든 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
 
 >[!TAB Azure Synapse 분석]
+
+>[!NOTE]
+>
+>Azure Synapse Analytics를 사용하여 보안 연결을 만들려면 Adobe 고객 지원 센터 담당자에게 문의하십시오.
 
 Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -153,7 +157,7 @@ Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 >
 >Oracle 데이터베이스 커넥터는 현재 대상 만들기 및 대상 강화 사용 사례에 **only**&#x200B;을(를) 사용할 수 있습니다.
 >
->또한 Oracle 데이터베이스를 설정하기 전에 Adobe 고객 지원 센터 담당자에게 문의하십시오.
+>보안 연결을 사용하기 위한 Oracle 연결 설정을 포함하여 Oracle 데이터베이스를 설정하기 전에 Adobe 고객 지원 센터 담당자에게 문의하십시오.
 
 Oracle을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 

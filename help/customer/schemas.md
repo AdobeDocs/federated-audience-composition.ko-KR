@@ -3,9 +3,9 @@ audience: end-user
 title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >스키마에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 스키마 관리**
->&#x200B;>-**연결된 스키마 보기**
+>>-**연결된 스키마 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -64,7 +64,7 @@ ht-degree: 19%
 
 Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Federated Data]** 섹션에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 스키마]** 탭에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
-![](assets/schema_create.png){zoomable="yes"}
+![Federated Audience Composition 스키마 섹션 내에서 스키마 만들기 단추가 강조 표시됩니다.](assets/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 페더레이션된 데이터베이스 선택]** 팝오버가 나타납니다. 이 팝오버에서는 [소스 데이터베이스](/help/connections/home.md)를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택할 수 있습니다.
 
@@ -77,7 +77,7 @@ Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Fed
 
 선택한 각 테이블은 선택한 열을 사용하여 스키마를 생성합니다. 각 테이블에 대해 스키마 레이블을 변경하고, 설명을 추가하고, 필드 레이블 이름을 변경하고, 필드 레이블 가시성을 설정하고, 스키마 기본 키를 선택할 수 있습니다.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Fed
 
 또한 여러 스키마 열로 구성된 키를 만들 수도 있습니다. **[!UICONTROL 복합 키 사용]**&#x200B;을 켜고 사용할 키를 복합 키로 표시합니다.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 구성을 완료한 후 **[!UICONTROL 완료]**&#x200B;를 선택하여 스키마 만들기를 완료합니다.
 
