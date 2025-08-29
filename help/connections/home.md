@@ -3,9 +3,9 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1953'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -154,8 +154,6 @@ Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 >[!TAB Oracle]
 
 >[!IMPORTANT]
->
->Oracle 데이터베이스 커넥터는 현재 대상 만들기 및 대상 강화 사용 사례에 **only**&#x200B;을(를) 사용할 수 있습니다.
 >
 >보안 연결을 사용하기 위한 Oracle 연결 설정을 포함하여 Oracle 데이터베이스를 설정하기 전에 Adobe 고객 지원 센터 담당자에게 문의하십시오.
 
