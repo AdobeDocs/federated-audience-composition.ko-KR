@@ -3,9 +3,9 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
+source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1991'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -142,7 +142,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[의 &#x200B;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[의 ](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -155,7 +155,7 @@ Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 
 >[!IMPORTANT]
 >
->Federated Audience Composition은 Oracle 데이터베이스 버전 11g 이상을 사용하고 AWS, Azure, Exadata 또는 사설 클라우드에서 호스팅되는 페더레이션 연결 설정을 지원합니다(외부 네트워크에서 액세스할 수 있는 경우). Oracle 데이터베이스 설정과 관련된 추가 쿼리가 있거나 Oracle에 대한 보안 연결을 만들어야 하는 경우 Adobe 고객 지원 센터 담당자에게 문의하십시오.
+>Federated Audience Composition은 버전 11g 이상에서 AWS, Azure, Exadata 또는 사설 클라우드에서 호스팅되는 Oracle 데이터베이스와의 페더레이션 연결 설정을 지원합니다(외부 네트워크에서 액세스할 수 있는 경우). Oracle 데이터베이스 설정과 관련된 추가 쿼리가 있거나 Oracle에 대한 보안 연결을 만들어야 하는 경우 Adobe 고객 지원 센터 담당자에게 문의하십시오.
 
 Oracle을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 
