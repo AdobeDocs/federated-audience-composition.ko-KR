@@ -3,10 +3,10 @@ audience: end-user
 title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 11%
+source-wordcount: '2224'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션 데이터베이스 관리**
->&#x200B;>-**페더레이션 데이터베이스 보기**
+>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -59,6 +59,8 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 >[!AVAILABILITY]
 >
 >Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
+>
+>또한 개인 링크를 통한 외부 Amazon Redshift 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다.
 
 Amazon Redshift를 선택한 후 다음 세부 사항을 추가할 수 있습니다.
 
@@ -111,11 +113,32 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 >[!TAB Google BigQuery]
 
-Google BigQuery를 선택한 후 다음 세부 사항을 추가할 수 있습니다.
+>[!NOTE]
+>
+>VPN을 통해 외부 Google BigQuery 데이터 웨어하우스에 안전하게 액세스할 수 있습니다.
+
+Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
+
+**[!UICONTROL 계정/암호 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
 | 서비스 계정 | 서비스 계정의 이메일 주소입니다. 자세한 내용은 [Google Cloud Service 계정 설명서](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}를 참조하십시오. |
+
+**[!UICONTROL OAuth 2.0]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 클라이언트 ID | Google BigQuery 프로젝트의 클라이언트 ID. 이 필드는 프로젝트의 사용자 이름처럼 작동합니다. |
+| 클라이언트 암호 | Google BigQuery 프로젝트의 클라이언트 암호입니다. 이 필드는 프로젝트의 암호처럼 작동합니다. |
+| 리디렉션 URL | 성공적으로 인증한 후 애플리케이션이 리디렉션하는 URL입니다. |
+
+인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
+
+로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
 | 프로젝트 | 프로젝트의 ID입니다. 자세한 내용은 [Google Cloud 프로젝트 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오. |
 | 데이터 세트 | 데이터 세트의 이름입니다. 자세한 내용은 [Google Cloud 데이터 세트 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오. |
 | 키 파일 경로 | 서버에 대한 키 파일입니다. `json`개의 파일만 지원됩니다. |
@@ -142,7 +165,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[의 &#x200B;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[의 ](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -171,13 +194,30 @@ Oracle을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 >
 >비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
-Snowflake을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
+Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
+
+**[!UICONTROL 계정/암호 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
 | 서버 | 서버 이름입니다. |
 | 사용자 | 계정의 사용자 이름입니다. |
 | 암호 | 계정 암호입니다. |
+
+**[!UICONTROL OAuth 2.0]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 서버 | 서버 이름입니다. |
+| 클라이언트 ID | Snowflake 프로젝트의 클라이언트 ID. 이 필드는 프로젝트의 사용자 이름처럼 작동합니다. |
+| 클라이언트 암호 | Snowflake 프로젝트의 클라이언트 암호입니다. 이 필드는 프로젝트의 암호처럼 작동합니다. |
+
+인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
+
+로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
 | 데이터베이스 | 데이터베이스의 이름입니다. 서버 이름에 이 필드를 지정하면 이 필드를 비워 둘 수 있습니다. |
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. <br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스에서 **any** 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
 | 개인 키 | 데이터베이스 연결을 위한 개인 키입니다. 로컬 시스템에서 `.pem` 파일을 업로드할 수 있습니다. |
