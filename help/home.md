@@ -2,8 +2,8 @@
 title: Adobe Experience Platform 페더레이션된 대상자 컴포지션 설명서 홈 페이지
 description: 페더레이션된 대상자 컴포지션 설명서
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -78,3 +78,4 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
 ## 추가 리소스  {#additional-resources}
 
 [Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [튜토리얼](https://experienceleague.adobe.com/ko/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+
