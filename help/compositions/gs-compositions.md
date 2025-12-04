@@ -3,7 +3,7 @@ audience: end-user
 title: 컴포지션 시작하기
 description: 컴포지션을 시작하는 방법 알아보기
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >컴포지션에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
 >-**페더레이션된 컴포지션 관리**
->>-**페더레이션된 컴포지션 보기**
+>-**페더레이션된 컴포지션 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
