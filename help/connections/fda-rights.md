@@ -2,7 +2,7 @@
 title: 외부 데이터베이스 액세스 권한
 description: 각 데이터베이스 엔진에 액세스하고 작업을 수행하는 데 필요한 권한에 대해 알아봅니다
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: 530a8709a67fabec1a36e1661b922f3e9a9e6996
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 | **실행 모니터링** | 필요한 개체에 대한 `MONITOR` 권한 | `EXPLAIN` 명령을 사용하는 데 필요한 권한이 없습니다. | `monitoring.viewer` 역할 | `CAN_VIEW` 권한 |
 | **데이터를 쓰는 중** | 쓰기 작업에 따라 `INSERT` 및/또는 `UPDATE` 권한 | `INSERT` 및 `UPDATE` 권한 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create` 및 `bigquery.tables.updateData`이(가) 포함되어야 합니다. | `MODIFY` 권한 |
 | **테이블에 데이터 로드** | 대상 테이블 권한의 `CREATE STAGE ON SCHEMA`, `SELECT` 및 `INSERT` | `SELECT` 및 `INSERT` 권한 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create`, `bigquery.tables.getData` 및 `bigquery.tables.updateData`이(가) 포함되어야 합니다. | `SELECT` 및 `MODIFY` 권한 |
-| **클라이언트 데이터에 액세스** | `SELECT on (FUTURE) TABLE(S)` 또는 `VIEW(S)` 권한 | `SELECT` 권한 | 서비스 계정에 할당된 역할에는 테이블 또는 `bigquery.dataViewer` 역할에 대해 `bigquery.jobs.create` 및 `bigquery.tables.getData`이(가) 포함되어야 합니다. | `SELECT` 권한 |
+| **클라이언트 데이터에 액세스** | `SELECT on (FUTURE) TABLE(S)` 또는 `VIEW(S)` 권한 | `SELECT` 권한 | 서비스 계정에 할당된 역할에는 테이블 또는 `bigquery.jobs.create` 역할에 대해 `bigquery.tables.getData` 및 `bigquery.dataViewer`이(가) 포함되어야 합니다. | `SELECT` 권한 |
 | **메타데이터에 액세스** | `SELECT on INFORMATION_SCHEMA SCHEMA` 권한 | `SELECT` 권한 | `bigquery.metadataViewer` 역할 |  `SELECT on INFORMATION_SCHEMA SCHEMA` 권한 |
 
 
