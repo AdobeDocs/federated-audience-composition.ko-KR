@@ -24,7 +24,7 @@ ht-degree: 34%
 
 * **그룹 연산자**(AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 함께 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [연산자 작업 방법 알아보기](#filtering)
 
-  예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**San Francisco*
+  예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**&#x200B;San Francisco*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
