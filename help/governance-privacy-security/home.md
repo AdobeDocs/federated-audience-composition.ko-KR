@@ -2,7 +2,7 @@
 title: 페더레이션된 대상자 구성의 개인정보보호 및 보안
 description: 페더레이션된 대상자 구성이 데이터 거버넌스, 동의 시행, 액세스 제어, 데이터 암호화 및 개인정보보호 규정 준수와 같은 기능을 포함하여 사용자 데이터의 개인정보보호 및 보안을 어떻게 처리하는지 알아봅니다.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Federated Audience Composition은 비즈니스 사례, 법적 의무 및 개발 
 
 데이터 사용 레이블 을 사용하여 해당 데이터에 적용되는 거버넌스 정책을 기반으로 데이터 세트와 필드를 분류할 수 있습니다. 컴포지션을 사용하여 대상자를 만든 후 결과 스키마에 적절한 데이터 레이블을 적용하여 필요한 사용 제한을 준수하는지 확인할 수 있습니다.
 
-Federated Audience Composition에서 데이터 레이블을 사용하는 방법에 대한 자세한 내용은 [액세스 레이블 적용](../compositions/gs-compositions.md#access-labels){target="_blank"}을 참조하십시오.
+Federated Audience Composition에서 데이터 레이블을 사용하는 방법에 대한 자세한 내용은 [액세스 레이블 적용](../compositions/home.md#access-labels){target="_blank"}을 참조하십시오.
 
 ## 개인 정보 보호
 
@@ -47,7 +47,7 @@ Federated Audience Composition은 데이터 웨어하우스의 고객 데이터�
 
 Privacy Service에 대한 자세한 내용은 [Privacy Service 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/home){target="_blank"}를 참조하십시오.
 
-### 개인정보보호 요청 {#privacy-requests}
+### 개인 정보 요청 {#privacy-requests}
 
 Privacy Service에서 페더레이션된 대상자 구성의 고객 데이터에 액세스하고 삭제하기 위한 개별 개인정보보호 요청을 만들고 관리할 수 있습니다. Privacy Service는 고객 데이터 요청을 관리하는 데 도움이 되는 [사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR){target="_blank"} 및 [RESTful API](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}를 제공합니다.
 

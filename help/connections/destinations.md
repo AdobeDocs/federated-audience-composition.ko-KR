@@ -3,7 +3,7 @@ audience: end-user
 title: 외부 데이터로 Adobe Experience Platform 대상자 강화
 description: Federated Audience 구성 대상을 사용하여 통합 데이터베이스의 데이터로 Adobe Experience Platform 대상을 세분화하고 보강하는 방법을 알아봅니다.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 8%
@@ -44,19 +44,19 @@ Adobe Experience Platform 대상을 Adobe Federated Audience Composition으로 �
    * Databricks
    * Microsoft Fabric
 
-1. 연결할 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 연결할 **[!UICONTROL 페더레이션 데이터베이스]**&#x200B;를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택하십시오.
 
    ![](assets/destination-configure.png)
 
 1. **[!UICONTROL 경고]** 섹션에서 경고를 활성화하여 대상에 대한 데이터 흐름 상태에 대한 알림을 받을 수 있습니다.
 
-   경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고 구독](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/alerts){target="_blank"}에 대한 Adobe Experience Platform 설명서를 참조하십시오.
+   경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고 구독](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}에 대한 Adobe Experience Platform 설명서를 참조하십시오.
 
 1. **[!UICONTROL 거버넌스 정책 및 시행 작업]** 단계에서는 데이터 거버넌스 정책을 정의하고 대상자를 보내고 활성화할 때 사용된 데이터가 준수되는지 확인할 수 있습니다.
 
-   대상에 대해 원하는 마케팅 액션 선택을 마치면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+   대상에 대해 원하는 마케팅 액션 선택을 마치면 **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
 
-1. 대상에 대한 새 연결이 만들어집니다. 이제 대상을 활성화하여 대상으로 전송할 수 있습니다. 이렇게 하려면 목록에서 선택한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다
+1. 대상에 대한 새 연결이 만들어집니다. 이제 대상을 활성화하여 대상으로 전송할 수 있습니다. 이렇게 하려면 목록에서 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
    ![](assets/destination-activate.png)
 
@@ -74,14 +74,14 @@ Adobe Experience Platform 대상을 Adobe Federated Audience Composition으로 �
    >
    >일정 및 파일 이름을 구성하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서의 다음 섹션에서 확인할 수 있습니다.
    >
-   >* [대상자 내보내기 예약](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [파일 이름 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [대상자 내보내기 예약](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [파일 이름 구성](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. **[!UICONTROL 매핑]** 단계에서 대상자를 위해 내보낼 특성 및 ID 필드를 선택합니다. 자세한 내용은 Adobe Experience Platform 설명서에서 [매핑 단계](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}를 참조하십시오.
+1. **[!UICONTROL 매핑]** 단계에서 대상자를 위해 내보낼 특성 및 ID 필드를 선택합니다. 자세한 내용은 Adobe Experience Platform 설명서에서 [매핑 단계](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}를 참조하십시오.
 
    ![](assets/destination-attributes.png)
 
-1. 대상 구성 및 대상 설정을 검토한 다음 **[!UICONTROL 마침]**&#x200B;을 클릭합니다.
+1. 대상 구성 및 대상 설정을 검토한 다음 **[!UICONTROL 마침]**&#x200B;을 선택합니다.
 
    ![](assets/destination-review.png)
 

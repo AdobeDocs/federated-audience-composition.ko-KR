@@ -2,10 +2,10 @@
 title: AI 어시스턴트로 작업하기
 description: AI 어시스턴트 활용 방법에 대해 알아보기
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ AI 어시스턴트는 Adobe 개념을 탐색하고 이해하는 데 도움이 �
 
 질문을 하려면 다음 단계를 따르십시오.
 
-1. 상단 표시줄에 있는 아이콘을 클릭하여 AI 어시스턴트에 액세스합니다.
+1. 상단 막대에서 아이콘을 선택하여 AI Assistant에 액세스합니다.
 
-   AI 어시스턴트는 화면의 오른쪽 섹션에 표시됩니다. ![자세히 살펴보기 이미지 대체 텍스트](assets/do-not-localize/Smock_FullScreen_18_N.svg "펼치기")를 클릭하여 AI 어시스턴트 창을 펼칠 수 있습니다.
+   AI 어시스턴트는 화면의 오른쪽 섹션에 표시됩니다. ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_FullScreen_18_N.svg "확장")을 선택하여 AI Assistant 창을 확장할 수 있습니다.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

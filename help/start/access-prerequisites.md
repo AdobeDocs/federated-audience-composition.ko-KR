@@ -2,10 +2,10 @@
 title: 페더레이션된 대상자 컴포지션을 위한 사전 요구 사항 및 가드레일
 description: 페더레이션된 대상자 컴포지션에 대한 사전 요구 사항, 권한 및 가드레일에 대해 알아보기
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * Vertica Analytics
 * Microsoft Fabric
 
-[이 페이지](../connections/home.md)에서 이들 시스템과의 연결을 만드는 방법에 대해 알아보십시오.
+[연결 개요](../connections/home.md)에서 이러한 시스템과의 연결을 만드는 방법을 배울 수 있습니다.
 
 ## 샌드박스
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. 페더레이션된 대상자 컴포지션에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
 
-1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 클릭하여 샌드박스 속성에 액세스합니다.
+1. 샌드박스 속성에 액세스하려면 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)총 데이터 이그레스 볼륨&#x200B;**[!UICONTROL 에서]** 아이콘을 선택하십시오.
 
    ![](assets/sandbox_1.png)
 

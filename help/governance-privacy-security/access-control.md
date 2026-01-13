@@ -2,7 +2,7 @@
 title: Federated Audience Composition의 액세스 제어
 description: Federated Audience Composition에서 사용자의 데이터 액세스를 관리하는 방법을 알아봅니다.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -80,4 +80,4 @@ Federated Audience Composition의 다양한 측면에 액세스하는 데 필요
 
 액세스 레이블을 적용하여 특정 구성에 대한 액세스를 관리할 수 있습니다.
 
-컴포지션에 액세스 레이블을 적용하는 방법에 대한 자세한 내용은 컴포지션 안내서의 [액세스 레이블 적용](/help/compositions/gs-compositions.md#access-labels)을 참조하십시오.
+컴포지션에 액세스 레이블을 적용하는 방법에 대한 자세한 내용은 컴포지션 안내서의 [액세스 레이블 적용](/help/compositions/home.md#access-labels)을 참조하십시오.

@@ -1,0 +1,362 @@
+---
+title: Federated Audience Composition 릴리스 정보
+description: Federated Audience Composition에 대한 최신 업데이트 및 릴리스 정보입니다.
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 95%
+
+---
+
+# 릴리스 정보 {#rn-new}
+
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
+
+## 2025년 10월 릴리스 {#fac-25-10}
+
+### 새로운 기능 {#fac-25-10-feature}
+
+<!-- 
+<table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Google BigQuery 및 Snowflake에 대한 OAuth 인증</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 OAuth를 사용하여 Google BigQuery 및 Snowflake에 연결할 수 있습니다.</p>
+<p>연결 만들기에 대한 자세한 내용은 <a href="../connections/home.md#create">연결 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 2025년 8월 릴리스 {#fac-25-8}
+
+### 새로운 기능 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>스키마 탐색에서의 복합 키 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 열을 결합하여 스키마에 대한 복합 키를 만들 수 있습니다.</p>
+<p>스키마에 대한 자세한 내용은 <a href="../data-modelling/schemas.md#create">스키마 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>모델에 대한 링크에 여러 조인 추가</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 모델에 대해 여러 개의 조인을 하나의 링크로 추가할 수 있습니다.</p>
+<p>모델에 대한 자세한 내용은 <a href="../data-modelling/models.md#create">모델 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-8-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **추가된 `StringAgg` 함수**
+
+  이제 Amazon Redshift Spectrum 데이터베이스에 대해 `StringAgg` 함수를 사용할 수 있습니다. (표현식 편집기 사용 시)
+
+* **`Replace`함수**
+
+  해당 `Replace` 함수의 설명과 구문은 설명서에서 명확하게 설명되었습니다.
+
+### 호환성 {#fac-25-8-compatibility}
+
+* **Azure Synapse 데이터베이스**
+
+  이제 PrivateLink 또는 VPN를 사용하여 Azure Synapse 데이터베이스에 안전하게 연결할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+
+* **Oracle 데이터베이스**
+
+  이제 Oracle 데이터베이스에 안전하게 연결할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+
+페더레이션된 대상자 컴포지션에서 지원되는 데이터베이스에 대한 자세한 내용은 [연결 개요](../connections/home.md)를 참조하십시오.
+
+## 2025년 7월 릴리스 {#fac-25-7}
+
+### 새로운 기능 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>신규 커넥터 - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Oracle 커넥터를 페더레이션된 대상자 컴포지션과 함께 사용할 수 있습니다.</p>
+<p>Oracle 커넥터를 통해 대상자 생성 및 대상자 보강 사용 사례에 활용할 수 있습니다.</p>
+<p>Oracle 연결에 대한 자세한 내용은 <a href="../connections/home.md#create">연결 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>컴포지션 알림</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 컴포지션의 성공 및 실패 실행에 대해 알아보기 위한 알림을 구독할 수 있습니다.</p>
+<p>컴포지션 실행 알림을 구독하는 방법에 대한 자세한 내용은 <a href="../compositions/create-composition.md#alerts">컴포지션 안내서 만들기</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-07-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **증가된 서버 문자 길이**
+
+  페더레이션된 데이터베이스를 구성할 때 이제 이전의 80자가 아닌 최대 255자까지 사용할 수 있습니다.
+
+## 2025년 6월 릴리스 {#fac-25-6}
+
+### 개선 사항 {#fac-25-06-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **Adobe Healthcare Shield 고객을 위한 일반 사용**
+
+  페더레이션된 대상자 컴포지션은 6월 말까지 Adobe Healthcare Shield 고객이 대상자 생성, 강화 및 프로필 강화 사용 사례를 사용할 수 있게 됩니다.
+
+  페더레이션된 대상자 컴포지션의 개인정보 보호 및 보안에 대한 자세한 내용은 [데이터 거버넌스, 개인정보 보호 및 보안 안내서](/help/governance-privacy-security/home.md)에서 확인할 수 있습니다.
+
+* **오브젝트 수준 액세스 제어**
+
+  이제 페더레이션된 대상자 컴포지션이 지정된 컴포지션에 액세스 레이블을 적용하기 위한 오브젝트 수준의 액세스 제어를 지원합니다.
+
+  오브젝트 수준 액세스 레이블을 사용하는 방법에 대한 자세한 내용은 [컴포지션 안내서](/help/compositions/home.md)에서 확인할 수 있습니다.
+
+* **기본 역할**
+
+  이제 기본 역할 중 하나를 사용하여 페더레이션된 대상자 컴포지션 액세스에 대한 사용자 권한을 관리할 수 있습니다.
+
+  기본 역할에 대한 자세한 내용은 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/governance-privacy-security/access-control.md)에서 확인할 수 있습니다.
+
+* **프로필 보강 사용 사례의 증분 업데이트**
+
+  이제 프로필 저장 활동이 증분 업데이트를 지원합니다. 증분 업데이트를 사용하면 외부 데이터 웨어하우스의 데이터로 프로필을 풍부하게 만드는 동시에 증분 데이터를 쿼리하고 업데이트할 수 있습니다.
+
+  프로필 저장 활동 사용에 대한 자세한 내용은 활동 안내서 [의 ](/help/compositions/activities.md#save-profiles)프로필 저장 섹션에서 확인할 수 있습니다.
+
+## 2025년 5월 릴리스 {#fac-25-5}
+
+### 새로운 기능 {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>데이터 모델 캔버스 보기 - 일반 가용성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 캔버스 보기가 포함된 데이터 모델을 모든 고객이 이용할 수 있습니다.</p>
+<p>데이터 모델에 대한 캔버스 보기 섹션이 기존의 표 형식으로 보기와 함께 캔버스 레이아웃에서 데이터 모델과 해당 링크를 시각화할 수 있도록 함으로써 사용자 경험이 개선되었습니다. </p>
+<p>캔버스 보기에 대한 자세한 내용은 <a href="../data-modelling/models.md">데이터 모델 개요</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-5-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **역할 기반 액세스 제어**
+
+  5월 릴리스부터 [!DNL Federated Audience Composition]이 액세스 제어를 위한 새로운 세부적인 권한을 지원합니다. 사용자는 이들 권한을 사용자 역할에 할당하여 [!DNL Federated Audience Composition]에 대해 더욱 정밀한 액세스 권한을 얻을 수 있습니다.
+
+  새로운 권한에 대해 자세히 알아보려면 [페더레이션된 대상자 컴포지션 액세스 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
+
+## 2025년 4월 릴리스 {#fac-25-4}
+
+### 새로운 기능 {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>데이터 모델 캔버스 보기 - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>데이터 모델에 대한 캔버스 보기 섹션이 기존의 표 형식으로 보기와 함께 캔버스 레이아웃에서 데이터 모델과 해당 링크를 시각화할 수 있도록 함으로써 사용자 경험이 개선되었습니다. </p>
+<p>캔버스 보기가 포함된 데이터 모델은 현재 Beta 버전으로 일부 사용자에게만 제공됩니다.</p>
+<p>자세한 내용은 <a href="../data-modelling/models.md">세부 설명서</a>를 참조하세요.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>제품 지식에 대한 AI 어시스턴트 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 특정 환경에 대한 운영 인사이트를 얻는 데 사용할 수 있도록 설계된 사용자 인터페이스 기능입니다. 페더레이션된 대상자 컴포지션을 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../start/ai-assistant.md">세부 설명서</a>를 참조하세요.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>프로필 활동 저장</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 이제 페더레이션된 대상자 컴포지션이 프로필 보강 사용 사례를 지원하여 외부 데이터 웨어하우스의 데이터로 기존 Experience Platform 프로필을 개선할 수 있도록 해 줍니다.
+</p>
+<p>자세한 내용은 <a href="../compositions/activities.md#save-profiles">세부 설명서</a>를 참조하십시오.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#fac-25-4-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **데이터 모델 이름**
+
+  이제 대상자 메뉴에서 **페더레이션된 컴포지션** 탭에 ID 대신 데이터 모델 이름이 표시되어 명확성과 더불어 전반적인 사용성이 향상되었습니다.
+
+* **대상자**
+
+  이제 사용자가 연관된 대상자가 없는 데이터 모델을 선택하는 경우에도 선택한 데이터 모델의 이름 또는 레이블이 대상자 메뉴에 표시됩니다.
+
+* **대규모 대상자 내보내기**
+
+  이제 페더레이션된 대상자 컴포지션이 파일 크기가 1GB를 초과하는 대규모 대상자에 대한 내보내기를 지원합니다.
+
+* **대상자 저장 활동**
+
+  **대상자 저장** 활동에 사용자에게 대상자 생성 및 보강 중에 생성된 새 스키마와 데이터 세트에 거버넌스 레이블을 적용하기 위해 데이터 관리자와 협업하라는 알림이 추가되었습니다.
+  [데이터 사용 레이블에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/user-guide)
+
+### 호환성 {#fac-25-4-compat}
+
+* **Amazon Redshift 보안 연결**
+
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Amazon Redshift 데이터베이스에 대한 안전한 비공개 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
+
+* **Google BigQuery**
+
+  이번 새로운 릴리스를 통해 페더레이션된 대상자 컴포지션이 Google BigQuery 데이터베이스에 대한 안전한 VPN 연결을 지원합니다. [자세히 알아보기](../connections/home.md#google-bigquery)
+
+## 2025년 3월 릴리스 {#fac-25-3}
+
+### 개선 사항 {#fac-25-3-improvements}
+
+이번 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+* **페더레이션된 대상자 컴포지션 권한**
+
+  3월 출시부터 [!DNL Federated Audience Composition]은 **페더레이션된 데이터 관리** 권한을 부여받은 사용자에게 **페더레이션된 데이터 관리** 및 **페더레이션된 컴포지션** 인터페이스에 대한 액세스 권한을 적용하기 시작합니다.
+
+  사용자가 [!DNL Federated Audience Composition] 사용자 인터페이스에 계속 액세스하려면 관리자에게 연락하여 이 권한을 역할에 추가하는 것이 좋습니다.
+
+  이 권한을 할당하는 방법을 알아보려면 [자세한 설명서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
+
+### 호환성 {#fac-25-3-compat}
+
+* **Databricks 연결**
+
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
+여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/home.md#databricks)
+
+* **B2B CDP 고객 지원**
+
+  페더레이션된 대상자 컴포지션이 이제 기업 간(B2B) 고객 데이터 플랫폼(CDP) 고객을 대상으로 사람 대상자 사용 사례를 제공합니다.
+
+* **Snowflake 보안 연결**
+
+  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#snowflake)
+
+## 2025년 2월 릴리스 {#fac-25-2}
+
+이 릴리스는 다음 변경 사항과 함께 제공됩니다.
+
+* **Microsoft Fabric 지원**
+
+  이제 페더레이션된 대상자 컴포지션을 통해 Microsoft Fabric 데이터베이스에 대한 연결을 설정할 수 있습니다. [자세히 알아보기](../connections/home.md)
+
+* **Amazon Redshift Spectrum 지원**
+
+  Amazon Redshift 데이터베이스 연결에서 이제 Amazon Redshift Spectrum을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
+
+* **향상된 스키마 생성 경험**
+
+  스키마 생성 프로세스가 더욱 직관적이고 손쉽게 탐색할 수 있도록 업데이트된 사용자 인터페이스를 통해 개선되었습니다. 이러한 개선 사항은 데이터 실무자가 더욱 원활하고 효율적으로 데이터 모델을 개발할 수 있도록 합니다. [자세히 알아보기](../data-modelling/schemas.md)
+
+* **Databricks에 대한 대상자 강화 지원**
+
+  이제 대상자 읽기 플로우에서 Databricks를 사용할 수 있으며, Databricks 데이터베이스의 활성화를 지원하고 새로운 대상으로 설정할 수 있습니다. [자세히 알아보기](../connections/destinations.md)

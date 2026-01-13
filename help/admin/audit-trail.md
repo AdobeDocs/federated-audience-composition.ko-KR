@@ -3,7 +3,7 @@ audience: end-user
 title: 감사 추적
 description: 작업 및 이벤트가 기록되고 감사 추적에서 액세스할 수 있는 방법을 알아봅니다
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 * **Source 스키마 감사 추적**&#x200B;을 통해 Adobe Federated Audience Composition 인스턴스 내에서 스키마에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
-  스키마에 대한 자세한 내용은 이 [페이지](../customer/schemas.md)를 참조하세요.
+  스키마에 대한 자세한 내용은 이 [페이지](../data-modelling/schemas.md)를 참조하세요.
 
 * **워크플로우 감사 추적**&#x200B;을 통해 다음과 같은 현재 상태를 포함하여 워크플로우에 대한 활동 및 최근 변경 사항을 추적할 수 있습니다.
 
@@ -44,7 +44,7 @@ ht-degree: 14%
    * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
    * 무조건 정지
 
-  워크플로우에 대한 자세한 내용은 이 [페이지](../compositions/gs-compositions.md)를 참조하세요.
+  워크플로우에 대한 자세한 내용은 이 [페이지](../compositions/home.md)를 참조하세요.
 
 * **외부 계정**&#x200B;을(를) 사용하면 Adobe 대상 구성 인스턴스에서 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
 
