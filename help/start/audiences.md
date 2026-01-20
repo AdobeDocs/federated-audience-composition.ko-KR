@@ -4,9 +4,9 @@ title: 대상자를 사용한 작업
 description: 대상자를 사용한 작업 방법 알아보기
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe 페더레이션된 데이터 컴포지션을 사용하여 생성된 대상
 
 컴포지션을 실행한 후에 생성된 대상자는 Adobe Experience Platform에 외부 대상자로 저장되며, Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer에서 사용할 수 있습니다.
 
-Adobe Experience Platform에서 지원하는 모든 대상으로 이들 대상자를 활성화할 수 있습니다. [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}의 대상으로 작업하는 방법을 알아봅니다.
+Adobe Experience Platform에서 지원하는 모든 대상으로 이들 대상자를 활성화할 수 있습니다. [Adobe Experience Platform](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}에서 대상을 사용하는 방법 알아보기
 
 >[!NOTE]
 >

@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 기여자 문서
@@ -26,8 +26,8 @@ Adobe는 문서 팀의 외부 직원뿐만 아니라 커뮤니티로부터의 �
 사소한 업데이트에 참여하는 경우:
 
 1. 편집할 주제로 이동합니다.
-2. 브라우저 창 하단에 나타나는 브라우저 창 아래쪽에 표시되는 배너에서 **자세한 피드백 옵션**&#x200B;을 선택합니다.
-3. **편집 제안**&#x200B;을(를) 선택하고 GitHub UI의 변경 사항과 함께 가져오기 요청(PR)을 제출합니다.
+2. 브라우저 창 하단에 나타나는 “콘텐츠가 도움이 되었나요?” 배너에서 **상세 피드백 옵션**&#x200B;을 선택합니다.
+3. **편집 제안하기**&#x200B;을 선택하고 GitHub UI의 변경 사항이 포함된 가져오기 요청(PR)을 제출하세요.
 
    자세한 내용은 일반 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하십시오.
 
