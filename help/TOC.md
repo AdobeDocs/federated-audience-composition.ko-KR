@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
 title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
-source-wordcount: '110'
+source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
+workflow-type: tm+mt
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,5 @@ ht-degree: 100%
 - 릴리스 정보 {#release-notes}
    - [최신 릴리스 정보](./release-notes/latest.md)
    - [2024](./release-notes/2024.md)
+   - [2025년](./release-notes/2025.md)
    - [사전 릴리스 정보](./release-notes/e-release-notes.md)

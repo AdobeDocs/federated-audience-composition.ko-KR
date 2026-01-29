@@ -2,10 +2,10 @@
 title: 자주 묻는 질문
 description: Adobe Experience Platform 페더레이션된 대상자 컴포지션에 대한 자주 묻는 질문
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 84%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -106,7 +106,7 @@ Data Warehouse 연결에 대한 자세한 내용은 [연결 개요](./connection
 
 +++ 답변
 
-아니요. 현재 버전에서는 페더레이션된 대상자 컴포지션 대상자를 삭제할 수 없습니다.
+예. 대상 포털 내에서 Federated Audience Composition 대상을 삭제할 수 있습니다.
 
 +++
 
