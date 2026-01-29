@@ -2,7 +2,7 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
 title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
-source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
