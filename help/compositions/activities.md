@@ -2,10 +2,11 @@
 audience: end-user
 title: 활동 개요
 description: Federated Audience Composition 내에서 사용할 수 있는 다양한 활동 및 전환에 대해 알아봅니다.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ Federated Audience Composition에서 대상을 정의하는 데 도움이 되는
 Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B;가지 유형의 활동이 있습니다. 타겟팅 활동 및 흐름 제어 활동입니다.
 
 ### 타기팅 활동 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="필드 보강"
+>abstract="필드 보강 활동을 통해 외부 웨어하우스의 데이터를 페더레이션하여 Experience Platform 스키마를 보강할 수 있습니다. 이를 통해 추가 속성으로 Experience Platform 스키마를 향상시킬 수 있습니다. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="기본 네임스페이스 식별 필드"
+>abstract="기본 ID의 네임스페이스입니다. 네임스페이스는 기본 ID의 분류를 설명하는 컨텍스트를 제공하는 데 도움이 됩니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Experience Platform 스키마 선택"
+>abstract="보강할 Experience Platform 스키마를 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="필드 업데이트 모드 강화"
+>abstract="필드 보강 활동에 사용 가능한 업데이트 모드에는 전체 업데이트 및 증분 업데이트가 포함됩니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="전체 업데이트"
+>abstract="전체 업데이트 모드는 선택한 스키마의 전체 속성 세트를 업데이트합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="증분 업데이트"
+>abstract="증분 업데이트 모드는 마지막 데이터 보강 실행 이후 수정된 필드를 업데이트합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="기본 ID 필드"
+>abstract="기본 ID 필드는 프로필을 병합하여 강화할 때 진실의 소스를 나타냅니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="필수 필드 기준"
+>abstract="필수 필드는 데이터를 내보낼 때 모든 프로필이나 레코드에 대해 작성해야 하는 속성입니다. 필수 필드가 누락된 경우 내보내기가 완료되지 않거나 유효하지 않습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="기본 ID 필드 기준"
+>abstract="각 프로필이나 레코드에 대한 고유 식별자입니다. 이를 통해 모든 레코드를 명확히 인식하고 일치시켜 데이터 중복을 방지합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="스키마 목록"
+>abstract="샌드박스에서 사용할 수 있는 스키마 목록. 표준 또는 관계형 스키마를 선택할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="속성 선택"
+>abstract="필드에 대한 소스/대상 매핑을 만들 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="데이터 세트 선택"
+>abstract="스키마에 속하는 데이터 세트 목록입니다. 보강된 데이터를 저장할 데이터 세트를 선택할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="기본 키"
+>abstract="관계형 스키마의 기본 키입니다. 이 값은 중복 기록이 수집되지 않도록 하여 데이터 세트 내에서 고유성을 보장합니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="버전 설명자"
+>abstract="관계형 스키마의 버전 설명자. 이 값을 사용하면 여러 값이 동일한 기본 키를 공유할 경우 우선 순위를 지정하여 최신 업데이트가 적용되도록 할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="타임스탬프 설명자"
+>abstract="관계형 스키마에 대한 타임스탬프 설명자입니다. 이 값은 순서 지정에 대한 이벤트 시간을 설정하는 데 도움이 되며 시계열 데이터로 작업하는 경우에만 존재합니다."
 
 타겟팅 활동을 사용하면 컴포지션에 대한 대상을 구성하는 항목을 정의할 수 있습니다.
 
