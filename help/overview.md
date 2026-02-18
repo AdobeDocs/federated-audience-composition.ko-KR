@@ -1,15 +1,15 @@
 ---
-title: 페더레이션 대상 구성 개요
+title: 페더레이션된 대상자 컴포지션 개요
 description: Adobe Federated Audience Composition 및 Adobe Experience Platform 및 Adobe Journey Optimizer과 같은 다운스트림 서비스에서 이를 사용하는 방법에 대해 알아봅니다
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# 페더레이션 대상 구성 개요
+# 페더레이션된 대상자 컴포지션 개요
 
 Federated Audience Composition을 사용하면 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 이 솔루션은 Adobe Real-Time Customer Data Platform 또는 Adobe Journey Optimizer과 같은 다운스트림 서비스 내에서 직접 엔터프라이즈 데이터 웨어하우스를 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행하는 간단하고 강력한 솔루션입니다. 따라서 데이터 웨어하우스와 Amazon Redshift 및 Azure Synapse Analytics와 같은 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있습니다.
 

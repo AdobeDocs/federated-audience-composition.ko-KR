@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
 source-wordcount: '5001'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -195,7 +195,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="제외 병합 옵션"
->abstract="**제외**&#x200B;를 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. **참여 설정** 섹션에서 참여하려는 모든 이전 활동을 선택하십시오."
+>abstract="**제외** 기능을 사용하면 특정 기준에 따라 하나의 모집단에서 요소를 제외할 수 있습니다. **참여 설정** 섹션에서 참여하려는 모든 이전 활동을 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
