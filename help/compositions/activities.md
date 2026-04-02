@@ -3,10 +3,10 @@ audience: end-user
 title: 활동 개요
 description: Federated Audience Composition 내에서 사용할 수 있는 다양한 활동 및 전환에 대해 알아봅니다.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '5477'
-ht-degree: 83%
+source-wordcount: '5478'
+ht-degree: 82%
 
 ---
 
@@ -281,7 +281,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 
 **데이터 보강** 활동을 사용하면 페더레이션 데이터베이스에서 추가 데이터를 추가하여 구성을 향상시킬 수 있습니다.
 
-Federated Audience Composition 대상에 대한 연결을 구성한 경우 데이터 보강 활동을 사용하여 외부 데이터베이스의 속성으로 Adobe Experience Platform에 들어오는 데이터를 보강할 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법 알아보기](../connections/destinations.md)
+Federated Audience Composition 대상에 대한 연결을 구성한 경우 데이터 보강 활동을 사용하여 외부 데이터베이스의 속성으로 Adobe Experience Platform에 들어오는 데이터를 보강할 수 있습니다. [외부 데이터로 Adobe Experience Platform 대상자를 보강하는 방법을 알아봅니다](../connections/destinations.md)
 
 +++ 구성 세부 정보
 
@@ -511,7 +511,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 >[!IMPORTANT]
 >
->선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 필드 저장]** 활동을 컴포지션에 추가한 후 활동에 레이블을 지정하고 사용할 Adobe Experience Platform 스키마를 선택할 수 있습니다. 스키마는 표준 스키마 또는 관계형 스키마일 수 있습니다.
 
@@ -568,7 +568,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="분할 활동용 세그먼트"
->abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다. <br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 컴포지션을 시작하기 전에 화살표 버튼을 사용하여 필요에 맞게 하위 집합의 순서를 지정했는지 확인해야 합니다."
+>abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 컴포지션을 시작하기 전에 화살표 버튼을 사용하여 필요에 맞게 하위 집합의 순서를 지정했는지 확인해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

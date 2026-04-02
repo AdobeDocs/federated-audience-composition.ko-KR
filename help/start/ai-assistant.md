@@ -2,7 +2,7 @@
 title: AI Assistant 개요
 description: 제품 지식, 운영 인사이트, 페더레이션 대상 구성 만들기 등 AI Assistant를 사용하는 방법을 알아봅니다.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 16%
@@ -67,4 +67,4 @@ AI Assistant를 사용하여 자연어 프롬프트를 사용하여 통합 대�
 
 AI Assistant를 통해 달성할 수 있는 목표 예제와 AI Assistant 작동 방식 등 AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}를 참조하십시오.
 
-Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.
+Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.

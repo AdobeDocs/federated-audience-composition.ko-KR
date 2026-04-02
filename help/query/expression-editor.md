@@ -3,10 +3,10 @@ audience: end-user
 title: 표현식 편집기 개요
 description: 표현식 편집기 내의 함수를 사용하여 쿼리 모델러 내에서 쿼리를 작성하는 방법에 대해 알아봅니다.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '4108'
-ht-degree: 9%
+source-wordcount: '4215'
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,8 @@ ht-degree: 9%
 
 쿼리 편집 도구를 사용하면 고급 함수를 사용하여 원하는 결과와 조작된 데이터 유형에 따라 복잡한 필터링을 수행할 수 있습니다. 다음 함수를 사용할 수 있습니다.
 
-<!-- ### Aggregate
+<!-- 
+### Aggregate
 
 The aggregate functions are used to perform calculations on a set of values.
 
@@ -52,7 +53,8 @@ The aggregate functions are used to perform calculations on a set of values.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
+-->
 
 <!-- 
 
@@ -68,7 +70,8 @@ Aggregate functions are not available.
 
 >[!TAB Redshift]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 
@@ -76,18 +79,20 @@ Aggregate functions are not available. -->
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
+-->
 
 <!-- 
 >[!TAB Vertica]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 >[!ENDTABS] 
 -->
 
-### Date
+### 일자
 
 날짜 함수는 날짜 또는 시간 값을 조작하는 데 사용됩니다.
 
@@ -134,19 +139,21 @@ Aggregate functions are not available. -->
 | **Oldest** | 제공된 두 날짜 중 가장 오래된 날짜를 반환합니다. | Oldest(&lt;날짜/시간>, &lt;날짜/시간>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 지정된 숫자 값을 기준으로 날짜/시간을 가장 가까운 단위로 자릅니다. 숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. 숫자 값이 86400과 같으면 가장 가까운 날로 잘립니다. 그렇지 않으면 가장 가까운 두 번째 조각으로 잘립니다. | TruncDate(&lt;날짜/시간>, &lt;숫자>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | 지정된 숫자 값을 기준으로 날짜/시간을 가장 가까운 단위로 자르고 날짜/시간을 지정된 시간대로 설정합니다. 숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. 숫자 값이 86400과 같으면 가장 가까운 날로 잘립니다. | TruncDateTZ(&lt;날짜/시간>, &lt;숫자>, &lt;시간대>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | 날짜/시간을 2000년 1월 1일로 설정하고 지정된 숫자 값을 기준으로 나머지 날짜/시간을 가장 가까운 단위로 반올림합니다. 숫자 값이 60이면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. | TruncTime(&lt;날짜/시간>, &lt;숫자>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | 날짜/시간을 2000년 1월 1일로 설정하고 지정된 숫자 값을 기준으로 나머지 날짜/시간을 가장 가까운 단위로 반올림합니다.숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. | TruncTime(&lt;날짜/시간>, &lt;숫자>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 날짜/시간을 가장 가까운 분기의 첫 번째 날짜로 자릅니다. | TruncQuarter(&lt;날짜/시간>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 날짜/시간을 가장 가까운 연도의 첫 번째 날짜로 자릅니다. | TruncYear(&lt;날짜/시간>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 날짜/시간을 가장 가까운 주의 일요일로 자릅니다. | TruncWeek(&lt;날짜/시간>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
-<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
 
 
 <!-- 
@@ -245,7 +252,7 @@ Aggregate functions are not available. -->
 | ---- | ----------- | ------ | ------- |
 | **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
 
- -->
+-->
 
 >[!TAB Snowflake]
 
@@ -287,21 +294,21 @@ Aggregate functions are not available. -->
 | **Oldest** | 제공된 두 날짜 중 가장 오래된 날짜를 반환합니다. | Oldest(&lt;날짜/시간>, &lt;날짜/시간>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 지정된 숫자 값을 기준으로 날짜/시간을 가장 가까운 단위로 자릅니다. 숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. 숫자 값이 86400과 같으면 가장 가까운 날로 잘립니다. 그렇지 않으면 가장 가까운 두 번째 조각으로 잘립니다. | TruncDate(&lt;날짜/시간>, &lt;숫자>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | 지정된 숫자 값을 기준으로 날짜/시간을 가장 가까운 단위로 자르고 날짜/시간을 지정된 시간대로 설정합니다. 숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. 숫자 값이 86400과 같으면 가장 가까운 날로 잘립니다. | TruncDateTZ(&lt;날짜/시간>, &lt;숫자>, &lt;시간대>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | 날짜/시간을 2000년 1월 1일로 설정하고 지정된 숫자 값을 기준으로 나머지 날짜/시간을 가장 가까운 단위로 반올림합니다. 숫자 값이 60이면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. | TruncTime(&lt;날짜/시간>, &lt;숫자>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | 날짜/시간을 2000년 1월 1일로 설정하고 지정된 숫자 값을 기준으로 나머지 날짜/시간을 가장 가까운 단위로 반올림합니다.숫자 값이 60과 같으면 가장 가까운 분으로 잘립니다. 숫자 값이 3600이면 가장 가까운 시간으로 잘립니다. | TruncTime(&lt;날짜/시간>, &lt;숫자>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 날짜/시간을 가장 가까운 분기의 첫 번째 날짜로 자릅니다. | TruncQuarter(&lt;날짜/시간>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 날짜/시간을 가장 가까운 연도의 첫 번째 날짜로 자릅니다. | TruncYear(&lt;날짜/시간>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 날짜/시간을 가장 가까운 주의 일요일로 자릅니다. | TruncWeek(&lt;날짜/시간>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 | **ConvertNTZ** | 시간대가 없는 타임스탬프를 시간대가 있는 타임스탬프로 변환합니다. 첨부된 시간대는 외부 계정의 시간대가 됩니다. | ConvertNTZ(&lt;날짜/시간>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
 <!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
 -->
 
 <!-- 
@@ -436,7 +443,7 @@ Geomarketing functions are not available.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
- -->
+-->
 
 <!-- 
 
@@ -468,7 +475,7 @@ Geomarketing functions are not available.
 
 Numeric functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -496,7 +503,7 @@ Numeric functions are not available.
 | **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
 | **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
 
---->
+-->
 
 >[!ENDTABS]
 
@@ -515,7 +522,7 @@ Numeric functions are not available.
 | **Else** | Case 함수의 일부로 사용됩니다. When 표현식이 false인 경우 다른 옵션을 선택하는 데 사용됩니다. | Else(&lt;값>) | Else(&quot;no&quot;) |
 | **Coalesce** | null이 아닌 첫 번째 값을 반환합니다. | Coalesce(&lt;값>, &lt;값>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
 | **Decode** | 값이 동일한 경우 첫 번째 옵션을 반환합니다. 값이 같지 않은 경우 두 번째 옵션을 반환합니다. | Decode(&lt;값>, &lt;값>, &lt;값>, &lt;값>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
-| **GetEmailDomain** | 제공된 이메일 주소에서 도메인을 추출합니다. | GetEmailDomain(&lt;문자열>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | 제공된 이메일 주소에서 도메인을 추출합니다. | GetEmailDomain(&lt;문자열>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 조건이 true인 경우 첫 번째 옵션을 반환하고 조건이 false인 경우 두 번째 옵션을 반환합니다. | Iif(&lt;조건>, &lt;값>, &lt;값>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | 문자열이 비어 있으면 첫 번째 옵션을 반환합니다. 그렇지 않으면 두 번째 옵션을 반환합니다. | IsEmptyString( &lt;문자열> ,&lt;값>, &lt;값>) | IsEmptyString(&quot;문자열&quot;, &quot;예&quot;, &quot;아니요&quot;) |
 | **NewUUID** | 새 고유 UUID를 생성합니다. | NewUUID() | NewUUID() |
@@ -565,7 +572,7 @@ Numeric functions are not available.
 
 Other functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -574,7 +581,7 @@ Other functions are not available.
 | **Case** | 표현식이 true인 경우 첫 번째 값을 반환합니다. 그렇지 않으면 두 번째 값을 반환합니다. | Case(When(&lt;표현식> &lt;값>), Else(&lt;값>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
 | **When** | Case 함수의 일부로 사용됩니다. 대/소문자 내 표현식을 확인하는 데 사용됩니다. | When(&lt;표현식> &lt;값>) | When(a > b, &quot;yes&quot;) |
 | **Else** | Case 함수의 일부로 사용됩니다. When 표현식이 false인 경우 다른 옵션을 선택하는 데 사용됩니다. | Else(&lt;값>) | Else(&quot;no&quot;) |
-| **GetEmailDomain** | 제공된 이메일 주소에서 도메인을 추출합니다. | GetEmailDomain(&lt;문자열>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | 제공된 이메일 주소에서 도메인을 추출합니다. | GetEmailDomain(&lt;문자열>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 조건이 true인 경우 첫 번째 옵션을 반환하고 조건이 false인 경우 두 번째 옵션을 반환합니다. | Iif(&lt;조건>, &lt;값>, &lt;값>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | 문자열이 비어 있으면 첫 번째 옵션을 반환합니다. 그렇지 않으면 두 번째 옵션을 반환합니다. | IsEmptyString( &lt;문자열> ,&lt;값>, &lt;값>) | IsEmptyString(&quot;문자열&quot;, &quot;예&quot;, &quot;아니요&quot;) |
 | **ToBoolean** | 값이 true이면 1을 반환합니다. 값이 false이면 0을 반환합니다. | ToBoolean(&lt;값>) | ToBoolean(a=b) |
@@ -651,7 +658,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -671,7 +678,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -729,7 +736,7 @@ String functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -790,7 +797,7 @@ String functions are not available.
 
 Window functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
