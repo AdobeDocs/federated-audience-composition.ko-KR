@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # 기여자 문서
@@ -53,8 +53,8 @@ Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터,
 
 이 저장소의 모든 문서는 GitHub 버전의 마크다운을 사용합니다. 마크다운에 익숙하지 않은 경우 다음을 참조하십시오.
 
-* [마크다운 기본 사항](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [인쇄 가능한 마크다운 치트시트](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown 기본 사항](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [인쇄 가능한 Markdown 치트시트](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 레이블
 
