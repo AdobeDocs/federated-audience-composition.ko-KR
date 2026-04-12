@@ -5,8 +5,8 @@ description: 컴포지션을 시작하는 방법 알아보기
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 82%
+source-wordcount: '655'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >
 >컴포지션에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션된 컴포지션 관리**
+>-**Federated 구성 관리**
 >-**페더레이션된 컴포지션 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
@@ -30,7 +30,7 @@ ht-degree: 82%
 Federated Audience Composition 내의 컴포지션은 다음 부분으로 구성됩니다.
 
 - **[!UICONTROL 활동]**: 활동은 수행할 작업이며, 구성 내에서 아이콘으로 표시됩니다.
-- **[!UICONTROL 전환]**: 전환은 원본 활동을 대상 활동에 연결하고 해당 순서를 정의합니다. 전환에 포함된 정보는 작업 테이블 내에 저장됩니다. 각 컴포지션은 여러 작업 테이블을 사용합니다. 이들 표에서 전달되는 데이터는 컴포지션의 수명 주기 동안 사용될 수 있다.
+- **[!UICONTROL 전환]**: 전환은 원본 활동을 대상 활동에 연결하고 해당 시퀀스를 정의합니다. 전환에 포함된 정보는 작업 테이블 내에 저장됩니다. 각 컴포지션은 여러 작업 테이블을 사용합니다. 이들 표에서 전달되는 데이터는 컴포지션의 수명 주기 동안 사용될 수 있다.
 
 ## 컴포지션 액세스 및 관리 {#access}
 

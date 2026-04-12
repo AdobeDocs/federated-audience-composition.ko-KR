@@ -6,7 +6,7 @@ exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 12%
 
 캔버스의 오른쪽 위 모서리에 있는 도구 모음은 쿼리 구성 요소를 쉽게 조작하고 캔버스에서 탐색할 수 있는 옵션을 제공합니다.
 
-* **[!UICONTROL 다중 선택 모드]**: 여러 필터링 구성 요소를 선택하여 원하는 위치에 복사하여 붙여 넣으십시오.
+* **[!UICONTROL 여러 선택 모드]**: 여러 필터링 구성 요소를 선택하여 원하는 위치에 복사하여 붙여 넣으십시오.
 * **[!UICONTROL 회전]**: 캔버스를 세로로 전환합니다.
-* **[!UICONTROL 화면에 맞춤]**: 캔버스 확대/축소 수준을 화면에 맞게 조정하십시오.
-* **[!UICONTROL 축소]** / **[!UICONTROL 확대]**: 축소 또는 캔버스
+* **[!UICONTROL 화면에 맞춤]**: 캔버스 확대/축소 수준을 화면에 맞춥니다.
+* **[!UICONTROL 축소]** / **[!UICONTROL 확대]**: 캔버스를 축소하거나 확대합니다.
 * **[!UICONTROL 맵 표시]**: 현재 위치를 보여 주는 캔버스의 스냅숏을 엽니다.
 
 ### 규칙 속성 창 {#rule-properties}
 
-오른쪽의 **[!UICONTROL 규칙 속성]** 창에서는 쿼리에 대한 정보를 제공합니다. 다양한 작업을 수행하여 쿼리를 확인하고 요구 사항에 맞는지 확인할 수 있습니다. 이 창은 대상자를 만들기 위한 쿼리를 작성할 때 표시됩니다. [쿼리 확인 및 유효성 검사 방법 알아보기](build-query.md#check-and-validate-your-query)
+오른쪽의 **[!UICONTROL 규칙 속성]** 창에서는 쿼리에 대한 정보를 제공합니다. 다양한 작업을 수행하여 쿼리를 확인하고 요구 사항에 맞는지 확인할 수 있습니다. 이 창은 대상자를 만들기 위한 쿼리를 작성할 때 표시됩니다. [쿼리를 확인하는 방법 알아보기](build-query.md#check-and-validate-your-query)
