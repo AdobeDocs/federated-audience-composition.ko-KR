@@ -5,8 +5,8 @@ description: 컴포지션 만들기 방법 알아보기
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 18%
+source-wordcount: '1603'
+ht-degree: 19%
 
 ---
 

@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 16%
 >
 >스키마에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션 스키마 관리**
+>-**Federated 스키마 관리**
 >-**연결된 스키마 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
