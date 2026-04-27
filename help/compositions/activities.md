@@ -514,7 +514,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 >[!IMPORTANT]
 >
->선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 필드 저장]** 활동을 컴포지션에 추가한 후 활동에 레이블을 지정하고 사용할 Adobe Experience Platform 스키마를 선택할 수 있습니다. 스키마는 표준 스키마 또는 관계형 스키마일 수 있습니다.
 
