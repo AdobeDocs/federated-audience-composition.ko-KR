@@ -2,10 +2,17 @@
 title: 페더레이션된 대상자 구성의 개인정보보호 및 보안
 description: 페더레이션된 대상자 구성이 데이터 거버넌스, 동의 시행, 액세스 제어, 데이터 암호화 및 개인정보보호 규정 준수와 같은 기능을 포함하여 사용자 데이터의 개인정보보호 및 보안을 어떻게 처리하는지 알아봅니다.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 77%
+source-wordcount: 1286
+ht-degree: 79%
 
 ---
 
