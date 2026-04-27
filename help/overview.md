@@ -1,17 +1,20 @@
 ---
 title: 페더레이션된 대상자 컴포지션 개요
-description: Learn about Adobe Federated Audience Composition and how to use it in downstream services such as Adobe Experience Platform and Adobe Journey Optimizer
+description: Adobe Federated Audience Composition 및 Adobe Experience Platform 및 Adobe Journey Optimizer과 같은 다운스트림 서비스에서 이를 사용하는 방법에 대해 알아봅니다
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: 1280
 ht-degree: 55%
 
 ---
 
 # 페더레이션된 대상자 컴포지션 개요
 
-Federated Audience Composition lets you build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. This brings an easy and powerful solution to connect your enterprise data warehouse directly within downstream services like Adobe Real-Time Customer Data Platform or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. As a result, you can access customer data that is stored in data warehouses and cloud storage platforms such as Amazon Redshift and Azure Synapse Analytics.
+Federated Audience Composition을 사용하면 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 이 솔루션은 Adobe Real-Time Customer Data Platform 또는 Adobe Journey Optimizer과 같은 다운스트림 서비스 내에서 직접 엔터프라이즈 데이터 웨어하우스를 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행하는 간단하고 강력한 솔루션입니다. 따라서 데이터 웨어하우스와 Amazon Redshift 및 Azure Synapse Analytics와 같은 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있습니다.
 
 ## 기능 {#rn-capabilities}
 
@@ -19,25 +22,25 @@ Federated Audience Composition lets you build and enrich audiences from your thi
 
 * **중요한 웨어하우스 기반 데이터 세트에 대한 액세스를 확장하여 고부가가치 대상 만들기**: 기존 데이터 웨어하우스를 주 기록 시스템으로 사용하는 동시에 동급 최강의 애플리케이션을 활용하여 우수한 고객 경험을 제공할 수 있습니다.
 
-* **Comprehensive support to power engagement use cases**: Federated Audience Composition, paired with Real-Time CDP or Journey Optimizer, supports brand-initiated, personalized experiences with federated audiences and delivers in-the-moment experiences triggered by real-time events, combined with person attributes to meet use case requirements across teams.
+* **Power Engagement 사용 사례에 대한 포괄적인 지원**: Real-Time CDP 또는 Journey Optimizer과 함께 Federated Audience Composition은 Federated Audiences를 통해 브랜드에서 시작한 개인화된 경험을 지원하며, 실시간 이벤트에 의해 트리거된 즉각적인 경험을 팀 간의 사용 사례 요구 사항을 충족하도록 개인 속성과 결합합니다.
 
-* **Minimize data movement and duplication**: You can create audiences from datasets that live in enterprise data warehouses without copying underlying data to manage actionable marketing profiles and audiences.
+* **데이터 이동 및 복제 최소화**: 기본 데이터를 복사하지 않고 엔터프라이즈 데이터 웨어하우스에 있는 데이터 세트에서 대상을 만들어 실행 가능한 마케팅 프로필 및 대상을 관리할 수 있습니다.
 
-* **Utilize a single system for experience-driven workflows**: You can curate both ingested and federated audiences in Adobe Experience Platform and coordinate outbound experiences across all channels.
+* **경험 기반 워크플로우에 단일 시스템 사용**: Adobe Experience Platform에서 수집된 대상과 페더레이션 대상을 모두 큐레이션하고 모든 채널에서 아웃바운드 경험을 조정할 수 있습니다.
 
-* **Multi-edition support**: B2C and B2B CDP customers can leverage Federated Audience Composition to build people-based audiences by integrating data from supported enterprise data warehouses. Additionally, they can enrich existing Experience Platform people-based audiences by incorporating relevant attributes available in the enterprise data warehouse, enhancing their audience profiles for more personalized and targeted engagement.
+* **멀티 에디션 지원**: B2C 및 B2B CDP 고객은 Federated Audience Composition을 활용하여 지원되는 엔터프라이즈 데이터 웨어하우스의 데이터를 통합하여 사용자 기반 대상을 구축할 수 있습니다. 또한 엔터프라이즈 데이터 웨어하우스에서 사용할 수 있는 관련 속성을 통합하여 기존 Experience Platform 사용자 기반 대상을 보강하고 대상 프로필을 향상시켜 보다 개인화되고 타겟팅된 참여를 제공할 수 있습니다.
 
 ## 사용 사례 {#use-cases}
 
 페더레이션된 대상자 컴포지션은 대상자 생성, 대상자 보강, 고객 프로필 보강의 **세 가지** 사용 사례를 지원합니다.
 
-* **Audience creation**: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. 결과적으로, 민감한 기본 데이터를 복사하거나 기존 데이터를 복제하지 않고도 데이터 웨어하우스를 쿼리할 수 있습니다.
+* **대상 만들기**: 데이터 웨어하우스에서 대상을 만들고 마케팅 담당자의 친숙한 드래그 앤 드롭 사용자 인터페이스를 통해 Real-Time CDP 또는 Journey Optimizer에서 사용할 수 있도록 해당 대상을 Experience Platform에 연결할 수 있습니다. 결과적으로, 민감한 기본 데이터를 복사하거나 기존 데이터를 복제하지 않고도 데이터 웨어하우스를 쿼리할 수 있습니다.
    * **예:** 웨어하우스의 과거 트랜잭션 데이터를 사용하여 높은 가치의 과거 구매자로 구성된 대상자를 생성하지만 해당 트랜잭션을 Experience Platform에 복사하지 않습니다.
 
-* **Audience enrichment**: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. 대상자 보강을 통해 강화된 대상자에게 더 나은 개인화 경험을 제공할 수 있습니다.
+* **대상 강화**: 기본 데이터를 Experience Platform에 복사하지 않고 데이터 웨어하우스의 추가 데이터 세트를 사용하고 이 정보로 대상을 오버레이하여 Experience Platform의 기존 대상에 더 자세한 정보를 추가할 수 있습니다. 대상자 보강을 통해 강화된 대상자에게 더 나은 개인화 경험을 제공할 수 있습니다.
    * **예:** 장바구니를 포기한 사용자로 구성된 Experience Platform 대상자를 높은 가치의 과거 구매자로 구성된 페더레이션된 대상자 컴포지션 대상자로 보강하여 타기팅된 오퍼를 제공합니다.
 
-* **Profile enrichment**: You can select individual customer attributes from your data warehouse to enhance Experience Platform profiles. 이들 프로필에 페더레이션된 데이터를 추가하면 유입되는 고객 신호에 따라 트리거되는 즉각적인 경험을 더욱 효과적으로 제공할 수 있습니다.
+* **프로필 보강**: 데이터 웨어하우스에서 개별 고객 특성을 선택하여 Experience Platform 프로필을 개선할 수 있습니다. 이들 프로필에 페더레이션된 데이터를 추가하면 유입되는 고객 신호에 따라 트리거되는 즉각적인 경험을 더욱 효과적으로 제공할 수 있습니다.
    * **예:** 페더레이션된 대상자로부터의 정보로 Experience Platform 프로필을 보강합니다. 이제 높은 가치의 과거 구매자 페더레이션된 대상자에 속하는 사이트 방문자에게 사이트 내에서의 행동에 따라 트리거되는 타기팅된 오퍼를 통해 마케팅할 수 있습니다.
 
 ![다이어그램](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
@@ -50,13 +53,13 @@ Adobe 페더레이션된 대상자 컴포지션을 사용하면 수집 프로세
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
-1. **Create a connection**: Bring together data from various sources, and merge them into a unified dataset. For more information on connecting Adobe Experience Platform apps to your enterprise data warehouse, supported databases, and configuring your connection, read the [connections overview](./connections/home.md).
+1. **연결 만들기**: 다양한 원본의 데이터를 가져와서 통합 데이터 집합에 병합합니다. Adobe Experience Platform 앱을 Enterprise Data Warehouse, 지원되는 데이터베이스에 연결하고 연결을 구성하는 방법에 대한 자세한 내용은 [연결 개요](./connections/home.md)를 참조하십시오.
 
-2. **Model your data**: Design and create schemas and data models that define the structure, relationships, and constraints of the data. For more information on schemas, read the [schema overview](./data-modelling/schemas.md). For more information on data models, read the [data model overview](./data-modelling/models.md).
+2. **데이터 모델링**: 데이터의 구조, 관계 및 제약 조건을 정의하는 스키마와 데이터 모델을 디자인하고 만듭니다. 스키마에 대한 자세한 내용은 [스키마 개요](./data-modelling/schemas.md)를 참조하십시오. 데이터 모델에 대한 자세한 내용은 [데이터 모델 개요](./data-modelling/models.md)를 참조하십시오.
 
-3. **Transform your data**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
+3. **데이터 변환**: 데이터 조작 기술을 적용하여 데이터 요소의 형식, 구조 또는 값을 수정하여 특정 분석 또는 응용 프로그램에 호환되거나 적합하도록 만듭니다.
 
-4. **Compose your audience**: Create, orchestrate and build audiences. For more information on composing audiences, read the [composition overview](./compositions/home.md). Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](./connections/destinations.md)에서 자세히 알아보십시오.
+4. **대상자 구성**: 대상자를 만들고, 조정하고, 빌드합니다. 대상자 작성에 대한 자세한 내용은 [작성 개요](./compositions/home.md)를 참조하십시오. Adobe Experience Platform 대상자 포털 및 대상을 통해 기존 대상자를 업데이트하거나 재사용할 수도 있습니다. [이 페이지](./connections/destinations.md)에서 자세히 알아보십시오.
 
 >[!NOTE]
 >
@@ -78,7 +81,7 @@ Adobe 페더레이션된 대상자 컴포지션에서 고객 데이터에 액세
 
 ### 감사 추적 {#gov-audit-trail}
 
-The audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. To learn more about the audit trail, please read the [audit trail overview](./admin/audit-trail.md).
+감사 추적 기능은 실시간으로 환경에 수행된 모든 작업 및 이벤트에 대한 세부 기록 및 시간 기록을 제공합니다. 감사 추적에 대한 자세한 내용은 [감사 추적 개요](./admin/audit-trail.md)를 참조하세요.
 
 ## 자세히 알아보기 {#learn}
 
@@ -86,7 +89,7 @@ The audit trail capability provides a detailed and chronological record of all a
 
 [이 페이지](./start/access-prerequisites.md)에서 페더레이션된 대상자 컴포지션, 가드레일 및 제한 사항에 액세스하는 방법에 대해 알아보십시오.
 
-For answers to frequently asked questions, read the [Federated Audience Composition FAQ](./faq.md).
+FAQ에 대한 답변은 [Federated Audience Composition FAQ](./faq.md)를 참조하십시오.
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

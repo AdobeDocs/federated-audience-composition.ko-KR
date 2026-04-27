@@ -2,9 +2,12 @@
 title: AI Assistant 개요
 description: 제품 지식, 운영 인사이트, 페더레이션 대상 구성 만들기 등 AI Assistant를 사용하는 방법을 알아봅니다.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 651
 ht-degree: 16%
 
 ---
@@ -67,4 +70,4 @@ AI Assistant를 사용하여 자연어 프롬프트를 사용하여 통합 대�
 
 AI Assistant를 통해 달성할 수 있는 목표 예제와 AI Assistant 작동 방식 등 AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}를 참조하십시오.
 
-Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.
+Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.

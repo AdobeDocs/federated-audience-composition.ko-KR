@@ -2,10 +2,13 @@
 title: Adobe Experience Platform 페더레이션된 대상자 컴포지션 설명서 홈 페이지
 description: 페더레이션된 대상자 컴포지션 설명서
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: 275
+ht-degree: 94%
 
 ---
 
@@ -31,7 +34,7 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
 
 >[!TAB 대상자 구성]
 
-활동(분할, 보강, 쿼리 등)을 추가하고 구성하여 컴포지션을 빌드하고 대상자를 만듭니다.
+활동 추가 및 구성(분할, 데이터 보강, 쿼리 등) 컴포지션을 만들고 대상자를 만듭니다.
 
 [![이미지](assets/learn-more-button.svg)](compositions/home.md)
 

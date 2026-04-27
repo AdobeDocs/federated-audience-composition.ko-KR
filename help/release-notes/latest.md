@@ -2,17 +2,18 @@
 title: Federated Audience Composition 릴리스 정보
 description: Federated Audience Composition에 대한 최신 업데이트 및 릴리스 정보입니다.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: 442
+ht-degree: 13%
 
 ---
 
-
 # 릴리스 정보
 
-[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 이 릴리스 정보에서 통합됩니다. [!DNL Federated Audience Composition] 은(는) 기본적으로 [!DNL Adobe Experience Platform]을(를) 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2026년 3월 릴리스 {#fac-26-03}
 
@@ -54,7 +55,7 @@ Federated Audience Composition에 대한 1월 릴리스는 다음과 같은 새�
 
 | Amazon Web Services(AWS)에서 Adobe Experience Platform 고객을 위한 가용성 |
 | --- |
-| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
+| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-01-improvements}
 

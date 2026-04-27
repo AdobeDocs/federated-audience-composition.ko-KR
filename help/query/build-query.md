@@ -3,9 +3,11 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: 쿼리 모델러에서 첫 번째 쿼리를 작성하는 방법에 대해 알아봅니다
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: 2084
 ht-degree: 35%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 35%
 
 * **그룹 연산자**(AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 함께 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [연산자 작업 방법 알아보기](#filtering)
 
-  예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**&#x200B;San Francisco*
+  예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**San Francisco*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
