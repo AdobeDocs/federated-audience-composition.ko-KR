@@ -4,16 +4,12 @@ title: 데이터 모델 시작
 description: 데이터 모델로 시작하는 방법 알아보기
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +28,11 @@ ht-degree: 34%
 
 Federated Audience Composition에서는 캔버스 보기에서 직접 데이터 모델을 만들고 관리할 수 있습니다. 여기에는 스키마 및 대상자 추가와 사용 사례를 기반으로 스키마 및 대상자 간 링크 정의가 포함됩니다.
 
-[스키마](../data-modelling/schemas.md#schema-start) 및 [대상](../start/audiences.md)에 대해 자세히 알아보세요.
+스키마에 대해 자세히 알아보려면 [스키마 개요](../data-modelling/schemas.md)를 읽어 보세요. 대상자에 대해 자세히 알아보려면 [대상자 작업 안내서](../start/audiences.md)를 읽어 보세요.
 
 예를 들어, 데이터 모델의 표현 아래에 이름과 테이블 간의 링크를 볼 수 있습니다.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![표 및 표 간의 링크가 표시된 데이터 모델의 샘플 표현입니다.](assets/models/datamodel.png){zoomable="yes"}
 
 ## 데이터 모델 만들기 {#data-model-create}
 

@@ -4,13 +4,9 @@ title: 스키마 시작하기
 description: 스키마로 시작하는 방법 알아보기
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 18%
@@ -72,7 +68,6 @@ Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Fed
 ![Federated Audience Composition 스키마 섹션 내에서 스키마 만들기 단추가 강조 표시됩니다.](assets/schemas/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 페더레이션된 데이터베이스 선택]** 팝오버가 나타납니다. 이 팝오버에서는 [소스 데이터베이스](/help/connections/home.md)를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택할 수 있습니다.
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 

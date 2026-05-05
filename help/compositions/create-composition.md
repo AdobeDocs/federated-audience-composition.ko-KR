@@ -4,9 +4,8 @@ title: 컴포지션 만들기
 description: 컴포지션 만들기 방법 알아보기
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 19%
@@ -73,6 +72,7 @@ Select **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이�
 * **[!UICONTROL 일시 중지]/[!UICONTROL 다시 시작]**: 활동을 일시 중지하거나 다시 시작합니다. 컴포지션이 실행되면 일시 중지된 활동에서 일시 중지됩니다. 여기에 해당하는 작업과 동일한 경로에서 해당 작업에 따라오는 모든 작업은 실행되지 않습니다.
 * **[!UICONTROL 복사]**: 활동을 복사하여 컴포지션의 다른 위치에 붙여넣습니다. 이렇게 하려면 전환에서 **+** 단추를 선택하고 **[!UICONTROL X 활동 붙여넣기]**&#x200B;를 선택합니다. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * 선택한 활동에 대해 **[!UICONTROL 실행 옵션]**&#x200B;을 구성하십시오. 사용 가능한 실행 옵션은 다음과 같습니다.
+
   +++사용 가능한 실행 옵션
 
   **[!UICONTROL 속성]** 섹션에서 활동 실행과 관련된 일반 설정을 구성할 수 있습니다.
@@ -88,6 +88,7 @@ Select **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이�
   **[!UICONTROL 초기화 스크립트]** 섹션에서 변수를 초기화하거나 활동 속성을 수정할 수 있습니다. **[!UICONTROL 코드 편집]** 단추를 선택하고 실행할 코드 조각을 입력하십시오. 활동이 실행될 때 스크립트가 호출됩니다.
 
   +++
+
 * **로그 및 작업**: 선택한 활동에 대한 로그 및 작업을 봅니다.
 
 ## 컴포지션 시작 및 모니터링 {#start-and-monitor}
