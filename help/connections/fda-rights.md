@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 447
 ht-degree: 6%
 
 ---
@@ -29,21 +29,21 @@ ht-degree: 6%
 | **개체(테이블, 인덱스, 함수, 프로시저) 제거** | 객체 소유 | 개체 소유 또는 수퍼유저 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create`, `bigquery.routines.delete`, `bigquery.tables.delete` 및 `bigquery.tables.deleteIndex` 권한이 포함되어야 합니다. | N/A |
 | **실행 모니터링** | 필요한 개체에 대한 `MONITOR` 권한 | `EXPLAIN` 명령을 사용하는 데 필요한 권한이 없습니다. | `monitoring.viewer` 역할 | `CAN_VIEW` 권한 |
 | **데이터를 쓰는 중** | 쓰기 작업에 따라 `INSERT` 및/또는 `UPDATE` 권한 | `INSERT` 및 `UPDATE` 권한 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create` 및 `bigquery.tables.updateData`이(가) 포함되어야 합니다. | `MODIFY` 권한 |
-| **테이블에 데이터 로드** | 대상 테이블 권한의 `CREATE STAGE ON SCHEMA`, `SELECT` 및 `INSERT` | `SELECT` 및 `INSERT` 권한 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create`, `bigquery.tables.getData` 및 `bigquery.tables.updateData`이(가) 포함되어야 합니다. | `SELECT` 및 `MODIFY` 권한 |
+| **테이블에 데이터 로드** | 대상 테이블 권한의 `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` 및 `INSERT` | `SELECT` 및 `INSERT` 권한 | 서비스 계정에 할당된 역할에는 `bigquery.jobs.create`, `bigquery.tables.getData` 및 `bigquery.tables.updateData`이(가) 포함되어야 합니다. | `SELECT` 및 `MODIFY` 권한 |
 | **클라이언트 데이터에 액세스** | `SELECT on (FUTURE) TABLE(S)` 또는 `VIEW(S)` 권한 | `SELECT` 권한 | 서비스 계정에 할당된 역할에는 테이블 또는 `bigquery.dataViewer` 역할에 대해 `bigquery.jobs.create` 및 `bigquery.tables.getData`이(가) 포함되어야 합니다. | `SELECT` 권한 |
 | **메타데이터에 액세스** | `SELECT on INFORMATION_SCHEMA SCHEMA` 권한 | `SELECT` 권한 | `bigquery.metadataViewer` 역할 |  `SELECT on INFORMATION_SCHEMA SCHEMA` 권한 |
 
 
-|   | Microsoft Fabric | Azure Synapse Analytics | Vertica |
-|:-:|:-:|:-:|:-:|
-| **원격 데이터베이스에 연결** | 읽기(기본값) 권한 | `CONNECT` 권한 | 권한 필요 없음 |
-| **표 만들기** | `CREATE TABLE ON DATABASE`(웨어하우스) 및 `ALTER ON SCHEMA` | `CREATE TABLE` 권한 | `CREATE ON SCHEMA` 권한 |
-| **인덱스 만들기** | N/A | `ALTER` 권한 | N/A |
-| **함수 만들기** | N/A | `CREATE FUNCTION` 권한 | `CREATE ON SCHEMA` 권한 |
-| **프로시저 만들기** | `CREATE PROCEDURE ON DATABASE`(웨어하우스) 및 `ALTER ON SCHEMA` | `CREATE PROCEDURE` 권한 | `CREATE ON SCHEMA` 권한 |
-| **개체(테이블, 인덱스, 함수, 프로시저) 제거** | `ALTER ON SCHEMA` | `ALTER` 권한 | 개체 또는 개체에 대한 `DROP` 권한을 소유하고 있습니다. |
-| **실행 모니터링** | Workspace 기여자 또는 권한(`queryinsights.exec_requests_history`) 이상 | `CONTROL` 권한 | `EXPLAIN` 문을 사용하는 데 필요한 권한이 없습니다. |
-| **데이터를 쓰는 중** | `INSERT` 및/또는 `UPDATE ON OBJECT` | `INSERT` 및 `UPDATE` 권한 | `INSERT` 및 `UPDATE` 권한 |
-| **테이블에 데이터 로드** | `SELECT ON OBJECT` 및 `INSERT ON OBJECT` | `CREATE TABLE`, `EXECUTE`, `SELECT`, `INSERT`, `UPDATE` 및 `ALTER` 권한 | 테이블의 `INSERT` 권한, 스키마의 `USAGE` 권한 |
-| **클라이언트 데이터에 액세스** | `SELECT ON OBJECT` | `SELECT` 권한 | `SELECT` 권한 |
-| **메타데이터에 액세스** | `SELECT ON INFORMATION_SCHEMA` | 표를 설명하는 데 필요한 권한이 없습니다. | `USAGE ON SCHEMA`, `SELECT on TABLE` 및 테이블 `v_catalog.columns` 및 `v_catalog.view_columns`에 대한 권한도 |
+|   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
+|:-:|:-:|:-:|:-:|:-:|
+| **원격 데이터베이스에 연결** | 읽기(기본값) 권한 | `CONNECT` 권한 | 권한 필요 없음 | `CONNECT` 권한 |
+| **표 만들기** | `CREATE TABLE ON DATABASE`(웨어하우스) 및 `ALTER ON SCHEMA` | `CREATE TABLE` 권한 | `CREATE ON SCHEMA` 권한 | `CREATE TABLE` 또는 `TABLE` 키워드 |
+| **인덱스 만들기** | N/A | `ALTER` 권한 | N/A | `CREATE INDEX` 또는 `INDEX` 키워드 |
+| **함수 만들기** | N/A | `CREATE FUNCTION` 권한 | `CREATE ON SCHEMA` 권한 | `CREATE FUNCTION` 또는 `FUNCTION` 키워드 |
+| **프로시저 만들기** | `CREATE PROCEDURE ON DATABASE`(웨어하우스) 및 `ALTER ON SCHEMA` | `CREATE PROCEDURE` 권한 | `CREATE ON SCHEMA` 권한 | `CREATE PROCEDURE` 또는 `PROCEDURE` 키워드 |
+| **개체(테이블, 인덱스, 함수, 프로시저) 제거** | `ALTER ON SCHEMA` | `ALTER` 권한 | 개체 또는 개체에 대한 `DROP` 권한을 소유하고 있습니다. | 개체 형식 또는 관련 키워드의 `DROP` |
+| **실행 모니터링** | Workspace 기여자 또는 권한(`queryinsights.exec_requests_history`) 이상 | `CONTROL` 권한 | `EXPLAIN` 문을 사용하는 데 필요한 권한이 없습니다. | `EXPLAIN`을(를) 사용하는 데 필요한 추가 권한이 없습니다. |
+| **데이터를 쓰는 중** | `INSERT` 및/또는 `UPDATE ON OBJECT` | `INSERT` 및 `UPDATE` 권한 | `INSERT` 및 `UPDATE` 권한 | `INSERT` 및 `UPDATE` 권한 |
+| **테이블에 데이터 로드** | `SELECT ON OBJECT` 및 `INSERT ON OBJECT` | `CREATE TABLE`, `EXECUTE`, `SELECT`, `INSERT`, `UPDATE` 및 `ALTER` 권한 | 테이블의 `INSERT` 권한, 스키마의 `USAGE` 권한 | `SELECT` 및 `INSERT`(예: `COPY TO`/`COPY FROM`) |
+| **클라이언트 데이터에 액세스** | `SELECT ON OBJECT` | `SELECT` 권한 | `SELECT` 권한 | `SELECT` 권한 |
+| **메타데이터에 액세스** | `SELECT ON INFORMATION_SCHEMA` | 표를 설명하는 데 필요한 권한이 없습니다. | `USAGE ON SCHEMA`, `SELECT on TABLE` 및 테이블 `v_catalog.columns` 및 `v_catalog.view_columns`에 대한 권한도 | `SHOW` 권한 |

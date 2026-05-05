@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
 workflow-type: tm+mt
-source-wordcount: 2970
+source-wordcount: 3189
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## 연결 만들기 {#create}
@@ -54,6 +55,10 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 [통합 데이터베이스] 섹션이 나타납니다. 연결을 만들려면 **[!UICONTROL 페더레이션 데이터베이스 추가]**&#x200B;를 선택하십시오.
 
 ![Federated 데이터베이스 추가 단추가 Federated 데이터베이스 표시 페이지 내에서 강조 표시됩니다.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+
+>[!NOTE]
+>
+>개인 링크 또는 VPN을 사용하여 보안 연결을 요청하려면 **반드시**&#x200B;에 Privacy and Security Shield 또는 Healthcare Shield 라이선스가 부여되어야 합니다.
 
 연결 속성 팝오버가 나타납니다. 연결의 이름을 지정하고 생성할 데이터베이스 유형을 선택할 수 있습니다.
 
@@ -281,6 +286,15 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | 사용자 | 계정의 사용자 이름입니다. |
 | 암호 | 계정 암호입니다. |
 
+또는 암호를 제공하는 대신 개인 키를 제공할 수도 있습니다. 개인 키를 추가하는 경우 다음 정보를 제공해야 합니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 서버 | 서버 이름입니다. |
+| 사용자 | 계정의 사용자 이름입니다. |
+| 비공개 키 | 계정의 개인 키. `.pem`개의 파일만 지원됩니다. |
+| 암호 | (선택 사항) 계정 암호입니다. |
+
 **[!UICONTROL OAuth 2.0]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
 
 >[!NOTE]
@@ -315,6 +329,29 @@ Snowflake의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다
 | bulkThreads | Snowflake의 벌크 로더에 사용할 스레드 수입니다. 스레드가 추가될수록 더 큰 벌크 로드에 대해 성능이 향상됩니다. 기본적으로 이 값은 1로 설정됩니다. |
 | chunkSize | 각 벌크 로더의 청크에 대한 파일 크기입니다. 더 많은 스레드와 동시에 사용할 경우 벌크 로드 성능을 향상시킬 수 있습니다. 기본적으로 이 값은 128MB로 설정됩니다. 청크 크기에 대한 자세한 내용은 데이터 파일 준비에 대한 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}를 참조하세요. |
 | StageName | 사전 프로비저닝된 내부 스테이징 환경의 이름입니다. 새 임시 단계를 만드는 대신 벌크 로드에 사용할 수 있습니다. |
+
+>[!TAB Teradata]
+
+>[!NOTE]
+>
+>Teradata에 연결하려면 **데이터베이스 드라이버를 설치하는 등 다양한 필수 구성 요소를 완료해야** 합니다. 자세한 내용은 Adobe 고객 지원 센터 담당자에게 문의하십시오.
+
+Teradata을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 서버 | Teradata 서버의 URL입니다. |
+| 계정 | 데이터베이스가 ODBC(Open Database Connectivity) 세션에 사용하는 사용자 이름입니다. |
+| 암호 | ODBC 세션에 연결하는 데 사용하는 암호입니다. |
+| 데이터베이스 | 데이터베이스의 이름입니다. |
+| 옵션 | 연결에 대한 추가 옵션. Teradata의 경우 나열된 두 옵션 모두 **필수**&#x200B;입니다. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
+
+Teradata의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
+
+| 옵션 | 설명 |
+| ------- | ----------- |
+| `workTableSchema` | 작업 테이블에 대한 스키마의 이름입니다. |
+| `ODBCLib` | Teradata을 다른 ODBC와 혼합할 때 사용할 수 있는 시스템의 ODBC 라이브러리의 위치입니다. |
 
 >[!TAB Vertica Analytics]
 

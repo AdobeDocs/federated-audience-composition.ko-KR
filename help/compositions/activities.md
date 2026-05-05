@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
 ht-degree: 37%
@@ -207,6 +207,8 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 기본 집합을 선택한 후 **제외 규칙**&#x200B;을 설정할 수 있습니다. **특성별 일치** 또는 **가입**&#x200B;을 선택할 수 있습니다.
 
 제외 규칙을 구성했으면 **보조 항목 생성** 옵션도 선택할 수 있습니다. 보조 항목 생성은 나머지 모집단을 처리하고 제외의 일부로 포함된 데이터 **not**&#x200B;을(를) 포함합니다. 활동에 아웃바운드 전환이 더 추가됩니다.
+
+>[!ENDTABS]
 
 +++
 
