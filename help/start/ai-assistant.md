@@ -75,4 +75,4 @@ AI Assistant를 사용하여 자연어 프롬프트를 사용하여 통합 대�
 
 AI Assistant를 통해 달성할 수 있는 목표 예제와 AI Assistant 작동 방식 등 AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}를 참조하십시오.
 
-Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.
+Federated Audience 구성에 대해 요청할 수 있는 Operational Insight에 대한 전체 질문 목록은 [operational insights 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}을 참조하십시오.
