@@ -4,8 +4,7 @@ title: 표현식 편집기 개요
 description: 표현식 편집기 내의 함수를 사용하여 쿼리 모델러 내에서 쿼리를 작성하는 방법에 대해 알아봅니다.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM75FU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 4215
