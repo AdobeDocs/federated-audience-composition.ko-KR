@@ -15,7 +15,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 386
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 1. 페더레이션된 대상자 컴포지션에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
 
-1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 선택하여 샌드박스 속성에 액세스하세요.
+1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 선택하여 샌드박스 속성에 액세스하십시오.
 
    ![](assets/sandbox_1.png)
 
