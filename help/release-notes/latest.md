@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 12%
@@ -24,16 +24,6 @@ ht-degree: 12%
 | --- |
 | 이제 WIF 인증을 사용하여 Google Big Query에 연결할 수 있습니다. WIF 인증을 사용하여 연결하는 방법에 대한 자세한 내용은 [연결 개요](/help/connections/home.md#wif-configuration)를 참조하십시오. |
 
-## 2026년 4월 릴리스 {#fac-26-04}
-
-Federated Audience Composition의 4월 릴리스는 다음과 같은 기능 및 개선 사항을 지원합니다.
-
-### 새로운 기능 {#fac=26-04-feature}
-
-| 새 커넥터 - Teradata |
-| --- |
-| 이제 Teradata 커넥터를 Federated Audience Composition에 사용할 수 있습니다. 대상 만들기 및 대상 강화 사용 사례에 Teradata 커넥터를 사용할 수 있습니다. Teradata 커넥터에 대한 자세한 내용은 [연결 개요](/help/connections/home.md)를 참조하십시오. |
-
 ### 개선 사항 {#fac-26-05-improvements}
 
 이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
@@ -43,6 +33,16 @@ Federated Audience Composition의 4월 릴리스는 다음과 같은 기능 및 
   이제 Journey Optimizer 대상 읽기 여정에서 FAC 대상 속성을 보조 식별자로 활용할 수 있습니다. 이렇게 하면 계정 또는 구독 수준과 같은 여러 엔티티에서 대상을 활성화할 수 있습니다.
 
   자세한 내용은 여정 가이드의 [보조 식별자 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)을 참조하십시오.
+
+## 2026년 4월 릴리스 {#fac-26-04}
+
+Federated Audience Composition의 4월 릴리스는 다음과 같은 기능 및 개선 사항을 지원합니다.
+
+### 새로운 기능 {#fac=26-04-feature}
+
+| 새 커넥터 - Teradata |
+| --- |
+| 이제 Teradata 커넥터를 Federated Audience Composition에 사용할 수 있습니다. 대상 만들기 및 대상 강화 사용 사례에 Teradata 커넥터를 사용할 수 있습니다. Teradata 커넥터에 대한 자세한 내용은 [연결 개요](/help/connections/home.md)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-04-improvements}
 
