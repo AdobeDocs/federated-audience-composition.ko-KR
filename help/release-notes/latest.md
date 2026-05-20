@@ -3,18 +3,25 @@ title: Federated Audience Composition 릴리스 정보
 description: Federated Audience Composition에 대한 최신 업데이트 및 릴리스 정보입니다.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 13%
+source-wordcount: 671
+ht-degree: 12%
 
 ---
 
 # 릴리스 정보
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+
+## 2026년 5월 릴리스 {#fac-26-05}
+
+페더레이션 대상 컴포지션에 대한 5월 릴리스는 다음 기능을 지원합니다.
+
+| Google Big Query에 대한 WIF(Workload Identity Federation) 인증 |
+| --- |
+| 이제 WIF 인증을 사용하여 Google Big Query에 연결할 수 있습니다. WIF 인증을 사용하여 연결하는 방법에 대한 자세한 내용은 [연결 개요](/help/connections/home.md#wif-configuration)를 참조하십시오. |
 
 ## 2026년 4월 릴리스 {#fac-26-04}
 
@@ -25,6 +32,16 @@ Federated Audience Composition의 4월 릴리스는 다음과 같은 기능 및 
 | 새 커넥터 - Teradata |
 | --- |
 | 이제 Teradata 커넥터를 Federated Audience Composition에 사용할 수 있습니다. 대상 만들기 및 대상 강화 사용 사례에 Teradata 커넥터를 사용할 수 있습니다. Teradata 커넥터에 대한 자세한 내용은 [연결 개요](/help/connections/home.md)를 참조하십시오. |
+
+### 개선 사항 {#fac-26-05-improvements}
+
+이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+- **Adobe Journey Optimizer 대상 여정 읽기에서 Federated Audience Composition 대상으로 다중 엔터티 타깃팅**
+
+  이제 Journey Optimizer 대상 읽기 여정에서 FAC 대상 속성을 보조 식별자로 활용할 수 있습니다. 이렇게 하면 계정 또는 구독 수준과 같은 여러 엔티티에서 대상을 활성화할 수 있습니다.
+
+  자세한 내용은 여정 가이드의 [보조 식별자 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)을 참조하십시오.
 
 ### 개선 사항 {#fac-26-04-improvements}
 
@@ -76,7 +93,7 @@ Federated Audience Composition에 대한 1월 릴리스는 다음과 같은 새�
 
 | Amazon Web Services(AWS)에서 Adobe Experience Platform 고객을 위한 가용성 |
 | --- |
-| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
+| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-01-improvements}
 

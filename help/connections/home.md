@@ -4,18 +4,13 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 9%
+source-wordcount: 3543
+ht-degree: 8%
 
 ---
 
@@ -217,6 +212,8 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;키 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
@@ -247,7 +244,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -387,3 +384,46 @@ Vertica Analytics의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 | 연결 테스트 | 구성 세부 사항을 확인할 수 있습니다. |
 
 이제 **[!UICONTROL 함수 배포]**&#x200B;를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 선택하여 페더레이션 데이터베이스와 Experience Platform 간의 연결을 완료할 수 있습니다.
+
+## 부록 {#appendix}
+
+다음 부록에서는 외부 계정 측에서 연결을 설정하는 방법에 대해 설명합니다.
+
+### Google BigQuery(워크로드 ID 페더레이션) 구성 {#wif-configuration}
+
+Google Cloud Platform 설정을 구성하려면 먼저 다음 값이 필요합니다.
+
+- AWS 계정 ID
+   - 이 값을 얻으려면 Adobe 담당자에게 문의하십시오.
+- AWS IAM 역할 이름
+   - AWS IAM 역할 이름이 다음 형식을 따릅니다. `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+Google Cloud Console의 **IAM 및 관리 섹션**&#x200B;에서 **워크로드 ID 풀**&#x200B;을 만듭니다. 이를 통해 외부 ID를 구성하고 관리할 수 있습니다.
+
+ID 공급자를 만들려면 **공급자 추가**&#x200B;를 선택하십시오. 공급자에 대한 관련 메타데이터를 제공함으로써 Google Cloud의 ID 공급자와 작업자 ID 풀 간의 단방향 트러스트를 구성합니다.
+
+![공급자 추가 단추가 Google Cloud에서 강조 표시됩니다.](/help/connections/assets/home/select-add-provider.png)
+
+공급자를 만들 때 다음 정보를 제공해야 합니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 이름 | 작업 로드 ID 풀 공급자의 이름입니다. |
+| ID | 공급자에 대한 ID가 자동으로 생성됩니다. |
+| AWS 계정 ID | 이전에 제공한 AWS 계정 ID입니다. |
+| 활성화된 공급자 | 공급자를 활성화 또는 비활성화할지 결정하는 부울입니다. |
+| 속성 매핑 | 역할과 일치하는 매핑입니다. 이 정보는 이미 존재합니다. |
+
+공급자를 만든 후 작업 로드 ID 풀 ID가 서비스 계정을 가장하도록 하는 IAM 정책을 만들어야 합니다. 서비스 계정에 대한 액세스 권한 부여 대화 상자를 열려면 **액세스 권한 부여**&#x200B;를 선택하십시오.
+
+대화 상자에서 **서비스 계정 가장을 사용하여 액세스 권한 부여**&#x200B;를 선택합니다. **보안 주체 선택** 섹션 내에서 특성 매핑을 만들어야 합니다.
+
+**aws_role**&#x200B;을(를) 선택하고 `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`을(를) 값으로 추가하여 `AWSAccountID` 및 `AWSRoleName`을(를) 이전에 제공된 값으로 대체하십시오.
+
+![액세스 권한 부여 대화 상자가 표시됩니다.](/help/connections/assets/home/aws_role.png)
+
+서비스 계정에 대한 액세스 권한을 부여한 후 클라이언트 라이브러리 구성을 다운로드합니다.
+
+![라이브러리 구성을 다운로드할 위치가 표시됩니다.](/help/connections/assets/home/download-config.png)
+
+이제 클라이언트 라이브러리 구성을 다운로드한 후 Federated Audience Configuration으로 WIF 연결을 설정할 수 있습니다.
