@@ -94,7 +94,7 @@ Federated Audience Composition에 대한 1월 릴리스는 다음과 같은 새�
 
 | Amazon Web Services(AWS)에서 Adobe Experience Platform 고객을 위한 가용성 |
 | --- |
-| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
+| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-01-improvements}
 
