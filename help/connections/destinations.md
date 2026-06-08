@@ -44,7 +44,7 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 
 **[!UICONTROL 경고]** 섹션에서 경고를 활성화하여 대상에 대한 데이터 흐름 상태에 대한 알림을 받을 수 있습니다. 여기에는 데이터 흐름 실행 지연, 실행 실패, 실행 성공, 실행 시작 및 활성화 건너뛰기에 대한 경고가 포함됩니다.
 
-경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고를 구독](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}하는 방법에 대한 Adobe Experience Platform 설명서를 참조하십시오.
+경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고를 구독](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/alerts){target="_blank"}하는 방법에 대한 Adobe Experience Platform 설명서를 참조하십시오.
 
 ![대상에 사용 가능한 경고가 표시됩니다.](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 >
 >예약 및 파일 이름을 구성하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서의 다음 섹션을 참조하십시오.
 >
->* [대상자 내보내기 예약](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [파일 이름 구성](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [대상자 내보내기 예약](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [파일 이름 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 **[!UICONTROL 매핑]** 단계에서 대상자를 위해 내보낼 특성 및 ID 필드를 선택합니다.
 
@@ -79,7 +79,7 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 >
 >대상에 대해 활성화할 때 시스템에서 생성한 열을 사용할 수 **없습니다**. 시스템 생성 열을 선택하면 오류가 발생합니다.
 
-자세한 내용은 Adobe Experience Platform 설명서의 [매핑 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}을 참조하십시오.
+자세한 내용은 Adobe Experience Platform 설명서의 [매핑 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}을 참조하십시오.
 
 ![매핑 특성 페이지가 표시됩니다.](assets/destinations/attributes.png)
 
