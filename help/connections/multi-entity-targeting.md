@@ -2,7 +2,7 @@
 audience: end-user
 title: Adobe Journey Optimizer의 Federated Audience Composition 대상이 있는 다중 엔티티 타깃팅
 description: Adobe Journey Optimizer 여정의 Federated Audience Composition 대상에서 프로필을 타겟팅하는 방법에 대해 알아봅니다.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ Federated Audience Composition에서 컴포지션을 만드는 방법에 대한 
 ## 다음 단계 {#next-steps}
 
 이제 이 안내서를 읽고 Journey Optimizer 여정에서 Federated Audience Composition 대상의 보조 식별자를 사용하는 방법을 이해할 수 있습니다. 보조 여정 사용에 대한 자세한 내용은 여정 가이드의 [보조 식별자 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)을 참조하십시오.
+
