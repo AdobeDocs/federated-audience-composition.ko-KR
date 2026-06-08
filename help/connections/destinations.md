@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 
 >[!IMPORTANT]
 >
->대상을 활성화할 때 시스템 생성 열을 사용할 수 **없습니다**. 시스템 생성 열을 선택하면 활성화가 실패합니다.
+>대상에 대해 활성화할 때 시스템에서 생성한 열을 사용할 수 **없습니다**. 시스템 생성 열을 선택하면 오류가 발생합니다.
 
 자세한 내용은 Adobe Experience Platform 설명서의 [매핑 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}을 참조하십시오.
 
