@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3947
 ht-degree: 8%
 
 ---
@@ -104,7 +104,7 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 또는 서비스 주체 인증을 사용하여 Azure Synapse Analytics 연결을 안전하게 구성할 수 있습니다. 프로덕션 등급 통합과 자동화 시나리오에 서비스 주체 인증을 사용해야 합니다.
 
-+++ 전제 조건
++++ 사전 요구 사항
 
 서비스 주체 인증을 설정하기 전에 다음 사전 요구 사항을 알아 두십시오.
 
@@ -225,6 +225,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 | ----- | ----------- |
 | 프로젝트 | 프로젝트의 ID입니다. 자세한 내용은 [Google Cloud 프로젝트 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오. |
 | 데이터 세트 | 데이터 세트의 이름입니다. 자세한 내용은 [Google Cloud 데이터 세트 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오. |
+| Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
 | 키 파일 경로 | 서버에 대한 키 파일입니다. `json`개의 파일만 지원됩니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
@@ -240,6 +241,7 @@ Google BigQuery의 경우 다음과 같은 추가 옵션을 설정할 수 있습
 | GCloudConfigName | **참고:** 버전 7.3.4 이상의 **일괄 로드 도구**(Cloud SDK)에만 적용됩니다. <br/><br/> 데이터 로드를 위한 매개 변수를 저장하는 구성의 이름입니다. 기본적으로 이 값은 `accfda`입니다. |
 | GCloudDefaultConfigName | **참고:** 버전 7.3.4 이상의 **일괄 로드 도구**(Cloud SDK)에만 적용됩니다. <br/><br/> 데이터 로드를 위한 기본 구성을 다시 만들기 위한 임시 구성의 이름입니다. 기본적으로 이 값은 `default`입니다. |
 | GCloudRecreateConfig | **참고:** 버전 7.3.4 이상의 **일괄 로드 도구**(Cloud SDK)에만 적용됩니다. <br/><br/> 벌크 로드 메커니즘이 Google Cloud SDK 구성을 자동으로 다시 생성, 삭제 또는 수정해야 하는지 여부를 결정할 수 있는 부울 값입니다. 이 값을 `false`(으)로 설정하면 대량 로드 메커니즘이 컴퓨터의 기존 구성을 사용하여 데이터를 로드합니다. 이 값을 `true`(으)로 설정하면 구성이 올바르게 설정되었는지 확인하십시오. 그렇지 않으면 `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` 오류가 나타나고 로딩 메커니즘이 기본 로딩 메커니즘으로 되돌아갑니다. |
+| **restEndpoint** | Api 프록시의 종단점입니다. Api 프록시와 함께 REST-API 커넥터를 사용하는 경우에만 사용하면 됩니다. API 프록시를 사용하는 경우 **REST API 커넥터 사용** 설정을 사용하도록 설정하십시오. 설정에 대한 자세한 내용은 [Google BigQuery Api 게이트웨이 지원 섹션](#apigee)을 참조하세요. |
 
 >[!TAB Microsoft 패브릭]
 
@@ -425,10 +427,39 @@ ID 공급자를 만들려면 **공급자 추가**&#x200B;를 선택하십시오.
 
 **aws_role**&#x200B;을(를) 선택하고 `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`을(를) 값으로 추가하여 `AWSAccountID` 및 `AWSRoleName`을(를) 이전에 제공된 값으로 대체하십시오.
 
-![액세스 권한 부여 대화 상자가 표시됩니다.](/help/connections/assets/home/aws_role.png)
+![액세스 권한 부여 대화 상자가 표시됩니다.](/help/connections/assets/home/aws-role.png)
 
 서비스 계정에 대한 액세스 권한을 부여한 후 클라이언트 라이브러리 구성을 다운로드합니다.
 
 ![라이브러리 구성을 다운로드할 위치가 표시됩니다.](/help/connections/assets/home/download-config.png)
 
 이제 클라이언트 라이브러리 구성을 다운로드한 후 Federated Audience Configuration으로 WIF 연결을 설정할 수 있습니다.
+
+### Google BigQuery [!DNL Apigee] 게이트웨이 지원 {#apigee}
+
+Google Cloud의 기본 API 관리 플랫폼인 [!DNL Apigee]을(를) 사용하여 Google BigQuery에 대한 API 호출을 프록시할 수 있습니다.
+
+먼저 [!DNL Apigee] UI 내에서 프록시를 만들어야 합니다. Google Cloud에서 **Api**, **프록시 개발**, **API 프록시**, **만들기**&#x200B;로 이동하여 **프록시 만들기** 패널을 표시합니다. 패널에서 다음 세부 정보를 입력할 수 있습니다.
+
+![Apigee 프록시 만들기 화면이 표시됩니다.](/help/connections/assets/home/create-proxy-apigee.png)
+
+| 세부 사항 | 설명 |
+| ------- | ----------- |
+| 프록시 템플릿 | 만들려는 프록시 유형입니다. 이 사용 사례의 경우 **역방향 프록시(가장 일반적)**&#x200B;을(를) 선택해야 합니다. |
+| 프록시 이름 | 프록시의 이름입니다. 이 값은 **only**&#x200B;에 영숫자, 대시(`-`) 또는 밑줄(`_`)을 포함할 수 있습니다. |
+| 기본 경로 | API 프록시의 호스트 주소를 표시하는 URI 조각입니다. 이 기본 경로는 프록시 이름을 기반으로 하며 **must**&#x200B;은(는) 고유해야 합니다. |
+| 설명 | API 프록시에 대한 선택적 설명입니다. |
+| Target | API 프록시가 호출하는 백엔드 서비스의 URL(HTTP 또는 HTTPS 포함)입니다. |
+
+Federated Audience Composition의 경우, Google BigQuery 커넥터가 사용하는 **each** 엔드포인트에 대한 프록시 엔드포인트 규칙을 아래 나열된 대로 만듭니다.
+
+| 기본 경로 | 대상 엔드포인트 | 설명 |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Google BigQuery의 기본 종단점입니다. 이 끝점은 쿼리 및 목록 테이블과 같은 데이터를 가져오는 데 사용됩니다. |
+| `/token` | `https://oauth2.googleapis.com/token` | 이 끝점은 서비스 계정 인증에 사용됩니다. |
+| `/storage` | `https://storage.googleapis.com/storage` | 이 저장소 끝점은 임시 대량 로드 파일을 삭제하는 데 사용됩니다. |
+| `/upload` | `https://storage.googleapis.com/upload` | 이 저장소 끝점은 파일의 대량 로드에 사용됩니다. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | 이 끝점은 WIF(Workload Identity Federation) 흐름에서 토큰을 가져오는 데 사용됩니다. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | 이 끝점은 WIF(Workload Identity Federation) 흐름의 서비스 계정을 가장하는 데 사용됩니다. |
+
+프록시를 만든 후에는 이를 사용하여 Federated Audience Composition과 연결하는 것이 좋습니다. 프록시를 배포하고 나면 **관리자** 섹션 내에서 **환경**, **그룹**&#x200B;을 차례로 선택하면 **호스트 이름**&#x200B;에 나열된 프록시의 전체 URL을 찾을 수 있습니다.

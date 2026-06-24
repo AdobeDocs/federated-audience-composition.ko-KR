@@ -5,9 +5,9 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: 726
 ht-degree: 12%
 
 ---
@@ -16,13 +16,21 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+## 2026년 6월 릴리스 {#fac-26-06}
+
+Federated Audience Composition의 6월 릴리스는 다음 기능을 지원합니다.
+
+| Google [!DNL BigQuery]에 대해 [!DNL Apigee] 게이트웨이 지원을 사용하는 REST API 커넥터 |
+| --- |
+| 이제 서비스 계정 인증을 사용할 때 [!DNL Apigee] 게이트웨이를 통해 연결을 라우팅하는 옵션을 사용하여 REST API 커넥터를 사용하여 Google [!DNL BigQuery]에 연결할 수 있습니다. [!DNL Apigee]을(를) 사용하여 연결하는 방법에 대한 자세한 내용은 [연결 개요](/help/connections/home.md#apigee)를 참조하십시오. |
+
 ## 2026년 5월 릴리스 {#fac-26-05}
 
 페더레이션 대상 컴포지션에 대한 5월 릴리스는 다음 기능을 지원합니다.
 
-| Google Big Query에 대한 WIF(Workload Identity Federation) 인증 |
+| Google [!DNL BigQuery]에 대한 WIF(Workload Identity Federation) 인증 |
 | --- |
-| 이제 WIF 인증을 사용하여 Google Big Query에 연결할 수 있습니다. WIF 인증을 사용하여 연결하는 방법에 대한 자세한 내용은 [연결 개요](/help/connections/home.md#wif-configuration)를 참조하십시오. |
+| 이제 WIF 인증을 사용하여 Google [!DNL BigQuery]에 연결할 수 있습니다. WIF 인증을 사용하여 연결하는 방법에 대한 자세한 내용은 [연결 개요](/help/connections/home.md#wif-configuration)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-05-improvements}
 
