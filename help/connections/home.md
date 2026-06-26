@@ -4,17 +4,12 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 8%
 
 ---
@@ -25,8 +20,7 @@ ht-degree: 8%
 >
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션 데이터베이스 관리**
->-**페더레이션 데이터베이스 보기**
+>-**페더레이션 데이터베이스 관리-**&#x200B;페더레이션 데이터베이스 보기&#x200B;**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -217,7 +211,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;키 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;키 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -225,8 +219,9 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 | ----- | ----------- |
 | 프로젝트 | 프로젝트의 ID입니다. 자세한 내용은 [Google Cloud 프로젝트 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오. |
 | 데이터 세트 | 데이터 세트의 이름입니다. 자세한 내용은 [Google Cloud 데이터 세트 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오. |
-| Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
 | 키 파일 경로 | 서버에 대한 키 파일입니다. `json`개의 파일만 지원됩니다. |
+| Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
+| REST API 커넥터 사용 | REST API 커넥터를 사용할 수 있도록 하는 토글. 이 옵션은 계정/암호 인증을 사용하는 경우에만 **사용할 수 있습니다**. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Google BigQuery의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -251,7 +246,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
