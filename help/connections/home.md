@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 8%
 
 ---
@@ -25,8 +25,7 @@ ht-degree: 8%
 >
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션 데이터베이스 관리**
->-**페더레이션 데이터베이스 보기**
+>-**페더레이션 데이터베이스 관리-**&#x200B;페더레이션 데이터베이스 보기&#x200B;**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
@@ -225,8 +224,9 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 | ----- | ----------- |
 | 프로젝트 | 프로젝트의 ID입니다. 자세한 내용은 [Google Cloud 프로젝트 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오. |
 | 데이터 세트 | 데이터 세트의 이름입니다. 자세한 내용은 [Google Cloud 데이터 세트 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오. |
-| Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
 | 키 파일 경로 | 서버에 대한 키 파일입니다. `json`개의 파일만 지원됩니다. |
+| Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
+| REST API 커넥터 사용 | REST API 커넥터를 사용할 수 있도록 하는 토글. 이 옵션은 계정/암호 인증을 사용하는 경우에만 **사용할 수 있습니다**. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Google BigQuery의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
