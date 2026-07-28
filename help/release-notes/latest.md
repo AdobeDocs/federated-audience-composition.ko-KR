@@ -30,7 +30,7 @@ Federated Audience Composition의 7월 릴리스는 다음 기능을 지원합�
 
 - **여정 시뮬레이션에서 Federated Audience Composition 대상 지원**
 
-  이제 여정 시뮬레이션을 사용하여 시뮬레이션된 사용자로 게시하기 전에 Federated Audience Composition 대상으로 만든 여정을 테스트할 수 있습니다. 자세한 내용은 [여정 시뮬레이션 시작 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)를 참조하십시오.
+  이제 여정 시뮬레이션을 사용하여 시뮬레이션된 사용자로 게시하기 전에 Federated Audience Composition 대상으로 만든 여정을 테스트할 수 있습니다. 자세한 내용은 [여정 시뮬레이션 시작 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)를 참조하십시오.
 
 ## 2026년 6월 릴리스 {#fac-26-06}
 
@@ -118,7 +118,7 @@ Federated Audience Composition에 대한 1월 릴리스는 다음과 같은 새�
 
 | Amazon Web Services(AWS)에서 Adobe Experience Platform 고객을 위한 가용성 |
 | --- |
-| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
+| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-01-improvements}
 
