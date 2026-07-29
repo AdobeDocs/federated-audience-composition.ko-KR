@@ -5,16 +5,32 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 12%
+source-wordcount: 825
+ht-degree: 11%
 
 ---
 
 # 릴리스 정보
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+
+## 2026년 7월 릴리스 {#fac-26-07}
+
+Federated Audience Composition의 7월 릴리스는 다음 기능을 지원합니다.
+
+| CHE2(스위스) 리전의 일반 공급 |
+| --- |
+| 이제 CHE2(스위스) 지역에서 Federated Audience Composition 인스턴스를 프로비저닝할 수 있습니다. |
+
+### 개선 사항 {#fac-26-07-improvements}
+
+이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+- **여정 시뮬레이션에서 Federated Audience Composition 대상 지원**
+
+  이제 여정 시뮬레이션을 사용하여 시뮬레이션된 사용자로 게시하기 전에 Federated Audience Composition 대상으로 만든 여정을 테스트할 수 있습니다. 자세한 내용은 [여정 시뮬레이션 시작 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)를 참조하십시오.
 
 ## 2026년 6월 릴리스 {#fac-26-06}
 
