@@ -4,8 +4,7 @@ title: 활동 개요
 description: Federated Audience Composition 내에서 사용할 수 있는 다양한 활동 및 전환에 대해 알아봅니다.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -262,7 +261,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="보강 활동"
->abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 세분화 활동 이후에 워크플로에서 사용됩니다. 일반적으로 활동을 세분화한 후 컴포지션에서 사용됩니다."
+>abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 컴포지션에서 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -516,7 +515,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 >[!IMPORTANT]
 >
->선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 필드 저장]** 활동을 컴포지션에 추가한 후 활동에 레이블을 지정하고 사용할 Adobe Experience Platform 스키마를 선택할 수 있습니다. 스키마는 표준 스키마 또는 관계형 스키마일 수 있습니다.
 
@@ -627,7 +626,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 필터링 조건을 만들면 다음 추가 규칙을 적용할 수 있습니다.
 
 - **제한 사용**: 하위 집합으로 분할할 수 있는 프로필 수를 제한합니다. 모집단의 숫자 또는 백분율로 설정할 수 있습니다.
-   - 제한을 활성화하면 특정 프로필 속성에 따라 선택한 프로필의 등급을 지정할 수도 있습니다. **정렬 사용**&#x200B;을 켜면 속성을 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+  - 제한을 활성화하면 특정 프로필 속성에 따라 선택한 프로필의 등급을 지정할 수도 있습니다. **정렬 사용**&#x200B;을 켜면 속성을 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 - **빈 전환 건너뛰기**: 들어오는 모집단이 비어 있으면 전환을 사용하지 않습니다.
 
 이제 하위 집합이 구성되었으므로 몇 가지 추가 옵션을 설정할 수 있습니다.
@@ -694,17 +693,17 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="**스케줄러** 활동을 사용하면 대상자 컴포지션이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 컴포지션의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 사용하면 대상자 컴포지션이 시작되는 시기를 예약할 수 있습니다. 이 활동은 예약된 시작 시점으로 간주해야 하고, 컴포지션의 첫 번째 활동으로만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_validity"
 >title="스케줄러 유효성"
->abstract="스케줄러의 유효 기간을 정의할 수 있습니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
+>abstract="스케줄러에 대한 유효 기간을 정의할 수 있습니다. 유효 기간은 영구적(기본값)이거나 특정 날짜까지로 설정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
+>abstract="스케줄러의 실행 빈도를 정의합니다. 특정 시점, 하루에 한 번 또는 여러 번, 매주 또는 매월 실행되도록 설정할 수 있습니다."
 
 **스케줄러** 활동을 통해 컴포지션 실행을 시작할 시기를 예약할 수 있습니다. **반드시**&#x200B;이 항목을 컴포지션의 첫 번째 활동으로 사용합니다.
 
