@@ -4,17 +4,12 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +20,30 @@ ht-degree: 8%
 >
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
->-**페더레이션 데이터베이스 관리-**&#x200B;페더레이션 데이터베이스 보기&#x200B;**
+>-**페더레이션 데이터베이스 관리**
+>-**페더레이션 데이터베이스 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
 
 Experience Platform Federated Audience Composition을 사용하면 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다.
 
 ## 지원되는 데이터베이스 {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="비공개 키"
+>abstract="임시 빈 콘텐츠."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="키 파일 경로"
+>abstract="임시 빈 콘텐츠."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="서버 IP"
+>abstract="임시 빈 콘텐츠."
+
 
 페더레이션 데이터베이스와 Adobe Experience Platform을 사용하여 작업하려면 먼저 두 소스 간에 연결을 설정해야 합니다. Federated Audience Composition을 사용하여 다음 데이터베이스에 연결할 수 있습니다.
 
@@ -103,7 +115,7 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 또는 서비스 주체 인증을 사용하여 Azure Synapse Analytics 연결을 안전하게 구성할 수 있습니다. 프로덕션 등급 통합과 자동화 시나리오에 서비스 주체 인증을 사용해야 합니다.
 
-+++ 사전 요구 사항
++++ 전제 조건
 
 서비스 주체 인증을 설정하기 전에 다음 사전 요구 사항을 알아 두십시오.
 
@@ -216,7 +228,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;키 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;키 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -251,7 +263,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -401,9 +413,9 @@ Vertica Analytics의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 Google Cloud Platform 설정을 구성하려면 먼저 다음 값이 필요합니다.
 
 - AWS 계정 ID
-   - 이 값을 얻으려면 Adobe 담당자에게 문의하십시오.
+  - 이 값을 얻으려면 Adobe 담당자에게 문의하십시오.
 - AWS IAM 역할 이름
-   - AWS IAM 역할 이름이 다음 형식을 따릅니다. `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - AWS IAM 역할 이름이 다음 형식을 따릅니다. `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Google Cloud Console의 **IAM 및 관리 섹션**&#x200B;에서 **워크로드 ID 풀**&#x200B;을 만듭니다. 이를 통해 외부 ID를 구성하고 관리할 수 있습니다.
 
@@ -449,7 +461,7 @@ Google Cloud의 기본 API 관리 플랫폼인 [!DNL Apigee]을(를) 사용하�
 | 프록시 이름 | 프록시의 이름입니다. 이 값은 **only**&#x200B;에 영숫자, 대시(`-`) 또는 밑줄(`_`)을 포함할 수 있습니다. |
 | 기본 경로 | API 프록시의 호스트 주소를 표시하는 URI 조각입니다. 이 기본 경로는 프록시 이름을 기반으로 하며 **must**&#x200B;은(는) 고유해야 합니다. |
 | 설명 | API 프록시에 대한 선택적 설명입니다. |
-| Target | API 프록시가 호출하는 백엔드 서비스의 URL(HTTP 또는 HTTPS 포함)입니다. |
+| 대상 | API 프록시가 호출하는 백엔드 서비스의 URL(HTTP 또는 HTTPS 포함)입니다. |
 
 Federated Audience Composition의 경우, Google BigQuery 커넥터가 사용하는 **each** 엔드포인트에 대한 프록시 엔드포인트 규칙을 아래 나열된 대로 만듭니다.
 
