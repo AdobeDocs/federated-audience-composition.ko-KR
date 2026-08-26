@@ -5,18 +5,12 @@ hide: true
 hidefromtoc: yes
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +76,7 @@ ht-degree: 97%
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
+  이번 새 릴리스에서 Federated Audience Composition은 Microsoft Azure에서 호스팅되는 Amazon Redshift 데이터베이스에 대한 보안 PrivateLink 연결을 지원합니다. [자세히 알아보기](../connections/home.md#amazon-redshift)
 
 ## 2025년 3월 릴리스 {#fac-25-3}
 
@@ -113,8 +107,8 @@ ht-degree: 97%
 
 * **Databricks 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 이제 Databricks 데이터베이스 연결을 위한 개인 링크 연결을 지원합니다.
-여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/home.md#databricks)
+  이번 새로운 릴리스를 통해 Federated Audience Composition은 이제 Databricks 데이터베이스 연결에 대한 PrivateLink 연결을 지원합니다.
+  여기에는 PrivateLink를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스 및 VPN을 통해 Microsoft Azure에 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. [자세히 알아보기](../connections/home.md#databricks)
 
 * **B2B CDP 고객 지원**
 
@@ -122,7 +116,7 @@ ht-degree: 97%
 
 * **Snowflake 보안 연결**
 
-  이번 새로운 릴리스에서는 페더레이션된 대상자 컴포지션이 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 안전한 개인 링크 연결을 지원합니다. [자세히 알아보기](../connections/home.md#snowflake)
+  이번 새 릴리스에서 Federated Audience Composition은 Microsoft Azure에서 호스팅되는 Snowflake 데이터베이스에 대한 보안 PrivateLink 연결을 지원합니다. [자세히 알아보기](../connections/home.md#snowflake)
 
 ## 2025년 2월 릴리스 {#fac-25-2}
 
@@ -171,7 +165,7 @@ ht-degree: 97%
 
 * **AWS PrivateLink를 통한 Snowflake에 대한 보안 액세스 지원**
 
-  이제 비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/home.md#snowflake)
+  이제 PrivateLink를 통해 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스를 지원합니다. Snowflake 계정은 AWS(Amazon Web Services)에서 호스팅되어야 하며 페더레이션된 대상자 컴포지션 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 지원**
 

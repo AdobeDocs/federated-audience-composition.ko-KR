@@ -4,18 +4,13 @@ title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
 description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +69,7 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 
 >[!NOTE]
 >
->개인 링크 또는 VPN을 사용하여 보안 연결을 요청하려면 **반드시**&#x200B;에 Privacy and Security Shield 또는 Healthcare Shield 라이선스가 부여되어야 합니다.
+>PrivateLink 또는 VPN을 사용하여 보안 연결을 요청하려면 **Privacy and Security Shield 또는 Healthcare Shield에 라이선스를 부여해야**&#x200B;합니다.
 
 연결 속성 팝오버가 나타납니다. 연결의 이름을 지정하고 생성할 데이터베이스 유형을 선택할 수 있습니다.
 
@@ -90,7 +85,7 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 >
 >Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
 >
->또한 개인 링크를 통한 외부 Amazon Redshift 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다.
+>또한 PrivateLink를 통해 외부 Amazon Redshift 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다.
 
 Amazon Redshift를 선택한 후 다음 세부 사항을 추가할 수 있습니다.
 
@@ -162,7 +157,7 @@ Azure Synapse 연결 내에서 다음 구성 세부 사항을 설정합니다.
 
 >[!NOTE]
 >
->비공개 링크를 통한 외부 Databricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 비공개 링크를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스에 대한 보안 연결과 VPN을 통해 Microsoft Azure에서 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>PrivateLink를 통해 외부 Databricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 PrivateLink를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스 및 VPN을 통해 Microsoft Azure에 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
 데이터 블록을 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
 
@@ -233,7 +228,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;키 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;키 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -268,7 +263,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -295,7 +290,7 @@ Oracle을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 
 >[!NOTE]
 >
->비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>PrivateLink를 통해 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
 Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
 
