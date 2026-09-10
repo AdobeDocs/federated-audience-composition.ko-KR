@@ -14,10 +14,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 386
-ht-degree: 100%
+source-git-commit: b418b8ef242ef9b9f7dfaa601d4a9a505b7c6f8d
+workflow-type: tm+mt
+source-wordcount: 406
+ht-degree: 95%
 
 ---
 
@@ -51,13 +51,15 @@ ht-degree: 100%
 
 1. 페더레이션된 대상자 컴포지션에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 라이선스 사용]** 메뉴에 액세스합니다.
 
-1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 선택하여 샌드박스 속성에 액세스하십시오.
+1. **[!UICONTROL 총 데이터 전송량]**&#x200B;에서 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 아이콘을 선택하여 샌드박스 속성에 액세스하세요.
 
    ![](assets/sandbox_1.png)
 
 1. 속성 팝오버에 샌드박스에 대한 정보가 표시됩니다.
 
    ![](assets/sandbox_2.png)
+
+다른 샌드박스에서 Federated Audience Composition을 사용하려면 Adobe 고객 지원 센터에 문의하여 샌드박스 스위치를 요청하십시오.
 
 ## 권한 {#permissions}
 
