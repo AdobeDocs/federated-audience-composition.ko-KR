@@ -221,7 +221,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;키 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;키 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -256,7 +256,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
