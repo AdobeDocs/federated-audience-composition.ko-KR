@@ -6,17 +6,19 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: '610'
 ht-degree: 18%
-
 ---
-
 # 스키마 개요 {#schemas}
 
 >[!AVAILABILITY]
@@ -71,6 +73,11 @@ ht-degree: 18%
 >동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용해야 합니다.
 
 ## 스키마 만들기 {#schema-create}
+
+>[!CONTEXTUALHELP]
+>id="platform_schemas_primarycompositekey"
+>title="복합 키"
+>abstract="여러 스키마 열로 구성된 스키마 키. 복합 키로 사용할 열을 표시합니다."
 
 Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Federated Data]** 섹션에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 스키마]** 탭에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
