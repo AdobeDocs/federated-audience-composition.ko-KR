@@ -6,19 +6,22 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 3987
+source-wordcount: '3999'
 ht-degree: 7%
-
 ---
-
 # 연결 만들기 {#connections-fdb}
 
 >[!AVAILABILITY]
@@ -45,10 +48,9 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 >abstract="임시 빈 콘텐츠."
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="서버 IP"
->abstract="임시 빈 콘텐츠."
-
+>abstract="데이터베이스에 연결하기 위해 허용 목록에추가된으로 유지해야 하는 IP 주소입니다."
 
 페더레이션 데이터베이스와 Adobe Experience Platform을 사용하여 작업하려면 먼저 두 소스 간에 연결을 설정해야 합니다. Federated Audience Composition을 사용하여 다음 데이터베이스에 연결할 수 있습니다.
 
@@ -120,7 +122,7 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 또는 서비스 주체 인증을 사용하여 Azure Synapse Analytics 연결을 안전하게 구성할 수 있습니다. 프로덕션 등급 통합과 자동화 시나리오에 서비스 주체 인증을 사용해야 합니다.
 
-+++ 전제 조건
++++ 사전 요구 사항
 
 서비스 주체 인증을 설정하기 전에 다음 사전 요구 사항을 알아 두십시오.
 
