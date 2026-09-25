@@ -99,7 +99,7 @@ Federated Audience Composition에서 스키마를 만들려면 Experience Platfo
 
 ![스키마 편집 단추가 강조 표시되어 있습니다.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-**[!UICONTROL 스키마 편집]** 창에 스키마 편집기가 표시됩니다. 스키마 편집기 사용에 대한 자세한 내용은 [스키마 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)를 참조하십시오.
+**[!UICONTROL 스키마 편집]** 창에 스키마 편집기가 표시됩니다. 스키마 편집기 사용에 대한 자세한 내용은 [스키마 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)를 참조하십시오.
 
 ![스키마 편집기가 표시됩니다.](/help/data-modelling/assets/integrated/schema-editor.png)
 
