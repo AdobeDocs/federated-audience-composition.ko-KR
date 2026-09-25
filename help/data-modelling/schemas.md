@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '580'
 ht-degree: 18%
 ---
 # 스키마 개요 {#schemas}
@@ -29,11 +29,6 @@ ht-degree: 18%
 >-**연결된 스키마 보기**
 >
 >필요한 권한에 대한 자세한 내용은 [액세스 제어 안내서](/help/governance-privacy-security/access-control.md)를 참조하십시오.
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="구성 관리"
->abstract="임시 빈 콘텐츠."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ ht-degree: 18%
 >동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용해야 합니다.
 
 ## 스키마 만들기 {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="복합 키"
->abstract="여러 스키마 열로 구성된 스키마 키. 복합 키로 사용할 열을 표시합니다."
 
 Federated Audience Composition에서 스키마를 만들려면 **[!UICONTROL Federated Data]** 섹션에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 스키마]** 탭에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 

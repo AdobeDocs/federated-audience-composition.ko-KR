@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: 페더레이션 데이터베이스와의 연결 만들기 및 관리
-description: Federated Database와의 연결을 만들고 관리하는 방법 알아보기
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: Experience Platform UI 내에서 Federated 데이터베이스와의 연결 만들기 및 관리
+description: Experience Platform UI 내에서 Federated 데이터베이스와의 연결을 만들고 관리하는 방법을 알아봅니다.
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4385'
 ht-degree: 7%
 ---
-# 연결 만들기 {#connections-fdb}
+# Experience Platform UI에서 연결 만들기
 
 >[!AVAILABILITY]
+>
+>새로운 통합 연결 경험은 일부 고객만 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+>
+>새 연결 환경에 액세스할 수 없는 경우 [연결 개요](./home.md)를 읽어 보십시오.
 >
 >연결에 액세스하려면 다음 권한 중 하나가 필요합니다.
 >
@@ -38,11 +40,21 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 
 ## 지원되는 데이터베이스 {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="비공개 키"
+>abstract="임시 빈 콘텐츠."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="키 파일 경로"
+>abstract="임시 빈 콘텐츠."
+
 페더레이션 데이터베이스와 Adobe Experience Platform을 사용하여 작업하려면 먼저 두 소스 간에 연결을 설정해야 합니다. Federated Audience Composition을 사용하여 다음 데이터베이스에 연결할 수 있습니다.
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- DataBrick
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -52,23 +64,34 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 
 ## 연결 만들기 {#create}
 
-연결을 만들려면 Federated Data 섹션 내에서 **[!UICONTROL Federated database]**&#x200B;를 선택하십시오.
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="서버 IP"
+>abstract="데이터베이스에 연결하기 위해 허용 목록에추가된으로 유지해야 하는 IP 주소입니다."
 
-![Federated Databases 단추가 왼쪽 탐색 내에서 강조 표시됩니다.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+연결을 만들려면 **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 원본]**&#x200B;을(를) 선택하십시오.
 
-[통합 데이터베이스] 섹션이 나타납니다. 연결을 만들려면 **[!UICONTROL 페더레이션 데이터베이스 추가]**&#x200B;를 선택하십시오.
+소스 카탈로그가 나타납니다. 조직에 사용 가능한 페더레이션 데이터베이스 목록을 보려면 **[!UICONTROL 페더레이션 데이터]**&#x200B;를 선택하십시오.
 
-![Federated 데이터베이스 추가 단추가 Federated 데이터베이스 표시 페이지 내에서 강조 표시됩니다.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![원본 카탈로그 내의 페더레이션 데이터 섹션이 강조 표시됩니다.](/help/connections/assets/integrated/federated-data-sources.png)
+
+페더레이션 데이터베이스 유형을 선택한 후에는 새 연결을 만드는 경우 **[!UICONTROL 설정]**&#x200B;을 선택하고 기존 연결을 사용하는 경우 **[!UICONTROL 데이터 추가]**&#x200B;를 선택하십시오.
+
+계정 연결 페이지가 나타납니다. **기존** 계정을 사용하거나 **새** 계정을 만들 수 있습니다.
+
+### 기존 계정 {#existing-account}
+
+**[!UICONTROL 기존 계정]**&#x200B;을(를) 선택하면 이전에 만든 소스 연결 중 하나를 선택할 수 있습니다.
+
+![기존 계정 섹션의 예가 표시됩니다.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->PrivateLink 또는 VPN을 사용하여 보안 연결을 요청하려면 **Privacy and Security Shield 또는 Healthcare Shield에 라이선스를 부여해야**&#x200B;합니다.
+>개인 링크 또는 VPN을 사용하여 보안 연결을 요청하려면 **반드시**&#x200B;에 Privacy and Security Shield 또는 Healthcare Shield 라이선스가 있어야 합니다.
 
-연결 속성 팝오버가 나타납니다. 연결의 이름을 지정하고 생성할 데이터베이스 유형을 선택할 수 있습니다.
+### 새 계정 {#new-account}
 
-![연결된 데이터베이스 형식이 표시됩니다.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-유형을 선택하면 **[!UICONTROL 세부 정보]** 섹션이 나타납니다. 이 섹션은 이전에 선택한 데이터베이스 유형에 따라 다릅니다.
+**[!UICONTROL 새 계정]**&#x200B;을 선택하면 연결 세부 정보 페이지가 표시됩니다. 이 페이지에서는 계정 이름, 설명 및 계정 인증 세부 정보를 포함하여 연결에 대한 세부 정보를 설정할 수 있습니다. 계정 인증 섹션은 이전에 선택한 데이터베이스 유형에 따라 다릅니다.
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 >
 >Amazon Redshift AWS, Amazon Redshift Spectrum 및 Amazon Redshift Serverless만 지원됩니다.
 >
->또한 PrivateLink를 통해 외부 Amazon Redshift 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다.
+>또한 개인 링크를 통한 외부 Amazon Redshift 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다.
 
 Amazon Redshift를 선택한 후 다음 세부 사항을 추가할 수 있습니다.
 
@@ -146,52 +169,52 @@ Azure Synapse 연결 내에서 다음 구성 세부 사항을 설정합니다.
 | 데이터베이스 | 데이터베이스의 이름입니다. 서버 이름에 이 필드를 지정하면 이 필드를 비워 둘 수 있습니다. |
 | 옵션 | 연결에 대한 추가 옵션. 서비스 사용자 인증을 사용하려면 `Authentication="ActiveDirectoryServicePrincipal"`을(를) 설정해야 합니다. |
 
->[!TAB 데이터 블록]
+>[!TAB DataBricks]
 
 >[!NOTE]
 >
->PrivateLink를 통해 외부 Databricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 PrivateLink를 통해 Amazon Web Services(AWS)에 호스팅된 Databricks 데이터베이스 및 VPN을 통해 Microsoft Azure에 호스팅된 Databricks 데이터베이스에 대한 보안 연결이 포함됩니다. 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통해 외부 DataBricks 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. 여기에는 개인 링크를 통해 Amazon Web Services(AWS)에서 호스팅되는 DataBrick 데이터베이스와 VPN을 통해 Microsoft Azure에서 호스팅되는 DataBrick 데이터베이스에 대한 보안 연결이 포함됩니다. 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
-데이터 블록을 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
+DataBricks를 선택한 후 Federated Audience Composition과 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
 
-**계정/암호 인증**&#x200B;을 선택하면 다음 로그인 세부 정보를 추가할 수 있습니다.
-
-| 필드 | 설명 |
-| ----- | ----------- |
-| 서버 | Databricks 서버의 이름입니다. |
-| 암호 | Databricks 서버에 대한 액세스 토큰입니다. 이 값에 대한 자세한 내용은 개인 액세스 토큰에 대한 [Databricks 설명서](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}를 참조하십시오. |
-
-**서비스 사용자 인증**&#x200B;을 선택하면 다음 세부 정보를 추가할 수 있습니다.
+**[!UICONTROL 기본 인증]**&#x200B;을 선택하면 다음 로그인 세부 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
-| 서버 | Databricks 서버의 이름입니다. |
-| 클라이언트 ID | Databricks 서버의 클라이언트 ID. 이 필드는 프로젝트의 사용자 이름처럼 작동합니다. |
-| 클라이언트 암호 | Databricks 서버의 클라이언트 암호입니다. 이 필드는 프로젝트의 암호처럼 작동합니다. |
+| 서버 | DataBricks 서버의 이름입니다. |
+| 암호 | DataBricks 서버에 대한 액세스 토큰입니다. 이 값에 대한 자세한 내용은 개인 액세스 토큰에 대한 [DataBricks 설명서](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}를 참조하십시오. |
 
-**OAuth 2.0**&#x200B;을(를) 선택하는 경우 다음 세부 정보를 추가할 수 있습니다.
+**[!UICONTROL OAuth2 인증 코드]**&#x200B;을(를) 선택하는 경우 다음 세부 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
-| 서버 | Databricks 서버의 이름입니다. |
-| 클라이언트 ID | Databricks 서버의 클라이언트 ID. 이 필드는 OAuth 2.0 인증 중에 애플리케이션을 식별하는 데 사용되며 프로젝트의 사용자 이름처럼 작동합니다. |
-| 클라이언트 암호 | Databricks 서버의 클라이언트 암호입니다. 이 기밀 자격 증명은 클라이언트 ID와 함께 발급되며 프로젝트의 암호처럼 작동합니다. |
-| 액세스 범위 | OAuth 토큰이 Databricks 서버 내에서 승인된 범위를 나열하는 미리 채워진 정보입니다. |
+| 서버 | DataBricks 서버의 이름입니다. |
+| 클라이언트 ID | DataBricks 서버의 클라이언트 ID입니다. 이 필드는 OAuth 2.0 인증 중에 애플리케이션을 식별하는 데 사용되며 프로젝트의 사용자 이름처럼 작동합니다. |
+| 클라이언트 암호 | DataBricks 서버의 클라이언트 암호입니다. 이 기밀 자격 증명은 클라이언트 ID와 함께 발급되며 프로젝트의 암호처럼 작동합니다. |
+| 액세스 범위 | DataBricks 서버 내에서 OAuth 토큰이 승인된 범위를 나열하는 미리 채워진 정보입니다. |
+
+**[!UICONTROL 서비스 사용자 인증]**&#x200B;을 선택하면 다음 세부 정보를 추가할 수 있습니다.
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| 서버 | DataBricks 서버의 이름입니다. |
+| 클라이언트 ID | DataBricks 서버의 클라이언트 ID입니다. 이 필드는 프로젝트의 사용자 이름처럼 작동합니다. |
+| 클라이언트 암호 | DataBricks 서버의 클라이언트 암호입니다. 이 필드는 프로젝트의 암호처럼 작동합니다. |
 
 로그인 세부 정보를 입력한 후 다음 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
-| HTTP 경로 | 클러스터 또는 웨어하우스에 대한 경로입니다. 경로에 대한 자세한 내용은 연결 세부 정보에 대한 [Databricks 설명서](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}를 참조하십시오. |
-| 카탈로그 | Databricks 카탈로그의 이름입니다. 데이터 블록의 카탈로그에 대한 자세한 내용은 카탈로그의 [데이터 블록 설명서](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}를 참조하십시오. |
+| HTTP 경로 | 클러스터 또는 웨어하우스에 대한 경로입니다. 경로에 대한 자세한 내용은 연결 세부 정보에 대한 [DataBricks 설명서](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}를 참조하십시오. |
+| 카탈로그 | DataBricks 카탈로그의 이름입니다. DataBricks의 카탈로그에 대한 자세한 내용은 카탈로그에 대한 [DataBricks 설명서를 참조하십시오](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. <br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스에서 **any** 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
-데이터 블록의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
+DataBricks의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
 
 | 옵션 | 설명 |
 | ------- | ----------- |
-| TimeZoneName | 사용할 표준 시간대의 이름입니다. 이 값은 `TIMEZONE` 세션 매개 변수를 나타냅니다. 시간대에 대한 자세한 내용은 [시간대에 대한 Databricks 설명서](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20입니다.){target="_blank"}를 참조하십시오. |
+| TimeZoneName | 사용할 표준 시간대의 이름입니다. 이 값은 `TIMEZONE` 세션 매개 변수를 나타냅니다. 시간대에 대한 자세한 내용은 시간대에 대한 [DataBricks 설명서](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20입니다.){target="_blank"}를 참조하십시오. |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Azure Synapse 연결 내에서 다음 구성 세부 사항을 설정합니다.
 
 Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
 
-**[!UICONTROL 계정/암호 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
+**[!UICONTROL 기본 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
 | 서비스 계정 | 서비스 계정의 이메일 주소입니다. 자세한 내용은 [Google Cloud Service 계정 설명서](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}를 참조하십시오. |
 
-**[!UICONTROL OAuth 2.0]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
+**[!UICONTROL OAuth2 인증 코드]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;키 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;구성 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -229,9 +252,9 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 | ----- | ----------- |
 | 프로젝트 | 프로젝트의 ID입니다. 자세한 내용은 [Google Cloud 프로젝트 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}를 참조하십시오. |
 | 데이터 세트 | 데이터 세트의 이름입니다. 자세한 내용은 [Google Cloud 데이터 세트 설명서](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}를 참조하십시오. |
-| 키 파일 경로 | 서버에 대한 키 파일입니다. `json`개의 파일만 지원됩니다. |
+| 구성 파일 경로 | 서버에 대한 구성 파일입니다. `json`개의 파일만 지원됩니다. |
 | Google 버킷 위치 | Google 버킷의 위치입니다. 컴포지션에서 **차원 변경** 활동을 사용하는 경우에만 이 필드를 추가해야 합니다. 자세한 내용은 [Google Cloud 버킷 위치 설명서](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}를 참조하십시오. |
-| REST API 커넥터 사용 | REST API 커넥터를 사용할 수 있도록 하는 토글. 이 옵션은 계정/암호 인증을 사용하는 경우에만 **사용할 수 있습니다**. |
+| REST API 커넥터 사용 | REST API 커넥터를 사용할 수 있도록 하는 토글. 이 옵션은 기본 인증을 사용하는 경우 **전용**&#x200B;입니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Google BigQuery의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -283,11 +306,11 @@ Oracle을 선택한 후 다음 세부 정보를 추가할 수 있습니다.
 
 >[!NOTE]
 >
->PrivateLink를 통해 외부 Snowflake 데이터 웨어하우스에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
+>비공개 링크를 통한 외부 Snowflake Data Warehouse에 대한 보안 액세스가 지원됩니다. Snowflake 계정은 AWS(Amazon Web Services) 또는 Azure에서 호스팅되어야 하고 페더레이션된 대상자 구성 환경과 동일한 지역에 있어야 합니다. Snowflake 계정에 대한 보안 액세스를 설정하는 데 도움이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
 Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사용할 인증 방법을 선택할 수 있습니다.
 
-**[!UICONTROL 계정/암호 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
+**[!UICONTROL 기본 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | 사용자 | 계정의 사용자 이름입니다. |
 | 암호 | 계정 암호입니다. |
 
-또는 암호를 제공하는 대신 개인 키를 제공할 수도 있습니다. 개인 키를 추가하는 경우 다음 정보를 제공해야 합니다.
+**[!UICONTROL 키 쌍 인증]**&#x200B;을 선택하면 다음 로그인 정보를 추가할 수 있습니다.
 
 | 필드 | 설명 |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | 비공개 키 | 계정의 개인 키. `.pem`개의 파일만 지원됩니다. |
 | 암호 | (선택 사항) 계정 암호입니다. |
 
-**[!UICONTROL OAuth 2.0]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
+**[!UICONTROL OAuth2 인증 코드]**&#x200B;을(를) 선택하는 경우 다음 로그인 정보를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | ----- | ----------- |
 | 데이터베이스 | 데이터베이스의 이름입니다. 서버 이름에 이 필드를 지정하면 이 필드를 비워 둘 수 있습니다. |
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. <br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스에서 **any** 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
-| 비공개 키 | 데이터베이스 연결을 위한 개인 키입니다. 로컬 시스템에서 `.pem` 파일을 업로드할 수 있습니다. |
+| 비공개 키 | Snowflake 계정의 Base64로 인코딩된 개인 키. 암호화되거나 암호화되지 않은 개인 키를 생성할 수 있습니다. 암호화된 개인 키를 사용하는 경우 Experience Platform에 대해 인증할 때 개인 키 암호도 제공해야 합니다. 자세한 내용은 [Snowflake 개인 키 검색](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)에 대한 안내서를 참조하십시오. |
+| 비공개 키 암호문구 | 개인 키 암호는 암호화된 개인 키로 인증할 때 사용해야 하는 추가 보안 계층입니다. 암호화되지 않은 개인 키를 사용하는 경우에는 암호를 제공할 필요가 없습니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Snowflake의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -395,7 +419,39 @@ Vertica Analytics의 경우 다음과 같은 추가 옵션을 설정할 수 있�
 | 서버 IP | 데이터베이스에 연결하기 위해 허용 목록에추가된으로 제공되어야 하는 IP 주소를 표시하는 팝오버입니다. |
 | 연결 테스트 | 구성 세부 사항을 확인할 수 있습니다. |
 
-이제 **[!UICONTROL 함수 배포]**&#x200B;를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 선택하여 페더레이션 데이터베이스와 Experience Platform 간의 연결을 완료할 수 있습니다.
+이제 **[!UICONTROL 원본에 연결]**&#x200B;을 선택하여 데이터베이스 연결에 대한 스키마 세부 정보를 설정할 수 있습니다.
+
+## 스키마 선택 {#schema-selection}
+
+**[!UICONTROL 스키마 선택]** 페이지가 나타납니다. 이 페이지에서는 통합 데이터베이스 연결에 대한 스키마를 정의할 수 있습니다.
+
+![데이터 추가 화면에서 테이블 추가 단추가 강조 표시됩니다.](/help/data-modelling/assets/integrated/select-add-table.png)
+
+스키마 세부 정보 설정에 대한 자세한 내용은 [스키마 안내서](/help/data-modelling/schemas-integrated.md)를 참조하십시오.
+
+스키마를 선택한 후 계속하려면 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오.
+
+## 검토 {#review}
+
+**[!UICONTROL 검토]** 페이지가 나타납니다. 이 페이지에서는 통합 데이터베이스 연결의 세부 정보를 검토할 수 있습니다. 세부 정보가 올바른 경우 **[!UICONTROL 완료]**&#x200B;를 선택하여 연결을 만드십시오.
+
+![검토 페이지가 표시됩니다. 이 페이지에는 연결 세부 정보 및 스키마 정보가 표시됩니다.](/help/connections/assets/integrated/review.png)
+
+연결이 만들어집니다. **[!UICONTROL 스키마 보기]** 또는 **[!UICONTROL 관계 만들기]**&#x200B;를 묻는 팝업이 나타납니다. **[!UICONTROL 스키마 보기]**&#x200B;를 선택하면 [스키마 찾아보기](/help/data-modelling/schemas-integrated.md#edit-a-schema) 페이지가 나타납니다. **[!UICONTROL 관계 만들기]**&#x200B;를 선택하면 [엔터티 다이어그램](/help/data-modelling/schemas-integrated.md#edit-relationships) 페이지가 나타납니다.
+
+## 연결 편집 {#edit-connection}
+
+소스 연결에 대한 로그인 세부 정보를 편집해야 하는 경우 **[!UICONTROL 소스]**, **[!UICONTROL 계정]**&#x200B;을 차례로 선택하십시오.
+
+![계정 단추가 강조 표시되어 원본 계정 찾아보기 페이지를 표시합니다.](/help/connections/assets/integrated/select-accounts.png)
+
+소스 커넥터 찾아보기 페이지가 나타납니다. 업데이트할 원본 커넥터를 찾은 다음 ![세 점](/help/assets/icons/more.png)을 선택한 다음 **[!UICONTROL 세부 정보 편집]**&#x200B;을 선택합니다.
+
+![세부 정보 편집 단추가 강조 표시됩니다.](/help/connections/assets/integrated/select-edit-details.png)
+
+**[!UICONTROL 계정 세부 정보 편집]** 팝오버가 나타납니다. 이 팝오버에서는 통합 데이터베이스 소스 연결의 세부 정보를 업데이트할 수 있습니다.
+
+![계정 세부 정보 편집 팝오버가 표시됩니다.](/help/connections/assets/integrated/edit-account-details.png)
 
 ## 부록 {#appendix}
 

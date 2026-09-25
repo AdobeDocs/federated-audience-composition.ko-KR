@@ -2,13 +2,11 @@
 user-guide-title: Experience Platform 페더레이션된 대상자 컴포지션
 title: Experience Platform 페더레이션된 대상자 컴포지션 설명서
 breadcrumb-title: Experience Platform 페더레이션된 대상자 컴포지션
-source-git-commit: e114b7cce6f9add45e82aa4e485b358bc3f85321
+source-git-commit: aafa842b00c7c283953badf68171c151558ece5e
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 95%
-
+source-wordcount: '128'
+ht-degree: 87%
 ---
-
 
 # Experience Platform 페더레이션된 대상자 컴포지션 설명서 {#using}
 
@@ -23,12 +21,14 @@ ht-degree: 95%
   - [액세스 제어](governance-privacy-security/access-control.md)
 - 연결 {#connections}
   - [연결 개요](connections/home.md)
+  - [새로운 기능 - Experience Platform의 Source 연결](connections/integrated.md)
   - [데이터 액세스 권한 매트릭스](connections/fda-rights.md)
   - [외부 데이터로 Adobe Experience Platform 대상자 강화](connections/destinations.md)
   - [다중 엔티티 타기팅](connections/multi-entity-targeting.md)
   - [비공개 연결](connections/private-connection.md)
 - 데이터 모델 및 스키마 {#models}
   - [스키마 개요](data-modelling/schemas.md)
+  - [새로운 기능 - Experience Platform의 스키마](data-modelling/schemas-integrated.md)
   - [데이터 모델 개요](data-modelling/models.md)
 - 컴포지션 {#compositions}
   - [컴포지션 개요](compositions/home.md)
