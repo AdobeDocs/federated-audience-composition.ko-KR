@@ -347,7 +347,7 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | ----- | ----------- |
 | 데이터베이스 | 데이터베이스의 이름입니다. 서버 이름에 이 필드를 지정하면 이 필드를 비워 둘 수 있습니다. |
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. <br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스에서 **any** 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
-| 비공개 키 | Snowflake 계정의 Base64로 인코딩된 개인 키. 암호화되거나 암호화되지 않은 개인 키를 생성할 수 있습니다. 암호화된 개인 키를 사용하는 경우 Experience Platform에 대해 인증할 때 개인 키 암호도 제공해야 합니다. 자세한 내용은 [Snowflake 개인 키 검색](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)에 대한 안내서를 참조하십시오. |
+| 비공개 키 | Snowflake 계정의 Base64로 인코딩된 개인 키. 암호화되거나 암호화되지 않은 개인 키를 생성할 수 있습니다. 암호화된 개인 키를 사용하는 경우 Experience Platform에 대해 인증할 때 개인 키 암호도 제공해야 합니다. 자세한 내용은 [Snowflake 개인 키 검색](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)에 대한 안내서를 참조하십시오. |
 | 비공개 키 암호문구 | 개인 키 암호는 암호화된 개인 키로 인증할 때 사용해야 하는 추가 보안 계층입니다. 암호화되지 않은 개인 키를 사용하는 경우에는 암호를 제공할 필요가 없습니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
