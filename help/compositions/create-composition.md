@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 19%
-
 ---
-
 # 컴포지션 만들기
 
 페더레이션된 대상자 컴포지션을 사용하면 다양한 활동을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 컴포지션을 만들 수 있습니다. 컴포지션을 만든 후 결과 대상자는 Adobe Experience Platform에 저장되며, 이를 Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타기팅할 수 있습니다.
@@ -78,11 +77,11 @@ Select **[!UICONTROL Create]**. 컴포지션 캔버스가 표시됩니다. 이�
 
   **[!UICONTROL 속성]** 섹션에서 활동 실행과 관련된 일반 설정을 구성할 수 있습니다.
 
-   * **[!UICONTROL 실행]**: 작업이 시작될 때 수행할 작업을 정의합니다.
-   * **[!UICONTROL 최대 실행 기간]**: &quot;30s&quot; 또는 &quot;1h&quot;와 같은 기간을 지정하십시오. 지정된 기간이 경과한 후 활동이 완료되지 않으면 경고가 트리거됩니다. 이는 컴포지션의 작동 방식에는 영향을 주지 않습니다.
-   * **[!UICONTROL 시간대]**: 활동의 시간대를 선택합니다. Federated Audience Composition을 사용하면 동일한 인스턴스에서 여러 국가 간의 시간 차이를 관리할 수 있습니다. 적용된 설정은 인스턴스가 생성될 때 구성됩니다.
-   * **[!UICONTROL 선호도]**: 컴퍼지션 활동을 특정 컴퓨터에서 강제로 실행합니다. 이렇게 하려면 해당 활동에 대한 관심도를 하나 또는 여러 개 지정해야 합니다.
-   * **[!UICONTROL 동작]**: 비동기 작업이 사용되는 경우 따라야 할 프로시저를 정의합니다.
+  * **[!UICONTROL 실행]**: 작업이 시작될 때 수행할 작업을 정의합니다.
+  * **[!UICONTROL 최대 실행 기간]**: &quot;30s&quot; 또는 &quot;1h&quot;와 같은 기간을 지정하십시오. 지정된 기간이 경과한 후 활동이 완료되지 않으면 경고가 트리거됩니다. 이는 컴포지션의 작동 방식에는 영향을 주지 않습니다.
+  * **[!UICONTROL 시간대]**: 활동의 시간대를 선택합니다. Federated Audience Composition을 사용하면 동일한 인스턴스에서 여러 국가 간의 시간 차이를 관리할 수 있습니다. 적용된 설정은 인스턴스가 생성될 때 구성됩니다.
+  * **[!UICONTROL 선호도]**: 컴퍼지션 활동을 특정 컴퓨터에서 강제로 실행합니다. 이렇게 하려면 해당 활동에 대한 관심도를 하나 또는 여러 개 지정해야 합니다.
+  * **[!UICONTROL 동작]**: 비동기 작업이 사용되는 경우 따라야 할 프로시저를 정의합니다.
 
   **[!UICONTROL 오류 관리]** 섹션에서 활동에 오류가 발생할 경우 수행할 작업을 지정할 수 있습니다.
 
