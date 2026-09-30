@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # 스키마 개요 {#schemas}
 
@@ -69,7 +69,7 @@ Federated Audience Composition에서 스키마를 만들려면 Experience Platfo
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="복합 키"
->abstract="여러 스키마 열로 구성된 스키마 키. 복합 키로 사용할 열을 표시합니다."
+>abstract="여러 스키마 열로 구성된 스키마 키입니다. 복합 키로 사용할 열을 표시합니다."
 
 이제 통합 데이터베이스를 선택한 후 스키마를 정의할 수 있습니다. **[!UICONTROL 데이터 추가]** 화면이 나타납니다. 이 페이지에서 **[!UICONTROL 테이블 추가]**&#x200B;를 선택하여 스키마에 추가할 테이블을 선택할 수 있습니다.
 

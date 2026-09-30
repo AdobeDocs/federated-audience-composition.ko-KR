@@ -67,7 +67,7 @@ Experience Platform Federated Audience Composition을 사용하면 서드파티 
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="서버 IP"
->abstract="데이터베이스에 연결하기 위해 허용 목록에추가된으로 유지해야 하는 IP 주소입니다."
+>abstract="데이터베이스에 연결하기 위해 허용 목록에 추가된 상태로 유지해야 하는 IP 주소입니다."
 
 연결을 만들려면 **[!UICONTROL 연결]** 섹션에서 **[!UICONTROL 원본]**&#x200B;을(를) 선택하십시오.
 
