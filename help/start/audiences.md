@@ -6,13 +6,12 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 326
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
-
 ---
-
 # 대상자를 사용한 작업 {#gs-audiences}
 
 Experience Platform 페더레이션된 대상자 컴포지션을 사용하면 다양한 활동을 시각적 캔버스로 활용하여 대상자를 생성하고 이를 Adobe Experience Platform 대상자 포털에 저장할 수 있는 [컴포지션을 만들 수 있습니다](../compositions/home.md).

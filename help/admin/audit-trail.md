@@ -6,17 +6,19 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 TQID: https://experienceleague.adobe.com/5NHFZk5acjL5Ix-MlqSYzjKzgvpEcVsK3YoX73dq040
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '371'
 ht-degree: 15%
-
 ---
-
 # 감사 추적 {#audit-trail}
 
 >[!AVAILABILITY]
@@ -42,14 +44,14 @@ ht-degree: 15%
 
 * **워크플로우 감사 추적**&#x200B;을 통해 다음과 같은 현재 상태를 포함하여 워크플로우에 대한 활동 및 최근 변경 사항을 추적할 수 있습니다.
 
-   * 시작
-   * 일시 정지
-   * 정지
-   * 다시 시작
-   * 정리 - 작업 삭제 내역에 해당합니다.
-   * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
-   * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
-   * 무조건 정지
+  * 시작
+  * 일시 정지
+  * 정지
+  * 다시 시작
+  * 정리 - 작업 삭제 내역에 해당합니다.
+  * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
+  * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
+  * 무조건 정지
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../compositions/home.md)를 참조하세요.
 

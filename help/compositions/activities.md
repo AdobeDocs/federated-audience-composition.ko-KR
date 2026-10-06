@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 37%
-
 ---
-
 # 활동 개요
 
 Federated Audience Composition에서 대상을 정의하는 데 도움이 되는 활동과 전환을 추가할 수 있습니다.
@@ -128,7 +127,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="세분화 유형 선택"
->abstract="통합, 교차 또는 제외 등 대상자를 결합하는 방법을 선택합니다."
+>abstract="합집합, 교집합 또는 제외 등 대상자를 결합하는 방법을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -262,7 +261,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="보강 활동"
->abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 컴포지션에서 사용됩니다."
+>abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 세분화 활동 후 컴포지션에서 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -325,7 +324,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="스키마"
->abstract="데이터에 적용할 새 스키마를 선택하십시오. 스키마(즉, 타기팅 차원)을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 스키마가 선택되어 있습니다."
+>abstract="데이터에 적용할 새 스키마를 선택하십시오. 스키마(즉, 타기팅 차원)을 사용하여 대상 집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 컴포지션 현재 스키마가 선택되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -335,7 +334,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
->abstract="스키마(즉, 타기팅 차원)를 선택하고 조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
+>abstract="조정할 인바운드 데이터의 스키마(즉, 타기팅 차원)를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -386,7 +385,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 컴포지션에서 업스트림으로 계산한 모집단에서 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 컴포지션에서 업스트림으로 계산한 집단에서 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -466,7 +465,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="기본 ID 필드"
->abstract="기본 ID 필드는 프로필을 병합하여 보강할 때 진실의 소스를 나타냅니다."
+>abstract="기본 ID 필드는 보강을 위해 프로필을 병합할 때 기준이 되는 소스를 나타냅니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
@@ -516,7 +515,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 >[!IMPORTANT]
 >
->선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
+>선택한 데이터 집합에 업데이트를 사용하도록 **설정하지 않은**&#x200B;경우 데이터는 **대체**&#x200B;됩니다. 데이터 세트에 대한 업데이트를 활성화하는 방법에 대해 알아보려면 [업데이트 사용 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)를 읽어 보십시오.
 
 **[!UICONTROL 필드 저장]** 활동을 컴포지션에 추가한 후 활동에 레이블을 지정하고 사용할 Adobe Experience Platform 스키마를 선택할 수 있습니다. 스키마는 표준 스키마 또는 관계형 스키마일 수 있습니다.
 
@@ -588,7 +587,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="분할 활동 정렬"
->abstract="하위 집합에 대해 집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 정렬 활성화 옵션을 토글합니다. 이렇게 하려면 **정렬 활성화** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다."
+>abstract="하위 집합에 대해 집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 순위를 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **정렬 활성화** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
@@ -598,7 +597,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
->abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글합니다."
+>abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 켭니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_emptytransition"

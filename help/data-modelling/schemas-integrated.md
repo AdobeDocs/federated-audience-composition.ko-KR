@@ -5,7 +5,7 @@ description: Adobe Experience Platform UI 내에서 Federated Audience Compositi
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -13,7 +13,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 6%
@@ -99,7 +99,7 @@ Federated Audience Composition에서 스키마를 만들려면 Experience Platfo
 
 ![스키마 편집 단추가 강조 표시되어 있습니다.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-**[!UICONTROL 스키마 편집]** 창에 스키마 편집기가 표시됩니다. 스키마 편집기 사용에 대한 자세한 내용은 [스키마 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)를 참조하십시오.
+**[!UICONTROL 스키마 편집]** 창에 스키마 편집기가 표시됩니다. 스키마 편집기 사용에 대한 자세한 내용은 [스키마 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)를 참조하십시오.
 
 ![스키마 편집기가 표시됩니다.](/help/data-modelling/assets/integrated/schema-editor.png)
 

@@ -6,16 +6,17 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: '774'
 ht-degree: 5%
-
 ---
-
 # 외부 데이터로 Adobe Experience Platform 대상자 강화 {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +45,7 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 
 **[!UICONTROL 경고]** 섹션에서 경고를 활성화하여 대상에 대한 데이터 흐름 상태에 대한 알림을 받을 수 있습니다. 여기에는 데이터 흐름 실행 지연, 실행 실패, 실행 성공, 실행 시작 및 활성화 건너뛰기에 대한 경고가 포함됩니다.
 
-경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고를 구독](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/alerts){target="_blank"}하는 방법에 대한 Adobe Experience Platform 설명서를 참조하십시오.
+경고에 대한 자세한 내용은 [UI를 사용하여 대상 경고를 구독](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}하는 방법에 대한 Adobe Experience Platform 설명서를 참조하십시오.
 
 ![대상에 사용 가능한 경고가 표시됩니다.](assets/destinations/alerts.png)
 
@@ -70,8 +71,8 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 >
 >예약 및 파일 이름을 구성하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서의 다음 섹션을 참조하십시오.
 >
->* [대상자 내보내기 예약](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [파일 이름 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [대상자 내보내기 예약](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [파일 이름 구성](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 **[!UICONTROL 매핑]** 단계에서 대상자를 위해 내보낼 특성 및 ID 필드를 선택합니다.
 
@@ -79,7 +80,7 @@ Adobe Experience Platform 대상 카탈로그 내에서 Federated Audience Compo
 >
 >대상에 대해 활성화할 때 시스템에서 생성한 열을 사용할 수 **없습니다**. 시스템 생성 열을 선택하면 오류가 발생합니다.
 
-자세한 내용은 Adobe Experience Platform 설명서의 [매핑 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}을 참조하십시오.
+자세한 내용은 Adobe Experience Platform 설명서의 [매핑 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}을 참조하십시오.
 
 ![매핑 특성 페이지가 표시됩니다.](assets/destinations/attributes.png)
 

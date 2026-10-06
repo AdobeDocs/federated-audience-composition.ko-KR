@@ -5,15 +5,15 @@ exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Data management
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 94%
-
 ---
-
 # 페더레이션된 대상자 컴포지션 설명서 {#fac-home}
 
 Adobe Experience Platform 페더레이션된 대상자 컴포지션 설명서에 오신 것을 환영합니다.
@@ -30,7 +30,7 @@ Experience Platform 페더레이션된 대상자 컴포지션은 Adobe Real-Time
 
 >[!TAB 데이터 연결]
 
-외부 데이터베이스에 대한 연결을 만들기, 구성, 테스트 및 저장합니다.
+외부 데이터베이스에 대한 연결을 만들고, 구성하고, 테스트하고, 저장합니다.
 
 [![이미지](assets/learn-more-button.svg)](connections/home.md)
 

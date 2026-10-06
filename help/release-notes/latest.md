@@ -5,13 +5,12 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: '825'
 ht-degree: 11%
-
 ---
-
 # 릴리스 정보
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
@@ -30,7 +29,7 @@ Federated Audience Composition의 7월 릴리스는 다음 기능을 지원합�
 
 - **여정 시뮬레이션에서 Federated Audience Composition 대상 지원**
 
-  이제 여정 시뮬레이션을 사용하여 시뮬레이션된 사용자로 게시하기 전에 Federated Audience Composition 대상으로 만든 여정을 테스트할 수 있습니다. 자세한 내용은 [여정 시뮬레이션 시작 안내서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)를 참조하십시오.
+  이제 여정 시뮬레이션을 사용하여 시뮬레이션된 사용자로 게시하기 전에 Federated Audience Composition 대상으로 만든 여정을 테스트할 수 있습니다. 자세한 내용은 [여정 시뮬레이션 시작 안내서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)를 참조하십시오.
 
 ## 2026년 6월 릴리스 {#fac-26-06}
 
@@ -118,7 +117,7 @@ Federated Audience Composition에 대한 1월 릴리스는 다음과 같은 새�
 
 | Amazon Web Services(AWS)에서 Adobe Experience Platform 고객을 위한 가용성 |
 | --- |
-| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
+| 이제 Experience Platform 인스턴스가 AWS에 있는 경우 Federated Audience Composition을 사용할 수 있습니다. AWS의 Experience Platform에 대한 자세한 내용은 [멀티 클라우드 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)를 참조하십시오. |
 
 ### 개선 사항 {#fac-26-01-improvements}
 

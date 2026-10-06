@@ -5,7 +5,7 @@ description: Experience Platform UI 내에서 Federated 데이터베이스와의
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '4385'
 ht-degree: 7%
@@ -131,7 +131,7 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 또는 서비스 주체 인증을 사용하여 Azure Synapse Analytics 연결을 안전하게 구성할 수 있습니다. 프로덕션 등급 통합과 자동화 시나리오에 서비스 주체 인증을 사용해야 합니다.
 
-+++ 사전 요구 사항
++++ 전제 조건
 
 서비스 주체 인증을 설정하기 전에 다음 사전 요구 사항을 알아 두십시오.
 
@@ -244,7 +244,7 @@ Google BigQuery를 선택한 후 Federated Audience Composition에 연결할 때
 
 인증을 완료하려면 **[!UICONTROL 로그인]**&#x200B;을 선택하세요.
 
-**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**&#x200B;[!UICONTROL &#x200B;구성 파일 경로&#x200B;]&#x200B;**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
+**[!UICONTROL WIF]**&#x200B;을(를) 선택하는 경우 **not**&#x200B;은(는) 로그인 정보를 제공해야 합니다. 그러나 **클라이언트 라이브러리 구성을**[!UICONTROL &#x200B;구성 파일 경로&#x200B;]**(으)로 추가해야**&#x200B;합니다. 클라이언트 라이브러리 구성에 대한 자세한 내용은 [Google BigQuery(Workload Identity Federation) 구성 섹션](#wif-configuration)을 참조하십시오.
 
 로그인 세부 정보를 입력한 후 다음 세부 정보를 추가할 수 있습니다.
 
@@ -279,7 +279,7 @@ Microsoft Fabric 을 선택한 후 다음 세부 사항을 추가할 수 있습�
 | ----- | ----------- |
 | 서버 | Microsoft 패브릭 서버의 URL입니다. |
 | 애플리케이션 ID | Microsoft Fabric에 대한 애플리케이션 ID. 응용 프로그램 ID에 대한 자세한 내용은 응용 프로그램 설정의 [Microsoft Fabric 설명서](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}를 참조하십시오. |
-| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 Microsoft Fabric 설명서를 참조하십시오. |
+| 클라이언트 암호 | 애플리케이션의 클라이언트 암호입니다. 클라이언트 암호에 대한 자세한 내용은 응용 프로그램 설치](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}의 [Microsoft Fabric 설명서를 참조하십시오. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
 Microsoft Fabric의 경우 다음과 같은 추가 옵션을 설정할 수 있습니다.
@@ -347,7 +347,7 @@ Snowflake을 선택한 후 Federated Audience Composition에 연결할 때 사�
 | ----- | ----------- |
 | 데이터베이스 | 데이터베이스의 이름입니다. 서버 이름에 이 필드를 지정하면 이 필드를 비워 둘 수 있습니다. |
 | 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마의 이름입니다. <br/><br/>**참고:** 이 스키마에 연결하는 데 필요한 권한이 있으면 임시 데이터 처리에 사용되는 스키마를 포함하여 데이터베이스에서 **any** 스키마를 사용할 수 있습니다. 그러나 **반드시**&#x200B;은(는) 동일한 데이터베이스를 사용하여 여러 샌드박스를 연결할 때 고유한 작업 스키마를 사용합니다. |
-| 비공개 키 | Snowflake 계정의 Base64로 인코딩된 개인 키. 암호화되거나 암호화되지 않은 개인 키를 생성할 수 있습니다. 암호화된 개인 키를 사용하는 경우 Experience Platform에 대해 인증할 때 개인 키 암호도 제공해야 합니다. 자세한 내용은 [Snowflake 개인 키 검색](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/databases/snowflake)에 대한 안내서를 참조하십시오. |
+| 비공개 키 | Snowflake 계정의 Base64로 인코딩된 개인 키. 암호화되거나 암호화되지 않은 개인 키를 생성할 수 있습니다. 암호화된 개인 키를 사용하는 경우 Experience Platform에 대해 인증할 때 개인 키 암호도 제공해야 합니다. 자세한 내용은 [Snowflake 개인 키 검색](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)에 대한 안내서를 참조하십시오. |
 | 비공개 키 암호문구 | 개인 키 암호는 암호화된 개인 키로 인증할 때 사용해야 하는 추가 보안 계층입니다. 암호화되지 않은 개인 키를 사용하는 경우에는 암호를 제공할 필요가 없습니다. |
 | 옵션 | 연결에 대한 추가 옵션. 다음 표에는 사용 가능한 옵션이 나열되어 있습니다. |
 
@@ -504,7 +504,7 @@ Google Cloud의 기본 API 관리 플랫폼인 [!DNL Apigee]을(를) 사용하�
 
 ![Apigee 프록시 만들기 화면이 표시됩니다.](/help/connections/assets/home/create-proxy-apigee.png)
 
-| 세부 사항 | 설명 |
+| 세부 정보 | 설명 |
 | ------- | ----------- |
 | 프록시 템플릿 | 만들려는 프록시 유형입니다. 이 사용 사례의 경우 **역방향 프록시(가장 일반적)**&#x200B;을(를) 선택해야 합니다. |
 | 프록시 이름 | 프록시의 이름입니다. 이 값은 **only**&#x200B;에 영숫자, 대시(`-`) 또는 밑줄(`_`)을 포함할 수 있습니다. |
