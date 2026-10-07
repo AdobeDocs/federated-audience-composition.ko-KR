@@ -5,7 +5,7 @@ description: Experience Platform UI 내에서 Federated 데이터베이스와의
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '4385'
 ht-degree: 7%
@@ -131,7 +131,7 @@ Azure Synapse Analytics를 선택한 후 다음 세부 정보를 추가할 수 �
 
 또는 서비스 주체 인증을 사용하여 Azure Synapse Analytics 연결을 안전하게 구성할 수 있습니다. 프로덕션 등급 통합과 자동화 시나리오에 서비스 주체 인증을 사용해야 합니다.
 
-+++ 사전 요구 사항
++++ 전제 조건
 
 서비스 주체 인증을 설정하기 전에 다음 사전 요구 사항을 알아 두십시오.
 
@@ -504,7 +504,7 @@ Google Cloud의 기본 API 관리 플랫폼인 [!DNL Apigee]을(를) 사용하�
 
 ![Apigee 프록시 만들기 화면이 표시됩니다.](/help/connections/assets/home/create-proxy-apigee.png)
 
-| 세부 사항 | 설명 |
+| 세부 정보 | 설명 |
 | ------- | ----------- |
 | 프록시 템플릿 | 만들려는 프록시 유형입니다. 이 사용 사례의 경우 **역방향 프록시(가장 일반적)**&#x200B;을(를) 선택해야 합니다. |
 | 프록시 이름 | 프록시의 이름입니다. 이 값은 **only**&#x200B;에 영숫자, 대시(`-`) 또는 밑줄(`_`)을 포함할 수 있습니다. |

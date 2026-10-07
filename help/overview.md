@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # 페더레이션된 대상자 컴포지션 개요
 
 Federated Audience Composition을 사용하면 서드파티 데이터 웨어하우스에서 대상을 구축 및 강화하고 해당 대상을 Adobe Experience Platform으로 가져올 수 있습니다. 이 솔루션은 Adobe Real-Time Customer Data Platform 또는 Adobe Journey Optimizer과 같은 다운스트림 서비스 내에서 직접 엔터프라이즈 데이터 웨어하우스를 연결하고 데이터 웨어하우스 테이블에서 쿼리를 수행하는 간단하고 강력한 솔루션입니다. 따라서 데이터 웨어하우스와 Amazon Redshift 및 Azure Synapse Analytics와 같은 클라우드 스토리지 플랫폼에 저장된 고객 데이터에 액세스할 수 있습니다.
@@ -41,13 +45,13 @@ Federated Audience Composition을 사용하면 서드파티 데이터 웨어하�
 페더레이션된 대상자 컴포지션은 대상자 생성, 대상자 보강, 고객 프로필 보강의 **세 가지** 사용 사례를 지원합니다.
 
 * **대상 만들기**: 데이터 웨어하우스에서 대상을 만들고 마케팅 담당자의 친숙한 드래그 앤 드롭 사용자 인터페이스를 통해 Real-Time CDP 또는 Journey Optimizer에서 사용할 수 있도록 해당 대상을 Experience Platform에 연결할 수 있습니다. 결과적으로, 민감한 기본 데이터를 복사하거나 기존 데이터를 복제하지 않고도 데이터 웨어하우스를 쿼리할 수 있습니다.
-   * **예:** 웨어하우스의 과거 트랜잭션 데이터를 사용하여 높은 가치의 과거 구매자로 구성된 대상자를 생성하지만 해당 트랜잭션을 Experience Platform에 복사하지 않습니다.
+  * **예:** 웨어하우스의 과거 트랜잭션 데이터를 사용하여 높은 가치의 과거 구매자로 구성된 대상자를 생성하지만 해당 트랜잭션을 Experience Platform에 복사하지 않습니다.
 
 * **대상 강화**: 기본 데이터를 Experience Platform에 복사하지 않고 데이터 웨어하우스의 추가 데이터 세트를 사용하고 이 정보로 대상을 오버레이하여 Experience Platform의 기존 대상에 더 자세한 정보를 추가할 수 있습니다. 대상자 보강을 통해 강화된 대상자에게 더 나은 개인화 경험을 제공할 수 있습니다.
-   * **예:** 장바구니를 포기한 사용자로 구성된 Experience Platform 대상자를 높은 가치의 과거 구매자로 구성된 페더레이션된 대상자 컴포지션 대상자로 보강하여 타기팅된 오퍼를 제공합니다.
+  * **예:** 장바구니를 포기한 사용자로 구성된 Experience Platform 대상자를 높은 가치의 과거 구매자로 구성된 페더레이션된 대상자 컴포지션 대상자로 보강하여 타기팅된 오퍼를 제공합니다.
 
 * **프로필 보강**: 데이터 웨어하우스에서 개별 고객 특성을 선택하여 Experience Platform 프로필을 개선할 수 있습니다. 이들 프로필에 페더레이션된 데이터를 추가하면 유입되는 고객 신호에 따라 트리거되는 즉각적인 경험을 더욱 효과적으로 제공할 수 있습니다.
-   * **예:** 페더레이션된 대상자로부터의 정보로 Experience Platform 프로필을 보강합니다. 이제 높은 가치의 과거 구매자 페더레이션된 대상자에 속하는 사이트 방문자에게 사이트 내에서의 행동에 따라 트리거되는 타기팅된 오퍼를 통해 마케팅할 수 있습니다.
+  * **예:** 페더레이션된 대상자로부터의 정보로 Experience Platform 프로필을 보강합니다. 이제 높은 가치의 과거 구매자 페더레이션된 대상자에 속하는 사이트 방문자에게 사이트 내에서의 행동에 따라 트리거되는 타기팅된 오퍼를 통해 마케팅할 수 있습니다.
 
 ![다이어그램](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -55,7 +59,7 @@ Federated Audience Composition을 사용하면 서드파티 데이터 웨어하�
 
 ## 주요 단계 {#gs-steps}
 
-Adobe 페더레이션된 대상자 컴포지션을 사용하면 수집 프로세스 없이 데이터베이스에서 Adobe Experience Platform 대상자를 직접 생성하고 업데이트할 수 있습니다.
+페더레이션된 대상자 컴포지션을 사용하면 수집 프로세스 없이 데이터베이스에서 Adobe Experience Platform 대상자를 직접 생성하고 업데이트할 수 있습니다.
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
@@ -140,7 +144,7 @@ FAQ에 대한 답변은 [Federated Audience Composition FAQ](./faq.md)를 참조
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="증분 쿼리 모드"
->abstract="증분 쿼리를 사용하면 마지막 실행 날짜와 같거나 그 이후인 날짜 필드의 결과만 고려하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
+>abstract="증분 쿼리를 사용하면 증분 쿼리 활동의 마지막 실행 날짜와 같거나 그 이후인 날짜 필드의 결과만 고려하여 동일한 쿼리를 여러 번 실행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"

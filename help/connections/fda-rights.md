@@ -5,16 +5,17 @@ exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
+    internal-label: Insights
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 6%
-
 ---
-
 # FDA(Federated Data Access) 권한 매트릭스 {#fda-rights}
 
 다음 표에서는 FDA(Federated Data Access)를 통해 외부 데이터베이스에서 작업을 수행할 수 있도록 각 시스템에 필요한 데이터베이스 권한을 간략하게 설명합니다.

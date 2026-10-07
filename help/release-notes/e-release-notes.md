@@ -7,19 +7,23 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: '1191'
 ht-degree: 90%
-
 ---
-
 # 릴리스 정보 {#rn-new}
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
@@ -158,7 +162,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->이전에는 조직 집합에만 사용할 수 있었던(LA) Adobe Experience Platform 페더레이션된 대상자 컴포지션을 이제 모든 사용자가 사용할 수 있습니다(GA). 이 기능은 귀하가 제공하는 서비스를 기반으로 활성화되며, 관련 권한이 있는 경우에만 볼 수 있습니다. [자세히 알아보기](../start/access-prerequisites.md)
+>이전에는 일부 조직에서만 사용할 수 있었던(LA) Adobe Experience Platform 페더레이션된 대상자 컴포지션을 이제 모든 사용자가 사용할 수 있습니다(GA). 이 기능은 귀하가 제공하는 서비스를 기반으로 활성화되며, 관련 권한이 있는 경우에만 볼 수 있습니다. [자세히 알아보기](../start/access-prerequisites.md)
 >
 
 ### 호환성 {#fac-24-10-compat}

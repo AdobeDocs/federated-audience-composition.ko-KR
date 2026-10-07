@@ -5,22 +5,27 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 TQID: https://experienceleague.adobe.com/VBIotVn1VyiFJChb3mM0VDLUSbG9aQOmbfGnfGgqvhU
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b418b8ef242ef9b9f7dfaa601d4a9a505b7c6f8d
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: '406'
 ht-degree: 95%
-
 ---
-
 # 사전 요구 사항 및 가드레일 {#fac-access}
 
 페더레이션된 대상자 컴포지션을 위해서는 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer **Prime** 또는 **Ultimate** 패키지가 필요합니다. 이 기능에 액세스하기 위해서는 페더레이션된 대상자 컴포지션 추가 기능을 구입해야 합니다.
@@ -67,7 +72,7 @@ ht-degree: 95%
 
 ## IP 허용 목록에 추가 {#ip}
 
-페더레이션된 대상자 컴포지션이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 액세스할 페더레이션된 대상자 컴포지션 서버의 IP 주소에 대한 권한이 있어야 합니다. 이들 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/home.md)
+페더레이션된 대상자 컴포지션이 데이터베이스에 안전하게 액세스할 수 있도록 하려면 데이터베이스에 액세스할 페더레이션된 대상자 컴포지션 서버의 IP 주소를 승인해야 합니다. 이들 IP 주소는 Adobe Experience Platform 사용자 인터페이스에서 페더레이션된 데이터베이스를 추가할 때 표시됩니다. [자세히 알아보기](../connections/home.md)
 
 IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 컴포지션에 대한 액세스 권한을 부여하십시오.
 
@@ -81,4 +86,4 @@ IP 주소를 허용 목록에 추가하여 페더레이션된 대상자 컴포�
 
 * 페더레이션된 대상자 컴포지션에는 [Adobe Real-Time Customer Data Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}에 나열된 권한 부여, 제품 제한 및 성능 가드레일이 적용됩니다.
 
-* 이제 페더레이션된 대상자 컴포지션이 파일 크기가 1GB를 초과하는 대규모 대상자에 대한 내보내기를 지원합니다. 최적의 성능을 위해 권장되는 파일 크기는 최대 20GB입니다.
+* 페더레이션된 대상자 컴포지션은 파일 크기가 1 GB를 초과하는 대규모 대상자의 내보내기를 지원합니다. 최적의 성능을 위해 권장되는 파일 크기는 최대 20GB입니다.

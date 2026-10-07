@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 651
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # AI 어시스턴트 개요 {#ai-assistant}
 
 AI 어시스턴트는 Adobe 개념을 탐색하고 이해하는 데 도움이 되도록 설계된 사용자 인터페이스 기능입니다. AI 어시스턴트를 사용하면 페더레이션된 대상자 컴포지션을 포함한 Adobe Experience Cloud의 여러 제품에서 제품 지식 활용 사례를 더 잘 이해할 수 있습니다.
@@ -60,16 +63,16 @@ AI 어시스턴트를 통해 자연어 프롬프트를 사용하여 페더레이
 
 ![샘플 질문과 응답이 표시됩니다.](/help/start/assets/ai-assistant/ask-create.png)
 
-계획이 정확하게 표시되면 **[!UICONTROL 실행]**&#x200B;을 선택하여 에이전트가 자동화 작업을 수행하도록 할 수 있습니다.에이전트는 브라우저 내에서 페더레이션된 대상자 컴포지션 UI를 통해 사용자가 요청한 컴포지션 만들기 단계를 자동으로 수행합니다. 언제든지 자동화 작업을 중지하려면 **[!UICONTROL 중지]**&#x200B;를 선택하십시오.
+계획이 정확하게 표시되면 **[!UICONTROL 실행]**&#x200B;을 선택하여 에이전트가 자동화 작업을 수행하도록 할 수 있습니다. 에이전트는 브라우저 내에서 페더레이션된 대상자 컴포지션 UI를 통해 사용자가 요청한 컴포지션 만들기 단계를 자동으로 수행합니다. 언제든지 자동화 작업을 중지하려면 **[!UICONTROL 중지]**&#x200B;를 선택하십시오.
 
 ![계획이 실행되었으며, 에이전트가 해당 계획을 자동으로 수행하고 있습니다.](/help/start/assets/ai-assistant/execute-plan.png)
 
 현재, 대상자 만들기는 다음과 같은 추가 기능을 지원합니다.
 
 - 스케줄러
-   - 반복 일정에 따라 실행되는 페더레이션된 컴포지션을 만들 수 있습니다. 지원되는 값은 **한 번** 및 **매일**&#x200B;입니다.
+  - 반복 일정에 따라 실행되는 페더레이션된 컴포지션을 만들 수 있습니다. 지원되는 값은 **한 번** 및 **매일**&#x200B;입니다.
 - 중복 제거
-   - 데이터 조정 중에 페더레이션된 데이터 레코드의 중복을 제거할 수 있습니다.
+  - 데이터 조정 중에 페더레이션된 데이터 레코드의 중복을 제거할 수 있습니다.
 
 ## 다음 단계
 

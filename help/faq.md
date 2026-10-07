@@ -5,16 +5,17 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # 자주 묻는 질문 {#faq}
 
 다음은 Adobe Experience Platform 페더레이션된 대상자 컴포지션과 관련하여 자주 묻는 질문 목록입니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}에서는 Adobe Experience Platform Segmentation Service에 대한 글로벌 FAQ도 제공됩니다.
@@ -96,8 +97,8 @@ Data Warehouse 연결에 대한 자세한 내용은 [연결 개요](./connection
 외부에서 생성된 대상자에 대한 현재 데이터 만료 기간은 30일입니다. 이러한 데이터 만료로 인해 조직 내에 저장되는 초과 데이터의 양이 줄어듭니다. 데이터 만료 기간이 지난 후에도 관련 데이터 세트는 데이터 세트 인벤토리 내에 계속 표시되지만 대상자를 활성화할 수 없으며 프로필 수가 0으로 표시됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}를 참조하십시오.
 
 * 대상자 강화의 경우 시작점은 기존의 Adobe Experience Platform 대상자입니다. 여기서는 두 가지 시나리오를 볼 수 있습니다.
-   1. 페더레이션된 데이터 웨어하우스에서 추가 대상자 페이로드 속성을 가져옵니다. 이 경우 추가되는 추가 속성은 이 대상자 정의의 일부로 제공됩니다. 외부에서 생성된 대상자에 대한 데이터 만료는 위에서 설명한 것과 동일하며 30일입니다.
-   1. 데이터 웨어하우스에 존재하는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상자를 구체화합니다. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. 페더레이션된 데이터 웨어하우스에서 추가 대상자 페이로드 속성을 가져옵니다. 이 경우 추가되는 추가 속성은 이 대상자 정의의 일부로 제공됩니다. 외부에서 생성된 대상자에 대한 데이터 만료는 위에서 설명한 것과 동일하며 30일입니다.
+  1. 데이터 웨어하우스에 존재하는 추가 속성을 기반으로 기존 Adobe Experience Platform 대상자를 구체화합니다. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## 대상 만들기 및 대상 강화 사용 사례 패턴에 대한 데이터가 지속되지 않는 경우, 임시 저장되는 방법은 무엇입니까?
