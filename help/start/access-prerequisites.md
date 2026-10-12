@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # 사전 요구 사항 및 가드레일 {#fac-access}
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
    ![](assets/sandbox_2.png)
 
-다른 샌드박스에서 Federated Audience Composition을 사용하려면 Adobe 고객 지원 센터에 문의하여 샌드박스 스위치를 요청하십시오.
+다른 샌드박스에서 페더레이션된 대상자 컴포지션을 사용하려면 Adobe 고객 지원 센터에 문의하여 샌드박스 전환을 요청하세요.
 
 ## 권한 {#permissions}
 
