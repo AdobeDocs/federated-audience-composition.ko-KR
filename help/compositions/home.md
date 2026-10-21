@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 84%
+source-wordcount: '765'
+ht-degree: 59%
 ---
 # 컴포지션 개요
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 페더레이션된 대상자 컴포지션을 사용하면 다양한 활동을 시각적 캔버스로 활용하여 대상자를 생성할 수 있는 컴포지션을 만들 수 있습니다. 컴포지션을 만든 후 결과 대상자는 Adobe Experience Platform에 저장되며, 이를 Experience Platform 대상 및 Adobe Journey Optimizer에서 활용하여 고객을 타기팅할 수 있습니다.
 
-![페더레이션된 대상자 컴포지션에는 샘플 컴포지션 워크플로가 표시됩니다.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![페더레이션된 대상자 컴포지션에는 샘플 컴포지션 워크플로가 표시됩니다.](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## 구성 요소 {#components}
 
@@ -50,37 +50,42 @@ Federated Audience Composition 내의 컴포지션은 다음 부분으로 구성
 
 컴포지션은 Adobe Experience Platform **[!UICONTROL 대상자]** 메뉴의 **[!UICONTROL 페더레이션된 컴포지션]** **[!UICONTROL 고객]** 섹션에서 액세스할 수 있습니다.
 
-이 화면에서 새 컴포지션을 만들고 기존 컴포지션에 액세스할 수 있습니다. 이름 옆에 있는 ![줄임표](/help/assets/icons/more.png) 버튼을 선택하여 기존 컴포지션을 복제하거나 삭제할 수도 있습니다.
+![통합 구성 및 대상 단추가 강조 표시되어 통합 구성 섹션에 액세스하는 방법을 보여 줍니다.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-또한 이름, 상태, 작성자, 마지막 수정 날짜 등 컴포지션에 대한 정보를 볼 수 있습니다.
+이 화면에서 컴포지션에 대한 정보를 보고 새 컴포지션을 만들 수 있습니다.
 
-| 상태 | 설명 |
+![연결된 컴포지션 목록이 표시됩니다.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| 필드 | 설명 |
+| ----- | ----------- |
+| **[!UICONTROL 이름]** | 컴포지션의 이름입니다. 컴포지션을 선택하면 컴포지션을 편집할 수 있습니다. 컴포지션 만들기 및 편집에 대한 자세한 내용은 [컴포지션 만들기 안내서](/help/compositions/create-composition.md)를 참조하십시오. |
+| **[!UICONTROL 상태]** | 컴포지션의 상태입니다. 가능한 값에는 [!UICONTROL 초안], [!UICONTROL 진행 중], [!UICONTROL 중지됨], [!UICONTROL 일시 중지됨] 및 [!UICONTROL 오류]가 있습니다. <ul><li>**[!UICONTROL 초안]**: 컴포지션이 만들어지고 저장되었습니다.</li><li>**[!UICONTROL 진행 중]**: 작성이 실행되었으며 현재 실행 중입니다.</li><li>**[!UICONTROL 중지됨]**: 컴포지션 실행이 완료되었으며 중지되었습니다.</li><li>**[!UICONTROL 일시 중지됨]**: 컴포지션 실행이 일시 중지되었습니다.</li><li>**[!UICONTROL 오류]**: 컴포지션 실행에 오류가 발생했습니다. 오류에 대한 자세한 내용을 보려면 컴포지션을 열고 로그에 액세스하십시오.</li></ul> 컴포지션을 시작하거나 중지하는 방법은 [컴포지션 만들기 안내서](./create-composition.md#monitor-logs)를 참조하세요. |
+| **[!UICONTROL 만든 사람]** | 컴포지션을 만든 사람의 이름 및 이메일 주소입니다. |
+| **[!UICONTROL 수정됨]** | 작성이 마지막으로 업데이트된 날짜 및 시간입니다. |
+
+이름 옆에 있는 ![줄임표](/help/assets/icons/more.png) 단추를 선택하여 컴포지션에 대한 빠른 작업을 수행할 수도 있습니다.
+
+| 액션 | 설명 |
 | ------ | ----------- |
-| **[!UICONTROL 초안]** | 컴포지션이 생성되었으며 저장되었습니다. |
-| **[!UICONTROL 진행 중]** | 컴포지션이 실행되었으며 현재 실행 중입니다. |
-| **[!UICONTROL 중지됨]** | 컴포지션 실행이 완료되어 중지되었습니다. |
-| **[!UICONTROL 일시 정지됨]** | 컴포지션 실행이 일시 정지되었습니다. |
-| **[!UICONTROL 오류]** | 컴포지션 실행 중에 오류가 발생했습니다. 오류에 대한 자세한 내용을 보려면 컴포지션을 열고 로그에 액세스하십시오. |
-
-[컴포지션 만들기 안내서](./create-composition.md#monitor-logs)에서 컴포지션을 시작하거나 중지하는 방법을 배울 수 있습니다.
-
-![사용 가능한 컴포지션이 표시됩니다.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL 복제]** | 선택한 컴포지션을 복제합니다. |
+| **[!UICONTROL 삭제]** | 선택한 컴포지션을 삭제합니다. |
+| **[!UICONTROL 패키지에 추가]** | 샌드박스 간에 컴포지션을 이동합니다. 이 기능에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하십시오. |
 
 목록을 세분화하고 원하는 컴포지션을 찾으려면 목록을 검색하고 상태나 마지막 처리 날짜를 기준으로 컴포지션을 필터링할 수 있습니다.
 
 열을 추가하거나 제거하여 목록을 사용자 정의할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 열 구성]** 버튼을 선택하고 원하는 출력 열을 추가하거나 제거합니다.
 
-![컴포지션 검색 페이지에 추가할 수 있는 사용 가능한 열 목록이 표시됩니다.](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![컴포지션 검색 페이지에 추가할 수 있는 사용 가능한 열 목록이 표시됩니다.](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 액세스 레이블 적용 {#access-labels}
 
 특정 컴포지션에 액세스 레이블을 적용하려면 해당 컴포지션을 선택한 다음 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하십시오.
 
-![“액세스 관리” 버튼이 컴포지션 캔버스 내에서 강조 표시됩니다.](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![“액세스 관리” 버튼이 컴포지션 캔버스 내에서 강조 표시됩니다.](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL 액세스 관리]** 팝오버가 나타납니다. 이 페이지에서 해당 액세스 및 데이터 거버넌스 레이블을 컴포지션에 적용할 수 있습니다.
 
-![액세스 관리 팝오버가 표시됩니다. 여기에는 컴포지션에 적용할 수 있는 모든 레이블 목록이 표시됩니다.](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![액세스 관리 팝오버가 표시됩니다. 여기에는 컴포지션에 적용할 수 있는 모든 레이블 목록이 표시됩니다.](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 레이블 유형 | 설명 |
 | ---------- | ----------- |
