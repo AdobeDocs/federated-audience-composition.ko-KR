@@ -69,7 +69,7 @@ Federated Audience Composition 내의 컴포지션은 다음 부분으로 구성
 | ------ | ----------- |
 | **[!UICONTROL 복제]** | 선택한 컴포지션을 복제합니다. |
 | **[!UICONTROL 삭제]** | 선택한 컴포지션을 삭제합니다. |
-| **[!UICONTROL 패키지에 추가]** | 샌드박스 간에 컴포지션을 이동합니다. 이 기능에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하십시오. |
+| **[!UICONTROL 패키지에 추가]** | 샌드박스 간에 컴포지션을 이동합니다. 이 기능에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하십시오. |
 
 목록을 세분화하고 원하는 컴포지션을 찾으려면 목록을 검색하고 상태나 마지막 처리 날짜를 기준으로 컴포지션을 필터링할 수 있습니다.
 
