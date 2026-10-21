@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # 활동 개요
@@ -231,7 +231,7 @@ Federated Audience Composition 내에 사용할 수 있는 **두 가지**&#x200B
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="중복 제거 설정"
->abstract="수신 데이터에서 중복 요소를 삭제하려면 아래 필드에서 중복 제거 방법을 정의합니다. 기본적으로 하나의 레코드만 유지됩니다. 또한 표현식 또는 속성을 기반으로 중복 제거 모드를 선택해야 합니다. 기본적으로 중복에서 제외할 레코드는 무작위로 선택됩니다."
+>abstract="수신 데이터에서 중복 요소를 삭제하려면 아래 필드에서 중복 제거 방법을 정의합니다. 기본적으로 하나의 레코드만 유지됩니다. 또한 표현식 또는 속성을 기반으로 중복 제거 모드를 선택해야 합니다. 기본적으로 중복 요소에서 제외할 레코드는 무작위로 선택됩니다."
 
 **중복 제거** 활동을 통해 대상 내에서 중복 결과가 제거됩니다.
 
@@ -426,7 +426,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 매핑을 추가한 후 기본 ID 및 네임스페이스를 선택하여 데이터베이스에서 타겟팅된 프로필을 식별할 수 있습니다. 기본 ID 필드는 프로필을 식별하는 데 사용되며 ID 네임스페이스는 ID를 식별하는 데 핵심 역할을 합니다.
 
-또한 대상에 대한 데이터 만료를 설정할 수 있습니다. 데이터 만료는 대상 멤버십이 만료되는 일 수를 결정합니다. 데이터 만료 기간은 1일에서 90일 사이일 수 있습니다. 기본적으로 이 값은 30으로 설정됩니다.
+또한 대상에 대한 데이터 만료를 설정할 수 있습니다. 데이터 만료는 대상 멤버십이 만료되는 일 수를 결정합니다. 데이터 만료 기간은 1~3,650일(10년)일 수 있습니다. 기본적으로 이 값은 30으로 설정됩니다.
 
 +++
 
@@ -596,7 +596,7 @@ Federated Audience Composition 대상에 대한 연결을 구성한 경우 데�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
->title="동일 테이블의 모든 하위 집합 생성"
+>title="동일한 테이블에 모든 하위 집합 생성"
 >abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 켭니다."
 
 >[!CONTEXTUALHELP]

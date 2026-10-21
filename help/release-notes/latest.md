@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # 릴리스 정보
 
 [!DNL Federated Audience Composition]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 이 릴리스 정보에는 모든 변경 사항이 통합되어 있습니다. [!DNL Federated Audience Composition]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+
+## 2026년 9월 릴리스 {#fac-26-09}
+
+페더레이션 대상 컴포지션의 9월 릴리스는 다음 기능을 지원합니다.
+
+| 페더레이션 연결 및 스키마를 위한 새로운 통합 경험 |
+| --- |
+| 이제 Adobe Experience Platform UI 내에서 직접 페더레이션 연결 및 스키마에 액세스할 수 있습니다. 페더레이션 연결 만들기 방법에 대해 알아보려면 Experience Platform UI 안내서에서 [연결 만들기](/help/connections/integrated.md)를 읽어 보십시오. 스키마를 만드는 방법을 알아보려면 [스키마 개요](/help/data-modelling/schemas-integrated.md)를 읽어 보십시오. |
+
+| Federated Audience Composition 대상에 대한 샌드박스 도구 지원 |
+| --- |
+| 이제 Experience Platform 샌드박스 도구 기능을 사용하여 Federated Audience Composition 대상을 한 샌드박스에서 다른 샌드박스로 이동할 수 있습니다. 샌드박스 도구 사용에 대한 자세한 내용은 [샌드박스 도구 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하십시오. |
+
+### 개선 사항 {#fac-26-09-improvements}
+
+이 릴리스는 다음과 같은 개선 사항과 함께 제공됩니다.
+
+- **Federated Audience Composition 대상에 대한 데이터 만료 증가**
+
+  이제 Federated Audience Composition Audiences의 데이터 만료일이 3,650일(10년)로 늘어났습니다.
 
 ## 2026년 7월 릴리스 {#fac-26-07}
 
