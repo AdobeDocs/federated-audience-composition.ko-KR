@@ -100,8 +100,8 @@ Adobe 제품 이름(`[!DNL Analytics]`, `[!DNL Target]`, `[!DNL Campaign]`,
 URL, 파일 이름, 디렉터리 이름, 코드 블록, 약어 또는 용어에 이미 적용되지 않음
 ( 번역하지 않음 데이터베이스)를 참조하십시오.
 
-링크 텍스트에서 태그 대괄호 `[Adobe](https://www.adobe.com)`을(를) 제거합니다.
-`[[!DNL Adobe]](https://www.adobe.com)`.
+링크 텍스트에서 태그 대괄호 `[Adobe](https://www.adobe.com/kr)`을(를) 제거합니다.
+`[[!DNL Adobe]](https://www.adobe.com/kr)`.
 
 ### `[!UICONTROL Label]`: UI 컨트롤
 
@@ -362,7 +362,7 @@ call to action. 제품 이름으로 시작하거나 첫 번째 단락을 약어�
 >id="platform_destinations_activate_filename"
 >title="Configure file name"
 >abstract="For file-based destinations, a unique file name is generated per segment. Use the file name editor to create and edit a unique file name or keep the default name."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html#file-names" text="Learn more in documentation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html?lang=ko#file-names" text="Learn more in documentation"
 ```
 
 필수 필드: `id`, `title`, `abstract`. 다른 모든 것은 선택 사항입니다.
