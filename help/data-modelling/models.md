@@ -143,4 +143,4 @@ Federated Audience Composition에서는 캔버스 보기에서 직접 데이터 
 
 이 비디오에서는 데이터 모델을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507567?captions=kor)
