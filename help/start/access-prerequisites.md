@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # 사전 요구 사항 및 가드레일 {#fac-access}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 샌드박스
 
-페더레이션된 대상자 컴포지션을 구매하면 샌드박스 두 개를 사용할 수 있습니다. 추가 샌드박스 프로비저닝 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
+Federated Audience Composition을 구매할 경우 5개의 샌드박스를 이용할 수 있습니다. 추가 샌드박스 프로비저닝 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 활성 페더레이션된 대상자 컴포지션 샌드박스 목록을 조회하려면 다음 단계를 따르십시오.
 
